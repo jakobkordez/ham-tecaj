@@ -1,0 +1,132 @@
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: rgb(84,89,94);
+$backgroundColor: radial-gradient(circle, rgba(84,89,94,1) 0%, rgba(35,38,40,1) 100%);
+// $backgroundColor: #fff;
+
+$mainColor: #fff;
+$headingColor: #fff;
+// $mainColor: #222;
+// $headingColor: #fff;
+
+$mainFontSize: 30px;
+$mainFont: 'Open Sans', sans-serif;
+$linkColor: #ff6100;
+$linkColorHover: lighten( $linkColor, 20% );
+$headingFont: 'Montserrat', Impact, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: -0.03em;
+$headingTextTransform: none;
+$headingMargin: 0 0 1.2em 0;
+$selectionBackgroundColor: #ff6100;
+
+$heading1Size: 2.0em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+.reveal p {
+text-align: left;
+}
+.reveal ul {
+display: block!important;
+}
+.reveal ol {
+display: block!important;
+}
+
+h4, h5, h6 {
+    text-decoration: underline #ff6100;
+}
+
+h1, h2, h3 {
+    padding: 1rem;
+    width: 100%;
+    transform: translateX(-1.2%);
+    background-color: #ff6100;
+}
+
+li {
+    list-style-type: "\2794  ";
+}
+
+div.hg {
+    display: flex;
+    justify-content: space-between;
+}
+div.hg > img {
+    margin: auto;
+    display: block;
+    height: auto;
+}
+
+img {
+  border-radius: 8px;
+}
+
+div.grid-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: left;
+    width: fit-content;
+    gap: 15px 40px;
+    margin-left: 40px;
+}
+
+div.grid-4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: left;
+    width: fit-content;
+    gap: 15px 40px;
+    margin-left: 40px;
+}
+
+// Change text colors against light slide backgrounds
+@include light-bg-text-color(#222);
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+
+.reveal table {
+    display: inline-flex;
+    margin: auto 40px;
+}
+.reveal table tr:nth-child(even) {background-color: #fff5;}
+.reveal table tr {background-color: #fff2;}
+.reveal table td {border: none; border-right: 1px #fff6 solid;}
+.reveal table td:last-child {border: none;}
+
+.reveal table.center td {
+    text-align: center;
+}
+
+.reveal table.compact {
+    font-size: 0.6em;
+}
+
+// Mednarodna in slovenska tablica črkovanja
+.reveal table.tc td:nth-child(even) {border-right: 1px white solid;}
+.reveal table.tc td:nth-child(odd) {text-align:center;}
+.reveal table.tc td:last-child {border: none;}
+
