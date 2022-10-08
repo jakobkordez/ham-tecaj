@@ -125,6 +125,10 @@ div.grid-4 {
     font-size: 0.6em;
 }
 
+.reveal table.compacter {
+    font-size: 0.4em;
+}
+
 // Mednarodna in slovenska tablica črkovanja
 .reveal table.tc td:nth-child(even) {border-right: 1px white solid;}
 .reveal table.tc td:nth-child(odd) {text-align:center;}

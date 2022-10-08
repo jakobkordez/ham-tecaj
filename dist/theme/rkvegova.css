@@ -447,6 +447,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
   font-size: 0.6em;
 }
 
+.reveal table.compacter {
+  font-size: 0.4em;
+}
+
 .reveal table.tc td:nth-child(even) {
   border-right: 1px white solid;
 }

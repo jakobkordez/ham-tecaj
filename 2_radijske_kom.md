@@ -132,4 +132,18 @@ dejavnost – zakone določa država.
 
 
 
-### TODO: Bandplan
+### Bandplan
+
+$$\text{valov. dolž.} = \frac{3 \sdot 10^8 \frac{m}{s}}{\text{frekv.}}$$
+
+- [S5 Band Plans](https://www.radioamater.si/dejavnosti/s5-band-plans/)
+- [IARU Region 1 Band plans](https://www.iaru-r1.org/reference/band-plans/)
+- [Splošni akt - 4. člen](http://www.pisrs.si/Pis.web/pregledPredpisa?id=AKT_857)
+
+
+
+<img src="images/s5_bandplan_hf.jpg" height="650">
+
+
+
+<img src="images/s5_bandplan_vhf.jpg" height="650">

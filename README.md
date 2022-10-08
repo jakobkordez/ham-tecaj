@@ -63,7 +63,17 @@ npm start
     - DX postaje
     - DX cluster
     - Pileup
-- Elektrotehnika in radiotehnika
+- Električna, elektromagnetna in radijska teorija
+- Komponente
+- Električna vezja
+    - Filtri
+- Sprejemniki
+- Oddajniki
+- Antene in antenski vodi
+- Propagacije
+- Meritve
+- Motnje in njihovo odpravljanje
+- Varnost pri delu z električnim tokom
 
 
 ## Q-kod
