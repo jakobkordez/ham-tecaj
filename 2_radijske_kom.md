@@ -4,7 +4,7 @@
 
 ### Osnovni pojmi o radijskih komunikacijah
 
-**TELEKOMUNIKACIJE – vsak prenos, oddaja ali sprejem signalov, pisanih besedil, slik ali zvokov ali kakršnihkoli drugih sporočil po žičnih, radijskih, optičnih ali drugih elektromagnetnih sistemih.**
+**TELEKOMUNIKACIJE** – vsak **prenos, oddaja ali sprejem signalov**, pisanih besedil, slik ali zvokov ali kakršnihkoli drugih sporočil **po žičnih, radijskih, optičnih** ali drugih elektromagnetnih sistemih.
 
 Lahko so:
 - Obojesmerne med udeleženci
@@ -27,11 +27,11 @@ Praktično se uporabljajo valovi od 9 kHz do 300 GHz
 
 Ukvarja se s tehničnim napredkom in razvojem telekomunikacij, mednarodnim sodelovanjem, …
 
-**Deluje v okviru OZN (Združenih Narodov)  
-Sedež je v Ženevi, Švica**
+**Deluje v okviru OZN** (Združenih Narodov)  
+**Sedež je v Ženevi**, Švica
 
-**Ustanovljena 1865  
-Slovenija postala članica 1992**
+**Ustanovljena 1865**  
+**Slovenija postala članica 1992**
 </div>
 
 <img src="https://www.itu.int/en/history/ImagesITUlogo/ITU%20official%20logo_blue_RGB-300px.jpg" width=200 />
@@ -91,16 +91,20 @@ zanimajo za radiotehniko, in katere je namen
 samoizobraževanje, medsebojno komuniciranje in
 tehnične raziskave.**
 
-**Amaterska satelitska služba - radiokomunikacijska služba (dejavnost), ki uporablja vesoljske postaje na Zemljinih satelitih za iste namene kot amaterksa služba.**
+<br/>
+
+**Amaterska satelitska služba** - radiokomunikacijska služba (dejavnost), ki uporablja **vesoljske postaje na Zemljinih satelitih za iste namene kot amaterksa služba.**
 
 
 
-**Amaterska radijska postaja – radijska postaja v
-radioamaterski dejavnosti, namenjena za
+**Amaterska radijska postaja** – **radijska postaja v
+radioamaterski dejavnosti**, namenjena za
 medsebojno komuniciranje, samoizobraževanje,
 in tehnično raziskovanje, ki ga opravljajo
 radioamaterji izključno iz osebnih nagibov, brez
-materialnih koristi in imajo opravljen izpit.**
+materialnih koristi in imajo opravljen izpit.
+
+<br/>
 
 CB postaje (Citizen Band) ne spadajo v radioamatersko
 dejavnost – zakone določa država.

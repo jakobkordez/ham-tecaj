@@ -28,7 +28,7 @@ $headingColor: #fff;
 
 $mainFontSize: 30px;
 $mainFont: 'Open Sans', sans-serif;
-$linkColor: #ff6100;
+$linkColor: #ff3c00;
 $linkColorHover: lighten( $linkColor, 20% );
 $headingFont: 'Montserrat', Impact, sans-serif;
 $headingTextShadow: none;
@@ -112,9 +112,9 @@ div.grid-4 {
     display: inline-flex;
     margin: auto 40px;
 }
-.reveal table tr:nth-child(even) {background-color: #fff5;}
+.reveal table tr:nth-child(even) {background-color: #fff4;}
 .reveal table tr {background-color: #fff2;}
-.reveal table td {border: none; border-right: 1px #fff6 solid;}
+.reveal table td {border: none; border-right: 1px #fff5 solid;}
 .reveal table td:last-child {border: none;}
 
 .reveal table.center td {
@@ -134,3 +134,15 @@ div.grid-4 {
 .reveal table.tc td:nth-child(odd) {text-align:center;}
 .reveal table.tc td:last-child {border: none;}
 
+.reveal strong {
+    color: #ff6100;
+}
+
+.reveal blockquote > p {
+    margin: var(--r-block-margin);
+}
+
+o {
+    text-decoration: underline;
+    text-underline-offset: -0.9em;
+}

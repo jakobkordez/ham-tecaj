@@ -44,9 +44,9 @@ slabše povezave uporabljamo tablice črkovanja.
     - PACKET RADIO
     - ...
 
-<img src="https://ukamsat.files.wordpress.com/2014/12/iss-sstv-12-martin-ehrenfried-g8jnj-using-suws-websdr-2014-12-18.png" height=250 style="position:fixed;right:38%;bottom:20px"/>
+<img src="https://ukamsat.files.wordpress.com/2014/12/iss-sstv-12-martin-ehrenfried-g8jnj-using-suws-websdr-2014-12-18.png" height=250 style="position:absolute;right:40%;bottom:-70px"/>
 
-<img src="https://www.fbnews.jp/201712/technical_en/images/01.jpg" height=350 style="position:fixed;right:0;bottom:20px"/>
+<img src="https://www.fbnews.jp/201712/technical_en/images/01.jpg" height=350 style="position:absolute;right:0px;bottom:0px"/>
 
 ----
 
@@ -72,6 +72,8 @@ Zapis serije znakov: GAA-GZZ → G2BB, G3SX, G8VG
 - /MM – pomorska mobilna postaja
 - /AM – zrakoplovna mobilna postaja
 - /P – prenosna postaja
+
+Primer: **S59VEG/P**
 
 ----
 
@@ -111,9 +113,9 @@ Kodam dodajamo tudi argumente?
 
 ### RST sistem (RST - kod)
 
->**R – Readability (1-5)  
+>R – Readability (1-5)  
 >S – Strenght (1-9)  
->T – Tone (1-9)**
+>T – Tone (1-9)
 
 V telefoniji se uporabljata samo RS.
 
@@ -121,14 +123,20 @@ Sistem se uporablja kot povratna informacija
 pošiljatelju, na modernih postajah pa je vgrajen tudi
 S-meter.
 
+
+
+Primer:
+>RST je **558**  
+>Razumljivost je odlična (**5**/5)  
+>Moč signala je srednja (**5**/9)  
+>Ton je skoraj popoln (**8**/9)
+
 ----
 
 ### Kratice
 
 Uporabljajo se v **telegrafiji**.  
 Če je kratica nadčrtana, jo pošljemo kot en znak.
-
-<style>o {text-decoration:overline 1px;}</style>
 
 <div class="grid-2">
 <div><o>KA</o></div><div>– začetek zveze</div>
@@ -256,13 +264,13 @@ na drugo frekvenco.
 Ko sprejmemo odziv, začnemo z uvodno relacijo.
 
 **Deli relacije:**  
-1\. Tuj klicni znak, DE, svoj klicni znak
-2\. Zahvala za klic
-3\. RST ocena
-4\. Povemo svoje ime, lahko tudi lokacijo (QTH)
+1\. Tuj klicni znak, DE, svoj klicni znak  
+2\. Zahvala za klic  
+3\. RST ocena  
+4\. Povemo svoje ime, lahko tudi lokacijo (QTH)  
 5\. Zaključimo relacijo
 
-Posamezne dele ločimo z **=** oziroma **<ovl>BT</ovl>**
+Posamezne dele ločimo z **=** oziroma **–&sdot;&sdot;&sdot;–** ali **–&sdot;&sdot;&sdot;&sdot;–**
 
 
 
@@ -541,6 +549,8 @@ ATV - Amateur Television
 Omogoča licenciranim radioamaterjem komunikacijo čez internet.
 
 Več na [echolink.org](http://www.echolink.org/)
+
+<img src="https://www.echolink.org/images/LinkingExample.gif">
 
 ----
 

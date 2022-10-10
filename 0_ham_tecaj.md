@@ -1,10 +1,13 @@
+<img src="images/RKV_logo.svg" width=150>
+
+##### Radioklub Vegova
+
 # Radioamaterski tečaj za razred A
 
-"Radioklub" Vegova
-
-Pripravila:  
+Pripravili:  
 Jakob Kordež, S52KJ  
-Žiga Kralj, S50ZK
+Žiga Kralj, S50ZK  
+Primož Vovk, S54UNC  
 
 ----
 

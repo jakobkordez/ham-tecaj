@@ -265,15 +265,22 @@ Temperaturno odvisni upori:
 - **PTK** (Pozitivni temperaturni koeficient): S segrevanjem se upornost povečuje
 - **NTK** (Negativni temperaturni koeficinet): S segrevanjem se upornost zmanjšuje
 
+
+
+<div class="hg">
+<div>
+
 Delimo:  
 a) stalni upor  
 b) nastavljivi upor  
 c) spremenljivi upor  
 d) potenciometer
+</div>
 
-TODO: Slike uporov
+<img src="images/upori.jpg" width=300>
+</div>
 
-
+---
 
 Označevanje vrednosti uporov:
 
@@ -282,3 +289,17 @@ Označevanje vrednosti uporov:
 ----
 
 ### Magnetno polje trajnega magneta
+
+<div class="hg">
+<div>
+
+Potek magnetnega polja okoli magneta **ponazorimo s silnicami**.
+To so črte, ki kažejo smer polja in potekajo od severnega proti južnemu polu magneta.
+
+&nbsp;
+
+Če magnet prelomimo, dobimo 2 magneta, ki imata vsak svoj severni in južni pol.
+</div>
+
+<img src="images/magnet.jpg">
+</div>

@@ -93,9 +93,9 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --r-heading3-size: 1.3em;
   --r-heading4-size: 1em;
   --r-code-font: monospace;
-  --r-link-color: #ff6100;
-  --r-link-color-dark: #b34400;
-  --r-link-color-hover: #ffa066;
+  --r-link-color: #ff3c00;
+  --r-link-color-dark: #b32a00;
+  --r-link-color-hover: #ff8a66;
   --r-selection-background-color: #ff6100;
   --r-selection-color: #fff;
 }
@@ -423,7 +423,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 }
 
 .reveal table tr:nth-child(even) {
-  background-color: #fff5;
+  background-color: #fff4;
 }
 
 .reveal table tr {
@@ -432,7 +432,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .reveal table td {
   border: none;
-  border-right: 1px #fff6 solid;
+  border-right: 1px #fff5 solid;
 }
 
 .reveal table td:last-child {
@@ -461,4 +461,17 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .reveal table.tc td:last-child {
   border: none;
+}
+
+.reveal strong {
+  color: #ff6100;
+}
+
+.reveal blockquote > p {
+  margin: var(--r-block-margin);
+}
+
+o {
+  text-decoration: underline;
+  text-underline-offset: -0.9em;
 }
