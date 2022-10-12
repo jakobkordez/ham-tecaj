@@ -20,6 +20,7 @@ jobs:
           webPageURL: https://jakobkordez.github.io/ham-tecaj/?print-pdf
           outputFile: slides/tecaj.pdf
           usePuppeteer: true
+          pdfOptions: '{ "preferCSSPageSize": "true" }'
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
