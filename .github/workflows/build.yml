@@ -1,9 +1,8 @@
 name: reveal-pdf
 on:
-  workflow_run:
-    workflows: ["pages-build-deployment"]
-    types:
-      - completed
+  push:
+    tags:
+      - "*"
 
 jobs:
   build:
@@ -20,7 +19,7 @@ jobs:
           webPageURL: https://jakobkordez.github.io/ham-tecaj/?print-pdf
           outputFile: slides/tecaj.pdf
           usePuppeteer: true
-          pdfOptions: '{ "preferCSSPageSize": "true" }'
+          pdfOptions: '{ "preferCSSPageSize": true }'
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
