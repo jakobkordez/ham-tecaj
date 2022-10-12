@@ -1,8 +1,9 @@
 name: reveal-pdf
 on:
-  push:
-    branches:
-      - master
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types:
+      - completed
 
 jobs:
   build:
@@ -11,14 +12,6 @@ jobs:
     name: Generate PDF
     steps:
       - uses: actions/checkout@v3
-
-      - name: Wait for build pages to succeed
-        uses: lewagon/wait-on-check-action@v1.1.2
-        with:
-          ref: ${{ github.ref }}
-          check-name: "deploy"
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          wait-interval: 10
 
       - name: Create "/slides" directory
         run: mkdir slides && sudo chmod 777 slides
