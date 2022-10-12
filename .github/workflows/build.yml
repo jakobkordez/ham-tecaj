@@ -11,13 +11,15 @@ jobs:
 
     name: Generate PDF
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Create "/slides" directory
+      - name: Create "slides" directory
         run: mkdir slides && sudo chmod 777 slides
 
-      - name: Build PDF
-        run: docker run --rm -t -v `pwd`:/slides -v ~:/home/user astefanutti/decktape https://jakobkordez.github.io/ham-tecaj/ slides/tecaj.pdf
+      - name: Save as PDF
+        uses: misaelnieto/web_to_pdf_action@master
+        with:
+          webPageURL: https://jakobkordez.github.io/ham-tecaj/?print-pdf
+          outputFile: slides/tecaj.pdf
+          useScreen: true
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
@@ -26,6 +28,6 @@ jobs:
           path: slides/tecaj.pdf
 
       - name: Create release
-        uses: actions/checkout@v2
+        uses: ncipollo/release-action@v1
         with:
           artifacts: "slides/tecaj.pdf"
