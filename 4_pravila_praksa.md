@@ -624,7 +624,7 @@ Drugi podatki ki jih vpisujemo:
 - Izmenjava kartic
 </div>
 
-<img src="http://www.arrl.org/images/view/Licensing__Education_/Getting_on_the_Air/Logs.jpg" width=400>
+<img src="logs.jpg" width=400>
 </div>
 
 ----
@@ -689,12 +689,12 @@ Odvijajo se na vseh frekvenčnih pasovih
 **KV** – 80 m – 3-5 W, **UKV** – 2 m – 0,25-1,5 W
 
 <div class="hg">
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Ardf_0001.jpg" width=40%>
-<img src="https://yt3.ggpht.com/ytc/AMLnZu_wnjV5cS20DTuKlpLcltcYnSif07FnZoJ6cCeN=s900-c-k-c0x00ffffff-no-rj" width=40%>
+<img src="arg1.jpg" width=40%>
+<img src="arg2.jpg" width=40%>
 </div>
 </div>
 
-<img src="http://ardf2019.hamradio.si/results/classics2/map.jpg" width=30%>
+<img src="images/arg_map.jpg" width=30%>
 </div>
 
 
