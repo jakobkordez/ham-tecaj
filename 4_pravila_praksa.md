@@ -624,7 +624,7 @@ Drugi podatki ki jih vpisujemo:
 - Izmenjava kartic
 </div>
 
-<img src="logs.jpg" width=400>
+<img src="images/logs.jpg" width=400>
 </div>
 
 ----
@@ -689,8 +689,8 @@ Odvijajo se na vseh frekvenčnih pasovih
 **KV** – 80 m – 3-5 W, **UKV** – 2 m – 0,25-1,5 W
 
 <div class="hg">
-<img src="arg1.jpg" width=40%>
-<img src="arg2.jpg" width=40%>
+<img src="images/arg1.jpg" width=40%>
+<img src="images/arg2.jpg" width=40%>
 </div>
 </div>
 
