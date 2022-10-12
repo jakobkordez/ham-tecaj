@@ -19,14 +19,14 @@
 }
 
 h4, h5, h6 {
-  text-decoration: underline #ff6100;
+  text-decoration: underline #ff5000;
 }
 
 h1, h2, h3 {
   padding: 1rem;
   width: 100%;
   transform: translateX(-1.2%);
-  background-color: #ff6100;
+  background-color: #ff5000;
   border-radius: 8px;
 }
 
@@ -97,7 +97,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --r-link-color: #ff3c00;
   --r-link-color-dark: #b32a00;
   --r-link-color-hover: #ff8a66;
-  --r-selection-background-color: #ff6100;
+  --r-selection-background-color: #ff5000;
   --r-selection-color: #fff;
 }
 
@@ -465,7 +465,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 }
 
 .reveal strong {
-  color: #ff6100;
+  color: #ff5000;
 }
 
 .reveal blockquote > p {

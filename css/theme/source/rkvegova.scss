@@ -35,7 +35,7 @@ $headingTextShadow: none;
 $headingLetterSpacing: -0.03em;
 $headingTextTransform: none;
 $headingMargin: 0 0 1.2em 0;
-$selectionBackgroundColor: #ff6100;
+$selectionBackgroundColor: #ff5000;
 
 $heading1Size: 2.0em;
 $heading2Size: 1.6em;
@@ -53,14 +53,14 @@ display: block!important;
 }
 
 h4, h5, h6 {
-    text-decoration: underline #ff6100;
+    text-decoration: underline #ff5000;
 }
 
 h1, h2, h3 {
     padding: 1rem;
     width: 100%;
     transform: translateX(-1.2%);
-    background-color: #ff6100;
+    background-color: #ff5000;
     border-radius: 8px;
 }
 
@@ -136,7 +136,7 @@ div.grid-4 {
 .reveal table.tc td:last-child {border: none;}
 
 .reveal strong {
-    color: #ff6100;
+    color: #ff5000;
 }
 
 .reveal blockquote > p {
