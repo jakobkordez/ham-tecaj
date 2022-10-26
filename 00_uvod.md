@@ -2,7 +2,7 @@
 
 #### Radioklub Vegova
 
-# Radioamaterski tečaj za razred A
+# Radioamaterski tečaj 2022
 
 Pripravili:  
 Jakob Kordež \[S52KJ]  
