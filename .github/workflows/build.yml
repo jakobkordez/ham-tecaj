@@ -20,6 +20,8 @@ jobs:
           outputFile: slides/tecaj.pdf
           usePuppeteer: true
           useScreen: true
+          width: 13.86
+          height: 7.79
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
