@@ -14,7 +14,7 @@ jobs:
         run: mkdir slides && sudo chmod 777 slides
 
       - name: Save as PDF
-        uses: misaelnieto/web_to_pdf_action@v0.3.1
+        uses: jakobkordez/web_to_pdf_action@patch-useScreen
         with:
           webPageURL: https://jakobkordez.github.io/ham-tecaj/?print-pdf
           outputFile: slides/tecaj.pdf

@@ -21,6 +21,8 @@ $backgroundColor: rgb(84,89,94);
 $backgroundColor: radial-gradient(circle, rgba(84,89,94,1) 0%, rgba(35,38,40,1) 100%);
 // $backgroundColor: #fff;
 
+$primaryColor: #ff5100; 
+
 $mainColor: #fff;
 $headingColor: #fff;
 // $mainColor: #222;
@@ -35,7 +37,7 @@ $headingTextShadow: none;
 $headingLetterSpacing: -0.03em;
 $headingTextTransform: none;
 $headingMargin: 0 0 1.2em 0;
-$selectionBackgroundColor: #ff5000;
+$selectionBackgroundColor: $primaryColor;
 
 $heading1Size: 2.0em;
 $heading2Size: 1.6em;
@@ -53,14 +55,14 @@ display: block!important;
 }
 
 h4, h5, h6 {
-    text-decoration: underline #ff5000;
+    text-decoration: underline $primaryColor;
 }
 
 h1, h2, h3 {
     padding: 1rem;
     width: 100%;
     transform: translateX(-1.2%);
-    background-color: #ff5000;
+    background-color: $primaryColor;
     border-radius: 8px;
 }
 
@@ -136,7 +138,7 @@ div.grid-4 {
 .reveal table.tc td:last-child {border: none;}
 
 .reveal strong {
-    color: #ff5000;
+    color: $primaryColor;
 }
 
 .reveal blockquote > p {
