@@ -1,13 +1,13 @@
 <img src="images/RKV_logo.svg" width=150>
 
-##### Radioklub Vegova
+#### Radioklub Vegova
 
-# Radioamaterski tečaj za razred A
+<!--# Radioamaterski tečaj za razred A-->
 
 Pripravili:  
-Jakob Kordež \[S52KJ]
-Žiga Kralj \[S50ZK]
-Primož Vovk \[S54UNC]  
+Jakob Kordež \[S52KJ]  
+Žiga Kralj \[S50ZK]  
+Primož Vovk \[S54UNC]
 
 ----
 
@@ -35,7 +35,7 @@ Naročilo Priročnika za Radioamaterje: 15 €
 
 ----
 
-#### Tedensko srečanje radiokluba
+### Tedensko srečanje radiokluba
 
 **Vsak petek v okviru Vegovacrafta**
 
