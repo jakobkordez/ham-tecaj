@@ -1,6 +1,6 @@
 <img src="images/RKV_logo.svg" width=150>
 
-#### Radioklub Vegova
+## Radioklub Vegova
 
 <!--# Radioamaterski tečaj za razred A-->
 
