@@ -5,9 +5,9 @@
 # Radioamaterski tečaj za razred A
 
 Pripravili:  
-Jakob Kordež, S52KJ  
-Žiga Kralj, S50ZK  
-Primož Vovk, S54UNC  
+Jakob Kordež \[S52KJ]  
+Žiga Kralj \[S50ZK]  
+Primož Vovk \[S54UNC]
 
 ----
 

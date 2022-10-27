@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Radioamaterski tečaj</title>
+
+	<link rel="stylesheet" href="./dist/reveal.css">
+	<link rel="stylesheet" href="./dist/theme/rkvegova.css" id="theme">
+
+	<link rel="stylesheet" href="./plugin/highlight/monokai.css">
+
+	<link rel="icon" href="https://rklub.vegova.si/wp-content/uploads/2021/10/cropped-cropped-RKV_logo-1-32x32.png"
+		sizes="32x32">
+</head>
+
+<body>
+
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown="00_uvod.md" data-separator="^\r?\n----(\r?\n){2}"
+				data-separator-vertical="^(\r?\n){3}">
+			</section>
+
+		</div>
+	</div>
+
+	<script src="./dist/reveal.js"></script>
+	<script src="./plugin/markdown/markdown.js"></script>
+	<script src="./plugin/highlight/highlight.js"></script>
+	<script src="./plugin/notes/notes.js"></script>
+	<script src="./plugin/math/math.js"></script>
+
+	<script>
+
+		Reveal.initialize({
+			width: 1280,
+			height: 720,
+			controls: true,
+			progress: true,
+			history: true,
+			center: true,
+			navigationMode: 'linear',
+
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX]
+		});
+
+	</script>
+
+</body>
+
+</html>
