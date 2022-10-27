@@ -9,7 +9,7 @@
 3. **Maksimalne moči določajo državni organi**
 4. Svoj **klicni znak** moramo ponavljati v kratkih presledkih (vsaj vsakih 10 minut)
 5. Vzpostavljanje zvez s tuijimi radioamaterji je dovoljeno
-6. **Veljajo vsa splošna določila ITU RR** (razdelitev frekvenc, ...)
+6. **Veljajo vsa splošna določila ITU RR** (razdelitev frekvenc, &hellip;)
 
 ----
 

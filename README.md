@@ -84,25 +84,25 @@ npm start
 
 ## Q-kod
 
-| Q-Koda | Vprašanje                                             | Odgovor                                              |
-| :----: | ----------------------------------------------------- | ---------------------------------------------------- |
-|  QRK   | Kakšna je razumljivost mojega signala?                | Razumljivost tvojega signala je &hellip; (1-5).      |
-|  QRM   | Ali te motijo druge postaje ?                         | Motijo me druge postaje.                             |
-|  QRN   | Te moti statika?                                      | Moti me statika.                                     |
-|  QRO   | Naj povečam oddajno moč?                              | Povečaj oddajno moč.                                 |
-|  QRP   | Naj zmanjšam oddajno moč?                             | Zmanjšaj oddajno moč.                                |
-|  QRS   | Naj oddajam počasneje?                                | Oddajaj počasneje.                                   |
-|  QRT   | Naj preneham z oddajanjem?                            | Prenehaj z oddajanjem.                               |
-|  QRZ   | Kdo me kliče?                                         | Kliče te ...                                         |
-|  QRV   | Si pripravljen?                                       | Pripravljen sem.                                     |
-|  QSB   | Ali moj signal niha?                                  | Tvoj signal niha.                                    |
-|  QSL   | Lahko potrdiš sprejem?                                | Potrjujem sprejem.                                   |
-|  QSO   | Ali lahko komuniciraš z ... direktno?                 | Z ... lahko komuniciram direktno.                    |
-|  QSY   | Ali naj se premaknem z oddajanjem na drugo frekvenco? | Pomakni se z oddajanjem na drugo frekvenco.          |
-|  QRX   | Kdaj me boš ponovno poklical?                         | Ponovno te bom poklical ob ... uri na ... kHz (MHz). |
-|  QTH   | Kje je tvoja lokacija?                                | Moja lokacija je ...                                 |
+| Q-Koda | Vprašanje                                             | Odgovor                                                        |
+| :----: | ----------------------------------------------------- | -------------------------------------------------------------- |
+|  QRK   | Kakšna je razumljivost mojega signala?                | Razumljivost tvojega signala je &hellip; (1-5).                |
+|  QRM   | Ali te motijo druge postaje ?                         | Motijo me druge postaje.                                       |
+|  QRN   | Te moti statika?                                      | Moti me statika.                                               |
+|  QRO   | Naj povečam oddajno moč?                              | Povečaj oddajno moč.                                           |
+|  QRP   | Naj zmanjšam oddajno moč?                             | Zmanjšaj oddajno moč.                                          |
+|  QRS   | Naj oddajam počasneje?                                | Oddajaj počasneje.                                             |
+|  QRT   | Naj preneham z oddajanjem?                            | Prenehaj z oddajanjem.                                         |
+|  QRZ   | Kdo me kliče?                                         | Kliče te &hellip;                                              |
+|  QRV   | Si pripravljen?                                       | Pripravljen sem.                                               |
+|  QSB   | Ali moj signal niha?                                  | Tvoj signal niha.                                              |
+|  QSL   | Lahko potrdiš sprejem?                                | Potrjujem sprejem.                                             |
+|  QSO   | Ali lahko komuniciraš z &hellip; direktno?            | Z &hellip; lahko komuniciram direktno.                         |
+|  QSY   | Ali naj se premaknem z oddajanjem na drugo frekvenco? | Pomakni se z oddajanjem na drugo frekvenco.                    |
+|  QRX   | Kdaj me boš ponovno poklical?                         | Ponovno te bom poklical ob &hellip; uri na &hellip; kHz (MHz). |
+|  QTH   | Kje je tvoja lokacija?                                | Moja lokacija je &hellip;                                      |
 
-## Kratice
+## Kratice v telegrafiji
 
 \* &rarr; oddaj kot en znak
 

@@ -11,7 +11,7 @@ Primož Vovk \[S54UNC]
 
 ----
 
-### Koristne povezave
+### Uporabne povezave
 
 - [Priročnik za radioamaterje](http://www.homemade.net/ra/prirocnik_novi.pdf)
 
@@ -27,7 +27,7 @@ Primož Vovk \[S54UNC]
 
 ---
 
-- [CQ ZRS](https://drive.google.com/drive/folders/1LBtrFHFe7GRN7ZAWZK_g54ngoLZ_sH18)
+- [Arhiv CQ ZRS](https://drive.google.com/drive/folders/1LBtrFHFe7GRN7ZAWZK_g54ngoLZ_sH18)
 
 - [Splošni akt o pogojih za uporabo radijskih frekvenc](http://www.pisrs.si/Pis.web/pregledPredpisa?id=AKT_857)
 

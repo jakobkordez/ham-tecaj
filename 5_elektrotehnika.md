@@ -239,15 +239,15 @@ $1\Omega = 1000\text{m}\Omega = 0,001 \text{k}\Omega$
 
 Prevodniki: imajo dosti prostih nosilcev naboja, zato prevajajo
 električni tok.
-- Zlato, srebro, baker, aluminij, ...
+- Zlato, srebro, baker, aluminij, &hellip;
 
 Neprevodniki (izolatorji): nimajo prostih nosilcev naboja, zato
 ne prevajajo električnega toka.
-- Razne gume, keramika, steklo, les, nekatere plastične mase, razne barve in laki, teflon, bakelit, destilirana voda, polivinil, ...
+- Razne gume, keramika, steklo, les, nekatere plastične mase, razne barve in laki, teflon, bakelit, destilirana voda, polivinil, &hellip;
 
 POLPREVODNIKI: silicij in germanij imata po 4 elektrone na zunanji
 obli atomov.
-- Silicij, Germanij, ...
+- Silicij, Germanij, &hellip;
 
 ----
 

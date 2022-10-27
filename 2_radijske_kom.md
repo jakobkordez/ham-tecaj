@@ -51,7 +51,7 @@ področje radijskih komunikacij:
 - Pravila za vzpostavljanje radijskih zvez
 - Klicne znake radijskih postaj
 - Dokumente za radijske postaje
-- ...
+- &hellip;
 </div>
 
 <img src="https://www.itu.int/en/history/ImagesRegulations/2016-RadioRegs.jpg" width=300/>

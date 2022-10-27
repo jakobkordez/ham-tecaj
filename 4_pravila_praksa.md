@@ -42,7 +42,7 @@ slabše povezave uporabljamo tablice črkovanja.
     - RTTY
     - AMTOR
     - PACKET RADIO
-    - ...
+    - &hellip;
 
 <img src="https://ukamsat.files.wordpress.com/2014/12/iss-sstv-12-martin-ehrenfried-g8jnj-using-suws-websdr-2014-12-18.png" height=250 style="position:absolute;right:40%;bottom:-70px"/>
 
@@ -176,7 +176,7 @@ Primer zveze:
 >S50HQ S59VEG GD OM UR RST 599 599 QSL? K  
 >S59VEG S50HQ QSL TU FER 599 UR 589 589 K  
 >S50HQ S59VEG TU UR WX? K  
->...
+>&hellip;
 
 ----
 
@@ -436,7 +436,7 @@ Program za "šibko-signalne" radioamaterske zveze
 - MSK144 / FSK441 (odboj od meteornih sledi - MS)
 - JT65 (odboj od lune - EME)
 - WSPR
-- ...
+- &hellip;
 </div>
 
 <img src="https://qrznow.com/wp-content/uploads/2017/09/FT8-7-15-17-40m.png" width=40%>
@@ -469,7 +469,7 @@ Storitve:
 - Pošiljanje elektronske pošte
 - Vzpostavljanje zvez
 - Prehod med različnimi omrežji
-- ...
+- &hellip;
 
 ----
 
@@ -488,7 +488,7 @@ Osnovne funkcije:
 - Telemetrija
 - Javljanje meteoroloških podatkov
 - Izmenjava sporočil med udeleženci v omrežju
-- ...
+- &hellip;
 </div>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Byonics_AIO.jpg" width=25%>
@@ -605,7 +605,7 @@ Vegova: **JN76GB**
 - Čas začetka zveze, pri daljših zvezah tudi konec oddajanja
 - Klicni znak postaje
 - Naziv frekvenčnega pasu (band)
-- Vrsta oddaje (CW, SSB, FM, ...)
+- Vrsta oddaje (CW, SSB, FM, &hellip;)
 - Podpis radioamaterja (za klubske postaje)
 
 Zapis časa: **4 številke (0000 - 2359) po univerzalnem času (UTC)**
@@ -655,7 +655,7 @@ Druge informacije, primerne za na QSL kartico:
 - Slike domačega kraja
 - Slike opreme
 - Slika znamenitosti
-- ...
+- &hellip;
 </div>
 
 <img src="images/Qsl 2022 v2.jpg" width=40%>
@@ -1073,7 +1073,7 @@ Poslušajo nad (UP) ali pod (DOWN) svojo oddajno frekvenco.
 Orodje za objavljanje svojih radioamaterskih dosežkov v omrežju.
 
 Self spotting - objavljanje podatkov o frekvenci na kateri kličeš, kar ni v skladu s pravili uporabe DX clustra.  
-Izjeme: SOTA, POTA, WWFF, ...
+Izjeme: SOTA, POTA, WWFF, &hellip;
 
 ----
 
