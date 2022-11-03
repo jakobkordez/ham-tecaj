@@ -30,7 +30,8 @@ Ukvarja se s tehničnim napredkom in razvojem telekomunikacij, mednarodnim sodel
 **Deluje v okviru OZN** (Združenih Narodov)  
 **Sedež je v Ženevi**, Švica
 
-**Ustanovljena 1865**  
+**Ustanovljena 1865**
+
 **Slovenija postala članica 1992**
 </div>
 
@@ -39,8 +40,7 @@ Ukvarja se s tehničnim napredkom in razvojem telekomunikacij, mednarodnim sodel
 
 
 
-ITU pravilnik o radiokomunikacijah – ureja celotno
-področje radijskih komunikacij:
+**ITU pravilnik o radiokomunikacijah** – ureja celotno področje radijskih komunikacij:
 
 <div class="hg">
 <div>
@@ -111,7 +111,7 @@ dejavnost – zakone določa država.
 
 ----
 
-### Mednarodna razdelitev radijskih frekvenc
+### Radioamaterska razdelitev sveta
 
 #### IARU / ITU Regioni
 - **1\. region**: EU, AF, del Azije
@@ -136,7 +136,9 @@ dejavnost – zakone določa država.
 
 
 
-### Bandplan
+### Mednarodna razdelitev radijskih frekvenc
+
+Razdelitev radijskih frekvenc določa IARU. Vsak region ima svojo razdelitev frekvenc.
 
 $$\text{valov. dolž.} = \frac{3 \sdot 10^8 \frac{m}{s}}{\text{frekv.}}$$
 

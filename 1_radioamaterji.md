@@ -30,9 +30,9 @@ ljubezen, način življenja, tehničnega razmišljanja.
 <table>
 <tr><td>1844</td><td>– prva telegrafska zveza (Morzejev telegraf)</td></tr>
 <tr><td>1876</td><td>– prvi telefon (Bell)</td></tr>
-<tr><td>1895</td><td>– prvi prenosi sporočil preko radijskih valov</td></tr>
+<tr><td><strong>1895</strong></td><td>– prvi prenosi sporočil preko radijskih valov</td></tr>
 <tr><td>1899</td><td>– prvi prenos med Francijo in Anglijo</td></tr>
-<tr><td>1903</td><td>– prvi prenos med Evropo in Ameriko</td></tr>
+<tr><td><strong>1903</strong></td><td>– prvi prenos med Evropo in Ameriko</td></tr>
 <tr><td>1904</td><td>– iznajdba diode</td></tr>
 <tr><td>1907</td><td>– iznajdba triode</td></tr>
 <tr><td>20. stol.</td><td>– množični začetek ukvarjanja z radioamaterstvom</td></tr>
@@ -45,9 +45,9 @@ ljubezen, način življenja, tehničnega razmišljanja.
 <tr><td>1924</td><td>– zveza med Anglijo in Novo Zalandijo</td></tr>
 <tr><td>1925</td><td>– Radioklub Ljubljana</td></tr>
 <tr><td>1946</td><td>– ustanovljena Zveza Radioamaterjev Slovenije - ZRS</td></tr>
-<tr><td>1955</td><td>– radioamaterska zveza z odbojem od meteorskih sledi</td></tr>
-<tr><td>1960</td><td>– radioamaterska zveza z odbojem od Lune</td></tr>
-<tr><td>1961</td><td>– prvi radioamaterski satelit OSCAR</td></tr>
+<tr><td><strong>1955</strong></td><td>– radioamaterska zveza z odbojem od meteorskih sledi</td></tr>
+<tr><td><strong>1960</strong></td><td>– radioamaterska zveza z odbojem od Lune</td></tr>
+<tr><td><strong>1961</strong></td><td>– prvi radioamaterski satelit OSCAR</td></tr>
 </table>
 
 ----
@@ -60,7 +60,7 @@ ljubezen, način življenja, tehničnega razmišljanja.
 **1925 v Parizu** – Amateur Radio Congress
 - Prvotno 26 držav – danes 164
 - Obravnavali delo radioamaterjev
-- Ustanovili IARU
+- **Ustanovili IARU**
 
 Prve naloge:
 - Izmenjava informacij o radioamaterskih frekvencah
@@ -92,7 +92,7 @@ V skladu z predpisi izvaja dejavnost javnega interesa.
 
 **Ustanovljena 1946**  
 Na začetku kot del ZRJ (Zveze Radioamaterjev Jugoslavije)  
-Leta 1992 uveljavljena na IARU
+Leta **1992 uveljavljena na IARU**
 
 V Sloveniji okoli 3000 radioamaterjev
 - Približno 1000 včlanjenih v klube
