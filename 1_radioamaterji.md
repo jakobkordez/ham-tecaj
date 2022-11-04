@@ -94,7 +94,7 @@ V skladu z predpisi izvaja dejavnost javnega interesa.
 Na začetku kot del ZRJ (Zveze Radioamaterjev Jugoslavije)  
 Leta **1992 uveljavljena na IARU**
 
-V Sloveniji okoli 3000 radioamaterjev
+V Sloveniji okoli 4000 radioamaterjev
 - Približno 1000 včlanjenih v klube
 - 79 klubov (kmalu 80 😉)
 </div>

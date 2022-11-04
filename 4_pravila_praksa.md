@@ -15,7 +15,9 @@ minuto.
 
 <img src="https://www.dolstra.nl/Ham-accessoires/Morse-key-decoders/straight_key_standard.jpg"/>
 
-<img src="https://cdn.shopify.com/s/files/1/2223/4507/files/morse-chart_grande.png?v=1501447409" height=300 style="margin-left:100px"/>
+<img src="https://static.dxengineering.com/global/images/prod/xlarge/bnr-by-1_xl.jpg" height=300 style="margin-left:80px"/>
+
+<img src="https://cdn.shopify.com/s/files/1/2223/4507/files/morse-chart_grande.png?v=1501447409" height=300 style="margin-left:80px"/>
 
 
 
@@ -56,11 +58,27 @@ slabše povezave uporabljamo tablice črkovanja.
 katero se radijska postaja indentificira. Oblika klicnega
 znaka je predpisana v ITU RR.
 
+<div class="hg">
+<div>
+
 <center><b>S5 9VEG</b></center>
 
->S5 &rarr; Prefiks &rarr; "Država"  
->9VEG &rarr; Sufiks &rarr; Postaja znotraj "države"
+- S5 &rarr; **Prefiks** &rarr; "Država"  
+- 9VEG &rarr; **Sufiks** &rarr; Postaja znotraj "države"
+</div>
 
+<div>
+
+##### Prefiksi
+<table class="tc compact">
+<tr><td>S5</td><td>Slovenija</td></tr>
+<tr><td>9A</td><td>Hrvaška</td><td>I</td><td>Italija</td></tr>
+<tr><td>OE</td><td>Avstrija</td><td>HA</td><td>Madžarska</td></tr>
+<tr><td>F</td><td>Francija</td><td>DA-DR</td><td>Nemčija</td></tr>
+<tr><td>EA</td><td>Španija</td><td>G M &hellip;</td><td>Anglija</td></tr>
+</table>
+</div>
+</div>
 
 
 Dolžina: 3-6 znakov
@@ -75,12 +93,15 @@ Zapis serije znakov: GAA-GZZ → G2BB, G3SX, G8VG
 
 Primer: **S59VEG/P**
 
+[Razpoznavanje klicnih znakov](https://cq.jkob.cc/#/callsign)
+
 ----
 
-### Q - kod
+### Q-kod
 
 - **Dolge 3 znake**
 - **Začnejo se s Q**
+- Uporabljajo jih tudi druge radiokomunikacijske službe
 
 Lahko se uporablja v obliki vprašanja in odgovora:
 
@@ -105,23 +126,47 @@ Kodam dodajamo tudi argumente?
 
 <br/>
 
-**Q – kod se v telefoniji ne uporablja!**
+**Q–kod se v telefoniji** _načeloma_ **ne uporablja!**
 
-**Q – kode na strani 247 - 248**
+Vse Q–kode v priročniku na strani 247 - 248
+
+
+
+<table class="compact">
+<tr><th>Q-koda</th><th>Vprašanje</th><th>Odgovor</th></tr>
+<tr><td>QRK</td><td>Kakšna je razumljivost mojega signala?</td><td>Razumljivost tvojega signala je … (1-5).</td></tr>
+<tr><td>QRM</td><td>Ali te motijo druge postaje?</td><td>Motijo me druge postaje.</td></tr>
+<tr><td>QRN</td><td>Te moti statika?</td><td>Moti me statika.</td></tr>
+<tr><td>QRO</td><td>Naj povečam oddajno moč?</td><td>Povečaj oddajno moč.</td></tr>
+<tr><td>QRP</td><td>Naj zmanjšam oddajno moč?</td><td>Zmanjšaj oddajno moč.</td></tr>
+<tr><td>QRS</td><td>Naj oddajam počasneje?</td><td>Oddajaj počasneje.</td></tr>
+<tr><td>QRT</td><td>Naj preneham z oddajanjem?</td><td>Prenehaj z oddajanjem.</td></tr>
+<tr><td>QRZ</td><td>Kdo me kliče?</td><td>Kliče te …</td></tr>
+<tr><td>QRV</td><td>Si pripravljen?</td><td>Pripravljen sem.</td></tr>
+<tr><td>QSB</td><td>Ali moj signal niha?</td><td>Tvoj signal niha.</td></tr>
+<tr><td>QSL</td><td>Lahko potrdiš sprejem?</td><td>Potrjujem sprejem.</td></tr>
+<tr><td>QSO</td><td>Ali lahko komuniciraš z … direktno?</td><td>Z … lahko komuniciram direktno.</td></tr>
+<tr><td>QSY</td><td>Ali naj se premaknem z oddajanjem na drugo frekvenco?</td><td>Pomakni se z oddajanjem na drugo frekvenco.</td></tr>
+<tr><td>QRX</td><td>Kdaj me boš ponovno poklical?</td><td>Ponovno te bom poklical ob … uri na … kHz (MHz).</td></tr>
+<tr><td>QTH</td><td>Kje je tvoja lokacija?</td><td>Moja lokacija je …</td></tr>
+</table>
 
 ----
 
 ### RST sistem (RST - kod)
 
->R – Readability (1-5)  
->S – Strenght (1-9)  
->T – Tone (1-9)
+- R &mdash; Readability (Razumljivost) (1-5)  
+- S &mdash; Strenght (Moč) (1-9)  
+- T &mdash; Tone (Ton) (1-9)
 
-V telefoniji se uporabljata samo RS.
+**V telefoniji** se uporabljata **samo RS**.
 
-Sistem se uporablja kot povratna informacija
-pošiljatelju, na modernih postajah pa je vgrajen tudi
-S-meter.
+Sistem se uporablja kot povratna informacija pošiljatelju  
+Rečemo mu tudi raport (report).
+
+Na modernih postajah pa je vgrajen tudi S-meter.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Pmeter-t.jpg" height=150/>
 
 
 
@@ -165,7 +210,7 @@ Uporabljajo se v **telegrafiji**.
 <div>R</div><div>– sprejeto</div>
 </div>
 
-**Vse kratice na strani 249-256**
+Vse kratice so v priročniku na strani 249-256
 
 
 
@@ -202,15 +247,13 @@ Po iznajdbi radia govorimo o RADIOTELEGRAFIJI
 **Dolžina posameznih elementov Morse-koda je
 točno določena  
 (1 enota označena z e):**
-- Kratek impulz (•) - 1e
-- Dolg impulz (–) - 3e
-- Premor med impulzi v znaku – 1e
-- Premor med znaki v besedi – 3e
-- Premor med besedami – 7e
+- Kratek impulz (&bull;) - 1e
+- Dolg impulz (&ndash;) - 3e
+- Premor med impulzi v znaku - 1e
+- Premor med znaki v besedi - 3e
+- Premor med besedami - 7e
 
 <img src="https://arachnoid.com/morse_code/resources/timings_diagram.png" height=200/>
-
-TODO: Better example
 
 ----
 
@@ -241,25 +284,31 @@ Primer klica kontinenta/države/DX postaje:
 
 
 
+#### Klicanje
+
 **DX – oddaljena zveza** (za Slovenijo):
 - HF – vse izven Evrope
 - VHF/UHF/SHF – razdalja se niža odvisno od frekvenčnega pasu (pri 144 Mhz je 400 in 500km)
 
-**Vzpostavljanje zvez na tekmovanjih:**  
->CQ TEST S59VEG S59VEG K
+**Vzpostavljanje zvez na tekmovanjih:**
+
+_TEST_ je kratica za contest.  
+V telegrafiji: **&mdash; &sdot; &sdot;&sdot;&sdot; &mdash;**
+
+>CQ **TEST** S59VEG S59VEG K
 
 
+
+#### Klicanje
 
 Primer odgovora na poziv:
 >K1ZZ K1ZZ DE S59VEG S59VEG S59VEG AR K
 
-TODO: Remove  
-Ko je zveza vzpostavljena, se po navadi premaknemo
-na drugo frekvenco.
+Če smo klicali na frekvenci namenjeni za klicanje, se po vspostavljeni zvezi navadi premaknemo na drugo frekvenco.
 
 
 
-### Vzpostavitev zveze
+#### Vzpostavitev zveze
 
 Ko sprejmemo odziv, začnemo z uvodno relacijo.
 
@@ -270,9 +319,11 @@ Ko sprejmemo odziv, začnemo z uvodno relacijo.
 4\. Povemo svoje ime, lahko tudi lokacijo (QTH)  
 5\. Zaključimo relacijo
 
-Posamezne dele ločimo z **=** oziroma **–&sdot;&sdot;&sdot;–** ali **–&sdot;&sdot;&sdot;&sdot;–**
+Posamezne dele ločimo z **=** oziroma **&mdash;&sdot;&sdot;&sdot;&mdash;** ali **&mdash;&sdot;&sdot;&sdot;&sdot;&mdash;**
 
 
+
+#### Vzpostavitev zveze
 
 Primer:
 
@@ -282,7 +333,7 @@ S59VEG DE S59XXX = HLO ES UR WELCOME = UR RST IS 599 599 = MY NAME IS FRANCI = A
 
 
 
-### Izmenjava ostalih podatkov
+#### Izmenjava ostalih podatkov
 
 **Deli relacije:**  
 1\. Tuj klicni znak, DE, svoj klicni znak  
@@ -294,22 +345,20 @@ S59VEG DE S59XXX = HLO ES UR WELCOME = UR RST IS 599 599 = MY NAME IS FRANCI = A
 
 
 
-### Zaključek zveze
+#### Zaključek zveze
 
-Deli zaključne relacije:  
-- 1\. Tuj klicni znak, DE, svoj klicni znak  
-- 2\. Odslovilno besedilo  
-- 3\. Zaključimo relacijo
+**Deli zaključne relacije:**  
+1\. Tuj klicni znak, DE, svoj klicni znak  
+2\. Odslovilno besedilo  
+3\. Zaključimo relacijo
 
 Primer:  
 >S50XXX DE S59VEG = DR FRANCI TNX FER NICE QSO ES HPE CUAGN = <ovl>AR</ovl> S59XXX DE S59VEG <ovl>SK</ovl>
 
-----
 
-### Vsebina zveze
 
 Nekaj nasvetov za dobro CW delo:
-- Pred oddajanjem poslušajte frekvenco (lahko oddate QRL in čakate odgovor)
+- Pred oddajanjem poslušajte frekvenco, oddate QRL? in čakate odgovor
 - Oddajajte kratke CQ; če po 3 ali 4 klicih ni odziva, zamenjajte frekvenco
 - Držite se pravil in vrstnega reda radijske zveze
 - Spoštujte radioamaterski bonton
@@ -479,6 +528,7 @@ Storitve:
 <div>
 
 **Automatic Packet Reporting System**  
+Včasih: Automatic Position Reporting System  
 Uporablja AX.25 protokol
 
 EU frekvenca: 144,800 / 432,500 MHz
@@ -512,7 +562,7 @@ Na frekvenčnem pasu je že določen pas namenjen MGM-ju
 
 ### SSTV
 
-- prenos mirujočih slik na daljavo
+- prenos **mirujočih slik** na daljavo
 - barvne ali črnobele
 - SSB ali FM postaja
 
@@ -524,9 +574,9 @@ Na frekvenčnem pasu je že določen pas namenjen MGM-ju
 
 ### FAX
 
-Faksimile
+**Faksimile**
 
-Prenos mirujočih črno-belih ali barvnih pisanih sporočil in slik v višjih ločljivostih
+Prenos mirujočih **črno-belih ali barvnih** pisanih **sporočil in slik** v višjih ločljivostih
 
 Značilno to, da pri sprejemu nastaja slika običajno direktno na toplotno občutljivem papirju
 
@@ -639,7 +689,7 @@ Običajno se pošiljajo preko **QSL biroja** - služba za pošiljanje QSL kartic
 
 Pred oddajo, kartice **sortiramo po državah**
 
-Obvezni podatki:
+**Obvezni podatki:**
 - Naš klicni znak in naslov
 - Klicni znak druge postaje
 - Podatki o zvezi (datum, čas, način oddaje, frek. območje, poslan RST)
@@ -668,12 +718,21 @@ Druge informacije, primerne za na QSL kartico:
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/QSL_card_UA1AHQ.jpg/2560px-QSL_card_UA1AHQ.jpg" width=40%>
 </div>
 
+
+
+<div class="hg">
+<img src="https://www.classicpublishing.co.uk/images/qsl-double-example-2-both.jpg" width=40%>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ41OUAPFvNN3cEIcOZvLepTm_4c6NSS-Ag3w&usqp=CAU" width=40%>
+</div>
+
 ----
 
 ### Radioamaterska tekmovanja
 
 Odvijajo se na vseh frekvenčnih pasovih  
-**Po IARU so izključeni 5 MHz, 10 MHz, 18 MHz in 24 MHz**
+**Po IARU so izključeni 5 MHz, 10 MHz, 18 MHz in 24 MHz** (WARC)
+
+Način vzpostavljanja zvez odvisen od tekmovanja, najbolj pogosto v telegrafiji ali telefoniji
 
 
 
@@ -719,7 +778,7 @@ Lisice lahko iščejo tudi slepi in slabovidni v spremstvu dobrovidnega na enost
 <div class="hg">
 <div>
 
-Podeljene za dosežene uspehe na tekmovanjih
+Podeljene za dosežene uspehe na tekmovanjih ali določene dosežke
 
 Izdaja jih IARU, nacionalne radioamaterske organizacije (pri nas ZRS), klubi, skupine radioamaterjev ali posamezniki, …
 

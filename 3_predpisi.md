@@ -35,13 +35,18 @@ Statut Zveze Radioamaterjev Slovenije
 
 ### CEPT licenca
 
-**CEPT radioamatersko dovoljenje** – dovoljenje, s
-katerim lahko radioamater upravlja radioamatersko
-dejavnost v državi, ki ima uveljavljena CEPT
-priporočila.  
+<div class="hg">
+<div>
+
+**CEPT radioamatersko dovoljenje** – dovoljenje, s katerim lahko radioamater upravlja radioamatersko dejavnost v državi, ki ima uveljavljena CEPT priporočila.
+
 **Pri nas ga izda AKOS** (Agencija za komunikacijska omrežja in storitve RS)
 
 Slovenija je postala članica CEPT-a 1993, prvo dovoljenje pa izdala 1998
+</div>
+
+<img src="images/cept.jpg" width=500>
+</div>
 
 
 
