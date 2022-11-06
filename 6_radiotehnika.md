@@ -58,10 +58,10 @@ komponente) nam pride prav pri tako imenovanem **množenju frekvenc**
 <div>
 
 Na izhodu mešalnika dobimo:  
-1\. vse signale, ki vstopajo v mešalnik  
-2\. $f_{VCO}$  
-3\. Vsoto in razliko: $f_{VCO}\pm{vh}$  
-4\. harmonike signalov iz točke 1, 2 in 3 ter enosmerno komponento
+1. vse signale, ki vstopajo v mešalnik  
+2. $f_{VCO}$  
+3. Vsoto in razliko: $f_{VCO}\pm{vh}$  
+4. harmonike signalov iz točke 1, 2 in 3 ter enosmerno komponento
 </div>
 
 <img src="images/mesanje.jpg" width=600>

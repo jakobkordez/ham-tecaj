@@ -52,15 +52,11 @@ Slovenija je postala članica CEPT-a 1993, prvo dovoljenje pa izdala 1998
 
 #### Priporočili CEPT T/R 61-01 in T/R 61-02
 
-**CEPT T/R 61-01** – omogoča začasno uporabo
-prenosne oz. mobilne amaterske radijske postaje v
-katerikoli državi, ki je to priporočilo uveljavila. Velja za
-največ 3 mesece.  
-Primer: **9A/S59VEG**
+**CEPT T/R 61-01** – omogoča **začasno uporabo** prenosne oz. mobilne **amaterske radijske postaje v katerikoli državi**, ki je to priporočilo uveljavila. Velja za
+**največ 3 mesece**.
+
+Primer: **9A**/S59VEG &rarr; Slovenska postaja (S5) je na obisku na hrvaški (9A)
 
 <br/>
 
-**CEPT T/R 61-02** – označuje se tudi kot HAREC,
-obravnava usklajene izpite za radioamaterje.
-Namenjen je radioamaterjem, ki želijo ostati v tuji
-državi več kot 3 mesece.
+**CEPT T/R 61-02** – označuje se tudi kot HAREC, obravnava usklajene izpite za radioamaterje. Namenjen je radioamaterjem, ki želijo ostati v tuji državi več kot 3 mesece.

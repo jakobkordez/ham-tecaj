@@ -1,4 +1,4 @@
-## 2. Elektrotehnika in radiotehnika
+## 5. Elektrotehnika in radiotehnika
 
 ----
 

@@ -27,28 +27,28 @@ ljubezen, način življenja, tehničnega razmišljanja.
 
 ### Zgodovina
 
-<table>
-<tr><td>1844</td><td>– prva telegrafska zveza (Morzejev telegraf)</td></tr>
-<tr><td>1876</td><td>– prvi telefon (Bell)</td></tr>
-<tr><td><strong>1895</strong></td><td>– prvi prenosi sporočil preko radijskih valov</td></tr>
-<tr><td>1899</td><td>– prvi prenos med Francijo in Anglijo</td></tr>
-<tr><td><strong>1903</strong></td><td>– prvi prenos med Evropo in Ameriko</td></tr>
-<tr><td>1904</td><td>– iznajdba diode</td></tr>
-<tr><td>1907</td><td>– iznajdba triode</td></tr>
-<tr><td>20. stol.</td><td>– množični začetek ukvarjanja z radioamaterstvom</td></tr>
-</table>
+<div class="grid-2">
+<div>1844</div><div>– prva telegrafska zveza (Morzejev telegraf)</div>
+<div>1876</div><div>– prvi telefon (Bell)</div>
+<strong>1895</strong><div>– <strong>prvi prenosi sporočil preko radijskih valov</strong></div>
+<div>1899</div><div>– prvi prenos med Francijo in Anglijo</div>
+<strong>1903</strong><div>– <strong>prvi prenos med Evropo in Ameriko</strong></div>
+<div>1904</div><div>– iznajdba diode</div>
+<div>1907</div><div>– iznajdba triode</div>
+<div>20. stol.</div><div>– množični začetek ukvarjanja z radioamaterstvom</div>
+</div>
 
 
 
-<table>
-<tr><td>1923</td><td>– obojesmerna komunikacija čez Atlantik</td></tr>
-<tr><td>1924</td><td>– zveza med Anglijo in Novo Zalandijo</td></tr>
-<tr><td>1925</td><td>– Radioklub Ljubljana</td></tr>
-<tr><td>1946</td><td>– ustanovljena Zveza Radioamaterjev Slovenije - ZRS</td></tr>
-<tr><td><strong>1955</strong></td><td>– radioamaterska zveza z odbojem od meteorskih sledi</td></tr>
-<tr><td><strong>1960</strong></td><td>– radioamaterska zveza z odbojem od Lune</td></tr>
-<tr><td><strong>1961</strong></td><td>– prvi radioamaterski satelit OSCAR</td></tr>
-</table>
+<div class="grid-2">
+<div>1923</div><div>– obojesmerna komunikacija čez Atlantik</div>
+<div>1924</div><div>– zveza med Anglijo in Novo Zalandijo</div>
+<div>1925</div><div>– Radioklub Ljubljana</div>
+<div>1946</div><div>– ustanovljena Zveza Radioamaterjev Slovenije - ZRS</div>
+<strong>1955</strong><div>– <strong>radioamaterska zveza z odbojem od meteorskih sledi</strong></div>
+<strong>1960</strong><div>– <strong>radioamaterska zveza z odbojem od Lune</strong></div>
+<strong>1961</strong><div>– <strong>prvi radioamaterski satelit OSCAR</strong></div>
+</div>
 
 ----
 

@@ -30,7 +30,7 @@ h1, h2, h3 {
   border-radius: 8px;
 }
 
-li {
+ul li {
   list-style-type: "➔ ";
 }
 
@@ -466,6 +466,12 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .reveal strong {
   color: #ff5100;
+}
+
+.reveal blockquote {
+  max-width: 90%;
+  min-width: 70%;
+  width: fit-content;
 }
 
 .reveal blockquote > p {

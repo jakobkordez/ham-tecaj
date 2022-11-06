@@ -81,17 +81,22 @@ znaka je predpisana v ITU RR.
 </div>
 
 
+
 Dolžina: 3-6 znakov
 
 Zapis serije znakov: GAA-GZZ → G2BB, G3SX, G8VG
 
 **Pripone:**
-- /M – mobilna postaja (v vozilu)
-- /MM – pomorska mobilna postaja
-- /AM – zrakoplovna mobilna postaja
-- /P – prenosna postaja
+<div class="grid-2">
+<strong>/M</strong><div>– <strong>mobilna</strong> (mobile) postaja (v vozilu)</div>
+<strong>/MM</strong><div>– <strong>pomorska</strong> mobilna (maritime mobile) postaja (čoln)</div>
+<strong>/AM</strong><div>– <strong>zrakoplovna</strong> mobilna (aeronautical mobile) postaja</div>
+<strong>/P</strong><div>– <strong>prenosna</strong> (portable) postaja</div>
+</div>
 
-Primer: **S59VEG/P**
+<br>
+
+Primer: S59VEG/**MM** &rarr; Postaja S59VEG oddaja s čolna (MM)
 
 [Razpoznavanje klicnih znakov](https://cq.jkob.cc/#/callsign)
 
@@ -155,18 +160,24 @@ Vse Q–kode v priročniku na strani 247 - 248
 
 ### RST sistem (RST - kod)
 
-- R &mdash; Readability (Razumljivost) (1-5)  
-- S &mdash; Strenght (Moč) (1-9)  
-- T &mdash; Tone (Ton) (1-9)
+Tri zaporedne številke:
+- R &ndash; **Razumljivost** (Readability) (1-5)  
+- S &ndash; **Jakost** (Strenght) (1-9)  
+- T &ndash; **Ton** (Tone) (1-9)
 
 **V telefoniji** se uporabljata **samo RS**.
 
-Sistem se uporablja kot povratna informacija pošiljatelju  
+<div class="hg">
+<div>
+
+Sistem se uporablja kot povratna informacija pošiljatelju.  
 Rečemo mu tudi raport (report).
 
 Na modernih postajah pa je vgrajen tudi S-meter.
+</div>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Pmeter-t.jpg" height=150/>
+</div>
 
 
 
@@ -181,7 +192,7 @@ Primer:
 ### Kratice
 
 Uporabljajo se v **telegrafiji**.  
-Če je kratica nadčrtana, jo pošljemo kot en znak.
+Če je kratica nadčrtana, jo pošljemo kot en znak (brez presledkov med črkami).
 
 <div class="grid-2">
 <div><o>KA</o></div><div>– začetek zveze</div>
@@ -189,7 +200,7 @@ Uporabljajo se v **telegrafiji**.
 <div><o>VA</o> CL</div><div>– konec zveze in izključi postajo</div>
 <div><o>AR</o> ali +</div><div>– konec sporočila</div>
 <div><o>AR</o> K</div><div>– konec sporočila in pripravljen na sprejem</div>
-<div><o>AR</o> <span class="o">KN</o></div><div>- konec sporočila in pripravljen na sprejem samo klicane postaje</div>
+<div><o>AR</o> <o>KN</o></div><div>- konec sporočila in pripravljen na sprejem samo klicane postaje</div>
 </div>
 
 
@@ -240,15 +251,15 @@ Kasneje sprejet mednarodni morse kod, ki se danes
 uporablja v telegrafiji
 
 Prva javna zveza leta 1844 (Washington – Baltimore)  
-Po iznajdbi radia govorimo o RADIOTELEGRAFIJI
+Po iznajdbi radia govorimo o **radiotelegrafiji**
 
 
 
 **Dolžina posameznih elementov Morse-koda je
 točno določena  
 (1 enota označena z e):**
-- Kratek impulz (&bull;) - 1e
-- Dolg impulz (&ndash;) - 3e
+- Kratek impulz _"dit"_ (&bull;) - 1e
+- Dolg impulz _"dah"_ (&ndash;) - 3e
 - Premor med impulzi v znaku - 1e
 - Premor med znaki v besedi - 3e
 - Premor med besedami - 7e
@@ -263,10 +274,10 @@ Vsaka radijska zveza je sestavljena iz več relacij.
 Relacija je del zveze, ki jo odda eden od operaterjev.
 
 **Relacije:**  
-1\. Klicanje  
-2\. Vzpostavitev zveze  
-3\. Izmenjava ostalih podatkov  
-4\. Zaključek zveze
+1. Klicanje  
+2. Vzpostavitev zveze  
+3. Izmenjava ostalih podatkov  
+4. Zaključek zveze
 
 
 
@@ -290,19 +301,22 @@ Primer klica kontinenta/države/DX postaje:
 - HF – vse izven Evrope
 - VHF/UHF/SHF – razdalja se niža odvisno od frekvenčnega pasu (pri 144 Mhz je 400 in 500km)
 
-**Vzpostavljanje zvez na tekmovanjih:**
+**Klicanje na tekmovanjih:**
 
-_TEST_ je kratica za contest.  
-V telegrafiji: **&mdash; &sdot; &sdot;&sdot;&sdot; &mdash;**
+_TEST_ (**&ndash; &sdot; &sdot;&sdot;&sdot; &ndash;**) je kratica za contest.
 
 >CQ **TEST** S59VEG S59VEG K
+
+Ali še hitreje:
+
+>S59VEG S59VEG TEST
 
 
 
 #### Klicanje
 
 Primer odgovora na poziv:
->K1ZZ K1ZZ DE S59VEG S59VEG S59VEG AR K
+>K1ZZ K1ZZ DE S59VEG S59VEG S59VEG <o>AR</o> K
 
 Če smo klicali na frekvenci namenjeni za klicanje, se po vspostavljeni zvezi navadi premaknemo na drugo frekvenco.
 
@@ -313,13 +327,13 @@ Primer odgovora na poziv:
 Ko sprejmemo odziv, začnemo z uvodno relacijo.
 
 **Deli relacije:**  
-1\. Tuj klicni znak, DE, svoj klicni znak  
-2\. Zahvala za klic  
-3\. RST ocena  
-4\. Povemo svoje ime, lahko tudi lokacijo (QTH)  
-5\. Zaključimo relacijo
+1. Tuj klicni znak, DE, svoj klicni znak  
+2. Zahvala za klic  
+3. RST ocena  
+4. Povemo svoje ime, lahko tudi lokacijo (QTH)  
+5. Zaključimo relacijo
 
-Posamezne dele ločimo z **=** oziroma **&mdash;&sdot;&sdot;&sdot;&mdash;** ali **&mdash;&sdot;&sdot;&sdot;&sdot;&mdash;**
+Posamezne dele ločimo z **=** oziroma **&ndash;&sdot;&sdot;&sdot;&ndash;** ali **&ndash;&sdot;&sdot;&sdot;&sdot;&ndash;**
 
 
 
@@ -327,33 +341,33 @@ Posamezne dele ločimo z **=** oziroma **&mdash;&sdot;&sdot;&sdot;&mdash;** ali 
 
 Primer:
 
-S59XXX DE S59VEG = HLO ES TNX FER CALL = UR RST IS 599 599 = MY NAME IS JANEZ = AR S59XXX DE S59VEG KN
+>S59XXX DE S59VEG = HLO ES TNX FER CALL = UR RST IS 599 599 = MY NAME IS JANEZ = <o>AR</o> S59XXX DE S59VEG <o>KN</o>
 
-S59VEG DE S59XXX = HLO ES UR WELCOME = UR RST IS 599 599 = MY NAME IS FRANCI = AR S59XXX DE S59VEG KN
+>S59VEG DE S59XXX = HLO ES UR WELCOME = UR RST IS 599 599 = MY NAME IS FRANCI = <o>AR</o> S59XXX DE S59VEG <o>KN</o>
 
 
 
 #### Izmenjava ostalih podatkov
 
 **Deli relacije:**  
-1\. Tuj klicni znak, DE, svoj klicni znak  
-2\. Podatki, ki jih želimo izmenjati  
-3\. Zaključimo relacijo
+1. Tuj klicni znak, DE, svoj klicni znak  
+2. Podatki, ki jih želimo izmenjati  
+3. Zaključimo relacijo
 
 **Primer:**  
->S50XXX DE S59VEG = PSE HW? = <ovl>AR</ovl> S59XXX DE S59VEG <ovl>KN</ovl>
+>S50XXX DE S59VEG = PSE HW? = <o>AR</o> S59XXX DE S59VEG <o>KN</o>
 
 
 
 #### Zaključek zveze
 
 **Deli zaključne relacije:**  
-1\. Tuj klicni znak, DE, svoj klicni znak  
-2\. Odslovilno besedilo  
-3\. Zaključimo relacijo
+1. Tuj klicni znak, DE, svoj klicni znak  
+2. Odslovilno besedilo  
+3. Zaključimo relacijo
 
 Primer:  
->S50XXX DE S59VEG = DR FRANCI TNX FER NICE QSO ES HPE CUAGN = <ovl>AR</ovl> S59XXX DE S59VEG <ovl>SK</ovl>
+>S50XXX DE S59VEG = DR FRANCI TNX FER NICE QSO ES HPE CUAGN = <o>AR</o> S59XXX DE S59VEG <o>SK</o>
 
 
 
@@ -378,6 +392,8 @@ V zvezah se kratice in Q-kod praviloma ne uporablja, vendar to ne pomeni da se n
 Komunikacija poteka po istem kopitu kot pri telegrafiji.
 
 >S50XXX, S50XXX kliče te S59VEG, S59VEG, prosim, pridi (odzovi se)
+
+>S50XXX S50XXX this is S59VEG calling and listening
 
 ----
 
@@ -429,6 +445,16 @@ Komunikacija poteka po istem kopitu kot pri telegrafiji.
 ----
 
 ### Amaterske digitalne komunikacije
+
+----
+
+### MGM
+
+**Machine Generated Modes**
+
+Zajema vse sedanje in bodoče vrste digitalnih komunikacij.
+
+Na frekvenčnem pasu je že določen pas namenjen MGM-ih
 
 ----
 
@@ -546,16 +572,6 @@ Osnovne funkcije:
 
 ----
 
-### MGM
-
-**Machine Generated Modes**
-
-Zajema vse sedanje in bodoče vrste digitalnih komunikacij.
-
-Na frekvenčnem pasu je že določen pas namenjen MGM-ju
-
-----
-
 ## Amaterske SSTV in FSTV zveze
 
 ----
@@ -637,6 +653,8 @@ V zimskem času +1h, v poletnem +2h
 </table>
 
 Vegova: **JN76GB**
+
+[Zemljevid UL lokatorjev](https://dxcluster.ha8tks.hu/hamgeocoding/)
 </div>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Maidenhead_grid_over_Europe.svg/1024px-Maidenhead_grid_over_Europe.svg.png" width=500>
@@ -658,7 +676,7 @@ Vegova: **JN76GB**
 - Vrsta oddaje (CW, SSB, FM, &hellip;)
 - Podpis radioamaterja (za klubske postaje)
 
-Zapis časa: **4 številke (0000 - 2359) po univerzalnem času (UTC)**
+Zapis časa: **4 številke (0000&ndash;2359) po univerzalnem času (UTC)**
 
 **Hrani najmanj 3 leta po zadnjem vpisu**
 
@@ -687,7 +705,7 @@ Velikost: **9x14 cm**
 
 Običajno se pošiljajo preko **QSL biroja** - služba za pošiljanje QSL kartic
 
-Pred oddajo, kartice **sortiramo po državah**
+**Pred oddajo**, kartice **sortiramo po državah**
 
 **Obvezni podatki:**
 - Naš klicni znak in naslov
@@ -722,17 +740,28 @@ Druge informacije, primerne za na QSL kartico:
 
 <div class="hg">
 <img src="https://www.classicpublishing.co.uk/images/qsl-double-example-2-both.jpg" width=40%>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ41OUAPFvNN3cEIcOZvLepTm_4c6NSS-Ag3w&usqp=CAU" width=40%>
+<img src="https://wab.intermip.net/images/ramsey_island_qsl_front.jpg" width=40%>
 </div>
 
 ----
 
 ### Radioamaterska tekmovanja
 
-Odvijajo se na vseh frekvenčnih pasovih  
-**Po IARU so izključeni 5 MHz, 10 MHz, 18 MHz in 24 MHz** (WARC)
+<div class="hg">
+<div>
 
-Način vzpostavljanja zvez odvisen od tekmovanja, najbolj pogosto v telegrafiji ali telefoniji
+Vsak tekmovanje lahko omeji:
+- uporabljene frekvenčne pasove
+- način dela (telegrafija, telefonija, digitalno, &hellip;)
+- posebna tekmovanja:
+    - odboj od lune
+    - odboj od meteorskih sledi
+
+**Po IARU so izključeni 5 MHz, 10 MHz, 18 MHz in 24 MHz** (WARC)
+</div>
+
+<img src="https://pbs.twimg.com/media/Fdc1JDKX0AAvXKY?format=jpg&name=large" width=500>
+</div>
 
 
 
@@ -869,30 +898,24 @@ Radioamaterji sodelujemo z:
 
 Kodeks ARON – priročnik str. 66 – 11 členov.
 
-1\. S kodeksom ARON se določajo pravila vedenja in
-delovanja radioamaterjev - članov ZRS ob nesrečah in
-nevarnostih, kot so elementarne nesreče (poplave,
-požari, viharji, plazovi, potresi), večje ekološke nesreče
-ali nevarnosti (onesnaževanje ali ogrožanje okolja),
-prometne ali druge nesreče in nevarnosti večjih
-razsežnosti. Ta pravila veljajo smiselno tudi za
-sodelovanje z radioamaterji sosednjih in drugih
-držav v primerih nesreč in nevarnosti
-mednarodnih razsežnosti.
+1\. S kodeksom ARON se določajo pravila **vedenja in delovanja radioamaterjev** - članov ZRS
+**ob nesrečah in nevarnostih**, kot so elementarne nesreče (poplave, požari, viharji, plazovi, potresi),
+večje ekološke nesreče ali nevarnosti (onesnaževanje ali ogrožanje okolja), prometne ali druge nesreče in
+nevarnosti večjih razsežnosti. Ta pravila veljajo smiselno tudi za sodelovanje z radioamaterji sosednjih in
+drugih držav v primerih nesreč in nevarnosti mednarodnih razsežnosti.
 
 
 
 2\. Namen in cilj delovanja radioamaterjev po tem
-kodeksu je nudenje pomoči pri zaščiti in reševanju
+kodeksu je **nudenje pomoči pri zaščiti in reševanju**
 človeških in materialnih dobrin. Delovanje
 radioamaterjev temelji na humanitarnih, patriotskih in
 prostovoljnih osnovah v skladu s statutom ZRS in
 normami in principi mednarodne radioamaterske
 organizacije – IARU
 
-3\. V primeru nevarnosti ali nesreče večjih razsežnosti
-se radioamaterji organizirajo samoiniciativno ali pa na
-pobudo nosilcev zaščite in reševanja (Civilna zaščita,
+3\. V primeru nevarnosti ali nesreče večjih razsežnosti se radioamaterji organizirajo
+**samoiniciativno ali** pa **na pobudo nosilcev zaščite in reševanja** (Civilna zaščita,
 gasilci, Rdeči križ in drugi).
 
 
@@ -900,7 +923,7 @@ gasilci, Rdeči križ in drugi).
 4\. Radioamater, ki opazi ali sprejme obvestilo o
 znamenjih, pojavih ali dogodkih, ki ogrožajo imetje,
 zdravja ali življenje ljudi, je dolžan na najhitrejši možni
-način o tem obvestiti ustrezne pristojne službe (Center
+način o tem **obvestiti ustrezne pristojne službe** (Center
 za obveščanje telefon 112, policija telefon 113).
 Obvestilo mora imeti jedrnato vsebino:
 - Kaj se dogaja oziroma kaj se je zgodilo
@@ -910,10 +933,10 @@ Obvestilo mora imeti jedrnato vsebino:
 
 
 
-Radioamater samoiniciativno sproži delovanje
+Radioamater **samoiniciativno sproži delovanje
 po ARON-u, če oceni, da je nesreča ali nevarnost
 takšnega obsega, da zahteva takojšnje
-aktiviranje amaterske ga radijskega omrežja. V
+aktiviranje amaterske ga radijskega omrežja**. V
 primeru, da je nadaljnje delovanje in pomoč
 radioamaterja ali več radioamaterjev še potrebno, se
 ukrepa po navodilu ustreznih služb.
@@ -946,18 +969,18 @@ dogovora s pristojnimi državnimi organi.
 
 
 
-7\. Na frekvencah, kjer je sprožena ali deluje
+7\. **Na frekvencah, kjer je sprožena ali deluje
 reševalna akcija, morajo vsi radioamaterji takoj
 prekiniti z vzpostavljanjem drugih
-radioamaterskih zvez. Dolžnost vsakega
+radioamaterskih zvez**. Dolžnost vsakega
 radioamaterja, ki sliši klic za nesrečo in
 nevarnost, je, da se takoj javi in se ravna po
 navodilih postaje, ki vodi reševalno akcijo.
 
 
 
-8\. Akcijo praviloma vodi upravna postaja, ki je najbližja
-dogodkom na ogroženem mestu. Za koordinacijo lahko
+8\. **Akcijo** praviloma **vodi** upravna **postaja, ki je najbližja
+dogodkom** na ogroženem mestu. Za koordinacijo lahko
 deluje več upravnih postaj, če to narekujejo velikost in
 obseg ogroženosti ali drugi tehnični razlogi. V času
 trajanja akcije poteka usmerjanje in koordiniranje dela
@@ -982,12 +1005,12 @@ seji v Ljubljani dne 14. marca 1992.
 
 
 
-Oddaja se lahko izven radioamaterskih
-frekvenčnih pasov, če se odzivamo klicu v sili.
+**Oddaja se lahko izven radioamaterskih
+frekvenčnih pasov, če se odzivamo klicu v sili**.
 
-Kadar je v nevarnosti človeško življenje ali druga
+**Kadar je v nevarnosti človeško življenje ali druga
 katastrofa, lahko preanašamo sporočilo tretje
-osebe po radijski zvezi.
+osebe po radijski zvezi**.
 
 Mednarodni akt za delo ob nesrečah
 radioamaterjev: ITU resolucija št. 646
@@ -999,11 +1022,20 @@ El-Sheikh, Egypt 2019.
 
 ### Repetitorske komunikacije
 
-Repetitor (ojačevalnik) je simpleksna ali dupleksna radijska postaja.
+<div class="hg">
+<div>
+
+Repetitor (repeater) je simpleksna ali dupleksna radijska postaja.
+
+"Vse kar sliši, ponovi"
+
+<br>
 
 **Uporabljamo jih, da povečamo domet mobilnih in prenosnih radijskih postaj.**
+</div>
 
 <img src="https://qrznow.com/wp-content/uploads/2015/11/repeater_diagram.jpg" width=60%>
+</div>
 
 
 
@@ -1047,13 +1079,18 @@ Oddajnik mora biti dobro hlajen, ker veliko časa oddaja.
 
 ### Satelitske komunikacije
 
-**1961 imeli OSCAR** (Orbiting Satellite Carrying Amateur Radio)
+<div class="hg">
+<div>
+
+**1961 prvi satelit OSCAR** (Orbiting Satellite Carrying Amateur Radio)
 
 OSCAR III prvi telekomunikacijski
 
 Danes je nekaj 100 HAM satelitov
+</div>
 
-TODO: Slika
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/OSCAR_1_satellite-01.jpg" width=30%>
+</div>
 
 
 
@@ -1079,17 +1116,48 @@ Najprej poiščemo svetilnik, nato poiščemo prosto frekvenco
 
 ### Odboj od meteorskih sledi (MS)
 
-<img src="https://4.bp.blogspot.com/-nPEfdRdGrag/XX8rOJgGlqI/AAAAAAAAiU4/S-mRsd96078uOcIW2WCfVQGVu2uUsaCAACLcBGAsYHQ/s1600/meteor-burst-communication.png" width=60%>
+<div class="hg">
+<div>
+
+Meteor-scatter
+
+ZELO hitre zveze v telegrafiji (posnamemo in predvajamo)
+
+V primeru boljših in daljših sledi, lahko tudi v foniji
+
+<br>
+
+Preberi si več na strani 74 v priročniku
+</div>
+
+<img src="https://4.bp.blogspot.com/-nPEfdRdGrag/XX8rOJgGlqI/AAAAAAAAiU4/S-mRsd96078uOcIW2WCfVQGVu2uUsaCAACLcBGAsYHQ/s1600/meteor-burst-communication.png" width=50%>
+</div>
 
 ----
 
 ### Odboj od lune (EME)
 
+<div class="hg">
+<div>
+
+- Zelo velike moči (500&ndash;1500W)
+- Usmerjene antene
+- Občutljiv sprejemnik
+
+Danes precej lažje delati zveze s pomočjo digitalnih načinov
+
+Čas do lune: 2,5 s  
+Lahko slišimo svojo oddajo
+</div>
+
 <img src="https://www.electronics-notes.com/images/propagation-eme-moonbounce-basic-concept-01.svg" width=500 style="background:white;padding:20px">
+</div>
 
 ----
 
 ### Zveze s pomočjo računalnika
+
+<img src="images/remote.jpg" width=70%>
 
 ----
 
@@ -1103,11 +1171,11 @@ Oddajajo tudi lokator, nadmorsko višino, moč in vrsto antene.
 
 ### SWL, sprejemna radijska postaja
 
-Short Wave Listener – radioamater, ki samo sprejema oziroma posluša.
+**Short Wave Listener** – radioamater, ki **samo sprejema** oziroma posluša.
 
 Ne potrebuješ izpita lahko pa zaprosiš za svoj klicni znak.
 
->S5-RS-xxx
+>S5-RS-xxx  
 
 x je celo število od 0 do 9.
 
@@ -1129,15 +1197,15 @@ Poslušajo nad (UP) ali pod (DOWN) svojo oddajno frekvenco.
 
 ### DX cluster
 
-Orodje za objavljanje svojih radioamaterskih dosežkov v omrežju.
+**Orodje za objavljanje svojih radioamaterskih dosežkov v omrežju**.
 
-Self spotting - objavljanje podatkov o frekvenci na kateri kličeš, kar ni v skladu s pravili uporabe DX clustra.  
+**Self spotting** &ndash; objavljanje podatkov o frekvenci na kateri kličeš, kar ni v skladu s pravili uporabe DX clustra.  
 Izjeme: SOTA, POTA, WWFF, &hellip;
 
 ----
 
 ### Pileup
 
-Množica radioamaterjev na frekvenci redke postaje, ki bi radi hkrati naredili zvezo z njo in kličejo eden čez drugega.
+**Množica radioamaterjev na frekvenci** redke **postaje**, ki bi radi hkrati naredili zvezo z njo in **kličejo eden čez drugega**.
 
-Simplex pileup - množica postaj, ki hkrati kličejo DX postajo na frekvenci, kjer DX postaja hkrati posluša in oddaja.
+**Simplex pileup** - množica postaj, ki hkrati kličejo DX postajo na frekvenci, kjer DX postaja hkrati posluša in oddaja.
