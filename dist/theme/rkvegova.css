@@ -482,3 +482,7 @@ o {
   text-decoration: underline;
   text-underline-offset: -0.9em;
 }
+
+.reveal img.white {
+  background: white;
+}

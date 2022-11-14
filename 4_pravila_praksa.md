@@ -1082,11 +1082,16 @@ Oddajnik mora biti dobro hlajen, ker veliko časa oddaja.
 <div class="hg">
 <div>
 
-**1961 prvi satelit OSCAR** (Orbiting Satellite Carrying Amateur Radio)
+**1961 prvi satelit OSCAR**  
+(Orbiting Satellite Carrying Amateur Radio)
 
 OSCAR III prvi telekomunikacijski
 
 Danes je nekaj 100 HAM satelitov
+
+Zveze so kratke
+
+Frekvenca se spreminja (Dopplerjev pojav)
 </div>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/OSCAR_1_satellite-01.jpg" width=30%>
@@ -1099,10 +1104,10 @@ Danes je nekaj 100 HAM satelitov
 
 Vsak satelit vsebuje svetilnik (CW beacon)
 
-Zveze so kratke
+<br/>
 
-Najprej poiščemo svetilnik, nato poiščemo prosto frekvenco
-</div>
+Uplink: Frekvenca na kateri satelit posluša  
+Downlink: Frekvenca na kateri oddaja
 
 <table class="compact center">
 <tr><th>Mod</th><th>Uplink</th><th>Downlink</th></tr>
@@ -1110,6 +1115,9 @@ Najprej poiščemo svetilnik, nato poiščemo prosto frekvenco
 <tr><td>B</td><td>70 cm</td><td>2m</td></tr>
 <tr><td>J</td><td>2 m</td><td>70 cm</td></tr>
 </table>
+</div>
+
+<img src="https://amsat-dl.org/wp-content/uploads/2020/02/AMSAT-QO-100-NB-Transponder-Bandplan-Graph-1140x641.png" width=600>
 </div>
 
 ----
@@ -1121,7 +1129,7 @@ Najprej poiščemo svetilnik, nato poiščemo prosto frekvenco
 
 Meteor-scatter
 
-ZELO hitre zveze v telegrafiji (posnamemo in predvajamo)
+ZELO hitre zveze v telegrafiji (posnamemo in predvajamo počasneje)
 
 V primeru boljših in daljših sledi, lahko tudi v foniji
 
@@ -1150,7 +1158,7 @@ Danes precej lažje delati zveze s pomočjo digitalnih načinov
 Lahko slišimo svojo oddajo
 </div>
 
-<img src="https://www.electronics-notes.com/images/propagation-eme-moonbounce-basic-concept-01.svg" width=500 style="background:white;padding:20px">
+<img src="https://www.electronics-notes.com/images/propagation-eme-moonbounce-basic-concept-01.svg" width=500 style="padding:20px" class="white">
 </div>
 
 ----
@@ -1158,6 +1166,22 @@ Lahko slišimo svojo oddajo
 ### Zveze s pomočjo računalnika
 
 <img src="images/remote.jpg" width=70%>
+
+----
+
+### Posebne aktivnosti (aktivacije)
+
+<div class="hg">
+<div>
+
+- Summits on the air ([SOTA](https://www.sota.org.uk/))
+- Parks on the air ([POTA](https://www.sota.org.uk/))
+- Islands on the air ([IOTA](https://www.iota-world.org/))
+- World Wide Flora & Fauna ([WWFF](https://wwff.co/))
+</div>
+
+<img src="https://qrznow.com/wp-content/uploads/2016/02/CQ_SOTA_QRP_.jpg" width=450>
+</div>
 
 ----
 
