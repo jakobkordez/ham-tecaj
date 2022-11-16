@@ -1,7 +1,5 @@
 ## 5. Elektrotehnika in radiotehnika
 
-<div style="font-size:50px">🚧 Under construction 🚧</div>
-
 ----
 
 ### Osnovna teorija atomov
@@ -37,6 +35,12 @@
 - **Kovinska vez**: med atomi plava oblak prostih elektronov.
     - Primer: s to vezjo so povezani atomi v kovinah.
 
+
+
+<img class="white mr-20" src="https://eucbeniki.sio.si/kemija1/1666/slika2.jpg" height=400>
+
+<img src="http://ekemija.osbos.si/e-gradivo/4-sklop/kovinska_kr_struktura.jpg" height=400>
+
 ----
 
 ### Električno polje in potencial
@@ -49,8 +53,8 @@ Električno polje je prostor, v katerem deluje električna sila na električni n
 
 
 
-**Količina naboja**: $Q\ [C=As]$ _Columb_
-- En coloumb je definiran kot količina električnega naboja, ki
+**Količina naboja**: $Q\ [C=As]$ _Coulomb_
+- En coulomb je definiran kot količina električnega naboja, ki
 preteče skozi prečni prerez vodnika v času ene 1s pri toku 1A.
 
 **Električni potencial**: $V_p\ [V]$ _Volt_
@@ -59,7 +63,8 @@ se iz prostora izven polja prenese v dano točko pozitiven naboj
 1C in se ob tem opravi delo 1J.
 
 
-**Columbov zakon**: $F = k_0\frac{Q_1\sdot Q_2}{r^2}$
+**Coulombov zakon**: $F = k_0\frac{Q_1\sdot Q_2}{r^2}$
+- kako sila med dvema točkastima električnima nabojema pojema z razdaljo
 
 **Pred električnim poljem se zaščitimo z oklapljanjem s kovinskimi materiali** (Faradejeva kletka).
 
@@ -295,6 +300,10 @@ $t = \frac{Q}{I} = \frac{10 Ah}{0.5 A} = 20 h$</sup></sub>
 $$ I_k = \dfrac{U_c}{R_g} $$
 
 - **Nazivni tok** ($I_n$) je enak 1/10 vrednosti nazivne kapacitete celice.
+
+----
+
+<div style="font-size:50px">🚧 Under construction 🚧</div>
 
 ----
 

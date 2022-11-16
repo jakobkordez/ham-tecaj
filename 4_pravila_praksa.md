@@ -13,11 +13,11 @@ abeceda. Prenaša se znak po znak, uporabljajo se
 kratice. Hitrosti oddajanja med 25 do 200 znakov na
 minuto.
 
-<img src="https://www.dolstra.nl/Ham-accessoires/Morse-key-decoders/straight_key_standard.jpg"/>
+<img src="https://www.dolstra.nl/Ham-accessoires/Morse-key-decoders/straight_key_standard.jpg" class="mr-80">
 
-<img src="https://static.dxengineering.com/global/images/prod/xlarge/bnr-by-1_xl.jpg" height=300 style="margin-left:80px"/>
+<img src="https://static.dxengineering.com/global/images/prod/xlarge/bnr-by-1_xl.jpg" height=300 class="mr-80">
 
-<img src="https://cdn.shopify.com/s/files/1/2223/4507/files/morse-chart_grande.png?v=1501447409" height=300 style="margin-left:80px"/>
+<img src="https://cdn.shopify.com/s/files/1/2223/4507/files/morse-chart_grande.png?v=1501447409" height=300>
 
 
 
@@ -27,9 +27,9 @@ minuto.
 govornem jeziku, ki ga poznata oba sogovornika. Za
 slabše povezave uporabljamo tablice črkovanja.
 
-<img src="https://hamradioprep.com/wp-content/uploads/2020/02/what-is-ham-944x1024.png" height=300/>
+<img src="https://hamradioprep.com/wp-content/uploads/2020/02/what-is-ham-944x1024.png" height=300 class="mr-80">
 
-<img src="https://cdn.britannica.com/28/124928-004-B574BEDB/Amateur-radio-transceiver.jpg" height=300 style="margin-left:100px"/>
+<img src="https://cdn.britannica.com/28/124928-004-B574BEDB/Amateur-radio-transceiver.jpg" height=300>
 
 
 
@@ -582,9 +582,9 @@ Osnovne funkcije:
 - barvne ali črnobele
 - SSB ali FM postaja
 
-<img src="https://ukamsat.files.wordpress.com/2014/12/iss-sstv-martin-ehrenfried-g8jnj-using-suws-websdr-2014-12-18.png" width=30%>
+<img src="https://ukamsat.files.wordpress.com/2014/12/iss-sstv-martin-ehrenfried-g8jnj-using-suws-websdr-2014-12-18.png" height=300px class="mr-40">
 
-<img src="https://linustechtips.com/uploads/monthly_2021_05/20210516-182712-Robot-36-Color.png.5bab7ca9293d585a3ff43f7ee47409c4.png" width=30% style="margin-left:50px">
+<img src="https://linustechtips.com/uploads/monthly_2021_05/20210516-182712-Robot-36-Color.png.5bab7ca9293d585a3ff43f7ee47409c4.png" height=300px>
 
 ----
 
@@ -604,9 +604,9 @@ FSTV - Fast Scan Television
 
 ATV - Amateur Television
 
-<img src="https://hamtv.com/giffiles/K6CCCTV207.jpg" width=30%>
+<img src="https://hamtv.com/giffiles/K6CCCTV207.jpg" height=300 class="mr-40">
 
-<img src="https://hamtv.com/giffiles/balloon80mi.jpg" width=30% style="margin-left:50px">
+<img src="https://hamtv.com/giffiles/balloon80mi.jpg" height=300>
 
 ----
 
@@ -1120,6 +1120,12 @@ Downlink: Frekvenca na kateri oddaja
 <img src="https://amsat-dl.org/wp-content/uploads/2020/02/AMSAT-QO-100-NB-Transponder-Bandplan-Graph-1140x641.png" width=600>
 </div>
 
+
+
+<img src="https://i.pinimg.com/736x/14/0e/e5/140ee51a2d3ee5baa206ef8ff4dd0e43--dishes.jpg" height=600 class="mr-40">
+
+<img src="https://www.onallbands.com/wp-content/uploads/2019/05/DXE-OAB-Amateur-Radio-Satellite-Basics-Pt-1-Image_Post-5-29-705x1024.jpg" height=600>
+
 ----
 
 ### Odboj od meteorskih sledi (MS)
@@ -1127,15 +1133,15 @@ Downlink: Frekvenca na kateri oddaja
 <div class="hg">
 <div>
 
-Meteor-scatter
+**Meteor-scatter**
 
-ZELO hitre zveze v telegrafiji (posnamemo in predvajamo počasneje)
+ZELO hitre zveze v telegrafiji (par milisekund, posnamemo in predvajamo počasneje)
+- [High Speed CW](https://youtu.be/EQeVfp__XHY)
 
-V primeru boljših in daljših sledi, lahko tudi v foniji
+V primeru boljših in daljših (par sekund) sledi, lahko tudi v foniji
 
-<br>
-
-Preberi si več na strani 74 v priročniku
+Danes večinoma samo digitalno
+- [MSK144](https://youtu.be/i5JfpgPyDl4) in [FSK441](https://youtu.be/_kB0IDuWNDE)
 </div>
 
 <img src="https://4.bp.blogspot.com/-nPEfdRdGrag/XX8rOJgGlqI/AAAAAAAAiU4/S-mRsd96078uOcIW2WCfVQGVu2uUsaCAACLcBGAsYHQ/s1600/meteor-burst-communication.png" width=50%>
@@ -1148,11 +1154,13 @@ Preberi si več na strani 74 v priročniku
 <div class="hg">
 <div>
 
+**Earth-Moon-Earth**
+
 - Zelo velike moči (500&ndash;1500W)
 - Usmerjene antene
 - Občutljiv sprejemnik
 
-Danes precej lažje delati zveze s pomočjo digitalnih načinov
+<br/>
 
 Čas do lune: 2,5 s  
 Lahko slišimo svojo oddajo
@@ -1160,6 +1168,16 @@ Lahko slišimo svojo oddajo
 
 <img src="https://www.electronics-notes.com/images/propagation-eme-moonbounce-basic-concept-01.svg" width=500 style="padding:20px" class="white">
 </div>
+
+
+
+<img src="https://slovhf.net/ham-radio/wp-content/sp-resources/forum-image-uploads/bojan-s51qa/2022/11/1600-0781.jpg" width=700>
+
+<a class="center-b" href="https://slovhf.net/forum/moon/s57q-2m-70cm-antene-2022">S57Q, 2m & 70cm EME antene</a>
+
+
+
+<img src="https://qrznow.com/wp-content/uploads/2016/06/EME-Array.jpg" width=800>
 
 ----
 
@@ -1175,12 +1193,14 @@ Lahko slišimo svojo oddajo
 <div>
 
 - Summits on the air ([SOTA](https://www.sota.org.uk/))
-- Parks on the air ([POTA](https://www.sota.org.uk/))
+- Parks on the air ([POTA](https://www.sota.org.uk/)) &ndash; [primer](https://youtu.be/CFCNBbN5fmw?t=1663)
 - Islands on the air ([IOTA](https://www.iota-world.org/))
 - World Wide Flora & Fauna ([WWFF](https://wwff.co/))
+
+<img src="https://i0.wp.com/qrper.com/wp-content/uploads/2020/10/Icom-IC-705-Elecraft-T1-CW-Morse-Pocket-Paddle-1.jpeg" width=450>
 </div>
 
-<img src="https://qrznow.com/wp-content/uploads/2016/02/CQ_SOTA_QRP_.jpg" width=450>
+<img src="https://qrznow.com/wp-content/uploads/2016/02/CQ_SOTA_QRP_.jpg" width=600>
 </div>
 
 ----
@@ -1231,5 +1251,7 @@ Izjeme: SOTA, POTA, WWFF, &hellip;
 ### Pileup
 
 **Množica radioamaterjev na frekvenci** redke **postaje**, ki bi radi hkrati naredili zvezo z njo in **kličejo eden čez drugega**.
+- [Pileup avstralske postaje](https://youtu.be/w0_7_iekqgs?t=28)
+- [Pileup redke postaje 4U1ITU](https://youtu.be/LU3fU2W_zX4)
 
 **Simplex pileup** - množica postaj, ki hkrati kličejo DX postajo na frekvenci, kjer DX postaja hkrati posluša in oddaja.
