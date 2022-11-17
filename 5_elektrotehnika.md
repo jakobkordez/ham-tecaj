@@ -63,6 +63,7 @@ se iz prostora izven polja prenese v dano točko pozitiven naboj
 1C in se ob tem opravi delo 1J.
 
 
+
 **Coulombov zakon**: $F = k_0\frac{Q_1\sdot Q_2}{r^2}$
 - kako sila med dvema točkastima električnima nabojema pojema z razdaljo
 
