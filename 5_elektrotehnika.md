@@ -601,19 +601,20 @@ $ I_1 = I_4 - I_3 - I_2 = 5A - 5A - 2A = -2A $
 
 #### Primer (II. Kirchoffov zakon):
 
-#### WIP
-
 <div class="hg">
 <div>
 
 Zanka 1:  
-$-5\ V = -I_2 \sdot R_{10}$
+$ 10\ V = I_2 \sdot 30\ \Omega $
 
 Zanka 2:  
-$0\ V=I_2\sdot R_{10}-I_3\sdot (R_6+R_4)$
+$ 12\ V = I_2 \sdot 30\ \Omega + I_1 \sdot 10\ \Omega $
+
+Zanka 3:  
+$ (12\ V - 10\ V) = I_1 \sdot 10\ \Omega $
 </div>
 
-<img src="images/kirch_ex_2.jpg">
+<img src="images/kirch_ex_2.jpg" width=600>
 </div>
 
 ----
@@ -623,30 +624,35 @@ $0\ V=I_2\sdot R_{10}-I_3\sdot (R_6+R_4)$
 ----
 
 ### Električna moč
+
 Enosmerna napetost in tokovi  
-<img src="https://">  
-$P = U * I \space \space [W] \space \space\space$ $P= \frac{U^2}{R}\space\space[W]\space\space\space\space$ $P = I^2 * R \space \space [W] $
+<img src="https://">
+
+$ P = U \sdot I \space \space [W] \space \space\space$ $P= \frac{U^2}{R}\space\space[W]\space\space\space\space$ $P = I^2 \sdot R \space \space [W] $
 
 Izmenične napetosti in tokovi:
 ##### (Ohmska bremena)
-$P = U_{ef} * I_{ef} \space \space $ $P = \frac{U^2_{ef}}{R} \quad$ $P = I^2_{ef} * R \quad$ $U_{ef}*I_{ef} = P $
+$P = U_{ef} \sdot I_{ef} \space \space $ $P = \frac{U^2_{ef}}{R} \quad$ $P = I^2_{ef} \sdot R \quad$ $U_{ef}\sdot I_{ef} = P $
 
 PEP (Peak Envelope Power): vrhnja (temenska) moč ovojnice, kar pomeni največjo vršno vrednost moči preko določene periode.  
-$P_{PEP} = \frac{U^2_{PEV}}{2*R} $
+$P_{PEP} = \frac{U^2_{PEV}}{2\sdot R} $
 
 ----
 
 ### Prilagoditev (maksimalen prenos moči)
+
 <img src="https://">
 
 Maksimalni prenos moči na breme R:
-$$ P = I^2*R,\space I=\frac{R}{(R+R_g)^2} \quad P = U^2 * \frac{U^2}{4*R} $$
-$$ R =R_g -- > P_{max} = \frac{U^2}{4*R} $$
+
+$$ P = I^2\sdot R,\ I=\frac{R}{(R+R_g)^2} \quad P = U^2 \sdot \frac{U^2}{4\sdot R} $$
+$$ R =R_g -- > P_{max} = \frac{U^2}{4\sdot R} $$
 
 ----
 
 ### Električna energija, izkoristek sistema
-$W=P×t [Ws] /wattsekunda=J/$  
+
+$W=P×t [Ws] /vatsekunda=J/$  
 1kWh=1000W×3600s=3600000 Ws
 
 IZKORISTEK sistema:
