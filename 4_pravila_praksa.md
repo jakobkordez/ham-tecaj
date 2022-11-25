@@ -508,8 +508,8 @@ Dolžina znakov je različna
 Program za "šibko-signalne" radioamaterske zveze
 
 - **FT8** / FT4
-- MSK144 / FSK441 (odboj od meteornih sledi - MS)
-- JT65 (odboj od lune - EME)
+- MSK144 / FSK441 (odboj od meteorskih sledi)
+- JT65 (odboj od lune)
 - WSPR
 - &hellip;
 </div>

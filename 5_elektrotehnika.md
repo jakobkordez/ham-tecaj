@@ -169,17 +169,27 @@ obli atomov.
 
 Lastnosti snovi, da se **upira prevajanju električnega toka** imenujemo električna upornost.
 
+<div class="hg">
+<div>
+
 Oznaka in enota: $R[\Omega]$ _Ohm_
 
 Inštrument za merjenje upornosti je **ohmmeter**
 
+Upor je najbolj osnoven primer porabnika  
+(električna energija &rarr; toplota)
+
 Glede na izvedbo ločimo: žični, slojni, polni ali masni upor
+</div>
+
+<img src="https://cdn.britannica.com/87/124387-050-27B16727/types-resistors.jpg" width=300>
+</div>
+
+
 
 Temperaturno odvisni upori:
 - **PTK** (Pozitivni temperaturni koeficient): S **segrevanjem** se **upornost povečuje**
 - **NTK** (Negativni temperaturni koeficinet): S **segrevanjem** se **upornost zmanjšuje**
-
-
 
 <div class="hg">
 <div>
@@ -194,11 +204,11 @@ d) potenciometer
 <img src="images/upori.jpg" width=400>
 </div>
 
----
 
-Označevanje vrednosti uporov:
 
-<img src="https://www.diyaudioandvideo.com/Electronics/ResistorColorCodes/ResistorColorCode.gif">
+#### Označevanje vrednosti uporov
+
+<img src="https://www.diyaudioandvideo.com/Electronics/ResistorColorCodes/ResistorColorCode.gif" height=400>
 
 ----
 
@@ -223,16 +233,16 @@ To so črte, ki kažejo smer polja in potekajo od severnega proti južnemu polu 
 ### Enosmerni tok in napetost
 
 Enosmerni tok: nosilci naboja tečejo le v eno smer.
-**Smer gibanja nosilcev naboja se s časom ne spreminja.**
+**Smer gibanja nosilcev naboja se s časom ne spreminja**
 
 Enosmerna napetost: tista napetost, ki
-**generira enosmerni tok in se ji s časom predznak ne spreminja.**
+**generira enosmerni tok in se ji s časom predznak ne spreminja**
 
+<div class="row-even">
 <img src="images/dc.jpg" height=290>
-
 <img src="images/dc_voltage.jpg" height=290>
-
 <img src="https://www.build-electronic-circuits.com/wp-content/uploads/2019/12/Direct-Current-DC.gif" height=290>
+</div>
 
 ----
 
@@ -247,7 +257,7 @@ Najbolj osnoven izvor enosmerne napetosti
 #### Vrste baterij
 
 <table class="compact">
-<tr><th></th><th>Svičneve celice</th><th>Ni-Cd</th><th>Ni-Mh</th><th>Li-ion</th><th>Li-ion polimer</th><th>Polnilne alkalne</th></tr>
+<tr><th></th><th>Svinčene celice</th><th>Ni-Cd</th><th>Ni-Mh</th><th>Li-ion</th><th>Li-ion polimer</th><th>Polnilne alkalne</th></tr>
 <tr><td>Nominalna napetost celice</td><td>2v</td><td>1,2v</td><td>1,2V</td><td>3,6V</td><td>3,6V</td><td>1,5V</td></tr>
 <tr><td>Število ciklov polnjenja</td><td>500-800</td><td>1500</td><td>500-1000</td><td>1200</td><td>>1000</td><td>50</td></tr>
 <tr><td>Lastno praznjenje (%/mesec)</td><td>3-20</td><td>10</td><td>30</td><td>5-10</td><td>5</td><td>zelo nizka</td></tr>
@@ -288,7 +298,7 @@ Skupna napetost enaka napetosti ene celice
 
 
 
-- **Kapaciteta**: koliko časa je celica sposobna dajati določen tok:   
+- **Kapaciteta**: koliko časa je celica sposobna dajati določen tok:  
 $$ Q = I \sdot t \ [Ah] $$
 
 <sub><sup>Primer: Akumulator imam kapaciteto 10 Ah. Koliko časa ga bomo lahko uporabljali, če porabnik troši 500 mA?  
@@ -296,11 +306,315 @@ $t = \frac{Q}{I} = \frac{10 Ah}{0.5 A} = 20 h$</sup></sub>
 
 - **Notranja upornost** ($R_g$)
 
-- **Kratkočasni tok** ($I_k$): **tok, ki steče če pola celice kratko spojimo z vodnikom.**
+- **Kratkostični tok** ($I_k$): **tok, ki steče če pola celice kratko spojimo z vodnikom.**
 
-$$ I_k = \dfrac{U_c}{R_g} $$
+$$ I_k = \frac{U_c}{R_g} $$
 
 - **Nazivni tok** ($I_n$) je enak 1/10 vrednosti nazivne kapacitete celice.
+
+----
+
+### Električne sheme
+
+<div class="row-even">
+<div>
+<img src="images/scheme0.jpg" height=350>
+
+Električni krog (baterija in upor)
+</div>
+
+<div>
+<img src="images/scheme1.jpg" height=350>
+
+Shema električnega kroga leve slike
+</div>
+
+----
+
+### Frekvenca
+
+**Frekvenca**: $f\ [Hz]$ _Hertz_
+
+<div class="row-even">
+$$ f = \frac{1}{T} = \frac{N}{t} $$
+
+$f$ – frekvenca (Hz)  
+$T$ – perioda (s)  
+$t$ – čas  opazovanja (s)  
+$N$ – število nihajev v času opazovanja
+</div>
+
+
+<div class="row-even">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%95%E0%B8%B8%E0%B9%89%E0%B8%A1%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4.gif">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/FrequencyAnimation.gif/220px-FrequencyAnimation.gif">
+</div>
+
+----
+
+### Izmenični tok in napetost
+
+Izmenični tok: **smer gibanja nosilcev naboja se s časom spreminja.**  
+
+Izmenična napetost: napetost, ki se s časom spreminja
+
+<div class="row-even">
+<img src="images/ac.jpg" height=380>
+<img src="images/ac_voltage.jpg" height=380>
+<img src="https://www.build-electronic-circuits.com/wp-content/uploads/2019/12/Alternate-Current-AC.gif" height=290>
+</div>
+
+----
+
+### Generator izmenične napetosti
+
+$$ U = U_{max} \sdot \sin(\alpha) $$
+
+<div class="row-even">
+<img src="images/ac_generator.jpg" height=200>
+<img src="images/ac_sin.jpg" height=320>
+<img src="images/ac_sin_volt.jpg" height=320>
+</div>
+
+----
+
+### Sinusna oblika signala
+
+<div class="row-even">
+<img src="images/sin1.jpg" height=250>
+<img src="images/sin2.jpg" height=250>
+</div>
+
+
+
+
+**Efektivna** vrednost **izmenične napetosti** ($U_{ef}$)  je enaka velikosti
+enosmerne napetosti, ki povzroči **enak učinek** (efekt) **kot enosmerna napetost** (svetlobni, toplotni,…)
+
+<div class="hg">
+<div>
+
+Za sinus velja:
+
+$ U_\text{vrh} = \sqrt{2} \sdot U_\text{ef} \approx 1,414 \sdot U_\text{ef} $  
+$ U_\text{ef} = \frac{U_\text{vrh}}{\sqrt{2}} \approx 0,707 \sdot U_\text{vrh} $  
+$ U_\text{sre} = \frac{2}{\pi} \sdot U_\text{vrh} \approx 0,636 \sdot U_\text{vrh} \approx 0,9 \sdot U_\text{ef} $  
+$ U_\text{vrh} = \frac{U_\text{sre}}{0,636} = 1.57 \sdot U_\text{sre} $
+</div>
+
+<img src="images/sin_voltage.jpg" height=250>
+</div>
+
+$U_\text{vrh}$ – vrhnja (temenska) vrednost napetosti (V)  
+$U_\text{ef}$ – efektivna (RMS – Root Mean Square) napetost (V)  
+$U_\text{sre}$ – srednja vrednost napetosti (V)
+
+
+
+<div class="hg">
+<div>
+
+**Valovna dolžina** ($\lambda$ – lambda): razdalja, ki jo val prepotuje v času enega nihaja
+
+&nbsp;
+
+**Hitrost** širjenja:  
+$v = f \sdot \lambda$  
+$v$ – hitrost \[$\frac{m}{s}$]  
+$f$ – frekvenca \[Hz]  
+$\lambda$ – valovna dolžina \[m]
+
+&nbsp;
+
+**Faza** valovanja: merimo v stopinjah (°).
+</div>
+
+<img src="images/wavelength.jpg" width=600>
+</div>
+
+----
+
+### Sestavljeni signali
+
+<div class="row-even">
+<img src="images/signal_sum1.jpg" width=700>
+
+<img src="images/signal_sum2.jpg" height=500>
+</div>
+
+
+
+**Peak envelope voltage** (PEV): vrhnja napetost ovojnice
+
+<img src="images/pev.jpg" width=500>
+
+----
+
+### Ohmov zakon
+
+Nemški znanstvenik Georg Simon Ohm ugotovi, da je napetost v vezju enaka produktu toka in upornosti.
+
+<div class="row-even">
+<div>
+
+$$ U = I \sdot R $$
+$$ I = \frac{U}{R} $$
+$$ R = \frac{U}{I} $$
+</div>
+
+<img src="images/ohm_zakon.jpg" height=300>
+</div>
+
+
+
+#### Primer 1
+
+<div class="row-even">
+<img src="images/ohm_ex_1.jpg" width=400>
+
+<div>
+
+$$ R = \frac{U}{I} $$
+$$ I = \frac{U}{R} = \frac{12\ V}{25\ \Omega} = 0,48\ A $$
+</div>
+
+
+#### Primer 2
+
+<div class="row-even">
+<img src="images/ohm_ex_2.jpg" width=400>
+
+<div>
+
+$$ R = \frac{U}{I} $$
+$$ U = I \sdot R = 6\Omega \sdot 3A = 18V $$
+</div>
+
+
+#### Primer 3
+
+<div class="row-even">
+<img src="images/ohm_ex_3.jpg" width=400>
+
+<div>
+
+$$ R = \frac{U}{I} $$
+$$ R = \frac{U}{I} = \frac{6V}{0,5\Omega} = 12\Omega$$
+</div>
+
+----
+
+### Zaporedna vezava uporov
+
+<div class="hg">
+<div>
+
+$ R_{skupna} = R_1 + R_2 + ... $
+
+$ U_{skupna} = U_{R1} + U_{R2} + ... $
+
+$ I_{skupna} = I_1 = I_2 = ... $
+</div>
+
+<img src="images/upor_zap.jpg" width=400>
+</div>
+
+----
+
+### Vzporedna vezava uporov
+
+<div class="hg">
+<div>
+
+$ \frac{1}{R_{skupna}} = \frac{1}{R_1} + \frac{1}{R_2} + ... $
+
+$$ R_{skupna} = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + ...} $$
+
+$ U_{skupna} = U_{R1} = U_{R2} = ... $
+
+$ I_{skupna} = I_1 + I_2 + ... $
+</div>
+
+<img src="images/upor_vzp.jpg" width=400>
+</div>
+
+----
+
+### Realni napetostni vir
+
+<div class="hg">
+<div>
+
+$R_g$ – upornost generatorja
+
+$ U_{AB} = U - R_g \sdot I = 6\ V - (4\ \Omega\sdot 0.5\ A) = 4V $
+</div>
+
+<img src="images/real_gen.jpg" width=400>
+</div>
+
+----
+
+### Kirchoffovi zakoni
+
+<a class="center-b" href="https://youtu.be/JbJ6aGYa63k">Razlaga</a>
+
+- **Prvi Kirchoffov zakon** (vsota vseh tokov v vozlišču je enaka nič):
+
+<div class="row-even">
+
+$$\sum I = 0$$
+
+<img src="images/kirch_1.jpg" height=300>
+</div>
+
+
+
+- **Drugi Kirchoffov zakon** (vsota napetosti napetostnih virov v zaprti zanki vezja je enaka vsoti padcev napetosti na vseh delih vezja):
+
+<div class="row-even">
+
+$$\sum U = \sum I \sdot R$$
+
+<img src="images/kirch_2.jpg" height=300>
+</div>
+
+
+
+#### Primer (I. Kirchoffov zakon):
+
+<div class="hg">
+<div>
+
+$ \sum I = 0 $
+
+$ I_4 = I_1 + I_2 + I_3 $
+
+$ I_1 = I_4 - I_3 - I_2 = 5A - 5A - 2A = -2A $
+</div>
+
+<img src="images/kirch_ex_1.jpg">
+</div>
+
+
+
+#### Primer (II. Kirchoffov zakon):
+
+#### WIP
+
+<div class="hg">
+<div>
+
+Zanka 1:  
+$-5\ V = -I_2 \sdot R_{10}$
+
+Zanka 2:  
+$0\ V=I_2\sdot R_{10}-I_3\sdot (R_6+R_4)$
+</div>
+
+<img src="images/kirch_ex_2.jpg">
+</div>
 
 ----
 
@@ -308,185 +622,26 @@ $$ I_k = \dfrac{U_c}{R_g} $$
 
 ----
 
-### Električne sheme 
-<img src="images/ime_slike9.png"><img src="images/ime_slike10.png">
-
-Električni krog (baterija in upor) &nbsp; &nbsp; &nbsp; &nbsp; Shema električnega kroga leve slike
-
-----
-
-### Izmenični tok in napetost
-Izmenični tok: **smer gibanja nosilcev naboja se s časom spreminja.**  
-<img src="https://">  
-Izmenična napetost:
-<img src="https://">
-
-----
-
-### Generator izmenične napetosti 
-<img src="https://"> $$ U = U_{max} * sin(\alpha) $$  
-<img src="https://"><img src="https://">
-
-----
-
-### Sinusna oblika signala (1) 
-<img src="https://"><img src="https://">
-
-FREKVENCA: **f[Hz] /Hertz/**
-$$ f = \dfrac{1}{T} $$  
-$$ f = \dfrac{n}{t} $$
-
-f - frekvenca (Hz)  
-T - perioda (s)   
-t - čas  opazovanja (s)  
-n - število nihajev v času opazovanja
-
-EFEKTIVNA vrednost izmenične napetosti ($U_{ef}$)  je enaka velikosti
-enosmerne napetosti, ki povzroči enak učinek (efekt) kot enosmerna
-napetost (svetlobni, toplotni,…)
-
-----
-
-### Sinusna oblika signala (2)
-<img src="https://"><br />
-
-Za sinus velja:
-
-$$ U_{vrh} = \sqrt{2} * U_{ef} \approx 1,414 * U_{ef} $$
-$$ U_{ef} = \dfrac{U_{vrh}}{\sqrt{2}} \approx 0,707 * U_{vrh} $$ 
-$$ U_{sre} = \dfrac{2}{\pi} * U_{vrh} \approx 0,636 * U_{vrh} \approx 0,9 * U_{ef} $$ 
-$$ U_{vrh} = \dfrac{U_{sre}}{0,636} = 1.57 * U_{sre} $$
-
-$U_{vrh}$ – vrhnja (temenska) vrednost napetosti (V)<br />
-$U_{ef}$ – efektivna (RMS – Root Mean Square) napetost (V)<br />
-$U_{vrh}$ – srednja vrednost napetosti (V)
-
-----
-
-### Sinusna oblika signala (3)
-<img src="https://">
-
-VALOVNA DOLŽINCA ($\lambda$): razdalja, ko jo val prepotuje v času enega nihaja.
-
-HITROST širjenja:  
-$v = f * \lambda$  
-v - hitrost (m/s)
-f - frekvenca (Hz)  
-$\lambda$ - valovna dolžina (m)  
-FAZA valovanja: merim v stopinjah (°).
-
-----
-
-### Sestavljeni signali
-<img src="https://">
-<img src="https://">   
-<img src="https://">
-
-----
-
-### Ohmov zakon (1)
-Nemški znanstvenik Georg Simon Ohm ugotovi, da je napetost v vezju enaka produktu toka in upornosti.
-
-$$ U = I * R $$
-$$ I = \dfrac{U}{R} $$
-$$ R = \dfrac{U}{I} $$
-
-<img src="https://">
-
-----
-
-### Ohmov zakon (2)
-<img src="https://"><br />
-$$ R = \dfrac{U}{I} $$ 
-$$ I = \dfrac{U}{R} = \dfrac{12V}{25\Omega} = 0,48A $$
-
-<img src="https://"><br />  
-$$ R = \dfrac{U}{I} $$
-$$ U = I * R = 6\Omega * 3A = 18V $$
-
-<img src="https://"><br />  
-$$ R = \dfrac{U}{I} $$
-$$ R = \dfrac{U}{I} = \dfrac{6V}{0,5\Omega} = 12\Omega$$
-
-----
-
-### Zaporedna vezava uporov 
-- Nadomestna upornost je vsota posameznih upornosti in je vedno večja od posameznih vrednosti:   
-$ R_{nadomestna} = R_1 + R_2 + ... $<br /><br />
-
-- Nadomestna napetost je vsota padcev napetosti na posameznih uporih. Padec napetosti na uporu je posledica toka, ki teče skozenj.  
-$ U_{nadomestna} = U_{R1} + U_{R2} + ... $<br /><br />
-
-- Skozi vse upore teče enak tok. Zaradi tega je skupni tok enak toku skozi posamezni upor.  
-$ I_{nadomestna} = I_1 = I_2 = ... $<br /><br />
-
-<img src="https://">
-
-----
-
-### Vzporedna vezava uporov
-- Nadomestna upornost izračunamo:
-
-$ \dfrac{1}{R_{nadomestna}} = \dfrac{1}{R_1} + \dfrac{1}{R_2} + ... $<br /><br />
-
-$ R_{nadomestna} = \dfrac{R_1*R_2*...}{R_1+R_2*...} $
-<img src="https://"><br /><br />
-
--  Napetost na posameznih uporih je enaka skupni napetosti:<br />
-$U_{nadomestna} = U_{R1} = U_{R2} = ... $
-
-- Skupni tok je enak vsoti tokov skozi posamezne upore.    
-$I_{skupina} = I_1 + I_2 + ...$
-
-----
-
-### Realni napetostni vir
-<img src="https://"><br /> 
-$R_g$ - upornost generatorja   
-$U_{AB} = U-R_g*I=6V-(4\Omega)*0,5A) = 4V $
-
-----
-
-### Kirchoffovi zakoni (1)
-- Prvi Kirchoffov zakon (vsota vseh tokov v vozlišču je enaka nič):  
-$\sum I = 0$<img src="https://">
-
-- Drugi Kirchoffov zakon (vsota napetosti napetostnih virov v zaprti zanki vezja je enaka vsoti padcev napetosti na vseh delih vezja):   
-$\sum U = \sum I * R$<img src="https://">
-
-----
-
-### Kirchoffovi zakoni (2) 
-### Primer (I. Kirchoffov zakon):
-<img src="https://"><br /> 
-$\sum I = 0\space\space\space\space\space\space\space\space\space\space\space\space$ $I_4 - I_3 - I_2 - I_1 = 0 $  
-$I_1 = I_4 - I_3 - I_2 = 5A - 2A = -2A $
-
-### Primer (II. Kirchoffov zakon):   
-Zanka 1: $-5V = I_2 * R_{10} - I_3 *(R_6+R_4)$   
-Zanka 2: $0=I_2*R_{10}-I_3*(R_6+R_4)$
-
-----
-
 ### Električna moč
 Enosmerna napetost in tokovi  
-<img src="https://">   
-$P = U * I \space \space [W] \space \space\space$ $P= \dfrac{U^2}{R}\space\space[W]\space\space\space\space$ $P = I^2 * R \space \space [W] $
+<img src="https://">  
+$P = U * I \space \space [W] \space \space\space$ $P= \frac{U^2}{R}\space\space[W]\space\space\space\space$ $P = I^2 * R \space \space [W] $
 
 Izmenične napetosti in tokovi:
-##### (Ohmska bremena) 
-$P = U_{ef} * I_{ef} \space \space $ $P = \dfrac{U^2_{ef}}{R} \quad$ $P = I^2_{ef} * R \quad$ $U_{ef}*I_{ef} = P $
+##### (Ohmska bremena)
+$P = U_{ef} * I_{ef} \space \space $ $P = \frac{U^2_{ef}}{R} \quad$ $P = I^2_{ef} * R \quad$ $U_{ef}*I_{ef} = P $
 
 PEP (Peak Envelope Power): vrhnja (temenska) moč ovojnice, kar pomeni največjo vršno vrednost moči preko določene periode.  
-$P_{PEP} = \dfrac{U^2_{PEV}}{2*R} $
+$P_{PEP} = \frac{U^2_{PEV}}{2*R} $
 
 ----
 
-### Prilagoditev (maksimalen prenos moči) 
-<img src="https://"><br />
+### Prilagoditev (maksimalen prenos moči)
+<img src="https://">
+
 Maksimalni prenos moči na breme R:
-$$ P = I^2*R,\space I=\dfrac{R}{(R+R_g)^2} \quad P = U^2 * \dfrac{U^2}{4*R} $$
-$$ R =R_g -- > P_{max} = \dfrac{U^2}{4*R} $$
+$$ P = I^2*R,\space I=\frac{R}{(R+R_g)^2} \quad P = U^2 * \frac{U^2}{4*R} $$
+$$ R =R_g -- > P_{max} = \frac{U^2}{4*R} $$
 
 ----
 
@@ -496,8 +651,8 @@ $W=P×t [Ws] /wattsekunda=J/$
 
 IZKORISTEK sistema:
 
-$$ \eta = \dfrac{P_i}{P_v} \quad 0 \le \eta \le 1 \quad \quad
-\eta = \dfrac{P_i}{P_v}*100 \quad 0\% \le \eta \le 100 \% $$
+$$ \eta = \frac{P_i}{P_v} \quad 0 \le \eta \le 1 \quad \quad
+\eta = \frac{P_i}{P_v}*100 \quad 0\% \le \eta \le 100 \% $$
 
 #### $P_i$-izhodnja moč (W)
 #### $P_V$-vhodna moč (W)
@@ -518,19 +673,21 @@ DECIBEL je relativna enota, s katero določamo ojačanje in slabljenje sistema.
 |          - 10          |               0,10              |                            0,32                           |
 | - 20                   |               0,01              |                            0,10                           |
 
-$$G(dB) = 10*log \bigg( \dfrac{P_2}{P_1} \bigg) $$
+$$G(dB) = 10*log \bigg( \frac{P_2}{P_1} \bigg) $$
 
-$$P=\dfrac{U^2}{R} G(dB) = 10 * log \bigg( \dfrac{P_2}{P_1} \bigg ) = 10*log \bigg ( \dfrac{U^2_1}{U^2_2} \bigg) = 10*log \bigg( \dfrac{U_2}{U_1} \bigg )^2 $$
+$$P=\frac{U^2}{R} G(dB) = 10 * log \bigg( \frac{P_2}{P_1} \bigg ) = 10*log \bigg ( \frac{U^2_1}{U^2_2} \bigg) = 10*log \bigg( \frac{U_2}{U_1} \bigg )^2 $$
 
 
-$$ G(dB) = 20*lg \bigg ( \dfrac{U_2}{U_1} \bigg), G(dB) = 20*log \bigg ( \dfrac{I_2}{I_1}\bigg) $$
+$$ G(dB) = 20*lg \bigg ( \frac{U_2}{U_1} \bigg), G(dB) = 20*log \bigg ( \frac{I_2}{I_1}\bigg) $$
 
 ----
 
 ### Decibel (2)
-<img src="https://"><br />
-IZRAČUN SKUPNEGA OJAČANJA SISTEMA:<br /> 
-G(dB)=+ 20 dB - 10 dB + 3 dB=+ 13dB   
+<img src="https://">
+
+IZRAČUN SKUPNEGA OJAČANJA SISTEMA:
+
+G(dB)=+ 20 dB - 10 dB + 3 dB=+ 13dB  
 ali  
 G=100 x 0.1 x 2=20
 
@@ -538,7 +695,7 @@ G=100 x 0.1 x 2=20
 
 ### Induktivnost in tuljave
 Pravilo desnega vijaka (smer silnic):  
-<img src="https://"><img src="https://">   
+<img src="https://"><img src="https://">  
 <img src="https://">
 
 **Induktivnost: L[H] /Henry/**
@@ -550,14 +707,15 @@ $X_L=2*\pi*f*L$
 ----
 
 ### Tuljave (1)
-<img src="https://"><img src="https://">   
+<img src="https://"><img src="https://">  
 **Tok pri idealni tuljavi vedno zaostaja za napetostjo za 90°.**  
 <img src="https://">
 
 ----
 
 ### Tuljave (2)
-<img src="https://"><br />
+<img src="https://">
+
 **Permeabilnost: lastnost feromagnetnih materialov jedra, da poveča induktivnost tuljave.**
 
 Vrtinčni tokovi: inducirana napetost žene po železnem jedru tok in ga segreva.
@@ -576,36 +734,39 @@ faktorjev so med 0 in 1.
 
 ### Zaporedna in vzporedna vezava tuljave
 ### Zaporedna vezava
-<img src="images/tuljava_z.PNG"><br />
-$L_{skupna} = L_1 + L_1 + ... $<br /><br />
+<img src="images/tuljava_z.PNG">
+
+$L_{skupna} = L_1 + L_1 + ... $
+
 
 ### Vzporedna vezava
 <img src="tuljava_v.PNG"> <br  />
-$$\dfrac{1}{L_{skupna}} = \dfrac{1}{L_1}+\dfrac{1}{L_{2}}+... $$
-$$ L_{skupna} = \dfrac{L_1*L_2*...}{L_1+L_2+...} $$
-<br /> <br />
+$$\frac{1}{L_{skupna}} = \frac{1}{L_1}+\frac{1}{L_{2}}+... $$
+$$ L_{skupna} = \frac{L_1*L_2*...}{L_1+L_2+...} $$
 
 ### Realna tuljava
 <img src="Rtuljava.PNG">
 
 Kvaliteta tuljava  
-$ Q = \dfrac{X_L}{R_L} $
+$ Q = \frac{X_L}{R_L} $
 
-Skin efekt (kožni pojav)   
+Skin efekt (kožni pojav)  
 <img src="marko.PNG">
 
 ----
 
 ### Transformator
-<img src="marko1.PNG">  <br /> 
+
+<img src="marko1.PNG">
+
 Izkoristek transformatorja:  
 **$P_S = \eta * P_p $**  
 $P_P$ - moč na primarju (W)  
 $P_s$ - moč na sekundarju (W)  
 $\eta$- izkoristek transformatorja
 
-$ \dfrac{U_p}{U_s} = \dfrac{n_p}{n_s} $   
-$ \dfrac{I_p}{I_s} = \dfrac{n_s}{n_p} $
+$ \frac{U_p}{U_s} = \frac{n_p}{n_s} $  
+$ \frac{I_p}{I_s} = \frac{n_s}{n_p} $
 
 $U_p$ – napetost primarja (V)  
 $U_s$ – napetost sekundarja (V)  
@@ -620,7 +781,7 @@ $n_p$ – število ovojev primarja
 Zaporedna vezava navitij
 <img src="zaporendavez.PNG">
 
-Kaskadna vezava 
+Kaskadna vezava
 <img src="Zajeta_slika1.PNG">
 
 Uporaba:
@@ -633,19 +794,21 @@ Uporaba:
 ### Kapacitivnost in kondenzatorji
 <img src="Zajeta_slika2.PNG">
 
-<img src="Zajeta_slika3.PNG">   <br />
+<img src="Zajeta_slika3.PNG">
+
 **Tok fazno prehiteva napetost za 90°**
 
 ### Kapacitivnost: C[F] /Farad/
 ***Kapacitivnost je lastnost kondenzatorja, da kopiči električni naboj ob hkratnem povečanju svoje napetosti.***
 
 KAPACITIVNA REAKTANCA:
-$$ X_C = \dfrac{1}{2*\pi*f*c} $$
+$$ X_C = \frac{1}{2*\pi*f*c} $$
 
 ----
 
 ### Kondenzatorji
-<img src="Zajeta_slika4.PNG">   <br />
+<img src="Zajeta_slika4.PNG">
+
 a stalni kondenzator  
 b nastavljivi kondenzator  
 c spremenljivi kondenzator  
@@ -659,13 +822,15 @@ saj se mu spreminja dielektrična konstanta.
 ----
 
 ### Vzporedna in zaporedna vezava kondenzatorjev
-Vzporedna vezava:  
-<img src="Zajeta_slika5.PNG">   
+Vzporedna vezava:
+<img src="Zajeta_slika5.PNG">  
+
 $$ C_{skupna} = C_1 + C_2 + ... $$
 
 Zaporedna vezava:
-<img src="Zajeta_slika6.PNG"> 
-$$C_skupna = \dfrac{C_1*C_2*...}{C_1+C_2+...} $$
+<img src="Zajeta_slika6.PNG">
+
+$$C_skupna = \frac{C_1*C_2*...}{C_1+C_2+...} $$
 
 ----
 
@@ -677,21 +842,21 @@ Impedanca:
 <img src="Zajeta_slika7.PNG">
 
 RESONANCA:  
-$X_C = X_L \quad$ 
-$X_C = \dfrac{1}{2*\pi*f*C}, \quad X_L = 2*\pi*f*L $
+$X_C = X_L \quad$
+$X_C = \frac{1}{2*\pi*f*C}, \quad X_L = 2*\pi*f*L $
 
-$$f = \dfrac{1}{2*\pi* \sqrt{L*C}}$$
+$$f = \frac{1}{2*\pi* \sqrt{L*C}}$$
 
 ----
 
 ### Zaporedni nihajni krog
-<img src="Zajeta_slika8.PNG">  <br />
-Kvaliteta nihajnega kroga: 
-$Q= \dfrac {X_L}{R} \space ali \space Q = \dfrac{X_C}{R} $
+<img src="Zajeta_slika8.PNG">
+Kvaliteta nihajnega kroga:
+$Q= \frac {X_L}{R} \space ali \space Q = \frac{X_C}{R} $
 
 Pasovna širina:
 $B= f_2 - f_1 $  
-$Q = \dfrac{f_{RES}}{B} = \dfrac{f_{RES}}{f_2-f_1} $
+$Q = \frac{f_{RES}}{B} = \frac{f_{RES}}{f_2-f_1} $
 
 Pasovno širino nihajnega kroga definiramo kot frekvenčni pas okoli resonančne frekvence, kjer vrednost toka ne pade pod  1 /$\sqrt2$
 
@@ -704,10 +869,10 @@ Tokovna resonanca
 <img src="Zajeta_slika9.PNG">
 
 Kvaliteta nihajnega kroga:
-$$ Q = \dfrac{X_L}{R} \space ali \space Q = \dfrac{X_C}{R} $$
+$$ Q = \frac{X_L}{R} \space ali \space Q = \frac{X_C}{R} $$
 
 Pasovna širina:  
-$$ B = f_2 - f_1 \quad Q=\dfrac{f_{RES}}{B} = \dfrac{f_{RES}}{f_2 - f_1} $$
+$$ B = f_2 - f_1 \quad Q=\frac{f_{RES}}{B} = \frac{f_{RES}}{f_2 - f_1} $$
 
 Tokova tuljave in kondenzatorja v vzporednem nihajnem krogu sta pri resonančni
 frekvenci Q-krat večja od toka izvora.
@@ -725,7 +890,8 @@ od spodnje do zgornje mejne frekvence)
 - **Pasovno-zaporni filter** (ne prepušča frekvence od spodnje do
 zgornje mejne frekvence, ostale pa)  
 **Amplitudni frekvenčni odziv**: pove katere frekvence filter prepušča
-in katere slabi.  <br /> <br />
+in katere slabi.
+
 **Prenosna funkcija**: pove vpliv filtra na amplitudo in fazo vhodnega
 signala.
 
@@ -757,7 +923,7 @@ Atom ima 4 sosede, zato mora prispevati 4 elektrone z zunanje oble.
 Izgleda, kot da okrog atoma kroži osem elektronov. Zaradi zapolnjene
 valenčne oble ima tak prevodnik lastnosti izolanta. Zato čistemu
 polprevodniku dodamo primesi. []Elektronski elementi in vezja, Lorencon
-Robert   <br /><br />
+Robert
 
 Dopiranje: najpomembnejši postopek pri izdelavi polprevodnikov, ki predstavlja dodajanje
 primesi polprevodniku.
@@ -780,7 +946,7 @@ aluminij, galij, indij, ki ustvarijo gibljive vrzeli.
 ----
 
 ### Polprevodnik (2)
-<img src="Zajeta_slika14.PNG">  <br />
+<img src="Zajeta_slika14.PNG">
 ### PN spoj:
 1. Elektroni in vrzeli prehajajo iz enega v drugi tip polprevodnika in
 povzročijo difuzijski tok.
@@ -792,7 +958,7 @@ nastane električno polje.
 ----
 
 ### Polprevodniki (3)
-<img src="Zajeta_slika15.PNG"> <br />
+<img src="Zajeta_slika15.PNG">
 Dioda v zaporni smeri prevaja majhen tok, ki ga imenujemo **zaporni tok ali tok
 nasičenja.**  
 <img src="Zajeta_slika16.PNG">
@@ -801,23 +967,24 @@ nasičenja.**
 
 ### Polprevodniki (4)
 
-<img src="Zajeta_slika17.PNG">   <br /> 
+<img src="Zajeta_slika17.PNG">
+
 <img src="Zajeta_slika18.PNG">
 
 ----
 
 ### Tranzistor (bipolarni)
-<img src="Zajeta_slika19.PNG">   <br /> 
+<img src="Zajeta_slika19.PNG">
 Priključki: baza, kolektor, emitor
 
-<img src="Zajeta_slika20.PNG"> <br />
+<img src="Zajeta_slika20.PNG">
 Možne orientacije tranzistorja
 
-<img src="Zajeta_slika21.PNG"> <br />
+<img src="Zajeta_slika21.PNG">
 $I_C/U_{CE}$ in močnostna karakteristika tranzistorja
 
 **Tokovno ojačanje tranzistorja s skupnim emitorjem:**  
-$\alpha = \dfrac{I_C}{I_B} $
+$\alpha = \frac{I_C}{I_B} $
 
 ----
 
@@ -826,10 +993,12 @@ $\alpha = \dfrac{I_C}{I_B} $
 ----
 
 ### NF in VF ojačevalnik
-<img src="Zajeta_slika22.PNG"> <br /> 
+<img src="Zajeta_slika22.PNG">
+
 Načelna shema NF ojačevalnika
 
-<img src="Zajeta_slika23.PNG"> <br /> 
+<img src="Zajeta_slika23.PNG">
+
 Načelna shema VF ojačevalnika
 
 Preveliko **segrevanje** lahko privede do uničenja ojačevalnika, zato je potrebno
