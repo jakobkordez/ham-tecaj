@@ -480,6 +480,7 @@ $$ I = \frac{U}{R} = \frac{12\ V}{25\ \Omega} = 0,48\ A $$
 </div>
 
 
+
 #### Primer 2
 
 <div class="row-even">
@@ -490,6 +491,7 @@ $$ I = \frac{U}{R} = \frac{12\ V}{25\ \Omega} = 0,48\ A $$
 $$ R = \frac{U}{I} $$
 $$ U = I \sdot R = 6\Omega \sdot 3A = 18V $$
 </div>
+
 
 
 #### Primer 3
