@@ -310,7 +310,7 @@ $t = \frac{Q}{I} = \frac{10 Ah}{0.5 A} = 20 h$</sup></sub>
 
 $$ I_k = \frac{U_c}{R_g} $$
 
-- **Nazivni tok** ($I_n$) je enak 1/10 vrednosti nazivne kapacitete celice.
+- **Nazivni tok** ($I_n$): "priporočen" / normalni tok uporabe
 
 ----
 
@@ -333,9 +333,12 @@ Shema električnega kroga leve slike
 
 ### Frekvenca
 
+Število ponavljajočih se dogodkov v časovni enoti
+
 **Frekvenca**: $f\ [Hz]$ _Hertz_
 
 <div class="row-even">
+
 $$ f = \frac{1}{T} = \frac{N}{t} $$
 
 $f$ – frekvenca (Hz)  
@@ -387,29 +390,31 @@ $$ U = U_{max} \sdot \sin(\alpha) $$
 <img src="images/sin2.jpg" height=250>
 </div>
 
-
-
-
-**Efektivna** vrednost **izmenične napetosti** ($U_{ef}$)  je enaka velikosti
+**Efektivna** vrednost **izmenične napetosti** ($U_\text{ef}$)  je enaka velikosti
 enosmerne napetosti, ki povzroči **enak učinek** (efekt) **kot enosmerna napetost** (svetlobni, toplotni,…)
+
+
 
 <div class="hg">
 <div>
 
+$U_\text{vrh}$ – vrhnja (temenska) vrednost napetosti  
+$U_\text{ef}$ – efektivna (RMS – Root Mean Square) napetost  
+$U_\text{sre}$ – srednja vrednost napetosti
+
+&nbsp;
+
 Za sinus velja:
 
-$ U_\text{vrh} = \sqrt{2} \sdot U_\text{ef} \approx 1,414 \sdot U_\text{ef} $  
-$ U_\text{ef} = \frac{U_\text{vrh}}{\sqrt{2}} \approx 0,707 \sdot U_\text{vrh} $  
-$ U_\text{sre} = \frac{2}{\pi} \sdot U_\text{vrh} \approx 0,636 \sdot U_\text{vrh} \approx 0,9 \sdot U_\text{ef} $  
-$ U_\text{vrh} = \frac{U_\text{sre}}{0,636} = 1.57 \sdot U_\text{sre} $
+$ U_\text{vrh} = \sqrt{2} \sdot U_\text{ef} $
+
+$ U_\text{sre} = \frac{2}{\pi} \sdot U_\text{vrh} $
+
+$ U_\text{vrh} = 1.57 \sdot U_\text{sre} $
 </div>
 
-<img src="images/sin_voltage.jpg" height=250>
+<img src="images/sin_voltage.jpg" width=500>
 </div>
-
-$U_\text{vrh}$ – vrhnja (temenska) vrednost napetosti (V)  
-$U_\text{ef}$ – efektivna (RMS – Root Mean Square) napetost (V)  
-$U_\text{sre}$ – srednja vrednost napetosti (V)
 
 
 
@@ -446,6 +451,14 @@ $\lambda$ – valovna dolžina \[m]
 
 
 
+#### Primer
+
+Kateri od navedenih signalov je enak vsoti signala A in B?
+
+<img src="images/signal_sum_ex.jpg" height=450>
+
+
+
 **Peak envelope voltage** (PEV): vrhnja napetost ovojnice
 
 <img src="images/pev.jpg" width=500>
@@ -454,7 +467,7 @@ $\lambda$ – valovna dolžina \[m]
 
 ### Ohmov zakon
 
-Nemški znanstvenik Georg Simon Ohm ugotovi, da je napetost v vezju enaka produktu toka in upornosti.
+Nemški znanstvenik Georg Simon Ohm ugotovi, da je **napetost v vezju enaka produktu toka in upornosti**.
 
 <div class="row-even">
 <div>
@@ -477,7 +490,7 @@ $$ R = \frac{U}{I} $$
 <div>
 
 $$ R = \frac{U}{I} $$
-$$ I = \frac{U}{R} = \frac{12\ V}{25\ \Omega} = 0,48\ A $$
+$$ I = \frac{U}{R} = \frac{12\ V}{25\ \Omega} = 0.48\ A $$
 </div>
 
 
@@ -490,7 +503,7 @@ $$ I = \frac{U}{R} = \frac{12\ V}{25\ \Omega} = 0,48\ A $$
 <div>
 
 $$ R = \frac{U}{I} $$
-$$ U = I \sdot R = 6\Omega \sdot 3A = 18V $$
+$$ U = I \sdot R = 6\ \Omega \sdot 3\ A = 18\ V $$
 </div>
 
 
@@ -503,43 +516,62 @@ $$ U = I \sdot R = 6\Omega \sdot 3A = 18V $$
 <div>
 
 $$ R = \frac{U}{I} $$
-$$ R = \frac{U}{I} = \frac{6V}{0,5\Omega} = 12\Omega$$
+$$ R = \frac{U}{I} = \frac{6\ V}{0.5\ \Omega} = 12\ \Omega$$
 </div>
 
 ----
 
-### Zaporedna vezava uporov
+### Vezava uporov
+
+#### Zaporedna vezava uporov
 
 <div class="hg">
 <div>
 
-$ R_{skupna} = R_1 + R_2 + ... $
+$ R_\text{skupna} = R_1 + R_2 + ... $
 
-$ U_{skupna} = U_{R1} + U_{R2} + ... $
+$ U_\text{skupna} = U_{R1} + U_{R2} + ... $
 
-$ I_{skupna} = I_1 = I_2 = ... $
+$ I_\text{skupna} = I_1 = I_2 = ... $
 </div>
 
 <img src="images/upor_zap.jpg" width=400>
 </div>
 
-----
 
-### Vzporedna vezava uporov
+
+#### Vzporedna vezava uporov
 
 <div class="hg">
 <div>
 
-$ \frac{1}{R_{skupna}} = \frac{1}{R_1} + \frac{1}{R_2} + ... $
+$$ \frac{1}{R_\text{skupna}} = \frac{1}{R_1} + \frac{1}{R_2} + ... $$
 
-$$ R_{skupna} = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + ...} $$
+$ R_\text{skupna} = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + ...} $
 
-$ U_{skupna} = U_{R1} = U_{R2} = ... $
+$ U_\text{skupna} = U_{R1} = U_{R2} = ... $
 
-$ I_{skupna} = I_1 + I_2 + ... $
+$ I_\text{skupna} = I_1 + I_2 + ... $
 </div>
 
 <img src="images/upor_vzp.jpg" width=400>
+</div>
+
+
+
+#### Primer
+
+<div class="hg">
+<div>
+
+$ \frac{1}{R_\text{vzp}} = \frac{1}{10} + \frac{1}{10} = \frac{2}{10} = \frac{1}{5} $
+
+$ R_\text{vzp} = 5\ \Omega $
+
+$ R_\text{skupna} = 5\ \Omega + 10\ \Omega = 15\ \Omega $
+</div>
+
+<img src="images/upor_ex.jpg" width=400>
 </div>
 
 ----
