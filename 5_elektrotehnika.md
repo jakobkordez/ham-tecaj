@@ -660,17 +660,37 @@ $ (12\ V - 10\ V) = I_1 \sdot 10\ \Omega $
 
 ### Električna moč
 
-Enosmerna napetost in tokovi  
-<img src="https://">
+<div class="row-even">
+<div>
 
-$ P = U \sdot I \space \space [W] \space \space\space$ $P= \frac{U^2}{R}\space\space[W]\space\space\space\space$ $P = I^2 \sdot R \space \space [W] $
+Enosmerne napetosti in tokovi:
 
-Izmenične napetosti in tokovi:
-##### (Ohmska bremena)
-$P = U_{ef} \sdot I_{ef} \space \space $ $P = \frac{U^2_{ef}}{R} \quad$ $P = I^2_{ef} \sdot R \quad$ $U_{ef}\sdot I_{ef} = P $
+$ P = U \sdot I\ [W] $
 
-PEP (Peak Envelope Power): vrhnja (temenska) moč ovojnice, kar pomeni največjo vršno vrednost moči preko določene periode.  
-$P_{PEP} = \frac{U^2_{PEV}}{2\sdot R} $
+$ P= \frac{U^2}{R}\ [W] $
+
+$ P = I^2 \sdot R\ [W] $
+
+</div>
+<div>
+
+Izmenične napetosti in tokovi:  
+(Ohmska bremena)
+
+$ P = U_\text{ef} \sdot I_\text{ef} $
+
+$ P = \frac{U^2_\text{ef}}{R} $
+
+$ P = I^2_\text{ef} \sdot R $
+</div>
+
+<img src="images/moc.jpg" width=250>
+</div>
+
+
+
+**Peak Envelope Power** (PEP): vrhnja (temenska) moč ovojnice, kar pomeni največjo vršno vrednost moči preko določene periode.  
+$$ P_\text{PEP} = \frac{U^2_\text{PEV}}{2 \sdot R} $$
 
 ----
 

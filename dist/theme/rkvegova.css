@@ -508,3 +508,7 @@ img.mr-40 {
 img.mr-80 {
   margin-right: 80px !important;
 }
+
+div.w-50 {
+  width: 45%;
+}
