@@ -71,7 +71,7 @@ Na izhodu mešalnika dobimo:
 
 ### Modulacija
 
-Nosilec **moduliramo z informacijskim signalom**, postopek imenujemo **MODULACIJA**. 
+Nosilec **moduliramo z informacijskim signalom**, postopek imenujemo **MODULACIJA**.
 
 Obratni postopek, ki **izlušči informacijo na sprejemni strani iz nosilca** imenujemo **DEMODULACIJA**.
 
@@ -102,7 +102,7 @@ Spodnja enačba predstavlja zgornjo mejo zmogljivosti komunikacijskega sistema z
 Spreminjamo **amplitudo nosilca**
 
 Pasovna širina AM signala:  
-$B=2\sdot W$  
+$B=2 \sdot W$  
 W – pasovna širina modulacijskega signala
 
 <img src="https://electronicspost.com/wp-content/uploads/2015/11/amplitude-modulation1.png" width=450>
@@ -142,7 +142,7 @@ Spreminjamo **frekvenco nosilca**
 
 
 Pasovna širina FM signala:  
-$B=2\sdot W + 2\sdot D$  
+$B=2 \sdot W + 2 \sdot D$  
 W – max frekvenca modulacijskega signala  
 D – frekvenčna deviacija
 

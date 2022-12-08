@@ -138,7 +138,10 @@ Vse Q–kode v priročniku na strani 247 - 248
 
 
 <table class="compact">
+<thead>
 <tr><th>Q-koda</th><th>Vprašanje</th><th>Odgovor</th></tr>
+</thead>
+<tbody>
 <tr><td>QRK</td><td>Kakšna je razumljivost mojega signala?</td><td>Razumljivost tvojega signala je … (1-5).</td></tr>
 <tr><td>QRM</td><td>Ali te motijo druge postaje?</td><td>Motijo me druge postaje.</td></tr>
 <tr><td>QRN</td><td>Te moti statika?</td><td>Moti me statika.</td></tr>
@@ -154,6 +157,7 @@ Vse Q–kode v priročniku na strani 247 - 248
 <tr><td>QSY</td><td>Ali naj se premaknem z oddajanjem na drugo frekvenco?</td><td>Pomakni se z oddajanjem na drugo frekvenco.</td></tr>
 <tr><td>QRX</td><td>Kdaj me boš ponovno poklical?</td><td>Ponovno te bom poklical ob … uri na … kHz (MHz).</td></tr>
 <tr><td>QTH</td><td>Kje je tvoja lokacija?</td><td>Moja lokacija je …</td></tr>
+</tbody>
 </table>
 
 ----
@@ -1219,7 +1223,7 @@ Oddajajo tudi lokator, nadmorsko višino, moč in vrsto antene.
 
 Ne potrebuješ izpita lahko pa zaprosiš za svoj klicni znak.
 
->S5-RS-xxx  
+>S5-RS-xxx
 
 x je celo število od 0 do 9.
 

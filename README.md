@@ -82,6 +82,11 @@ npm start
 - Motnje in njihovo odpravljanje
 - Varnost pri delu z električnim tokom
 
+## TODO
+
+- [ ] Poudarek elektrotehniških količin
+- [ ] Preveri tabele
+
 ## Q-kod
 
 | Q-Koda | Vprašanje                                             | Odgovor                                                        |

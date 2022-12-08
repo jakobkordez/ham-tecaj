@@ -1,4 +1,4 @@
-## 5. Elektrotehnika in radiotehnika
+## 5. Elektrotehnika
 
 ----
 
@@ -64,7 +64,7 @@ se iz prostora izven polja prenese v dano točko pozitiven naboj
 
 
 
-**Coulombov zakon**: $F = k_0\frac{Q_1\sdot Q_2}{r^2}$
+**Coulombov zakon**: $F = k_0\frac{Q_1 \sdot Q_2}{r^2}$
 - kako sila med dvema točkastima električnima nabojema pojema z razdaljo
 
 **Pred električnim poljem se zaščitimo z oklapljanjem s kovinskimi materiali** (Faradejeva kletka).
@@ -97,11 +97,11 @@ Inštrument za merjenje napetosti je **voltmeter**
 
 **Električna moč**: intenzivnost opravljanja dela električne sile
 
-$P = U\sdot I\ [VA = W]$ _Vat_
+$P = U \sdot I\ [VA = W]$ _Vat_
 
 **Električno delo**: Delo, ki ga opravi električi naboj
 
-$A = P\sdot t\ [J = Ws]$ _Joul / Vatsekunda_
+$A = P \sdot t\ [J = Ws]$ _Joul / Vatsekunda_
 
 ----
 
@@ -359,7 +359,7 @@ $N$ – število nihajev v času opazovanja
 
 ### Izmenični tok in napetost
 
-Izmenični tok: **smer gibanja nosilcev naboja se s časom spreminja.**  
+Izmenični tok: **smer gibanja nosilcev naboja se s časom spreminja.**
 
 Izmenična napetost: napetost, ki se s časom spreminja
 
@@ -583,7 +583,7 @@ $ R_\text{skupna} = 5\ \Omega + 10\ \Omega = 15\ \Omega $
 
 $R_g$ – upornost generatorja
 
-$ U_{AB} = U - R_g \sdot I = 6\ V - (4\ \Omega\sdot 0.5\ A) = 4V $
+$ U_{AB} = U - R_g \sdot I = 6\ V - (4\ \Omega \sdot 0.5\ A) = 4V $
 </div>
 
 <img src="images/real_gen.jpg" width=400>
@@ -654,10 +654,6 @@ $ (12\ V - 10\ V) = I_1 \sdot 10\ \Omega $
 
 ----
 
-<div style="font-size:50px">🚧 Under construction 🚧</div>
-
-----
-
 ### Električna moč
 
 <div class="row-even">
@@ -665,11 +661,11 @@ $ (12\ V - 10\ V) = I_1 \sdot 10\ \Omega $
 
 Enosmerne napetosti in tokovi:
 
-$ P = U \sdot I\ [W] $
+$ P = U \sdot I $
 
-$ P= \frac{U^2}{R}\ [W] $
+$ P= \frac{U^2}{R} $
 
-$ P = I^2 \sdot R\ [W] $
+$ P = I^2 \sdot R $
 
 </div>
 <div>
@@ -677,11 +673,13 @@ $ P = I^2 \sdot R\ [W] $
 Izmenične napetosti in tokovi:  
 (Ohmska bremena)
 
-$ P = U_\text{ef} \sdot I_\text{ef} $
+$ P_\text{sre} = U_\text{ef} \sdot I_\text{ef} $
 
-$ P = \frac{U^2_\text{ef}}{R} $
+$ P_\text{sre} = \dfrac{U^2_\text{ef}}{R} $
 
-$ P = I^2_\text{ef} \sdot R $
+$ P_\text{sre} = I^2_\text{ef} \sdot R $
+
+$ P_\text{ef} \neq P_\text{sre} $
 </div>
 
 <img src="images/moc.jpg" width=250>
@@ -692,142 +690,302 @@ $ P = I^2_\text{ef} \sdot R $
 **Peak Envelope Power** (PEP): vrhnja (temenska) moč ovojnice, kar pomeni največjo vršno vrednost moči preko določene periode.  
 $$ P_\text{PEP} = \frac{U^2_\text{PEV}}{2 \sdot R} $$
 
-----
-
-### Prilagoditev (maksimalen prenos moči)
-
-<img src="https://">
-
-Maksimalni prenos moči na breme R:
-
-$$ P = I^2\sdot R,\ I=\frac{R}{(R+R_g)^2} \quad P = U^2 \sdot \frac{U^2}{4\sdot R} $$
-$$ R =R_g -- > P_{max} = \frac{U^2}{4\sdot R} $$
+<img src="images/pep.jpg" width=500>
 
 ----
 
-### Električna energija, izkoristek sistema
+### Prenos moči
 
-$W=P×t [Ws] /vatsekunda=J/$  
-1kWh=1000W×3600s=3600000 Ws
+<div class="hg">
+<div>
 
-IZKORISTEK sistema:
+$$ P = I^2 \sdot R \quad \quad I = \frac{U}{R + R_g} $$
+$$ P = \frac{U^2 \sdot R}{(R + R_g)^2} $$
 
-$$ \eta = \frac{P_i}{P_v} \quad 0 \le \eta \le 1 \quad \quad
-\eta = \frac{P_i}{P_v}*100 \quad 0\% \le \eta \le 100 \% $$
+**Maksimalni prenos moči** na breme R:  
+_"breme prilagodimo generatorju"_
 
-#### $P_i$-izhodnja moč (W)
-#### $P_V$-vhodna moč (W)
+$$ R = R_g \rarr P_{max} = \frac{U^2 \sdot R}{4 \sdot R^2} = \frac{U^2}{4 \sdot R} $$
+</div>
 
-----
-
-## Decibel (1)
-DECIBEL je relativna enota, s katero določamo ojačanje in slabljenje sistema.  
-| Ojačanje<br><br>G(dB) | RAzmerrje moči<br>($P_2 / P_1$) | Razmerje toka<br>ali napetosti<br>($I_2/I_1),(U_2/U_1$ |
-|:----------------------:|:-------------------------------:|:---------------------------------------------------------:|
-|          + 20          |               100               |                             10                            |
-|          + 10          |                10               |                            3,16                           |
-|           + 6          |                4                |                            2,00                           |
-|           + 3          |                2                |                           1,141                           |
-|            0           |                1                |                            1,00                           |
-|           - 3          |               0,50              |                            0,71                           |
-|           - 6          |               0,25              |                            0,50                           |
-|          - 10          |               0,10              |                            0,32                           |
-| - 20                   |               0,01              |                            0,10                           |
-
-$$G(dB) = 10*log \bigg( \frac{P_2}{P_1} \bigg) $$
-
-$$P=\frac{U^2}{R} G(dB) = 10 * log \bigg( \frac{P_2}{P_1} \bigg ) = 10*log \bigg ( \frac{U^2_1}{U^2_2} \bigg) = 10*log \bigg( \frac{U_2}{U_1} \bigg )^2 $$
-
-
-$$ G(dB) = 20*lg \bigg ( \frac{U_2}{U_1} \bigg), G(dB) = 20*log \bigg ( \frac{I_2}{I_1}\bigg) $$
+<img src="images/img1055.jpg" height=300>
+</div>
 
 ----
 
-### Decibel (2)
-<img src="https://">
+### Električna energija in izkoristek sistema
 
-IZRAČUN SKUPNEGA OJAČANJA SISTEMA:
+**Električna energija**: $ W = P \sdot t\ [\text{Ws}] $ _Vatsekunda_
 
-G(dB)=+ 20 dB - 10 dB + 3 dB=+ 13dB  
-ali  
-G=100 x 0.1 x 2=20
+$ 1\ \text{kWh} = 1000\ \text{W} \sdot 3600\ \text{s} = 3600000\ \text{Ws} $
 
-----
+&nbsp;
 
-### Induktivnost in tuljave
-Pravilo desnega vijaka (smer silnic):  
-<img src="https://"><img src="https://">  
-<img src="https://">
+**Izkoristek** sistema:
 
-**Induktivnost: L[H] /Henry/**
+<div class="row-even">
+<div>
 
-Induktivnost tuljave je 1 H, če se skozi njo spremeni tok za 1 A v času 1 s in pri tem povzroči, da se inducira povratna napetost 1 V.  
-INDUKTIVNA REAKTANCA ali induktivna upornost:
-$X_L=2*\pi*f*L$
+$$ \eta = \frac{P_i}{P_v} \quad 0 \le \eta \le 1 $$
+$$ \eta = \frac{P_i}{P_v} \sdot 100 \quad 0 \\% \le \eta \le 100 \\% $$
+</div>
 
-----
+<div>
 
-### Tuljave (1)
-<img src="https://"><img src="https://">  
-**Tok pri idealni tuljavi vedno zaostaja za napetostjo za 90°.**  
-<img src="https://">
+$P_i$ – izhodnja moč (W)  
+$P_v$ – vhodna moč (W)
+</div>
 
 ----
 
-### Tuljave (2)
-<img src="https://">
+### Logaritem
 
-**Permeabilnost: lastnost feromagnetnih materialov jedra, da poveča induktivnost tuljave.**
+Logaritem je **inverzna funkcija eksponente funkcije**
 
-Vrtinčni tokovi: inducirana napetost žene po železnem jedru tok in ga segreva.
+$$ a^y = x \quad \Leftrightarrow \quad \log_{a} x = y $$
 
-Histerezne izgube: del elektromagnetne energije, ki se
-porablja za “magnetno vztrajnost”.
+Prebere se: _logaritem števila $x$ z osnovo $a$_
 
-Sklopni faktor dveh tuljav je število, ki
+<div class="row-even">
+<div>
+
+Desetiški logaritem:
+$ \log_{10} x = \log x $
+
+Naravni logaritem:
+$ \log_{e} x = \ln x $
+
+$$ \log_{a} x = \frac{\log_{y} x}{\log_{y} a} $$
+</div>
+
+<div>
+
+$$ \log_{a} x + \log_{a} y = \log_{a} (xy) $$
+
+$$ \log_{a} x - \log_{a} y = \log_{a} \bigg( \frac{x}{y} \bigg) $$
+
+$$ r \sdot \log_{a} x = \log_{a} x^r $$
+</div>
+
+----
+
+### Decibel
+
+Decibel je relativna enota, s katero določamo **ojačanje ali slabljenje sistema**.
+
+<div class="hg">
+<div>
+
+$$ G(dB) = 10 \sdot \log \bigg( \frac{P_2}{P_1} \bigg) $$
+
+$$ G(dB) = 20 \sdot \log \bigg( \frac{U_2}{U_1} \bigg) = 20 \sdot \log \bigg( \frac{I_2}{I_1} \bigg) $$
+</div>
+
+<table class="compact center">
+<thead>
+<tr><th>Ojačanje<br>$G(dB)$</th><th>Razmerrje moči<br>$(P_2 / P_1)$</th><th>Razmerje toka<br>ali napetosti<br>$(I_2 / I_1),(U_2 / U_1)$</th></tr>
+</thead>
+<tbody>
+</tbody>
+<tr><td>+ 20</td><td>100</td><td>10</td></tr>
+<tr><td>+ 10</td><td>10</td><td>3,16</td></tr>
+<tr><td>+ 6</td><td>4</td><td>2,00</td></tr>
+<tr><td>+ 3</td><td>2</td><td>1,141</td></tr>
+<tr><td>0</td><td>1</td><td>1,00</td></tr>
+<tr><td>- 3</td><td>0,50</td><td>0,71</td></tr>
+<tr><td>- 6</td><td>0,25</td><td>0,50</td></tr>
+<tr><td>- 10</td><td>0,10</td><td>0,32</td></tr>
+<tr><td>- 20</td><td>0,01</td><td>0,10</td></tr>
+</table>
+</div>
+
+
+
+#### Primer
+
+Izračunaj skupno ojačanje sistema:
+
+<img src="images/img1099.jpg" width=800>
+
+$$ G(dB) = +20\ dB - 10\ dB +3\ dB = + 13\ dB $$
+
+$$ G = 100 \sdot 0.1 \sdot 2 = 20 $$
+
+Dobimo ojačanje +13 dB oz. 20 kratno ojačanje
+
+----
+
+### Induktivnost
+
+Razmerje med magnetnim pretokom skozi sklenjeno zanko in električnim tokom, ki je vzrok tega magnetnega pretoka
+
+- Induktivnost tuljave je 1 H, če se skozi njo spremeni tok za 1 A v času 1 s in pri tem povzroči, da se inducira povratna napetost 1 V.
+
+<div class="hg mt-20">
+<div>
+
+**Induktivnost**: $L\ [H]$ _Henry_
+
+Pravilo desnega vijaka (smer silnic)
+</div>
+
+<img src="images/img1108.jpg" width=600>
+</div>
+
+
+
+<div class="row-even">
+<img src="images/img1110.jpg" height=400>
+
+<img src="images/img1112.jpg" height=400>
+</div>
+
+----
+
+### Tuljave
+
+<a class="center-b" href="https://youtu.be/KSylo01n5FY?t=208">Animacija tuljave</a>
+
+<div class="row-even">
+<img src="https://www.allaboutcircuits.com/uploads/articles/magnetic-field-around-the-coil.png" height=300>
+<img src="https://engineeringlearn.com/wp-content/uploads/2021/12/Inductor-1024x539.jpg" height=300>
+</div>
+
+
+
+Pri idealni tuljavi vedno **tok zaostaja za napetostjo za 90°**
+
+<img src="https://i.stack.imgur.com/VkI8p.gif" width=600>
+
+
+
+#### Vrste tuljav
+
+<div class="hg">
+<div>
+
+Delimo:  
+a) stalna tuljava  
+b) nastavljiva tuljava  
+c) spremenljiva tuljava
+</div>
+
+<img src="images/img1129.jpg" height=200>
+</div>
+
+<div class="hg mt-20">
+<div>
+
+Delimo (glede na jedro):  
+a) tuljava z železnim jedrom  
+b) tuljava z feritnim jedrom
+</div>
+
+<div>
+<img src="images/img1127.jpg" height=250>
+<img src="images/img1144.jpg" height=250>
+</div>
+</div>
+
+
+
+#### Jedro tuljave
+
+**Permeabilnost**: lastnost feromagnetnih materialov jedra, da **poveča induktivnost tuljave**
+
+&nbsp;
+
+**Vrtinčni tokovi**: inducirana napetost žene po železnem jedru tok in ga segreva
+
+**Histerezne izgube**: del elektromagnetne energije, ki se porablja za "magnetno vztrajnost"
+
+----
+
+### Vezava tuljav
+
+<div class="row-even">
+<div class="center-t">
+
+Zaporedna vezava
+$$ L_\text{skupna} = L_1 + L_1 + ... $$
+<img src="images/img1164.jpg" height=200>
+</div>
+
+<div class="center-t">
+
+Vzporedna vezava
+$$ \frac{1}{L_\text{skupna}} = \frac{1}{L_1}+\frac{1}{L_{2}}+... $$
+<img src="images/img1160.jpg" height=300>
+</div>
+
+
+### Realna tuljava
+
+<div class="hg">
+<div>
+
+**Induktivna reaktanca** ali induktivna upornost:  
+$ X_L = 2 \sdot \pi \sdot f \sdot L$
+
+Kvaliteta tuljave: $ Q = \frac{X_L}{R_L} $
+
+&nbsp;
+
+**Skin efekt** (kožni pojav): s frekvenco se povečuje upornost žice.
+
+Pri višjih frekvencah tok raje teče po površini žice, kot po njej.
+</div>
+
+<div>
+<img src="images/img1162.jpg" width=400>
+<img src="images/img1156.jpg" width=400>
+</div>
+</div>
+
+----
+
+### Transformator
+
+**Medsebojna induktivnost**: magnetno polje ene tuljave povzroči inducirano napetost v drugi tuljavi
+
+**Sklopni faktor** dveh tuljav je število, ki
 pove, kolikšen del magnetnega pretoka ene
 tuljave se sklene tudi skozi ovoje druge
 tuljave.  
 Teoretično možne vrednosti sklopnih
 faktorjev so med 0 in 1.
 
-----
-
-### Zaporedna in vzporedna vezava tuljave
-### Zaporedna vezava
-<img src="images/tuljava_z.PNG">
-
-$L_{skupna} = L_1 + L_1 + ... $
+<div class="row-even">
+<img src="images/transformator.jpg" height=280>
+<img src="images/img1181.jpg" height=280>
+<img src="images/img1183.jpg" height=280>
+</div>
 
 
-### Vzporedna vezava
-<img src="tuljava_v.PNG"> <br  />
-$$\frac{1}{L_{skupna}} = \frac{1}{L_1}+\frac{1}{L_{2}}+... $$
-$$ L_{skupna} = \frac{L_1*L_2*...}{L_1+L_2+...} $$
 
-### Realna tuljava
-<img src="Rtuljava.PNG">
+<div class="hg">
+<div>
 
-Kvaliteta tuljava  
-$ Q = \frac{X_L}{R_L} $
+**Izkoristek** transformatorja:
 
-Skin efekt (kožni pojav)  
-<img src="marko.PNG">
+$$ P_s = \eta \sdot P_p $$
 
-----
+$P_p$ – moč na primarju (W)  
+$P_s$ – moč na sekundarju (W)  
+$\eta$ – izkoristek transformatorja
+</div>
 
-### Transformator
+<img src="images/img1181.jpg" height=300>
+</div>
 
-<img src="marko1.PNG">
 
-Izkoristek transformatorja:  
-**$P_S = \eta * P_p $**  
-$P_P$ - moč na primarju (W)  
-$P_s$ - moč na sekundarju (W)  
-$\eta$- izkoristek transformatorja
 
-$ \frac{U_p}{U_s} = \frac{n_p}{n_s} $  
-$ \frac{I_p}{I_s} = \frac{n_s}{n_p} $
+<div class="hg">
+<div>
+
+**Razmerja napetosti, toka in števila navojev**:
+
+$$ \frac{U_p}{U_s} = \frac{n_p}{n_s} = \frac{I_s}{I_p} $$
 
 $U_p$ – napetost primarja (V)  
 $U_s$ – napetost sekundarja (V)  
@@ -835,85 +993,190 @@ $I_p$ – tok primarja (A)
 $I_s$ – tok sekundarja (A)  
 $n_s$ – število ovojev primarja  
 $n_p$ – število ovojev primarja
+</div>
+
+<img src="images/img1181.jpg" height=300>
+</div>
+
+
+#### Primer
+
+Izračunaj napetost in tok na sekundarju transformatorja, če je na primarju napetost 220 V in tok 2 A. Število ovojev na primarju je 1000, na sekundarju pa 100.
+
+<div class="hg">
+<div>
+
+$$ \frac{U_p}{U_s} = \frac{n_p}{n_s} = \frac{I_s}{I_p} = \frac{1000}{100} $$
+
+$$ U_s = \frac{U_p}{10} = \frac{220\ V}{10} = 22\ V $$
+
+$$ I_s = I_p \sdot 10 = 2\ A \sdot 10 = 20\ A $$
+</div>
+
+<img src="images/img1181.jpg" height=300>
+</div>
 
 ----
 
-### Transformator vezave in uporaba
+### Vezave transformatorjev in uporaba
+
+<div class="row-even">
+<div class="center-t">
+
 Zaporedna vezava navitij
-<img src="zaporendavez.PNG">
+<img src="images/img1197.jpg" height=210>
+</div>
+<div class="center-t">
 
 Kaskadna vezava
-<img src="Zajeta_slika1.PNG">
+<img src="images/img1199.jpg" height=210>
+</div>
+</div>
 
-Uporaba:
+**Uporaba** transformatorjev:
 - izoliranje enega dela vezja od drugega (galvanska ločitev)
 - dviganje ali nižanje napetosti (napajalniki)
-- impedančna transformacija oz. prilagoditev
+- **impedančna transformacija oz. prilagoditev**
 
 ----
 
-### Kapacitivnost in kondenzatorji
-<img src="Zajeta_slika2.PNG">
+### Kapacitivnost
 
-<img src="Zajeta_slika3.PNG">
+Zmožnost **shranjevanja električne energije** v obliki **električnega naboja**, ki ustvari **električno polje**
 
-**Tok fazno prehiteva napetost za 90°**
+**Kapacitivnost**: $C\ [F]$ _Farad_
 
-### Kapacitivnost: C[F] /Farad/
-***Kapacitivnost je lastnost kondenzatorja, da kopiči električni naboj ob hkratnem povečanju svoje napetosti.***
-
-KAPACITIVNA REAKTANCA:
-$$ X_C = \frac{1}{2*\pi*f*c} $$
+<div class="row-even">
+<img src="images/img1213.jpg" height=300>
+<img src="images/img1217.jpg" height=300>
+<img src="images/img1215.jpg" height=300>
+</div>
 
 ----
 
 ### Kondenzatorji
-<img src="Zajeta_slika4.PNG">
 
-a stalni kondenzator  
-b nastavljivi kondenzator  
-c spremenljivi kondenzator  
-d elektrolitski kondenzator
+<a class="center-b" href="https://youtu.be/X4EUwTwZ110?t=94">Razlaga kondenzatorja</a>
 
-Izgubni (prečni) tok kondenzatorja: tok, ki teče skozi kondenzator
+<div class="hg">
+<div>
+
+a) stalni kondenzator  
+b) nastavljivi kondenzator  
+c) spremenljivi kondenzator  
+d) elektrolitski kondenzator
+</div>
+
+<img src="images/img1236.jpg" height=200>
+</div>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Capacitors_%287189597135%29.jpg" height=300>
+
+
+
+Pri idealnem kondenzatorju **tok fazno prehiteva napetost za 90°**
+
+<img src="images/img1211.jpg" height=400>
+
+
+
+### Realni kondenzatorji
+
+**Kapacitivna reaktanca**: $ X_C = \dfrac{1}{2 \sdot \pi \sdot f \sdot C} $
+
+**Izgubni** (prečni) **tok** kondenzatorja: tok, ki teče skozi kondenzator
 zaradi neidealnega dielektrika.
-Temperaturna odvisnost kondenzatorja: vzrok je sprememba dielektrika,
+
+**Temperaturna odvisnost** kondenzatorja: vzrok je sprememba dielektrika,
 saj se mu spreminja dielektrična konstanta.
 
 ----
 
-### Vzporedna in zaporedna vezava kondenzatorjev
-Vzporedna vezava:
-<img src="Zajeta_slika5.PNG">  
+### Vezave kondenzatorjev
 
-$$ C_{skupna} = C_1 + C_2 + ... $$
+<div class="row-even">
+<div class="center-t">
 
-Zaporedna vezava:
-<img src="Zajeta_slika6.PNG">
+Vzporedna vezava
+$$ C_\text{skupna} = C_1 + C_2 + ... $$
+<img src="images/img1250.jpg" height=300>
 
-$$C_skupna = \frac{C_1*C_2*...}{C_1+C_2+...} $$
+</div>
+<div class="center-t">
+
+Zaporedna vezava
+$$ \frac{1}{C_\text{skupna}} = \frac{1}{C_1} + \frac{1}{C_2} + ... $$
+<img src="images/img1248.jpg" height=250>
+</div>
 
 ----
 
-### Reaktanca, impedanca in resonanca
-Impedanca:
-- Z=R+jX; impedanca, ki jo sestavljata upornost R in reaktanca induktivnega značaja
-- Z=R-jX; impedanca, ki jo sestavljata upornost R in reaktanca kapacitivnega značaja
+### Reaktanca
 
-<img src="Zajeta_slika7.PNG">
+V praktičnih vezjih se pojavijo kombinacije obeh:
 
-RESONANCA:  
-$X_C = X_L \quad$
-$X_C = \frac{1}{2*\pi*f*C}, \quad X_L = 2*\pi*f*L $
+Induktivna reaktanca:
+$ X_L = 2 \sdot \pi \sdot f \sdot L$
 
-$$f = \frac{1}{2*\pi* \sqrt{L*C}}$$
+Kapacitivna reaktanca:
+$ X_C = \frac{1}{2 \sdot \pi \sdot f \sdot C} $
+
+Zato raje govorimo o **reaktanci**, ki ima lahko **induktivni** ali **kapacitivni značaj**
+
+**Reaktanca**: $X\ [\Omega]$ _ohm_
+
+Vrednost reaktance se **spreminja glede na frekvenco**
+
+**Reaktančna bremena ne trošijo električne energije** (jalova moč)
+
+Velja ohmov zakon: $ U = X \sdot I $
+
+
+
+### Impedanca
+
+Vsa praktična vezja vsebujejo reaktanče in ohmske upornosti
+
+**Impedanca**: $ Z = R + iX\ [\Omega]$ _ohm_
+
+&nbsp;
+
+$Z = R + jX_L$  
+&rarr; impedanca upornosti R in reaktance induktivnega značaja
+
+$Z = R - jX_C$  
+&rarr; impedanca upornosti R in reaktance kapacitivnega značaja
+
+Velja ohmov zakon: $ U = Z \sdot I $ (bolj kompleksno zaradi imaginarne komponente)
+
+
+
+### Resonanca
+
+Obstaja frekvenca kjer se **vrednost kapacitivne reaktance izenači induktivni reaktanci** &rarr; se izničita
+
+$ X_C = X_L $
+
+$ \frac{1}{2 \sdot \pi \sdot f \sdot C} = 2 \sdot \pi \sdot f \sdot L $
+
+$$ f = \frac{1}{2 \sdot \pi \sdot \sqrt{L \sdot C}} $$
+
+Te frekvenci pravimo **resonančna frekvenca**, pojavu pa **resonanca**
+
+Impedanca pri resonančni frekvenci: $ Z = R \pm j0 = R $
+
+----
+
+<div style="font-size:50px">🚧 Under construction 🚧</div>
 
 ----
 
 ### Zaporedni nihajni krog
-<img src="Zajeta_slika8.PNG">
+
+<img src="images/img1270.jpg">
+
 Kvaliteta nihajnega kroga:
-$Q= \frac {X_L}{R} \space ali \space Q = \frac{X_C}{R} $
+$ Q= \frac {X_L}{R} \space ali \space Q = \frac{X_C}{R} $
 
 Pasovna širina:
 $B= f_2 - f_1 $  
@@ -927,7 +1190,7 @@ Pasovno širino nihajnega kroga definiramo kot frekvenčni pas okoli resonančne
 
 ### Vzporedni nihajni krog
 Tokovna resonanca  
-<img src="Zajeta_slika9.PNG">
+<img src="images/img1287.jpg">
 
 Kvaliteta nihajnega kroga:
 $$ Q = \frac{X_L}{R} \space ali \space Q = \frac{X_C}{R} $$
@@ -959,13 +1222,14 @@ signala.
 ----
 
 ### Vrste filtrov (2)
-<img src="Zajeta_slika10.PNG"
+<img src="images/img1301.jpg">
+<img src="images/img1303.jpg">
 
 ----
 
 ### Vrste filtrov (3)
-Resonatorji: zelo ozka pasovno-prepustni ali pasovnozaporni filtri z zelo veliko kvaliteto Q.  
-<img src="Zajeta_slika11.PNG"
+Resonatorji: zelo ozka pasovno-prepustni ali pasovnozaporni filtri z zelo veliko kvaliteto Q.
+<img src="images/img1315.jpg">
 
 ##### Pasovnoprepustni kristalni filter
 
@@ -1007,7 +1271,7 @@ aluminij, galij, indij, ki ustvarijo gibljive vrzeli.
 ----
 
 ### Polprevodnik (2)
-<img src="Zajeta_slika14.PNG">
+<img src="images/img1335.jpg">
 ### PN spoj:
 1. Elektroni in vrzeli prehajajo iz enega v drugi tip polprevodnika in
 povzročijo difuzijski tok.
@@ -1019,29 +1283,41 @@ nastane električno polje.
 ----
 
 ### Polprevodniki (3)
-<img src="Zajeta_slika15.PNG">
+<img src="images/img1344.jpg">
 Dioda v zaporni smeri prevaja majhen tok, ki ga imenujemo **zaporni tok ali tok
 nasičenja.**  
-<img src="Zajeta_slika16.PNG">
+<img src="images/img1346.jpg">
 
 ----
 
 ### Polprevodniki (4)
 
-<img src="Zajeta_slika17.PNG">
+<img src="images/img1361.jpg">
+svetleča dioda (LED)
 
-<img src="Zajeta_slika18.PNG">
+<img src="images/img1359.jpg">
+Varicap dioda
+<img src="images/img1365.jpg">
+Tunelska dioda
+
+<img src="images/img1357.jpg">
+Zener dioda
+
+<img src="images/img1363.jpg">
+
+Zener diodo priključimo v vezju zaporno.
+<img src="images/img1367.jpg">
 
 ----
 
 ### Tranzistor (bipolarni)
-<img src="Zajeta_slika19.PNG">
+<img src="images/img1386.jpg">
 Priključki: baza, kolektor, emitor
 
-<img src="Zajeta_slika20.PNG">
+<img src="images/img1388.jpg">
 Možne orientacije tranzistorja
 
-<img src="Zajeta_slika21.PNG">
+<img src="images/img1393.jpg">
 $I_C/U_{CE}$ in močnostna karakteristika tranzistorja
 
 **Tokovno ojačanje tranzistorja s skupnim emitorjem:**  

@@ -39,7 +39,7 @@ div.hg {
   justify-content: space-between;
 }
 
-div.hg > img {
+div.hg > *:not(:first-child) {
   margin: auto;
   display: block;
 }
@@ -424,7 +424,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
   }
 }
 .reveal table {
-  display: inline-flex;
+  display: inline-block;
+  vertical-align: top;
   margin: auto 40px;
 }
 
@@ -446,6 +447,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
 }
 
 .reveal table.center td {
+  text-align: center;
+}
+
+.reveal table.center th {
   text-align: center;
 }
 
@@ -497,6 +502,11 @@ a.center-b {
   text-align: center;
 }
 
+.center-t > p {
+  display: inline-block;
+  text-align: center;
+}
+
 img.mr-20 {
   margin-right: 20px !important;
 }
@@ -507,6 +517,10 @@ img.mr-40 {
 
 img.mr-80 {
   margin-right: 80px !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
 }
 
 div.w-50 {
