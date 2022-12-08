@@ -783,7 +783,7 @@ $$ G(dB) = 20 \sdot \log \bigg( \frac{U_2}{U_1} \bigg) = 20 \sdot \log \bigg( \f
 
 <table class="compact center">
 <thead>
-<tr><th>Ojačanje<br>$G(dB)$</th><th>Razmerrje moči<br>$(P_2 / P_1)$</th><th>Razmerje toka<br>ali napetosti<br>$(I_2 / I_1),(U_2 / U_1)$</th></tr>
+<tr><th>Ojačanje<br>$G(dB)$</th><th>Razmerje moči<br>$(P_2 / P_1)$</th><th>Razmerje toka<br>ali napetosti<br>$(I_2 / I_1),(U_2 / U_1)$</th></tr>
 </thead>
 <tbody>
 </tbody>
@@ -919,6 +919,7 @@ $$ \frac{1}{L_\text{skupna}} = \frac{1}{L_1}+\frac{1}{L_{2}}+... $$
 </div>
 
 
+
 ### Realna tuljava
 
 <div class="hg">
@@ -991,12 +992,13 @@ $U_p$ – napetost primarja (V)
 $U_s$ – napetost sekundarja (V)  
 $I_p$ – tok primarja (A)  
 $I_s$ – tok sekundarja (A)  
-$n_s$ – število ovojev primarja  
-$n_p$ – število ovojev primarja
+$n_p$ – število ovojev primarja  
+$n_s$ – število ovojev sekundarja
 </div>
 
 <img src="images/img1181.jpg" height=300>
 </div>
+
 
 
 #### Primer
@@ -1511,6 +1513,7 @@ Pretvorba analognega signala v digitalnega z **A/D** pretvornikom imenujemo **vz
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Conversion_AD_DA.png/220px-Conversion_AD_DA.png" width=500>
 </div>
+
 
 
 **Kvantiziranje**: vrednosti vzorca priredimo najbližje možne diskretne vrednosti
