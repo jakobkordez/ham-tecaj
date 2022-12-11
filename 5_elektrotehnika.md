@@ -1202,6 +1202,8 @@ v resonanci ne prepušča toka.
 
 
 
+#### Zaporedni nihajni krog
+
 <div class="hg">
 <div>
 
@@ -1216,7 +1218,7 @@ $f_1$ in $f_2$ odčitamo kjer je vrednost toka $ \frac{1}{\sqrt{2}} = 0.71 $ oz.
 
 $ Q = \frac{f_{RES}}{B} $
 
-**Napetost na tuljavi in kondenzatorju** v zaporednem nihajnem krogu sta pri resonančni frekvenci **Q-krat večji od napetosti izvora.**
+**Napetost na tuljavi in kondenzatorju** v zaporednem nihajnem krogu sta pri resonančni frekvenci **Q-krat večji od napetosti izvora** ampak fazno **zamaknjeni za 180°**
 </div>
 
 <img src="images/img1270.jpg" height=400>
@@ -1224,61 +1226,72 @@ $ Q = \frac{f_{RES}}{B} $
 
 
 
+#### Vzporedni nihajni krog
+
 <div class="hg">
 <div>
 
-Tokovna resonanca  
+Enačbe za resonančno frekvenco, kvaliteto in pasovno širino so enake kot pri zaporednem nihajnem krogu
 
-Kvaliteta nihajnega kroga:
-$$ Q = \frac{X_L}{R} \space ali \space Q = \frac{X_C}{R} $$
+&nbsp;
 
-Pasovna širina:  
-$$ B = f_2 - f_1 \quad Q=\frac{f_{RES}}{B} = \frac{f_{RES}}{f_2 - f_1} $$
-
-Tokova tuljave in kondenzatorja v vzporednem nihajnem krogu sta pri resonančni
-frekvenci Q-krat večja od toka izvora.
+**Velikost toka skozi vezje** je pri resonančni frekvenci majhna, v **tuljavi in kondenzatorju** pa je lahko **tok Q-krat večji**
 </div>
 
+<img src="images/img1287.jpg" height=400>
 </div>
 
 ----
 
 ### Vrste filtrov
 
+<div class="hg">
+<div>
+
 Filtre delimo po različnih merilih, npr. frekvenčni pas:
-- **Nizko-prepustni filter** (prepušča samo frekvence do določene
-mejne frekvence, vseh višjih od mejne pa ne)
-- **Visoko-prepustni filter** (prepušča frekvence, ki so višje od mejne
-frekvence, nižjih pa ne)
-- **Pasovno-prepustni filter** (prepušča samo določen frekvenčni pas
-od spodnje do zgornje mejne frekvence)
-- **Pasovno-zaporni filter** (ne prepušča frekvence od spodnje do
-zgornje mejne frekvence, ostale pa)  
+- **Nizko-prepustni** filter
+- **Visoko-prepustni** filter
+- **Pasovno-prepustni** filter
+- **Pasovno-zaporni** filter
+
 **Amplitudni frekvenčni odziv**: pove katere frekvence filter prepušča
 in katere slabi.
 
 **Prenosna funkcija**: pove vpliv filtra na amplitudo in fazo vhodnega
 signala.
 
+Vsak filter povzroči **fazni zamik**
+</div>
 
-
-<div class="row-even">
-<img src="images/img1301.jpg" width=500>
-<img src="images/img1303.jpg" width=400>
+<img src="images/img1301.jpg" width=400>
 </div>
 
 
 
-Resonatorji: zelo ozka pasovno-prepustni ali pasovnozaporni filtri z zelo veliko kvaliteto Q.
+### $T$ in $\Pi$ (Pi) filtri
 
-<img src="images/img1315.jpg" width=400>
+<div class="hg">
+<div>
+
+**Red filtra**: število elementov v vezju
+
+Višji kot je red filtra, bolj se amplitudni odziv približuje idealnemu
+</div>
+
+<img src="images/img1303.jpg" width=500>
+</div>
+
+
+
+**Resonatorji**: zelo ozka pasovno-prepustni ali pasovnozaporni filtri z zelo veliko kvaliteto Q.
 
 ##### Pasovnoprepustni kristalni filter
 
-**Overtonska frekvenca**: nihanje ploščice kremenovega kristala na mnogokratniku
-osnovne frekvence kristala.  
-**Overtonski oscilator**: kristal lahko niha le na overtonskih frekvencah, ki so lihi
-mnogokratniki osnovne frekvence.
+**Overtonska frekvenca**: nihanje ploščice kremenovega kristala na mnogokratniku osnovne frekvence kristala.
+
+**Overtonski oscilator**: kristal lahko niha le na overtonskih frekvencah, ki so lihi mnogokratniki osnovne frekvence.
+
+<img src="images/img1315.jpg" width=500>
 
 ----
 
