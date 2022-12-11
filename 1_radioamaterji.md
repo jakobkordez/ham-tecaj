@@ -18,7 +18,6 @@ ljubezen, način življenja, tehničnega razmišljanja.
 
 
 
-
 **Kdo se lahko ukvarja?**
 - Ustrezno pooblaščene osebe – opravljen izpit
 - Ukvarjajo se ljubiteljsko, brez pridobitniških namenov

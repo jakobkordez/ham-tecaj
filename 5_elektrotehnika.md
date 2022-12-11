@@ -1173,26 +1173,61 @@ Impedanca pri resonančni frekvenci: $ Z = R \pm j0 = R $
 
 ----
 
-### Zaporedni nihajni krog
+### Filtri
 
-<img src="images/img1270.jpg">
+Vezja, ki prepuščajo izmenične tokove določenih frekvenc, medtem ko tokove drugih frekvenc zelo oslabijo ali pa jih sploh ne prepuščajo
 
-Kvaliteta nihajnega kroga:
-$ Q= \frac {X_L}{R} \space ali \space Q = \frac{X_C}{R} $
+Sestavljeni iz pasivnih elementov (kondenzatorjev, tuljav in uporov)
 
-Pasovna širina:
-$B= f_2 - f_1 $  
-$Q = \frac{f_{RES}}{B} = \frac{f_{RES}}{f_2-f_1} $
-
-Pasovno širino nihajnega kroga definiramo kot frekvenčni pas okoli resonančne frekvence, kjer vrednost toka ne pade pod  1 /$\sqrt2$
-
-**Napetost na tuljavi in kondenzatorju** v zaporednem nihajnem krogu sta pri resonančni frekvenci **Q-krat večji od napetosti izvora.**
+**Tuljava dobro prepušča nizke frekvence, kondenzator pa visoke**
 
 ----
 
-### Vzporedni nihajni krog
+### Zaporedni in vzporedni nihajni krog
+
+<div class="row-even">
+<div class="center-t">
+
+Zaporedni nihanji krog  
+v resonanci prepušča tok.
+<img src="images/img1270.jpg" height=400>
+</div>
+<div class="center-t">
+
+Vzporedni nihanji krog  
+v resonanci ne prepušča toka.
+<img src="images/img1287.jpg" height=400>
+</div>
+</div>
+
+
+
+<div class="hg">
+<div>
+
+**Resonančna frekvenca**:
+$ f_{RES} = \dfrac{1}{2 \pi \sqrt{LC}} $
+
+**Kvaliteta** nihajnega kroga:
+$ Q = \dfrac{X_L}{R} $ ali $ Q = \dfrac{X_C}{R} $
+
+**Pasovna širina** (bandwidth): $ B = f_2 - f_1 $  
+$f_1$ in $f_2$ odčitamo kjer je vrednost toka $ \frac{1}{\sqrt{2}} = 0.71 $ oz. $ -3dB $
+
+$ Q = \frac{f_{RES}}{B} $
+
+**Napetost na tuljavi in kondenzatorju** v zaporednem nihajnem krogu sta pri resonančni frekvenci **Q-krat večji od napetosti izvora.**
+</div>
+
+<img src="images/img1270.jpg" height=400>
+</div>
+
+
+
+<div class="hg">
+<div>
+
 Tokovna resonanca  
-<img src="images/img1287.jpg">
 
 Kvaliteta nihajnega kroga:
 $$ Q = \frac{X_L}{R} \space ali \space Q = \frac{X_C}{R} $$
@@ -1202,10 +1237,14 @@ $$ B = f_2 - f_1 \quad Q=\frac{f_{RES}}{B} = \frac{f_{RES}}{f_2 - f_1} $$
 
 Tokova tuljave in kondenzatorja v vzporednem nihajnem krogu sta pri resonančni
 frekvenci Q-krat večja od toka izvora.
+</div>
+
+</div>
 
 ----
 
-### Vrste filtrov (1)
+### Vrste filtrov
+
 Filtre delimo po različnih merilih, npr. frekvenčni pas:
 - **Nizko-prepustni filter** (prepušča samo frekvence do določene
 mejne frekvence, vseh višjih od mejne pa ne)
@@ -1221,17 +1260,18 @@ in katere slabi.
 **Prenosna funkcija**: pove vpliv filtra na amplitudo in fazo vhodnega
 signala.
 
-----
 
-### Vrste filtrov (2)
-<img src="images/img1301.jpg">
-<img src="images/img1303.jpg">
 
-----
+<div class="row-even">
+<img src="images/img1301.jpg" width=500>
+<img src="images/img1303.jpg" width=400>
+</div>
 
-### Vrste filtrov (3)
+
+
 Resonatorji: zelo ozka pasovno-prepustni ali pasovnozaporni filtri z zelo veliko kvaliteto Q.
-<img src="images/img1315.jpg">
+
+<img src="images/img1315.jpg" width=400>
 
 ##### Pasovnoprepustni kristalni filter
 
@@ -1242,88 +1282,104 @@ mnogokratniki osnovne frekvence.
 
 ----
 
-### Polprevodniki (1)
-Čisti polprevodnik, silicij ali germanij. Oba imata štiri elektrone na zunanji
-obli atoma, ki so med seboj vezani s kovalentno vezjo. Vsak od atomov
-prispeva elektron iz zunanje oble za dobro soseščino z drugim atomom.
+### Polprevodniki
+
+Čisti polprevodnik, silicij ali germanij.
+Oba imata štiri elektrone na zunanji obli atoma, ki so med seboj vezani s kovalentno vezjo. Vsak od atomov prispeva elektron iz zunanje oble za dobro soseščino z drugim atomom.
 Atom ima 4 sosede, zato mora prispevati 4 elektrone z zunanje oble.
-Izgleda, kot da okrog atoma kroži osem elektronov. Zaradi zapolnjene
-valenčne oble ima tak prevodnik lastnosti izolanta. Zato čistemu
-polprevodniku dodamo primesi. []Elektronski elementi in vezja, Lorencon
-Robert
+Izgleda, kot da okrog atoma kroži osem elektronov.
+Zaradi zapolnjene valenčne oble ima tak prevodnik lastnosti izolanta.
+Zato čistemu polprevodniku dodamo primesi.
+[]Elektronski elementi in vezja, Lorencon Robert
 
-Dopiranje: najpomembnejši postopek pri izdelavi polprevodnikov, ki predstavlja dodajanje
-primesi polprevodniku.
+Dopiranje: najpomembnejši postopek pri izdelavi polprevodnikov, ki predstavlja dodajanje primesi polprevodniku.
 
-N tip polprevodnika:
-Donorji: petvalentne primesi, kot so
-fosfor, arzen, antimon, ki povečajo v
-polprevodniku število prostih elektronov.
+<div class="row-even">
+<div>
 
-**P tip polprevodnika:**  
-Akceptorji: trivalentne primesi, kot so, bor,
-aluminij, galij, indij, ki ustvarijo gibljive vrzeli.  
-<img src="Zajeta_slika12.PNG">
+**N tip polprevodnika:**
+Donorji: petvalentne primesi, kot so fosfor, arzen, antimon, ki povečajo v polprevodniku število prostih elektronov.
 
-**P tip polprevodnika:**  
-Akceptorji: trivalentne primesi, kot so, bor,
-aluminij, galij, indij, ki ustvarijo gibljive vrzeli.  
 <img src="Zajeta_slika13.PNG">
+</div>
+<div>
 
-----
+**P tip polprevodnika:**  
+Akceptorji: trivalentne primesi, kot so, bor,
+aluminij, galij, indij, ki ustvarijo gibljive vrzeli.
 
-### Polprevodnik (2)
-<img src="images/img1335.jpg">
-### PN spoj:
-1. Elektroni in vrzeli prehajajo iz enega v drugi tip polprevodnika in
-povzročijo difuzijski tok.
+<img src="Zajeta_slika12.PNG">
+</div>
+</div>
+
+
+
+<img src="images/img1335.jpg" width=400>
+
+#### PN spoj:
+1. Elektroni in vrzeli prehajajo iz enega v drugi tip polprevodnika in povzročijo difuzijski tok.
 2. Na stični površini prihaja do rekombinacij.
-3. Zaradi rekombinacij se poruši električna nevtralnost polprevodnika in
-nastane električno polje.
+3. Zaradi rekombinacij se poruši električna nevtralnost polprevodnika in nastane električno polje.
 4. Električno polje ustavi rekombinacijo, ustvari se zaporna napetost.
 
-----
 
-### Polprevodniki (3)
-<img src="images/img1344.jpg">
-Dioda v zaporni smeri prevaja majhen tok, ki ga imenujemo **zaporni tok ali tok
-nasičenja.**  
-<img src="images/img1346.jpg">
 
-----
+<img src="images/img1344.jpg" width=400>
 
-### Polprevodniki (4)
+Dioda v zaporni smeri prevaja majhen tok, ki ga imenujemo **zaporni tok ali tok nasičenja.**
 
-<img src="images/img1361.jpg">
+<img src="images/img1346.jpg" width=400>
+
+
+
+<div class="row-even">
+<div>
+<img src="images/img1361.jpg" height=400>
 svetleča dioda (LED)
+</div>
+<div>
+<img src="images/img1359.jpg" height=400>
 
-<img src="images/img1359.jpg">
 Varicap dioda
-<img src="images/img1365.jpg">
+</div>
+<div>
+<img src="images/img1365.jpg" height=400>
+
 Tunelska dioda
+</div>
+<div>
+<img src="images/img1357.jpg" height=400>
 
-<img src="images/img1357.jpg">
 Zener dioda
-
-<img src="images/img1363.jpg">
+</div>
+<div>
+<img src="images/img1363.jpg" height=400>
 
 Zener diodo priključimo v vezju zaporno.
-<img src="images/img1367.jpg">
+</div>
+<div>
+<img src="images/img1367.jpg" height=400>
+</div>
+</div>
 
 ----
 
 ### Tranzistor (bipolarni)
-<img src="images/img1386.jpg">
+
+<img src="images/img1386.jpg" width=400>
+
 Priključki: baza, kolektor, emitor
 
-<img src="images/img1388.jpg">
+<img src="images/img1388.jpg" width=400>
+
 Možne orientacije tranzistorja
 
-<img src="images/img1393.jpg">
+<img src="images/img1393.jpg" width=400>
+
 $I_C/U_{CE}$ in močnostna karakteristika tranzistorja
 
 **Tokovno ojačanje tranzistorja s skupnim emitorjem:**  
-$\alpha = \frac{I_C}{I_B} $
+$ \alpha = \frac{I_C}{I_B} $
 
 ----
 
@@ -1332,11 +1388,11 @@ $\alpha = \frac{I_C}{I_B} $
 ----
 
 ### NF in VF ojačevalnik
-<img src="Zajeta_slika22.PNG">
 
 Načelna shema NF ojačevalnika
 
-<img src="Zajeta_slika23.PNG">
+<img src="images/img1411.jpg" width=400>
+<img src="images/img1413.jpg" width=400>
 
 Načelna shema VF ojačevalnika
 
@@ -1346,7 +1402,8 @@ poskrbeti za **primerno hlajenje**.
 ----
 
 ### Tranzistor (unipolarni)
-<img src="zajet2.PNG">
+
+<img src="images/img1425.jpg" width=400>
 
 Priključki tranzistorja:
 - drain (ponor)
@@ -1365,22 +1422,27 @@ tokovom vseh elektrod oboji nosilci nabojev (elektroni in vrzeli).
 
 ### Digitalna integrirana vezja
 Digitalna integrirana vezja poznajo le dve logični stanji.
-<img src="zajet3.PNG">
+
+<img src="images/img1436.jpg" width=400>
+<img src="images/img1438.jpg" width=400>
+<img src="images/img1440.jpg" width=400>
+
+Vrata NE-ALI (NOR)
 
 ----
 
 ### Analogna integrirana vezja
 Pri analognih integriranih vezjih **izhodni signal zvezno sledi spremembi vhodnega signala.**
-<img src="zajet4.PNG">  
+<img src="images/img1453.jpg" width=400> 
 Operacijski ojačevalnik
 
-<img src="zajet5.PNG">  
+<img src="images/img1455.jpg" width=400>
 Stabilizirani napajalnik za simetrično napetost
 
 ----
 
 ### Razred delovanja ojačevalnikov
-<img src="zajet6.PNG">
+<img src="images/img1466.jpg" width=400>
 
 Nastavitev delovne točke določa **kvaliteto ojačevalnika, predvsem glede linearnosti, pa tudi glede ojačanja toka $A_I$, napetosti $A_U$ in izkoristka $\eta.$**
 
@@ -1394,7 +1456,8 @@ točke ločimo:
 ----
 
 ### Razred A
-<img src="zajet7.PNG">
+
+<img src="images/img1475.jpg" width=400>
 
 Delovna točka: se nahaja v linearnem delu $I_C/U_{BE}$ karakteristike, zato teče skozi tranzistor enosmerni kolektorski tok, ne glede na prisotnost vhodnega signala.
 
@@ -1405,7 +1468,8 @@ Delovna točka: se nahaja v linearnem delu $I_C/U_{BE}$ karakteristike, zato te�
 ----
 
 ### Razred B
-<img src="zajet8.PNG">
+
+<img src="images/img1484.jpg" width=400>
 
 Delovna točka: se nahaja v spodnjem delu $I_C/U_{BE}$ karakteristike običajno v točki, kjer preneha tečikolektorski tok, ko ni na vhodu signala.
 
@@ -1417,7 +1481,8 @@ izhodna moč.
 ----
 
 ### Razred AB
-<img src="zajet9.PNG">
+
+<img src="images/img1493.jpg" width=400>
 
 Delovna točka: zaradi zakrivljenosti karakteristike IC/UBE v njenem spodnjem delu, se popačenju ne moremoizogniti, zato v AB razredu delovno točko postavimo v vmesni položaj.
 
@@ -1430,7 +1495,8 @@ zmanjša.
 ----
 
 ### Razred C
-<img src="zajet10.PNG">
+
+<img src="images/img1502.jpg" width=400>
 
 Delovna točka: se nahaja v zapornem področju
 tranzistorja.
@@ -1446,7 +1512,7 @@ predvsem v VF tehniki, v NF vezjih ni uporaben (FM, CW).
 ### Elektronske cevi (elektrode)
 Kljub silnemu napredku tehnologije na področju tranzistorjev elektronske cevi še niso izgubile popolne veljave v **končnih stopnjah močnostnih ojačevalnikov.**
 
-<img src="zajet10.PNG">
+<img src="images/img1512.jpg" width=400>
 
 Glede na število priključkov ločimo elektronske cevi na:
 - dioda (2)
@@ -1459,44 +1525,44 @@ Glede na število priključkov ločimo elektronske cevi na:
 ----
 
 ### Napajalnik - usmernik
-<img src="zajet11.PNG">
+<img src="images/img1523.jpg" width=400>
 Polvalno in polnovalno usmerjanje
 
-<img src="zajet12.PNG">
+<img src="images/img1529.jpg" width=400>
 Vezji za stabilizacijo napetosti
 
-<img src="zajet13.PNG">
+<img src="images/img1525.jpg" width=400>
 Gladilnik napetosti
 
-<img src="zajet14.PNG">
+<img src="images/img1527.jpg" width=400>
 Glajena in stabilizirana napetost
 
 ----
 
 ### Izvedba napajalnika
-<img src="zajet15.PNG">
+<img src="images/img1544.jpg" width=400>
 
 ----
 
 ### Mikrofoni
 Mikrofon je naprava, ki zvočna nihanja pretvori v električno napetost.
-<img src="zajet16.PNG">
+<img src="images/img1553.jpg" width=400>
 Ogleni mikrofon
 
-<img src="zajet17.PNG">
+<img src="images/img1555.jpg" width=400>
 Kondenzatorski mikrofon
 
-<img src="zajet18.PNG">
+<img src="images/img1559.jpg" width=400>
 Kristalni mikrofon
 
-<img src="zajet19.PNG">
+<img src="images/img1557.jpg" width=400>
 Dinamični mikrofon
 
 ----
 
 ### Zvočnik
 Zvočnik je naprava, ki električno napetost pretvarja v mehansko nihanje membrane.
-<img src="zajet20.PNG">
+<img src="images/img1574.jpg" width=400>
 
 ----
 
