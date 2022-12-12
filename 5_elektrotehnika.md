@@ -1169,10 +1169,6 @@ Impedanca pri resonančni frekvenci: $ Z = R \pm j0 = R $
 
 ----
 
-<div style="font-size:50px">🚧 Under construction 🚧</div>
-
-----
-
 ### Filtri
 
 Vezja, ki prepuščajo izmenične tokove določenih frekvenc, medtem ko tokove drugih frekvenc zelo oslabijo ali pa jih sploh ne prepuščajo
@@ -1283,9 +1279,9 @@ Višji kot je red filtra, bolj se amplitudni odziv približuje idealnemu
 
 
 
-**Resonatorji**: zelo ozka pasovno-prepustni ali pasovnozaporni filtri z zelo veliko kvaliteto Q.
+### Kristalni filter
 
-##### Pasovnoprepustni kristalni filter
+**Resonatorji**: zelo ozka pasovno-prepustni ali pasovnozaporni filtri z zelo veliko kvaliteto Q.
 
 **Overtonska frekvenca**: nihanje ploščice kremenovega kristala na mnogokratniku osnovne frekvence kristala.
 
@@ -1297,81 +1293,172 @@ Višji kot je red filtra, bolj se amplitudni odziv približuje idealnemu
 
 ### Polprevodniki
 
-Čisti polprevodnik, silicij ali germanij.
-Oba imata štiri elektrone na zunanji obli atoma, ki so med seboj vezani s kovalentno vezjo. Vsak od atomov prispeva elektron iz zunanje oble za dobro soseščino z drugim atomom.
-Atom ima 4 sosede, zato mora prispevati 4 elektrone z zunanje oble.
-Izgleda, kot da okrog atoma kroži osem elektronov.
-Zaradi zapolnjene valenčne oble ima tak prevodnik lastnosti izolanta.
-Zato čistemu polprevodniku dodamo primesi.
-[]Elektronski elementi in vezja, Lorencon Robert
+<div class="hg">
+<div>
 
-Dopiranje: najpomembnejši postopek pri izdelavi polprevodnikov, ki predstavlja dodajanje primesi polprevodniku.
+Silicij / germanij
+
+Štiri elektroni v zunanji ovojnici
+
+Čisti polprevodnik, ne prevaja električnega toka (kovalentna vez)
+
+Dopiranje: dodajanje primesi polprevodniku
+</div>
+
+<img src="https://lastminuteengineers.b-cdn.net/wp-content/uploads/basic/Silicon-Crystal.png" width=300>
+</div>
+
+
 
 <div class="row-even">
-<div>
+<div class="w-50">
 
-**N tip polprevodnika:**
+**N tip polprevodnika:**  
 Donorji: petvalentne primesi, kot so fosfor, arzen, antimon, ki povečajo v polprevodniku število prostih elektronov.
 
-<img src="Zajeta_slika13.PNG">
+<img src="http://www.differencebetween.info/sites/default/files/images_articles_d7_1/n-type.jpg" height=300>
 </div>
-<div>
+<div class="w-50">
 
 **P tip polprevodnika:**  
 Akceptorji: trivalentne primesi, kot so, bor,
 aluminij, galij, indij, ki ustvarijo gibljive vrzeli.
 
-<img src="Zajeta_slika12.PNG">
+<img src="http://www.differencebetween.info/sites/default/files/images_articles_d7_1/p-type.jpg" height=300>
 </div>
 </div>
 
+----
 
+### Dioda
 
-<img src="images/img1335.jpg" width=400>
+<div class="hg">
+<div>
 
-#### PN spoj:
-1. Elektroni in vrzeli prehajajo iz enega v drugi tip polprevodnika in povzročijo difuzijski tok.
-2. Na stični površini prihaja do rekombinacij.
-3. Zaradi rekombinacij se poruši električna nevtralnost polprevodnika in nastane električno polje.
-4. Električno polje ustavi rekombinacijo, ustvari se zaporna napetost.
-
-
-
-<img src="images/img1344.jpg" width=400>
+**PN spoj** prevaja (skoraj brez upornosti) tok le v eno smer
 
 Dioda v zaporni smeri prevaja majhen tok, ki ga imenujemo **zaporni tok ali tok nasičenja.**
+</div>
 
-<img src="images/img1346.jpg" width=400>
+<img src="images/img1335.jpg" width=500>
+</div>
+
+<div class="row-even">
+<img src="images/img1344.jpg" width=600>
+<img src="https://cdn1.byjus.com/wp-content/uploads/2017/10/Diodes-symbol.png" width=500>
+</div>
+
+
+
+#### Uporaba diode v elektronskih vezjih
+
+- Usmerniki
+- Frekvenčni množilniki in mešalniki
+- Dioda kot stikalo
+- Dvosignalni krmilniki
+- Stabilizatorji napetosti
+
+
+
+#### Posebne vrste diod
+
+<div class="row-even">
+<div class="center-t">
+<img src="images/img1357.jpg" height=400>
+
+Zener dioda  
+Kot stabilizator napetosti
+</div>
+<div class="center-t">
+<img src="images/img1365.jpg" height=400>
+
+Tunelska dioda  
+Uporabljamo za ojačevalnike in oscilatorje
+</div>
+</div>
+
+
+
+#### Uporaba zener diode
+
+<div class="row-even">
+<img src="https://www.digikey.in/-/media/MakerIO/Images/blogs/zener-diode-basic-operation-fig5.JPG" height=400>
+
+<div class="center-t">
+<img src="images/img1367.jpg" height=300>
+
+Zener diodo priključimo v vezju zaporno  
+Zaščita pred previsoko napetostjo
+</div>
+</div>
 
 
 
 <div class="row-even">
-<div>
-<img src="images/img1361.jpg" height=400>
-svetleča dioda (LED)
+<div class="center-t">
+<img src="images/pnpn.jpg" height=400>
+
+Štirislojna dioda (PNPN)  
+Namenjena zelo velikim tokovom
 </div>
-<div>
+<div class="center-t">
+<img src="images/diak.jpg" height=400>
+
+Bilateralno diodno stikalo (diak)  
+Začne delovati po preboju prebojne napetosti
+</div>
+</div>
+
+
+
+<div class="row-even">
+<div class="center-t">
+<img src="images/tiristor.jpg" height=400>
+
+Tiristor  
+Deluje kot stikalo
+</div>
+<div class="center-t">
+<img src="images/triak.jpg" height=400>
+
+Triak  
+Dvosmerni tiristor
+</div>
+</div>
+
+
+
+<div class="row-even">
+<div class="center-t">
+<img src="images/img1361.jpg" height=400>
+<img src="https://m.media-amazon.com/images/I/61byqiTCAWL.jpg" height=300>
+
+Svetleča dioda (LED)  
+Pretvarja el. energijo v svetlobo
+</div>
+<div class="center-t">
+<img src="images/fotodioda.jpg" height=400>
+
+Fotodioda  
+Meritev svetlobe  
+(spreminja se upornost)
+</div>
+</div>
+
+
+
+<div class="row-even">
+<div class="center-t">
+<img src="images/schottky.jpg" height=400>
+
+Schottky dioda  
+Izredno hitrost delovanja
+</div>
+<div class="center-t">
 <img src="images/img1359.jpg" height=400>
 
-Varicap dioda
-</div>
-<div>
-<img src="images/img1365.jpg" height=400>
-
-Tunelska dioda
-</div>
-<div>
-<img src="images/img1357.jpg" height=400>
-
-Zener dioda
-</div>
-<div>
-<img src="images/img1363.jpg" height=400>
-
-Zener diodo priključimo v vezju zaporno.
-</div>
-<div>
-<img src="images/img1367.jpg" height=400>
+Varaktorska (varicap) dioda  
+Dioda z kapacitivnostjo
 </div>
 </div>
 
@@ -1379,263 +1466,358 @@ Zener diodo priključimo v vezju zaporno.
 
 ### Tranzistor (bipolarni)
 
-<img src="images/img1386.jpg" width=400>
+<div class="hg">
+<div>
 
-Priključki: baza, kolektor, emitor
+"Transfer resistor" &rarr; transistor
 
-<img src="images/img1388.jpg" width=400>
+**BJT** – Bipolar Junction Transistor
+
+Priključki:
+- Baza (**Base**)
+- Kolektor (**Collector**)
+- Emitor (**Emitter**)
+</div>
+
+<img src="images/img1386.jpg" width=700>
+</div>
+
+Tok med emitorjem in kolektorjem kontroliramo z tokom med bazo in emitorjem oz. kolektorjem (odvisno od tipa tranzistorja).
+
+
+
+<div class="row-even">
+<div class="center-t">
+<img src="images/img1388.jpg" width=600>
+
+$ \dfrac{I_C}{U_{CE}} $ in močnostna karakteristika tranzistorja
+</div>
+<div class="center-t">
+<img src="images/img1393.jpg" width=600>
 
 Možne orientacije tranzistorja
+</div>
+</div>
 
-<img src="images/img1393.jpg" width=400>
+**Tokovno ojačanje tranzistorja s skupno bazo:**
+$ \alpha = \dfrac{I_C}{I_E} $
 
-$I_C/U_{CE}$ in močnostna karakteristika tranzistorja
-
-**Tokovno ojačanje tranzistorja s skupnim emitorjem:**  
-$ \alpha = \frac{I_C}{I_B} $
-
-----
-
-### Delovna točka in uporaba tranzistorja
+**Tokovno ojačanje tranzistorja s skupnim emitorjem:**
+$ \beta = \dfrac{I_C}{I_B} $
 
 ----
+
+### Uporaba tranzistorja
+
+<div class="row-even">
+<div class="center-t">
+<img src="https://www.watelectronics.com/wp-content/uploads/Transistor-as-Amplifier.jpg" height=400>
+
+Tranzistor kot ojačevalnik
+</div>
+<div class="center-t">
+<img src="https://cdn1.byjus.com/wp-content/uploads/2021/04/Define-Transistor-As-A-Switch.png" height=400>
+
+Tranzistor kot stikalo
+</div>
+</div>
+
+
 
 ### NF in VF ojačevalnik
 
-Načelna shema NF ojačevalnika
+<div class="row-even">
+<div class="center-t">
+<img src="images/img1411.jpg" height=300>
 
-<img src="images/img1411.jpg" width=400>
-<img src="images/img1413.jpg" width=400>
+Načelna shema NF ojačevalnika
+</div>
+<div class="center-t">
+<img src="images/img1413.jpg" height=300>
 
 Načelna shema VF ojačevalnika
+</div>
+</div>
 
-Preveliko **segrevanje** lahko privede do uničenja ojačevalnika, zato je potrebno
-poskrbeti za **primerno hlajenje**.
+Preveliko **segrevanje** lahko privede do **uničenja ojačevalnika**, zato je potrebno
+poskrbeti za **primerno hlajenje**
 
 ----
 
 ### Tranzistor (unipolarni)
 
-<img src="images/img1425.jpg" width=400>
+<div class="hg">
+<div>
+
+**FET** – Field Effect Transistor
 
 Priključki tranzistorja:
-- drain (ponor)
-- gate (**krmilna elektroda**)
-- source (izvor)
+- Ponor (**Drain**)
+- krmilna elektroda (**Gate**)
+- Izvor (**Source**)
 
-Unipolarni tranzistor (FET):
+Vrste unipolarnih tranzistorjev:
 - unipolarni tranzistor s PN spojem ali spojni FET (JFET)
 - unipolarni tranzistor z izolirano krmilno elektrodo (IGFET, MOS FET)
+- Dualgate MOS FET (DG MOSFET)
+</div>
 
-V unipolarnem tranzistorju električni tok prenašajo večinski naboji v kanalu. Od tod tudi
-izhaja ime unipolarni tranzistor za razliko od bipolarnega tranzistorja, v katerem prispevajo
-tokovom vseh elektrod oboji nosilci nabojev (elektroni in vrzeli).
+<img src="images/img1425.jpg" width=600>
+</div>
+
+
+
+#### Razlike med BJT in FET
+
+<table class="center">
+<thead>
+<tr><th>Bipolarni tranzistor (BJT)</th><th>Unipolarni tranzistor (FET)</th></tr>
+</thead>
+<tbody>
+<tr><td>"prižgemo" s tokom</td><td>"prižgemo" s napetostjo</td></tr>
+<tr><td>Počasen</td><td>Hiter</td></tr>
+<tr><td>Enosmerni</td><td>Obojesmerni</td></tr>
 
 ----
+
+### Integrirana vezja
+
+<img src="images/ic.jpg" height=300>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Three_IC_circuit_chips.JPG/1200px-Three_IC_circuit_chips.JPG" height=300>
+
+
 
 ### Digitalna integrirana vezja
-Digitalna integrirana vezja poznajo le dve logični stanji.
 
-<img src="images/img1436.jpg" width=400>
-<img src="images/img1438.jpg" width=400>
-<img src="images/img1440.jpg" width=400>
+<div class="hg">
+<div>
+
+Digitalna integrirana vezja poznajo le dve logični stanji:  
+**0** in **1** oz.  
+**izklopljeno** in **vklopljeno** oz.  
+**nizka** in **visoka** napetost
+</div>
+
+<img src="images/img1440.jpg" width=600>
+</div>
+
+
+
+<div class="row-even">
+<img src="images/img1436.jpg" width=500>
+<div class="center-t">
+<img src="images/img1438.jpg" width=500>
 
 Vrata NE-ALI (NOR)
+</div>
+</div>
 
-----
+
 
 ### Analogna integrirana vezja
-Pri analognih integriranih vezjih **izhodni signal zvezno sledi spremembi vhodnega signala.**
-<img src="images/img1453.jpg" width=400> 
-Operacijski ojačevalnik
 
-<img src="images/img1455.jpg" width=400>
+Pri analognih integriranih vezjih **izhodni signal zvezno sledi spremembi vhodnega signala**
+
+<div class="row-even">
+<div class="center-t">
+<img src="images/img1453.jpg" width=500> 
+
+Operacijski ojačevalnik
+</div>
+<div class="center-t">
+<img src="images/img1455.jpg" style="padding:10px" class="white" width=500>
+
 Stabilizirani napajalnik za simetrično napetost
+</div>
+</div>
 
 ----
 
 ### Razred delovanja ojačevalnikov
-<img src="images/img1466.jpg" width=400>
 
-Nastavitev delovne točke določa **kvaliteto ojačevalnika, predvsem glede linearnosti, pa tudi glede ojačanja toka $A_I$, napetosti $A_U$ in izkoristka $\eta.$**
+<div class="hg">
+<div>
 
-Glede na postavitev delovne
-točke ločimo:
-- a - Razred A
-- b - Razred B
-- c - Razred AB
-- d - Razred C
+**Nastavitev delovne točke določa kvaliteto ojačevalnika**, predvsem glede **linearnosti**, pa tudi glede ojačanja toka $A_I$, napetosti $A_U$ in **izkoristka** $\eta$
+
+Glede na **postavitev delovne točke ločimo**:
+- Razred A
+- Razred B
+- Razred AB
+- Razred C
+</div>
+
+<img src="images/img1466.jpg" width=500>
+</div>
 
 ----
 
 ### Razred A
 
-<img src="images/img1475.jpg" width=400>
+<div class="hg">
+<div>
 
 Delovna točka: se nahaja v linearnem delu $I_C/U_{BE}$ karakteristike, zato teče skozi tranzistor enosmerni kolektorski tok, ne glede na prisotnost vhodnega signala.
 
-- Izkoristek:  zelo majhen (30%), majhna izhodna moč.
-- Linearnost: popačenje najmanjše, linearnost največja.
-- Uporaba: v VF tehniki za SSB ojačevalce, QPSK, QAM…
+Izkoristek:  zelo majhen (30%), majhna izhodna moč
+
+Linearnost: popačenje najmanjše, linearnost največja
+
+Uporaba: v VF tehniki za SSB ojačevalce, QPSK, QAM &hellip;
+</div>
+
+<img src="images/img1475.jpg" width=400>
+</div>
 
 ----
 
 ### Razred B
 
-<img src="images/img1484.jpg" width=400>
+<div class="hg">
+<div>
 
 Delovna točka: se nahaja v spodnjem delu $I_C/U_{BE}$ karakteristike običajno v točki, kjer preneha tečikolektorski tok, ko ni na vhodu signala.
 
-- Izkoristek: dosti večji kot v razredu A (65%), prav tako
-izhodna moč.
-- Linearnost: popačenje velika.
-- Uporaba: v ojačevalnikih moči.
+Izkoristek: dosti večji kot v razredu A (65%), prav tako izhodna moč
+
+Linearnost: popačenje velika
+
+Uporaba: v ojačevalnikih moči
+</div>
+
+<img src="images/img1484.jpg" width=400>
+</div>
 
 ----
 
 ### Razred AB
 
-<img src="images/img1493.jpg" width=400>
+<div class="hg">
+<div>
 
 Delovna točka: zaradi zakrivljenosti karakteristike IC/UBE v njenem spodnjem delu, se popačenju ne moremoizogniti, zato v AB razredu delovno točko postavimo v vmesni položaj.
 
-- Izkoristek: izkoristek manjši kot v razredu B (50-60%),
-skoz teče manjši kolektorski tok.
-- Linearnost: večja kot v B, saj se popačenje drastično
-zmanjša.
-- Uporaba: ojačevanje napetosti in tudi moči.
+Izkoristek: izkoristek manjši kot v razredu B (50-60%), skoz teče manjši kolektorski tok
+
+Linearnost: večja kot v B, saj se popačenje drastično zmanjša
+
+Uporaba: ojačevanje napetosti in tudi moči
+</div>
+
+<img src="images/img1493.jpg" width=400>
+</div>
 
 ----
 
 ### Razred C
 
+<div class="hg">
+<div>
+
+Delovna točka: se nahaja v zapornem področju tranzistorja
+
+Izkoristek: tok skozi tranzistor teče samo v vrhovih period vhodnega signala (80%)
+
+Linearnost: zelo slaba, popačenja največja
+
+Uporaba: primeren za ojačevanje konstantnih signalov, predvsem v VF tehniki, v NF vezjih ni uporaben (FM, CW)
+</div>
+
 <img src="images/img1502.jpg" width=400>
-
-Delovna točka: se nahaja v zapornem področju
-tranzistorja.
-
-- Izkoristek: tok skozi tranzistor teče samo v
-vrhovih period vhodnega signala (80%).
-- Linearnost: zelo slaba, popačenja največja.
-- Uporaba: primeren za ojačevanje konstantnih signalov,
-predvsem v VF tehniki, v NF vezjih ni uporaben (FM, CW).
+</div>
 
 ----
 
-### Elektronske cevi (elektrode)
-Kljub silnemu napredku tehnologije na področju tranzistorjev elektronske cevi še niso izgubile popolne veljave v **končnih stopnjah močnostnih ojačevalnikov.**
+### Elektronske cevi (elektronka)
 
-<img src="images/img1512.jpg" width=400>
+Kljub silnemu napredku tehnologije na področju tranzistorjev elektronske cevi še niso izgubile popolne veljave v **končnih stopnjah močnostnih ojačevalnikov**
 
-Glede na število priključkov ločimo elektronske cevi na:
-- dioda (2)
-- trioda (3)
-- tetroda (4)
-- pentoda (5)
-- heksoda (6)
-- …
+<div class="row-even">
+<img src="images/img1512.jpg" height=400>
+<img src="images/elektronke.jpg" height=400>
+</div>
 
 ----
 
-### Napajalnik - usmernik
-<img src="images/img1523.jpg" width=400>
+### Napajalnik – usmernik
+
+<div class="row-even">
+<div class="center-t">
+<img src="images/img1523.jpg" width=500>
+
 Polvalno in polnovalno usmerjanje
+</div>
+<div class="center-t">
+<img src="images/img1525.jpg" width=600>
 
-<img src="images/img1529.jpg" width=400>
-Vezji za stabilizacijo napetosti
-
-<img src="images/img1525.jpg" width=400>
 Gladilnik napetosti
+</div>
+</div>
 
-<img src="images/img1527.jpg" width=400>
+
+
+<div class="row-even">
+<div class="center-t">
+<img src="images/img1529.jpg" width=500>
+
+Vezji za stabilizacijo napetosti
+</div>
+<div class="center-t">
+<img src="images/img1527.jpg" width=500>
+
 Glajena in stabilizirana napetost
+</div>
+</div>
 
 ----
 
 ### Izvedba napajalnika
-<img src="images/img1544.jpg" width=400>
+
+<img src="images/img1544.jpg" width=900>
 
 ----
 
 ### Mikrofoni
-Mikrofon je naprava, ki zvočna nihanja pretvori v električno napetost.
+
+Mikrofon je naprava, ki zvočna nihanja pretvori v električno napetost
+
+<div class="row-even">
+<div class="center-t">
 <img src="images/img1553.jpg" width=400>
+
 Ogleni mikrofon
-
+</div>
+<div class="center-t">
 <img src="images/img1555.jpg" width=400>
+
 Kondenzatorski mikrofon
+</div>
+</div>
 
+
+
+<div class="row-even">
+<div class="center-t">
 <img src="images/img1559.jpg" width=400>
-Kristalni mikrofon
 
+Kristalni mikrofon
+</div>
+<div class="center-t">
 <img src="images/img1557.jpg" width=400>
+
 Dinamični mikrofon
+</div>
+</div>
 
 ----
 
 ### Zvočnik
-Zvočnik je naprava, ki električno napetost pretvarja v mehansko nihanje membrane.
-<img src="images/img1574.jpg" width=400>
-
-----
-
-### Vzorčenje
 
 <div class="hg">
 <div>
 
-Pretvorba analognega signala v digitalnega z **A/D** pretvornikom imenujemo **vzorčenje**
-
-**Minimalna vzorčevalna frekvenca** pri digitalni obdelavi signalov je enaka **dvakratniku najvišje frekvence vzorčenega signala**
-- **Nyquistova frekvenca**
+Električno napetost pretvarja v mehansko nihanje membrane
 </div>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Conversion_AD_DA.png/220px-Conversion_AD_DA.png" width=500>
+<img src="images/img1574.jpg" width=300>
 </div>
-
-
-
-**Kvantiziranje**: vrednosti vzorca priredimo najbližje možne diskretne vrednosti
-
-**Kvantizacijski nivo** $= 2^n$, kjer je $n$ število bitov
-
-**Kvantizacijski šum ali napaka**: negotovost ko na podlagi diskretne vrednost signala ni mogoče zagotovo sklepati na pravo vrednost prvotnega signala
-
-
-
-<div class="hg">
-<div>
-
-**Aliasing** (popačeno zaznavanje): spektralno prekrivanje pri vzorčenju analognega signala
-
-**Anti-aliasing filter** (protiprekrivni filter): omeji pasovno širino vhodnega signala pred digitalno obdelavo
-</div>
-
-<img src="images/vzorcenje.jpg" width=600>
-</div>
-
-----
-
-### Digitalno procesiranje signalov
-
-**Konvolucija**: rezultat matematične **kombinacije dveh signalov**, kjer dobimo kot rezultat tretji signal. Izredno pomembna operacija pri DSP.
-
-Konvolucija: $y[n] = x[n] * h[n]$
-
-Konvolucijska vrsta: $y[i] = \sum _{j=0}^{M-1} h[j] \sdot [i-j]$
-
-
-
-**Fourierjeva transformacija** - pretvorba signala iz časovnega prostora v frekvenčni prostor
-
-**Diskretna Fourierova transformacija** (**DFT**) - z digitalnimi signali
-
-**Hitra Fourierova transformacija** (**FFT**) - učinkovitejša in hitrejša metoda za izračun DFT
-
-<img src="https://www.nti-audio.com/portals/0/pic/news/FFT-Time-Frequency-View-540.png">
-
-
-
-Digitalni filtri:
-- **FIR** - filter s končnim impulznim odzivom
-- **IIR** - filter z neskončnim impulznim odzivom

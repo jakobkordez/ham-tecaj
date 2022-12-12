@@ -1,6 +1,10 @@
 ## 6. Radiotehnika
 
+<div style="font-size:50px">🚧 Under construction 🚧</div>
+
 ----
+
+### Signali
 
 **Signali so nosilci informacij**
 
@@ -41,6 +45,69 @@ Fazni zasuk: **vsak filter povzroči fazni zasuk**!
 
 ----
 
+### Vzorčenje signalov
+
+<div class="hg">
+<div>
+
+Pretvorba analognega signala v digitalnega z **A/D** pretvornikom imenujemo **vzorčenje**
+
+**Minimalna vzorčevalna frekvenca** pri digitalni obdelavi signalov je enaka **dvakratniku najvišje frekvence vzorčenega signala**
+- **Nyquistova frekvenca**
+</div>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Conversion_AD_DA.png/220px-Conversion_AD_DA.png" width=500>
+</div>
+
+
+
+**Kvantiziranje**: vrednosti vzorca priredimo najbližje možne diskretne vrednosti
+
+**Kvantizacijski nivo** $= 2^n$, kjer je $n$ število bitov
+
+**Kvantizacijski šum ali napaka**: negotovost ko na podlagi diskretne vrednost signala ni mogoče zagotovo sklepati na pravo vrednost prvotnega signala
+
+
+
+<div class="hg">
+<div>
+
+**Aliasing** (popačeno zaznavanje): spektralno prekrivanje pri vzorčenju analognega signala
+
+**Anti-aliasing filter** (protiprekrivni filter): omeji pasovno širino vhodnega signala pred digitalno obdelavo
+</div>
+
+<img src="images/vzorcenje.jpg" width=600>
+</div>
+
+----
+
+### Digitalno procesiranje signalov
+
+**Konvolucija**: rezultat matematične **kombinacije dveh signalov**, kjer dobimo kot rezultat tretji signal. Izredno pomembna operacija pri DSP.
+
+Konvolucija: $y[n] = x[n] * h[n]$
+
+Konvolucijska vrsta: $y[i] = \sum _{j=0}^{M-1} h[j] \sdot [i-j]$
+
+
+
+**Fourierjeva transformacija** - pretvorba signala iz časovnega prostora v frekvenčni prostor
+
+**Diskretna Fourierova transformacija** (**DFT**) - z digitalnimi signali
+
+**Hitra Fourierova transformacija** (**FFT**) - učinkovitejša in hitrejša metoda za izračun DFT
+
+<img src="https://www.nti-audio.com/portals/0/pic/news/FFT-Time-Frequency-View-540.png">
+
+
+
+Digitalni filtri:
+- **FIR** - filter s končnim impulznim odzivom
+- **IIR** - filter z neskončnim impulznim odzivom
+
+----
+
 ### Množenje frekvenc
 
 Lastnost ojačevalnikov, da popačijo signal (signal vsebuje višje harmonske
@@ -71,16 +138,16 @@ Na izhodu mešalnika dobimo:
 
 ### Modulacija
 
-Nosilec **moduliramo z informacijskim signalom**, postopek imenujemo **MODULACIJA**.
+Nosilec **moduliramo z informacijskim signalom**, postopek imenujemo **modulacija**.
 
-Obratni postopek, ki **izlušči informacijo na sprejemni strani iz nosilca** imenujemo **DEMODULACIJA**.
+Obratni postopek, ki **izlušči informacijo na sprejemni strani iz nosilca** imenujemo **demodulacija**.
 
 <br/>
 
 Za prenos informacije spreminjamo enega od parametrov:
-- amplitudo &rarr; **AMPLITUDNA** MODULACIJA (**AM**, A3E)
-- frekvenco &rarr; **FREKVENČNA** MODULACIJA (**FM**, F3E)
-- fazo &rarr; **FAZNA** MODULACIJA (**PM**, G3E)
+- amplitudo &rarr; **Amplitudna** modulacija (**AM**, A3E)
+- frekvenco &rarr; **Frekvenčna** modulacija (**FM**, F3E)
+- fazo &rarr; **Fazna** modulacija (**PM**, G3E)
 
 ----
 

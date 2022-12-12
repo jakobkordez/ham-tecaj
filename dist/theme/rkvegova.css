@@ -503,7 +503,7 @@ a.center-b {
 }
 
 .center-t > p {
-  display: inline-block;
+  display: block;
   text-align: center;
 }
 
