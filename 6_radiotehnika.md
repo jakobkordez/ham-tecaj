@@ -22,7 +22,7 @@ VSAK signal lahko obravnavamo kot **vsoto sinusnih signalov različnih amplitud 
 
 **Frekvenčni spekter**: podaja informacijo o zastopanih frekvencah signala, amplitudi
 
-Frekvence sinusnih signalov, ko so večkratniki osnovne frekvence imenujemo **višje harmonske komponente**
+Frekvence sinusnih signalov, ki so večkratniki osnovne frekvence imenujemo **višje harmonske komponente** (harmoniki)
 
 <img src="https://www.nti-audio.com/portals/0/pic/news/FFT-Time-Frequency-View-540.png">
 

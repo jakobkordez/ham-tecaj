@@ -1185,13 +1185,13 @@ Sestavljeni iz pasivnih elementov (kondenzatorjev, tuljav in uporov)
 <div class="center-t">
 
 Zaporedni nihanji krog  
-v resonanci prepušča tok.
+v resonanci prepušča tok
 <img src="images/img1270.jpg" height=400>
 </div>
 <div class="center-t">
 
 Vzporedni nihanji krog  
-v resonanci ne prepušča toka.
+v resonanci ne prepušča toka
 <img src="images/img1287.jpg" height=400>
 </div>
 </div>
@@ -1251,10 +1251,10 @@ Filtre delimo po različnih merilih, npr. frekvenčni pas:
 - **Pasovno-zaporni** filter
 
 **Amplitudni frekvenčni odziv**: pove katere frekvence filter prepušča
-in katere slabi.
+in katere slabi
 
 **Prenosna funkcija**: pove vpliv filtra na amplitudo in fazo vhodnega
-signala.
+signala
 
 Vsak filter povzroči **fazni zamik**
 </div>
@@ -1281,11 +1281,11 @@ Višji kot je red filtra, bolj se amplitudni odziv približuje idealnemu
 
 ### Kristalni filter
 
-**Resonatorji**: zelo ozka pasovno-prepustni ali pasovnozaporni filtri z zelo veliko kvaliteto Q.
+**Resonatorji**: zelo ozka pasovno-prepustni ali pasovnozaporni filtri z zelo veliko kvaliteto Q
 
-**Overtonska frekvenca**: nihanje ploščice kremenovega kristala na mnogokratniku osnovne frekvence kristala.
+**Overtonska frekvenca**: nihanje ploščice kremenovega kristala na mnogokratniku osnovne frekvence kristala
 
-**Overtonski oscilator**: kristal lahko niha le na overtonskih frekvencah, ki so lihi mnogokratniki osnovne frekvence.
+**Overtonski oscilator**: kristal lahko niha le na overtonskih frekvencah, ki so lihi mnogokratniki osnovne frekvence
 
 <img src="images/img1315.jpg" width=500>
 
@@ -1300,9 +1300,9 @@ Silicij / germanij
 
 Štiri elektroni v zunanji ovojnici
 
-Čisti polprevodnik, ne prevaja električnega toka (kovalentna vez)
+Čisti polprevodnik, **ne prevaja** električnega **toka** (kovalentna vez)
 
-Dopiranje: dodajanje primesi polprevodniku
+Polprevodnikom **dodajamo primesi** (Dopiranje)
 </div>
 
 <img src="https://lastminuteengineers.b-cdn.net/wp-content/uploads/basic/Silicon-Crystal.png" width=300>
@@ -1313,16 +1313,16 @@ Dopiranje: dodajanje primesi polprevodniku
 <div class="row-even">
 <div class="w-50">
 
-**N tip polprevodnika:**  
-Donorji: petvalentne primesi, kot so fosfor, arzen, antimon, ki povečajo v polprevodniku število prostih elektronov.
+**N tip** polprevodnika:  
+Donorji: petvalentne primesi, kot so fosfor, arzen, antimon, ki povečajo v polprevodniku število prostih elektronov
 
 <img src="http://www.differencebetween.info/sites/default/files/images_articles_d7_1/n-type.jpg" height=300>
 </div>
 <div class="w-50">
 
-**P tip polprevodnika:**  
+**P tip** polprevodnika:  
 Akceptorji: trivalentne primesi, kot so, bor,
-aluminij, galij, indij, ki ustvarijo gibljive vrzeli.
+aluminij, galij, indij, ki ustvarijo gibljive vrzeli
 
 <img src="http://www.differencebetween.info/sites/default/files/images_articles_d7_1/p-type.jpg" height=300>
 </div>
@@ -1335,9 +1335,9 @@ aluminij, galij, indij, ki ustvarijo gibljive vrzeli.
 <div class="hg">
 <div>
 
-**PN spoj** prevaja (skoraj brez upornosti) tok le v eno smer
+**PN spoj** _brez upornosti_ **prevaja tok** le **v eno smer**
 
-Dioda v zaporni smeri prevaja majhen tok, ki ga imenujemo **zaporni tok ali tok nasičenja.**
+Dioda v zaporni smeri prevaja majhen tok, ki ga imenujemo **zaporni tok ali tok nasičenja**
 </div>
 
 <img src="images/img1335.jpg" width=500>
@@ -1357,6 +1357,19 @@ Dioda v zaporni smeri prevaja majhen tok, ki ga imenujemo **zaporni tok ali tok 
 - Dioda kot stikalo
 - Dvosignalni krmilniki
 - Stabilizatorji napetosti
+
+<div class="row-even mt-20">
+<div class="center-t">
+<img src="https://cdn.sparkfun.com/assets/2/9/2/f/3/5176f4bfce395f3a61000000.png" height=200>
+
+Polvalni usmernik
+</div>
+<div class="center-t">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Diodebridge-eng.gif" height=200>
+
+Polnovalni usmernik
+</div>
+</div>
 
 
 
@@ -1482,7 +1495,7 @@ Priključki:
 <img src="images/img1386.jpg" width=700>
 </div>
 
-Tok med emitorjem in kolektorjem kontroliramo z tokom med bazo in emitorjem oz. kolektorjem (odvisno od tipa tranzistorja).
+Tok med emitorjem in kolektorjem kontroliramo z tokom med bazo in emitorjem oz. kolektorjem (odvisno od tipa tranzistorja)
 
 
 
@@ -1522,26 +1535,6 @@ Tranzistor kot stikalo
 </div>
 </div>
 
-
-
-### NF in VF ojačevalnik
-
-<div class="row-even">
-<div class="center-t">
-<img src="images/img1411.jpg" height=300>
-
-Načelna shema NF ojačevalnika
-</div>
-<div class="center-t">
-<img src="images/img1413.jpg" height=300>
-
-Načelna shema VF ojačevalnika
-</div>
-</div>
-
-Preveliko **segrevanje** lahko privede do **uničenja ojačevalnika**, zato je potrebno
-poskrbeti za **primerno hlajenje**
-
 ----
 
 ### Tranzistor (unipolarni)
@@ -1557,9 +1550,9 @@ Priključki tranzistorja:
 - Izvor (**Source**)
 
 Vrste unipolarnih tranzistorjev:
-- unipolarni tranzistor s PN spojem ali spojni FET (JFET)
-- unipolarni tranzistor z izolirano krmilno elektrodo (IGFET, MOS FET)
-- Dualgate MOS FET (DG MOSFET)
+- s PN spojem ali spojni FET (**JFET**)
+- z izolirano krmilno elektrodo (IGFET, **MOSFET**)
+- Dualgate MOSFET (**DG MOSFET**)
 </div>
 
 <img src="images/img1425.jpg" width=600>
@@ -1582,10 +1575,16 @@ Vrste unipolarnih tranzistorjev:
 
 ### Integrirana vezja
 
+Najbolj pogosto uporabljeni elementi v elektronskih vezjih
+
+Skupek elementov skrčimo na čim manjši prostor
+
+<div class="row-even">
 <img src="images/ic.jpg" height=300>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Three_IC_circuit_chips.JPG/1200px-Three_IC_circuit_chips.JPG" height=300>
+</div>
 
-
+----
 
 ### Digitalna integrirana vezja
 
@@ -1603,16 +1602,100 @@ Digitalna integrirana vezja poznajo le dve logični stanji:
 
 
 
+### Osnovna logična vezja
+
 <div class="row-even">
-<img src="images/img1436.jpg" width=500>
 <div class="center-t">
-<img src="images/img1438.jpg" width=500>
 
-Vrata NE-ALI (NOR)
+Vrata IN (AND)  
+<img src="images/gate_and.jpg" width=200>
+| A | B | Y |
+|---|---|---|
+| 0 | 0 | 0 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
+</div>
+<div class="center-t">
+
+Vrata ALI (OR)  
+<img src="images/gate_or.jpg" width=200>
+| A | B | Y |
+|---|---|---|
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 1 |
+</div>
+<div class="center-t">
+
+Vrata NE (NOT)  
+<img src="images/gate_not.jpg" width=200>
+| A | Y |
+|---|---|
+| 0 | 1 |
+| 1 | 0 |
 </div>
 </div>
 
 
+
+<div class="row-even">
+<div class="center-t">
+
+Vrata ekskluzivni ALI (XOR)  
+<img src="images/gate_xor.jpg" width=200>
+| A | B | Y |
+|---|---|---|
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+</div>
+<div class="center-t">
+
+Vrata NE-IN (NAND)  
+<img src="images/gate_nand.jpg" width=200>
+| A | B | Y |
+|---|---|---|
+| 0 | 0 | 1 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+</div>
+</div>
+
+
+
+<div class="row-even">
+<div class="center-t">
+
+Vrata NE-ALI (NOR)  
+<img src="images/gate_nor.jpg" width=200>
+| A | B | Y |
+|---|---|---|
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 0 |
+</div>
+
+<img src="images/img1438.jpg" height=500>
+</div>
+
+**Najbolj razširjena** so vrata **NAND in NOR** zaradi njune enostavnosti in cenovne ugodnosti  
+**Univerzalna vrata**: Druga vrata (NOT, AND, OR, &hellip;) lahko sestavimo iz NAND in NOR
+
+
+
+#### Flip flop
+
+<div class="row-even">
+<img src="images/img1436.jpg" width=600>
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/R-S_mk2.gif" width=500>
+</div>
+
+----
 
 ### Analogna integrirana vezja
 
@@ -1633,6 +1716,36 @@ Stabilizirani napajalnik za simetrično napetost
 
 ----
 
+### Elektronske cevi (elektronka)
+
+Kljub silnemu napredku tehnologije na področju tranzistorjev elektronske cevi še niso izgubile popolne veljave v **končnih stopnjah močnostnih ojačevalnikov**
+
+<div class="row-even">
+<img src="images/img1512.jpg" height=400>
+<img src="images/elektronke.jpg" height=400>
+</div>
+
+----
+
+### NF in VF ojačevalnik
+
+<div class="row-even">
+<div class="center-t">
+<img src="images/img1411.jpg" height=300>
+
+Načelna shema NF ojačevalnika (zvok)
+</div>
+<div class="center-t">
+<img src="images/img1413.jpg" height=300>
+
+Načelna shema VF ojačevalnika (radijski signali)
+</div>
+</div>
+
+Preveliko **segrevanje** lahko privede do **uničenja ojačevalnika**, zato je potrebno poskrbeti za **primerno hlajenje**
+
+
+
 ### Razred delovanja ojačevalnikov
 
 <div class="hg">
@@ -1650,128 +1763,149 @@ Glede na **postavitev delovne točke ločimo**:
 <img src="images/img1466.jpg" width=500>
 </div>
 
-----
+
 
 ### Razred A
 
 <div class="hg">
 <div>
 
-Delovna točka: se nahaja v linearnem delu $I_C/U_{BE}$ karakteristike, zato teče skozi tranzistor enosmerni kolektorski tok, ne glede na prisotnost vhodnega signala.
+**Delovna točka**: se nahaja v linearnem delu $\frac{I_C}{U_{BE}}$ karakteristike, zato teče skozi tranzistor enosmerni kolektorski tok, ne glede na prisotnost vhodnega signala
 
-Izkoristek:  zelo majhen (30%), majhna izhodna moč
+**Izkoristek**:  **zelo majhen** (30%), majhna izhodna moč
 
-Linearnost: popačenje najmanjše, linearnost največja
+**Linearnost**: **popačenje najmanjše**, linearnost največja
 
-Uporaba: v VF tehniki za SSB ojačevalce, QPSK, QAM &hellip;
+**Uporaba**: v VF tehniki za SSB ojačevalce, QPSK, QAM &hellip;
 </div>
 
 <img src="images/img1475.jpg" width=400>
 </div>
 
-----
+
 
 ### Razred B
 
 <div class="hg">
 <div>
 
-Delovna točka: se nahaja v spodnjem delu $I_C/U_{BE}$ karakteristike običajno v točki, kjer preneha tečikolektorski tok, ko ni na vhodu signala.
+**Delovna točka**: se nahaja v spodnjem delu $\frac{I_C}{U_{BE}}$ karakteristike običajno v točki, kjer preneha teči kolektorski tok, ko ni na vhodu signala
 
-Izkoristek: dosti večji kot v razredu A (65%), prav tako izhodna moč
+**Izkoristek**: **dosti večji** kot v razredu A (65%), prav tako izhodna moč
 
-Linearnost: popačenje velika
+**Linearnost**: **veliko popačenja**
 
-Uporaba: v ojačevalnikih moči
+**Uporaba**: v ojačevalnikih moči
 </div>
 
 <img src="images/img1484.jpg" width=400>
 </div>
 
-----
+
 
 ### Razred AB
 
 <div class="hg">
 <div>
 
-Delovna točka: zaradi zakrivljenosti karakteristike IC/UBE v njenem spodnjem delu, se popačenju ne moremoizogniti, zato v AB razredu delovno točko postavimo v vmesni položaj.
+**Delovna točka**: zaradi zakrivljenosti karakteristike $\frac{I_C}{U_{BE}}$ v njenem spodnjem delu, se popačenju ne moremo izogniti, zato v AB razredu delovno točko postavimo v vmesni položaj
 
-Izkoristek: izkoristek manjši kot v razredu B (50-60%), skoz teče manjši kolektorski tok
+**Izkoristek**: **med razredoma A in B** (50-60%)
 
-Linearnost: večja kot v B, saj se popačenje drastično zmanjša
+**Linearnost**: **boljša kot B**, popačenje drastično zmanjša
 
-Uporaba: ojačevanje napetosti in tudi moči
+**Uporaba**: ojačevanje napetosti in tudi moči
 </div>
 
 <img src="images/img1493.jpg" width=400>
 </div>
 
-----
+
 
 ### Razred C
 
 <div class="hg">
 <div>
 
-Delovna točka: se nahaja v zapornem področju tranzistorja
+**Delovna točka**: se nahaja v zapornem področju tranzistorja
 
-Izkoristek: tok skozi tranzistor teče samo v vrhovih period vhodnega signala (80%)
+**Izkoristek**: **najboljši**, tok skozi tranzistor teče samo v vrhovih period vhodnega signala (80%)
 
-Linearnost: zelo slaba, popačenja največja
+**Linearnost**: **zelo slaba**, popačenja največja
 
-Uporaba: primeren za ojačevanje konstantnih signalov, predvsem v VF tehniki, v NF vezjih ni uporaben (FM, CW)
+**Uporaba**: primeren za signale kjer se ne spreminja amplituda (**CW**, **FM** in FSK), predvsem v VF tehniki, v NF vezjih ni uporaben
 </div>
 
 <img src="images/img1502.jpg" width=400>
 </div>
 
-----
 
-### Elektronske cevi (elektronka)
 
-Kljub silnemu napredku tehnologije na področju tranzistorjev elektronske cevi še niso izgubile popolne veljave v **končnih stopnjah močnostnih ojačevalnikov**
+### Razred D
 
-<div class="row-even">
-<img src="images/img1512.jpg" height=400>
-<img src="images/elektronke.jpg" height=400>
-</div>
+"Digitalen" način delovanja (PWM)
+
+Zelo dober izkoristek
+
+Linearnost / popačenje ni pomembno
 
 ----
 
 ### Napajalnik – usmernik
 
-<div class="row-even">
+Imamo 230V izmenični vir napajanja, želimo pa 12V enosmerni tok
+
+#### Napetost znižamo
+
+Izmenično napetost znamo znižati z uporabo transformatorja
+
+<img src="images/trans_230_12.jpg" width=500>
+
+
+
+#### Usmernik
+
 <div class="center-t">
-<img src="images/img1523.jpg" width=500>
+<img src="images/img1523.jpg" width=600>
 
 Polvalno in polnovalno usmerjanje
 </div>
-<div class="center-t">
-<img src="images/img1525.jpg" width=600>
-
-Gladilnik napetosti
-</div>
-</div>
 
 
+
+#### Gladilnik
+
+<img src="images/img1525.jpg" width=700>
+
+
+
+#### Stabilizator
 
 <div class="row-even">
-<div class="center-t">
-<img src="images/img1529.jpg" width=500>
-
-Vezji za stabilizacijo napetosti
-</div>
 <div class="center-t">
 <img src="images/img1527.jpg" width=500>
 
 Glajena in stabilizirana napetost
 </div>
+<div>
+<img src="images/img1529.jpg" width=500><br/>
+<img src="images/volt_stabilizer.jpg" width=500>
+</div>
 </div>
 
-----
 
-### Izvedba napajalnika
+
+#### Zaščita
+
+- Napajalnik zaščitimo pred prevelikim tokom / kratkim stikom
+    - varovalka pred transformatorjem in pred izhodom
+    - omejitev toka s tranzistorji
+- Naprave na izhodu napajalnika zaščitimo pred preveliko napetostjo
+    - zener dioda, tiristor in varovalka na izhodu
+
+
+
+#### Izvedba linearnega napajalnika
 
 <img src="images/img1544.jpg" width=900>
 
