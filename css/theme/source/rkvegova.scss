@@ -74,6 +74,9 @@ div.hg {
     display: flex;
     justify-content: space-between;
 }
+div.hg > *:first-child {
+    margin-right: 10px;
+}
 div.hg > *:not(:first-child) {
     margin: auto;
     display: block;
