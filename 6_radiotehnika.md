@@ -1,7 +1,5 @@
 ## 6. Radiotehnika
 
-<div style="font-size:50px">🚧 Under construction 🚧</div>
-
 ----
 
 ### Signali
@@ -63,7 +61,8 @@ Pretvorba analognega signala v digitalnega z **A/D** pretvornikom imenujemo **vz
 
 **Kvantiziranje**: vrednosti vzorca priredimo najbližje možne diskretne vrednosti
 
-**Kvantizacijski nivo** $= 2^n$, kjer je $n$ število bitov
+**Kvantizacijski nivo**
+- Število kvantizacijskih nivojev $= 2^n$, $n$ je število bitov
 
 **Kvantizacijski šum ali napaka**: negotovost ko na podlagi diskretne vrednost signala ni mogoče zagotovo sklepati na pravo vrednost prvotnega signala
 
@@ -79,6 +78,10 @@ Pretvorba analognega signala v digitalnega z **A/D** pretvornikom imenujemo **vz
 
 <img src="images/vzorcenje.jpg" width=600>
 </div>
+
+
+
+<img src="https://www.researchgate.net/publication/351095579/figure/fig1/AS:1016682332033024@1619407365212/Downsampling-and-Anti-aliasing-a-When-downsampling-a-signal-with-an-inadequate.png" height=500>
 
 ----
 
@@ -124,11 +127,11 @@ komponente) nam pride prav pri tako imenovanem **množenju frekvenc**
 <div class="hg">
 <div>
 
-Na izhodu mešalnika dobimo:  
-1. vse signale, ki vstopajo v mešalnik  
-2. $f_{VCO}$  
-3. Vsoto in razliko: $f_{VCO}\pm{vh}$  
-4. harmonike signalov iz točke 1, 2 in 3 ter enosmerno komponento
+V mešalnik pripeljemo signal $f_1$ in $f_2$,
+na izhodu mešalnika dobimo:
+- $f_1 + f_2$ (mešanje navzgor)
+- $f_1 - f_2$ (mešanje navzdol)
+
 </div>
 
 <img src="images/mesanje.jpg" width=600>
@@ -136,13 +139,23 @@ Na izhodu mešalnika dobimo:
 
 
 
+#### Primer
+
+Če mešamo $f_1 =$ 576 MHz in $f_2 =$ 144 MHz dobimo na izhodu:
+- $f_1 + f_2 =$ 720 MHz
+- $f_1 - f_2 =$ 432 MHz
+
+Če želimo samo 432 MHz ali 720 MHz, dodamo filter.
+
+----
+
 ### Modulacija
 
 Nosilec **moduliramo z informacijskim signalom**, postopek imenujemo **modulacija**.
 
 Obratni postopek, ki **izlušči informacijo na sprejemni strani iz nosilca** imenujemo **demodulacija**.
 
-<br/>
+$$ u(t) = A \cdot \cos(2 \pi f t + \Phi) $$
 
 Za prenos informacije spreminjamo enega od parametrov:
 - amplitudo &rarr; **Amplitudna** modulacija (**AM**, A3E)
@@ -160,7 +173,30 @@ Večja kot je pasovna širina, višja mora biti frekvenca nosilca
 
 Pasovna širina realnega vzporednega nihajnega kroga, ki ima Q faktor od 10 do 100, se giblje od 1 do 10% okrog resonančne frekvence.
 
-Spodnja enačba predstavlja zgornjo mejo zmogljivosti komunikacijskega sistema z dano pasovno širino in danim razmerjem signal-šum
+<div class="row-even">
+<div>
+
+$$ 0.01 < \frac{B}{f_c} < 0.1 $$
+</div>
+
+$B$ – pasovna širina  
+$f_c$ – frekvenca nosilca
+</div>
+
+
+
+Zgornja meja zmogljivosti komunikacijskega sistema:
+
+<div class="row-even">
+<div>
+
+$ C = B \sdot \log \bigg(1 + \dfrac{S}{N} \bigg) $
+</div>
+
+$C$ – kapaciteta kanala  
+$B$ – pasovna širina  
+$\frac{S}{N}$ – razmerje signal/šum
+</div>
 
 ----
 
@@ -169,12 +205,13 @@ Spodnja enačba predstavlja zgornjo mejo zmogljivosti komunikacijskega sistema z
 Spreminjamo **amplitudo nosilca**
 
 Pasovna širina AM signala:  
-$B=2 \sdot W$  
-W – pasovna širina modulacijskega signala
+$ B = 2 \sdot W $  
+$W$ – pasovna širina modulacijskega signala
 
-<img src="https://electronicspost.com/wp-content/uploads/2015/11/amplitude-modulation1.png" width=450>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Am-sidebands.png" width=450>
+<div class="row-even">
+<img src="https://electronicspost.com/wp-content/uploads/2015/11/amplitude-modulation1.png" height=300>
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Am-sidebands.png" height=300>
+</div>
 
 ----
 
@@ -190,9 +227,9 @@ Nosilec potlačimo DSB-SC (Double-SideBand Supressed-Carrier) ali krajše **DSB*
 
 ### Single-SideBand – SSB
 
-Da privarčujemo še na pasovni širini signala odstranimo še enega od bočnih pasov, saj na obeh prenašamo enako informacijo in dobimo enobočno modulacijo, ki jo označimo s **SSB** (Single-SideBand).
-- **LSB** – spodnji bočni pas
-- **USB** – zgornji bočni pas
+Da privarčujemo še na pasovni širini signala odstranimo še enega od bočnih pasov, saj na obeh prenašamo enako informacijo in dobimo enobočno modulacijo, ki jo označimo s **SSB** (single-sideband).
+- **LSB** – spodnji bočni pas (lower sideband)
+- **USB** – zgornji bočni pas (upper sideband)
 
 <img src="images/ssb.jpg" height=300>
 
@@ -202,16 +239,17 @@ Da privarčujemo še na pasovni širini signala odstranimo še enega od bočnih 
 
 Spreminjamo **frekvenco nosilca**
 
+<div class="row-even">
 <img src="http://www.physics-and-radio-electronics.com/blog/wp-content/uploads/2018/04/frequencymodulation.png" width=450>
-
 <img src="https://www.elprocus.com/wp-content/uploads/Bandwidth-of-FM-Signal.jpg" width=450>
+</div>
 
 
 
 Pasovna širina FM signala:  
-$B=2 \sdot W + 2 \sdot D$  
-W – max frekvenca modulacijskega signala  
-D – frekvenčna deviacija
+$ B = 2 \sdot W + 2 \sdot D $  
+$W$ – max frekvenca modulacijskega signala  
+$D$ – frekvenčna deviacija
 
 **Frekvenčna deviacija** je definirana kot **največji odmik frekvence FM signala od nosilne frekvence** in je sorazmerna amplitudi modulacijskega signala.
 
@@ -243,11 +281,13 @@ Ogled animacije je možen na: <a>https://en.wikipedia.org/wiki/Phase_modulation<
 Najpreprostejši način moduliranja nosilnega vala.  
 **Nosilec** preprosto **vklapljamo in izklapljamo** v ritmu vnaprej dogovorjenih znakov (Morse-kod).
 
-<img src="http://www.armyradio.wiki/lib/exe/fetch.php?w=400&tok=3c2add&media=images:grundlagen-cw.jpg" height=150>
+<img src="images/img1803.jpg" height=200>
 
-// TODO: straight, iambic
+Ima **najmanjšo pasovno širino** (100 Hz), oddajamo/sprejemamo samo eno frekvenco.
 
-Ima **najmanjšo pasovno širino**, oddajamo/sprejemamo samo eno frekvenco.
+----
+
+<div style="font-size:50px">🚧 Under construction 🚧</div>
 
 ----
 
