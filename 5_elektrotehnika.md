@@ -1287,7 +1287,10 @@ Višji kot je red filtra, bolj se amplitudni odziv približuje idealnemu
 
 **Overtonski oscilator**: kristal lahko niha le na overtonskih frekvencah, ki so lihi mnogokratniki osnovne frekvence
 
-<img src="images/img1315.jpg" width=500>
+<div class="row-even">
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/16MHZ_Crystal.jpg" height=250>
+<img src="images/img1315.jpg" height=250>
+</div>
 
 ----
 

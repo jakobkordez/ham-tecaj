@@ -291,7 +291,7 @@ Ima **najmanjšo pasovno širino** (100 Hz), oddajamo/sprejemamo samo eno frekve
 
 ----
 
-### Radijski oddajnik – Oscilatorji
+### Radijski oddajnik
 
 **Radijski oddajnik**: naprava, ki ustvari radiofrekvenčni signal, ga opremi z informacijo, ojača in nato pošlje v anteno, kjer se izseva v prostor
 
@@ -299,50 +299,271 @@ Elektronski sklopi, ki proizvajajo radiofrekvenčne (RF) signale:
 - električni oscilatorji
 - RF sintezatorji
 
-Oscilatorji:  
-Električni oscilator: izvor izmeničnih tokov ali
-napetosti določene frekvence.
+----
 
-<img src="images/oscil.jpg" width=300>
+### Oscilatorji
 
-Osnovni elementi oscilatorja
+Električni **oscilator**: **izvor izmeničnih tokov** ali napetosti **določene frekvence**
+
+Oscilator na področju radijskih frekvenc &rarr; RF oscilator
+
+Prva stopnja oddajnika, določa frekvenco na kateri bo oddajnik deloval
 
 
+
+Če nihajnemu krogu dovedemo začetno energijo, ta zaniha (dušeno).
+
+Želimo nedušeno nihanje &rarr; oscilator
+
+<div class="row-even">
+<img src="images/duseno_nihanje.jpg" height=400>
+<img src="images/nihanje.jpg" height=400>
+</div>
+
+
+
+#### Osnovni elementi oscilatorja
 
 <div class="hg">
 <div>
 
-Sinusni signal idealnega oscilatorja (a), amplitudni šum&nbsp;(b) in fazni šum (c)
+- **Izvor energije**
+    - enosmerne napetosti
+- **Nihajni krog**
+    - določa frekvenco
+- **"Ventil"** (tranzistor ali elektronka)
+    - dovajanje energije nihajnemu krogu
+- **Povratna zveza**
+</div>
 
-**Amplitudni šum**:  
-nezaželeno spreminjanje amplitude nihanja  
-**Fazni šum**:  
-nezaželeno spreminjanje faze generiranega signala
+<img src="images/oscil.jpg" width=500>
+</div>
+
+
+
+#### Realni oscilatorji
+
+<div class="hg">
+<div>
+
+**Amplitudni šum**: nezaželeno spreminjanje amplitude
+
+**Fazni šum**: nezaželeno spreminjanje faze
+
+Dobremu oscilatorju se frekvenca čimmanj spreminja (je **stabilen**),
+nanj vplijo:
+- mehanska in električna izvedba
+- starost
+- temperaturne spremembe
 </div>
 
 <img src="images/am_ph_šum.jpg" width=500>
 </div>
 
+
+
+#### Vrste oscilatorjev
+
+- **Kristalni** oscilatorji (**XO**)
+- **Kristalni** oscilatorji **spremenljive frekvence** (**VXO**)
+    - kristalu zaporedno/vzporedno vežemo spremenljiv kondenzator ali zaporedno tuljavo
+- Oscilator **spremenljive frekvence** (**VFO** – Variable Frequency Oscillator)
+    - LC nihajni krog, zaporedno vežemo spremenljiv kondenzator
+- **Napetostno kontroliran** oscilator (**VCO** – Voltage Controlled Oscillator)
+    - LC nihajni krog z varaktorsko (varicap) diodo
+
+
+
+#### Heterodinski oscilator
+
+<div class="hg">
+<div>
+
+"Heterodyning" – kombiniranje ali mešanje dveh signalov
+
+Zgornja meja VFO-ja z dobro stabilnostjo: 7-10 MHz
+
+&nbsp;
+
+Pri višjih frekvencah se uporablja **heterodinski oscilator** (Heterodyne oscillator)
+
+Signal iz **VFO**-ja **mešamo s** signalom **XO** (kristalnega oscilatorja)
+in nato **s filtrom izločimo signal želene frekvence**
+</div>
+
+<img src="images/heterodinski_osci.jpg" width=500>
+</div>
+
 ----
+
+### RF sintetizatorji
+
+Danes vlogo VFO prevzeli frekvenčni sintetizatorji:
+- PLL sintetizator
+- DDS sintetizator
+- Kombinacija obeh
+
+
 
 ### PLL sintetizator
 
-----
+<div class="hg">
+<div>
+
+**PLL** – Phase-Locked Loop
+
+Uporabimo **VCO**, ki ga **s pomočjo povratne zanke stabiliziramo** (fazno sklenjena zanka)
+
+Frekvenco **nastavljamo digitalno s programiranjem programirnega delitelja**
+
+Referenčna frekvenca ($f_\text{REF}$) določa najmanjši frekvenčni korak
+</div>
+
+<img src="images/pll.jpg" width=500>
+</div>
+
+
+
+#### Primer PLL sintetizatorja
+
+Imamo PLL sintetizator. Zanka se je že ujela. Referenčna frekvenca je 100 kHz, programirni delitelj pa je nastavljen tako, da deli s 128. Kolikšna je izhodna frekvenca?
+
+$$ f_\text{IZH} = N \sdot f_\text{REF} $$
+
+$$ f_\text{IZH} = 128 \sdot 100\ \text{kHz} = 12800\ \text{kHz} = 12.8\ \text{MHz} $$
+
+
 
 ### Direktni digitalni sintetizator – DDS
+
+<div class="hg">
+<div>
+
+Vrednosti sinusa vnaprej izračunamo in jih shranimo (v "glej tabeli")
+
+Ko preberemo iz tabele, pretvorimo v analogni signal in ga filtriramo
+
+Frekvenco določa generator urnih impulzov (clock)
+</div>
+
+<img src="images/dds.jpg" width=500>
+</div>
+
+----
+
+### Zgradba oddajnika
+
+- **Oscilator**
+- **Ločilna stopnja** (Buffer)
+    - prepreči vpliv naslednje stopnje na oscilator
+- **Krmilna stopnja** (Driver)
+    - ojača signal na moč pri kateri bo delovala končna stopnja
+- **Končna stopnja** (PA – Power Amplifier)
+    - ojača signal in filtrira višje harmonike
+    - izkoristek: 40-70%
+
+Vse stopnje morajo biti impedančno prilagojene &rarr; za največji prenos moči
 
 ----
 
 ### CW oddajniki
 
+<div class="hg">
+<div>
+
+Oječevalnik razreda C
+</div>
+
+<img src="images/cw_trx.jpg" width=600>
+</div>
+
+
+
+#### "Klik" in "Anti-klik" filter
+
+<div class="row-even">
+<img src="images/cw_klik.jpg" width=500>
+<img src="images/cw_anti_klik.jpg" width=400>
+</div>
+
 ----
 
 ### SSB oddajniki
+
+<div class="hg">
+<div>
+
+**Balansni modulator**, vhodni modulacijski signal in nosilni val &rarr; DSB signal
+
+DSB signal s SSB filtrom (kristalni, 1.8 – 3 kHz) pretvorimo v USB ali LSB signal
+
+Oječevalnik razreda A ali AB
+</div>
+
+<img src="images/ssb_trx.jpg" width=600>
+</div>
+
+
+
+#### Ovojnica SSB signala
+
+<div class="hg">
+<div>
+
+Želimo da je razlika med vrhnjo in povprečno vrednostjo amplitude čim manjša
+
+- Audio **clipper**: **poreže vrhove** zvočnega signala
+- Audio **compressor**: **drži** zvočni **signal v določenem območju**
+    - ojačevalnik s povratno vezavo
+- Obstajata tudi RF clipper in RF compressor oz. **ALC** (Automatic Level Control)
+</div>
+
+<img src="images/ssb_amp.jpg" width=600>
+<div>
 
 ----
 
 ### FM oddajniki
 
+<img src="images/fm_trx.jpg" height=300>
+<img src="images/fm_pll_trx.jpg" height=300>
+
 ----
 
-### Radijski sprejemniki – Šum
+### Radijski sprejemniki
+
+neki
+
+
+
+### Šum
+
+neki
+
+
+
+### Osnovni pojmi
+
+neki
+
+
+
+### Sprejemnik z direktnim mešanjem
+
+neki
+
+
+
+### Superheterodinski sprejemnik
+
+neki
+
+
+
+### SDR sprejemnik
+
+neki
+
+----
+
+### Valovanje
