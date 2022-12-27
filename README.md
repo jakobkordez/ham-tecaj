@@ -86,6 +86,8 @@ npm start
 
 - [ ] Poudarek elektrotehniških količin
 - [ ] Preveri tabele
+- [ ] Boljše enote
+- [ ] Elektotehniška vezja v latexu
 
 ## Q-kod
 

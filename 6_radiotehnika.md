@@ -430,7 +430,7 @@ Imamo PLL sintetizator. Zanka se je že ujela. Referenčna frekvenca je 100 kHz,
 
 $$ f_\text{IZH} = N \sdot f_\text{REF} $$
 
-$$ f_\text{IZH} = 128 \sdot 100\ \text{kHz} = 12800\ \text{kHz} = 12.8\ \text{MHz} $$
+$$ f_\text{IZH} = 128 \sdot 100\ \mathrm{kHz} = 12800\ \mathrm{kHz} = 12.8\ \mathrm{MHz} $$
 
 
 
@@ -525,22 +525,97 @@ Oječevalnik razreda A ali AB
 
 ### FM oddajniki
 
+<div class="hg">
+<div>
+
+- Kvaliteten prenos govora
+- Ne uporablja na KV (velika pas. širina)
+    - Izjema 10 m
+- Zaporedno kristalu vezana varaktorska dioda, ki spreminja frekvenco
+- Signal nato "prestavimo" v pravilno frekvenčno območje
+    - množilne stopnje
+- Ojačevalnik razreda C
+</div>
+
 <img src="images/fm_trx.jpg" height=300>
+</div>
+
+
+
+#### FM oddajnik s PLL sintetizatorjem
+
 <img src="images/fm_pll_trx.jpg" height=300>
 
 ----
 
 ### Radijski sprejemniki
 
-neki
-
-
+----
 
 ### Šum
 
-neki
+- **Termični šum**
+    - Naključno gibljenje elektronov po prevodnikih in polprevodnikih
+    - Odvisen od **pasovne širine** in **temperature**
+        - pri 0 K je moč šuma 0 
+- **Šum okolice**
+    - Naravni šum iz neba ali človeškega izvora
+    - Predstavimo s **šumno temperaturo** antene ($T_a$)
+        - namesto antene upor segret na temperaturo $T_a$
+    - Močno odvisen od **frekvence**
 
 
+
+<img src="images/sum_okolice.jpg" width=600>
+
+
+
+#### Razmerje signal/šum
+
+Signal/noise ratio (SNR, S/N)
+
+**Razmerje med močjo koristnega signala in močjo šuma**
+
+$$ \frac{S}{N} = 10 \log \bigg( \frac{\text{moč signala}}{\text{moč šuma}} \bigg) \ [\mathrm{dB}] $$
+
+
+
+#### Šumni faktor in šumno število
+
+Vsaka stopnja (ki je izvor termičnega šuma), poslabša razmerje signal/šum, ki ga dobi na vhodu
+
+**Šumni faktor** (**F**, noise factor) pove **koliko se poslabša razmerje signal/šum**
+
+$$ F = \frac{\text{SNR}_\text{vh}}{\text{SNR}_\text{iz}} $$
+
+Bolj pogosto uporabljamo **šumno število** (**NF**, noise figure)
+- **šumni faktor** v dB
+
+$$ NF = 10 \log F \ [\mathrm{dB}] $$
+
+
+
+#### Ekvivalentna šumna temperatura
+
+Na vhod stopnje priključimo na 0 K ohlajen upor, šum na izhodu stopnje je termični šum same stopnje. Upor segrevamo, dokler ne bo šum na izhodu dva-krat povečal. Temperatura upora v tej točki je **ekvivalentna šumna temperatura**.
+
+$$ T_e = T_o \bigg( 10^{\frac{NF}{10}} - 1 \bigg) = T_o (F - 1) \ [\mathrm{K}] $$
+$$ T_o = 290K $$
+
+
+
+#### Primer
+
+Imamo dve zaporedno vezani stopnji.  
+Ekvivalentna šumna temperatura prve stopnje je 100 K, njeno ojačenje pa je 10.  
+Ekvivalentna šumna temperatura druge stopnje je 500 K, njeno ojačenje pa je 100.  
+Kolikšna je skupna ekvivalentna šumna temperatura?
+
+$$ T_e = T_{e1} + \frac{T_{e2}}{G_1} $$
+
+$$ T_e = 100 \ \mathrm{K} + \frac{500 \ \mathrm{K}}{10} = 150 \ \mathrm{K} $$
+
+----
 
 ### Osnovni pojmi
 
