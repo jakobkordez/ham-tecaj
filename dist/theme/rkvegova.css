@@ -24,8 +24,6 @@ h4, h5, h6 {
 
 h1, h2, h3 {
   padding: 1rem;
-  width: 100%;
-  transform: translateX(-1.2%);
   background-color: #ff5100;
   border-radius: 8px;
 }
@@ -89,7 +87,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --r-main-font-size: 30px;
   --r-main-color: #fff;
   --r-block-margin: 20px;
-  --r-heading-margin: 0 0 1.2em 0;
+  --r-heading-margin: 0 -0.2em 0.8em -0.2em;
   --r-heading-font: Montserrat, Impact, sans-serif;
   --r-heading-color: #fff;
   --r-heading-line-height: 1.2;

@@ -36,7 +36,7 @@ $headingFont: 'Montserrat', Impact, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: -0.03em;
 $headingTextTransform: none;
-$headingMargin: 0 0 1.2em 0;
+$headingMargin: 0 -0.2em 0.8em -0.2em;
 $selectionBackgroundColor: $primaryColor;
 
 $heading1Size: 2.0em;
@@ -60,8 +60,6 @@ h4, h5, h6 {
 
 h1, h2, h3 {
     padding: 1rem;
-    width: 100%;
-    transform: translateX(-1.2%);
     background-color: $primaryColor;
     border-radius: 8px;
 }
