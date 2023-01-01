@@ -182,3 +182,14 @@ npm start
     - 6.8. Motnje
     - 6.9. Meritve in merilni inštrumenti
     - 6.10. Nevarnosti pri delu z električnim tokom
+
+### Napake v priročniku
+
+- Detektorji??? poglavje manjka
+- Prenos moči, enačbe manjkajo in ena podvojena
+- Feding &rarr; Fading / presih
+  - [Wikipedia](https://en.wikipedia.org/wiki/Fading)
+  - [FRAN](https://fran.si/133/sskj2-slovar-slovenskega-knjiznega-jezika-2/4473318/fading?View=1&Query=fading)
+- Poglavje Elektronske cevi narobe številčeno
+- Solarni ciklus
+  - [What is the Solar Cycle?](https://spaceplace.nasa.gov/solar-cycles/en/)

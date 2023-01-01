@@ -38,8 +38,10 @@ Fazni zasuk: **vsak filter povzroči fazni zasuk**!
 - **Ojačevalnik**: naprava, ki signale ojačuje (poveča amplitudo)
 - **Slabilnik** (**atenuator**): naprava, ki signale slabi (zniža amplitudo)
 
+<div class="row-even">
 <img src="images/amp1.jpg" height=240>
 <img src="images/amp2.jpg" height=240>
+</div>
 
 ----
 
@@ -155,7 +157,7 @@ Nosilec **moduliramo z informacijskim signalom**, postopek imenujemo **modulacij
 
 Obratni postopek, ki **izlušči informacijo na sprejemni strani iz nosilca** imenujemo **demodulacija**.
 
-$$ u(t) = A \cdot \cos(2 \pi f t + \Phi) $$
+$$ u(t) = A \cdot \cos(2 \pi f t + \varphi) $$
 
 Za prenos informacije spreminjamo enega od parametrov:
 - amplitudo &rarr; **Amplitudna** modulacija (**AM**, A3E)
@@ -604,6 +606,20 @@ $$ T_o = 290K $$
 
 
 
+#### Skupna ekvivalentna šumna temperatura (sistema)
+
+<div class="row-even">
+<img src="images/sum_skupna.jpg" height=400>
+<img src="images/sum_sistema.jpg" height=400>
+</div>
+
+
+
+- **Na nižjih frekvencah** (KV) je **šumna temperatura antene** tako **velika**, da se termični šum sprejemnika skoraj ne pozna
+- Na višjih frekvencah (šumna temperatura antene ja majhna), se uporablja dobre **nizko šumne predojačevalce**, kot **prva stopnja** sprejemniškega sistema
+
+
+
 #### Primer
 
 Imamo dve zaporedno vezani stopnji.  
@@ -619,26 +635,604 @@ $$ T_e = 100 \ \mathrm{K} + \frac{500 \ \mathrm{K}}{10} = 150 \ \mathrm{K} $$
 
 ### Osnovni pojmi
 
-neki
+#### Občutljivost
+
+- **Kako močan mora biti RF signal** na vhodu sprejemnika, da bo na izhodu **razmerje signal/šum 10 dB**
+- Boljša kot je občutljivost, šibkejše signale lahko sprejemamo
+- **Obratnosorazmerna pasovni širini**
+    - SSB sprejemnik ima boljšo občutljivost kot FM sprejemnik
+- Podajamo relativno glede na 1 mW ali napetost na vhodnih sponkah
+
+$$ P_{dBm} = 10 \log \bigg( \frac{P}{1 \ \mathrm{mW}} \bigg) \ [\mathrm{dBm}] $$
+$$ u = \sqrt{2PR} \ [\mathrm{V}] \quad R = 50 \ \Omega$$
 
 
+
+#### Selektivnost
+
+- **Prepuščanje signala v določenem pasu**, in **dušenje signalov izven** njega
+- To dosežemo z ustreznimi pasovno-prepustnimi filtri
+    - CW: 500 Hz
+    - SSB: 2.4 kHz
+    - FM: 15 kHz
+
+
+
+#### Dinamično območje
+
+- **V kakšnih mejah se lahko giblje jakost vhodnega signala**
+    - Okoli 80 dB do 120 dB
+    - **Spodnja meja**: termični šum in šum okolice
+    - **Zgornja meja**: obnašanje sprejemnika pri močnih signalih
+        - preobremenitev, intermodulacijsko popačenje, ...
+
+&nbsp;
+
+#### Preobremenitev
+
+- Na sprejemniku se pojavi zelo močan RF signal, **sprejemnik postane neobčutljiv** "ogluši"
+
+
+
+#### Intermodulacijsko popačenje
+
+- Intermodulation distortion (**IMD**)
+
+- Sprejemniki so **sestavljeni** tudi **iz nelinearnih vezij** &rarr; **pojavijo se nezaželene komponente spektra**, ki jih težko izločimo, če so blizu želenim frekvencam
+
+- Intermodulacijska produkta tretjega reda: $2f_1 - f_2$ in $f_1 - 2f_2$
+    - tudi višji redi, ampak imajo dosti manjšo jakost
+
+- Merilo za linearnost je **presečna točka intermodulacije tretjega reda** (**IP3** – third-order intercept point)
+    - podajamo v dBm
+    - Čim **višji** je **IP3**, **boljši** je **sprejemnik**
+
+----
+
+### Detektorji
+
+Iz signala **izluščijo informacijo** (demodulacija &rarr; demulator)
+
+
+
+#### Detekcija AM signalov
+
+**Detektor ovojnice**: vhodni signal usmerimo z diodo in filtriramo z nizko-prepustnim filtrom
+
+<div class="row-even">
+<img src="images/am_detektor_circ.jpg" height=300>
+<img src="images/am_detektor.jpg" height=300>
+</div>
+
+
+
+#### Detekcija CW signalov
+
+Nosilec vklapljamo po ritmu
+
+Detektiramo tako, da **mešamo s signalom**, ki ima **malenkost nižjo ali višjo frekvenco**, ki ga generiramo z **BFO** (beat frequency oscillator)
+
+En izmed produktov je v nizkofrekvenčnem (NF) področju, ostalih se znebimo
+
+&nbsp;
+
+##### Primer
+Želimo detektirati CW signal s frekvenco 3550 kHz, na BFO nastavimo frekvenco 3550.5 kHz, dobimo RF signal s frekvenco 7100.5 kHz in NF signal s frekvenco 0.5 kHz oz 500 Hz. Ta signal lahko poslušamo.
+
+
+
+#### Detekcija SSB signalov
+
+<div class="hg">
+<div>
+
+V **detektor pripeljemo mankajoči nosilec**, ki ga generiramo z **BFO**
+
+Signal detektiramo z **produkt detektorjem** (mešalnik), izhod je produkt SSB signala in primerno izbrane frekvence BFO
+
+Izhod mešalnika filtriramo z nizko-prepustnim filtrom
+
+S produkt detektorjem **lahko detektiramo tudi CW in AM signale**
+</div>
+
+<img src="images/ssb_detektor.jpg" height=350>
+</div>
+
+
+
+#### Detekcija FM signalov
+
+<div class="hg">
+<div>
+
+**Frekvenčni diskriminator**
+
+**FM** signal **pretvorimo v AM** signal, ki ga detektiramo z **detektorjem ovojnice**
+
+**Omejevalnik** (limiter) zagotovi **konstantno amplitudo** pred FM-AM pretvorbo
+</div>
+
+<img src="images/fm_am_detektor.jpg" height=500>
+</div>
+
+
+
+##### FM-AM pretvorba
+
+Izkoristimo **linearno odvisnost amplitude od frekvence**
+
+<div class="row-even">
+<div class="center-t">
+<img src="images/fm_am_lc.jpg" height=350>
+
+LC nihajni krog
+</div>
+<div class="center-t">
+<img src="images/fm_am_balans.jpg" height=350>
+
+**Balansni diskriminator**  
+Povečamo frekvenčno območje linearnosti
+</div>
+</div>
+
+
+
+Izkoristimo **linearno fazno karakteristiko**
+
+Diskriminator s faznim zamikom (phase-shift discriminator)  
+oz. **Foster-Seeley diskriminator**
+
+<img src="images/fm_am_foster_seeley.jpg" height=350>
+
+----
 
 ### Sprejemnik z direktnim mešanjem
 
-neki
+Sprejemanje CW in SSB signalov (tudi AM)
+
+<div class="hg">
+<div>
+
+CW:  
+Če frekvenco VFO nastavimo na frekvenco signala, ga ne bomo slišali (**zero beat**)  
+Frekvenco VFO nastavimo malo nad ali pod frekvenco signala
+
+SSB / AM:  
+Frekvenco VFO nastavimo na frekvenco nosilca
+</div>
+
+<img src="images/sprejem_dir_mesanje.jpg" height=350>
+</div>
 
 
+
+Uporablja predvsem nizkih frekvencah KV (šum neba >> šum mešalnika)
+
+Signal ojačamo po demodulaciji (80 – 100 dB) &rarr; lahko pojavi **mikrofonija** (mehanski tresljaji), motnje se ojačajo na zvočnik
+
+CW ali SSB selektivnost dosežemo s filtri med ojačevalnikom in zvočnikom
+
+----
 
 ### Superheterodinski sprejemnik
 
-neki
+<div class="hg">
+<div>
+
+Vhodni signal **mešamo** (konvertirajo) na **eno ali več medfrekvenc** (brez izgube informacije)
+
+Sproti filtriramo neželene frekvence iz mešalnika
+
+Sodobni sprejemniki pokrivajo zelo široko frekvenčno območje, dobri ojačevalniki se dajo narediti samo za ožja frekvenčna področja   
+Zato je smiselno **vse signale prestaviti** na neko **skupno medfrekvenco** (MF) in jih obdelati tam
+
+**Preselektor**: pasovno-prepustna filtra pred in za RF ojačevalnikom
+</div>
+
+<img src="images/en_superhetero.jpg" height=500>
+</div>
 
 
+
+<div class="hg">
+<div>
+
+Želimo, da se ojačanje sprejemnika spreminja glede na jakost signala
+
+**AGC** (automatic gain control): vezje za **avtomatsko regulacijo ojačanja**
+
+Izhod AGC vezja lahko uporabimo za ocenjevanje jakosti signala
+
+**S-meter** (signal meter): S-stopnje (1-9, vsaka &approx; 6 dB), če je signal močnejši od 9, se podajo decibeli (npr.: +20 dB)
+
+**Squelch**: ko je signal manjši od določene meje, NF signal izklopi
+</div>
+
+<img src="images/en_superhetero.jpg" height=500>
+</div>
+
+
+
+<div class="hg">
+<div>
+
+**Problem zrcalnih frekvenc**: če 14 MHz signal mešamo s signalom 5 MHz, dobimo medfrekvenčni signal 9 MHz (14 - 5). Problem nastane če pride na vhod 4 MHz signal saj se tudi ta meša na 9 MHz (4 + 5).
+
+Delimo (po številu medfrekvenc):
+- enojni superheterodinski sprejemnik
+- dvojni superheterodinski sprejemnik
+    - prva visoka (proti zrcalnim frekvencam)
+    - druga nizka (boljša selektivnost)
+</div>
+
+<img src="images/dvo_superhetero.jpg" width=500>
+</div>
+
+----
 
 ### SDR sprejemnik
 
-neki
+<div class="row-even">
+<div class="center-t">
+<img src="images/sodobni_superhetero.jpg" height=500>
+</div>
+<div class="center-t">
+
+Idealni SDR sprejemnik
+
+<img src="images/sdr_rx.jpg" height=200>
+</div>
+</div>
+
+
+
+<img src="images/sodobni_super_vs_sdr.jpg" height=600>
 
 ----
 
 ### Valovanje
+
+Prenos energije v obliki valov
+- Valovanje vode – voda kot medij za prenos
+- Zvok – valovanje zraka
+- **Elektromagnetno valovanje** – valovanje elektromagnetnega (EM) polja
+
+
+
+### Elektromagnetno valovanje
+
+<div class="hg">
+<div>
+
+V praznem prostoru se širijo s **hitrostjo svetlobe**:  
+$c = 3 \cdot 10^8 \frac{\mathrm{m}}{\mathrm{s}}$
+
+$$ c = f \sdot \lambda \qquad f = \frac{c}{\lambda} \qquad \lambda = \frac{c}{f} $$
+
+$f$ – frekvenca valovanja (Hz)  
+$\lambda$ – valovna dolžina (m)
+
+$$ f = \frac{300}{\lambda} \qquad \lambda = \frac{300}{f} $$
+
+$f$ – frekvenca valovanja (**MHz**)  
+$\lambda$ – valovna dolžina (m)
+</div>
+
+<img src="images/em_spekter.jpg" height=500>
+</div>
+
+
+
+#### Primera
+
+Kakšna je frekvenca valovanja z valovno dolžino 80 m?
+
+$$ f(\mathrm{MHz}) = \frac{300}{80} = 3.750 \mathrm{MHz} $$
+
+&nbsp;
+
+Kakšna je valovna dolžina valovanja s frekvenco 145.0 MHz?
+
+$$ \lambda = \frac{300}{145} = 2.07 \mathrm{m} $$
+
+
+
+### Frekvenčna delitev
+
+| Ime | Okrajšava | Frekvenca | Valovna dolžina |
+| ---: | :---: | :---: | :---: |
+| Zelo nizke frekvence | VLF | 3 kHz – 30 kHz |  > 10 km |
+| Nizke frekvence | LF | 30 kHz – 300 kHz |  10 – 1 km |
+| Srednje frekvence | MF | 300 kHz – 3 MHz |  1000 – 100 m |
+| Visoke frekvence | HF | 3 MHz – 30 MHz |  100 – 10 m |
+| Zelo visoke frekvence | VHF | 30 MHz – 300 MHz |  10 – 1 m |
+| Ultra visoke frekvence | UHF | 300 MHz – 3 GHz |  100 – 10 cm |
+| Super visoke frekvence | SHF | 3 GHz – 30 GHz |  10 – 1 cm |
+| Ekstremno visoke frekvence | EHF | 30 GHz – 300 GHz |  1 – 0.1 cm |
+
+----
+
+### Razširjanje radijskih valov
+
+EM valove pri razširjanju lahko ovira atmosfera, zemlja, voda, objekti, &hellip;
+
+Razširajo v se ravnih linijah, **z večanjem razdalje** se **jakost zmanjšuje**
+
+Jakost pada s **kvadratom razdalje** (pri 2 km od izvora je moč 1/4 moči pri 1 km)
+
+<div class="hg">
+<div>
+
+Pravokotni polji:
+- E – **električno polje**
+    - posledica napetosti
+- H – **magnetno polje**
+    - posledica toka
+</div>
+
+<img src="images/em_val.jpg" height=300>
+</div>
+
+
+
+#### Polarizacija
+
+<div class="hg">
+<div>
+
+Smer električne komponente (**E**) določa **polarizacijo** valovanja
+
+Vrste polarizacij:
+- Linearna
+    - **vertikalna** (FM, več šuma)
+    - **horizontalna** (KV, SSB, CW)
+- Krožna
+    - desna / leva
+    - uporaba v UKV, sateliti
+- Eliptična
+
+Odboji in nepravilnosti v ionosferi povzročajo spreminjanje polarizacije
+</div>
+
+<div>
+<img src="http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/imgpho/polcls.png" width=550 class="white">
+<br/>
+<img src="images/em_polar.jpg" width=800>
+</div>
+
+
+
+#### Odboj, lom in uklon valovanja
+
+**Odboj** ali **refleksija** – usmerjeno (ravna površina) ali difuzijsko (valovanje se razprši) odbijanje od površin
+
+**Lom** ali **refrakcija** – nastane pri prehodu med dvema prenosnima snovema z različnimi dielektričnimi konstantami (različna hitrost razširanja svetlobe)
+
+**Uklon** ali **difrakcija** – nastane na robovih ovir, zelo frekvenčno odvisen (višje frekvence se uklonijo manj)
+
+<img src="images/odboj_lom_uklon.jpg" height=250>
+
+----
+
+### Zemeljska atmosfera
+
+<div class="hg">
+<div>
+
+- Troposfera
+    - 0 - 11 km
+    - meteorološki procesi
+    - temperatura z višino pada (–50 °C)
+    - stanje pomembno za razširjanje UKV valov
+- Stratosfera
+    - 11 - 80 km
+    - ne vsebuje vode
+    - ozonska plast
+- Ionosfera
+</div>
+
+<img src="images/atmosfera.jpg" width=500>
+</div>
+
+
+
+#### Ionosfera
+
+<div class="hg">
+<div>
+
+80 - 800 km
+
+Sestavljena iz velikega števila **elektronov in ionov**, nastanejo **zaradi UV in rentgenskih žarkov sonca** (nevtralne molekule se cepijo)  
+Rekombinacija: ponovna združitev elektronov in ionov
+
+Radijski valovi se "odbijajo" (počasno zavijajo)
+
+**Sloji**:
+- **D** sloj (80 km) – prisoten le čez dan
+- **E** sloj (120 km)
+- **F** sloj – ponoči in v času nizke aktivnosti sonca en sloj
+    - **F1** (220 km) in **F2** (400 km)
+</div>
+
+<img src="images/ionosfera.jpg" width=500>
+</div>
+
+----
+
+### Delitev radijskih valov glede na razširjanje
+
+<div class="hg">
+<div>
+
+- **Površinski** oz. **talni**
+    - širijo ob površini zemlje
+    - dolgi in srednji valovi (LF, MF)
+- **Troposferski** oz. **direktni**
+    - širijo v troposferi
+    - UKV valovi
+    - če zadanejo oviro, se odbijejo
+- **Prostorski** oz. **ionosferski**
+    - širijo v prostor in odbijejo od ionosfere (lahko tudi večkrat – skoki)
+    - kratki valovi (KV)
+    - višja kot je frekvenca, večja mora biti gostota elektronov
+</div>
+
+<img src="images/sirjenje_valov.jpg" height=400>
+</div>
+
+
+
+### Aktivnost sonca – solarni ciklus
+
+Solarni maksimum – največja aktivnost sonca (11 let)
+
+Največ UV sevanja, ko je veliko sončnih peg (ciklus sončnih peg)
+
+<div class="row-even">
+<img src="https://www.weather.gov/images/fsd/astro/Sun_sunspot.jpg" height=300>
+<img src="images/solarni_ciklus.jpg" height=300>
+</div
+
+
+
+#### Vpliv sonca na posamezne sloje ionosfere
+
+- F sloj
+    - **F2 najpomembnejši** sloj **za DX na KV**, rekombinacija počasna &rarr; obstaja **tudi ponoči**
+    - F1 obstaja le čez dan, poleti bolj pogost, nezaželen, ker slabi signale
+- E sloj
+    - Formira se samo nad predelom Zemlje, ki ga osvetljuje Sonce
+    - Maksimum doseže okoli poldneva
+    - **Sporadični E sloj** (Es – E sporadic)
+        - **Občasen pojav močne ionizacije**, podoben oblaku
+        - Lahko odbija UKV valove
+- D sloj
+    - Gostota prostih elektronov majhna &rarr; odbijajo le daljši valovi (80 m)
+    - Po sončnem zahodu, hitra rekombinacija
+
+
+
+#### Motnje v ionosferi
+
+Posledica aktivnosti sonca (povečano sevanje ali sončni veter)
+
+Povečanje ionizacije v D sloju slabi signale
+
+Kot motnje štejemo tudi polarno svetlobo (aurora) in sporadični E sloj (Es)
+
+<div class="row-even">
+<img src="https://cdn.mos.cms.futurecdn.net/ifJPbUm9XMsQdt7AQAets-1200-80.jpg" height=350>
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/SporadicE-NPS.gif" height=250>
+</div>
+
+----
+
+### Kritična frekvenca, najvišja in najnižja uporabna frekvenca
+
+**Kritična frekvenca** ($f_\text{kr}$): **najvišja** frekvenca valovanja, ki se **pod kotom 90° odbije** od ionosfere.
+
+&nbsp;
+
+**Najvišja uporabna frekvenca** (MUF – Maximum usable frequency): **najvišja** frekvenca valovanja, ki se **pod vpadnim kotom $\varphi$ še odbije**.
+
+$$ \text{MUF} = \frac{f_\text{kr}}{\cos(\varphi)} $$
+
+**Najnižja uporabna frekvenca** (LUF – Lowest usable frequency): tudi frekvenca slabljenja, najnižja frekvenca v KV za prostorski val. Nižje frekvence se bodo v ionosferi absorbirale.
+
+----
+
+### Fading (presih)
+
+"feding"
+
+**Nihanje jakosti signala** (QSB)
+
+Vzroki:
+- Različnih poteh signala do sprejemnika
+- Spreminjanje ionizacije
+- Povečanje absorbcije D sloja
+- Odboj od dveh različnih slojev
+- Odbijanje ob objektov
+
+
+
+#### Fading zaradi interference
+
+Zaradi različnih poteh signala do sprejemnika pride do **interference**
+
+Signali **v fazi jakost povečajo**, signali **iz faze jakost zmanjšajo** ali v skrajnem primeru (180°) popolnoma izginejo
+
+<div class="row-even">
+<img src="images/fading.jpg" width=500>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Interference_of_two_waves.svg/1024px-Interference_of_two_waves.svg.png" width=500 class="white" style="padding: 20px">
+</div>
+
+----
+
+### Pogoji razširjanja valov na KV področju
+
+- **2200 m (135,7 kHz – 133,8 kHz)**
+    - površinski val, ne odbija od ionosfere
+- **630 m (472 kHz – 479 kHz)**
+    - površinski val, ne odbija od ionosfere
+- **160 m (1,8 MHz – 2 MHz)**
+    - čez dan D sloj absorbira, lahko se odbijajo od E sloja
+    - atmosferske in industrijske motnje
+    - dobre propagacije predvsem pozimi in ponoči
+- **80 m (3,5 MHz – 3,8 MHz)**
+    - čez dan D sloj absorbira, lahko se odbijajo od E sloja
+    - dobre propagacije ponoči ali pozimi
+    - podnevi možne lokalne zveze
+
+
+
+- **60 m (5,3515 MHz – 5,3665 MHz)**
+    - značilnosti med 80 m in 40 m pasom
+    - dobre propagacije ponoči ali pozimi
+- **40 m (7 MHz – 7,2 MHz)**
+    - podobno kot 80 m pas, možne daljše razdalje tudi čez dan
+    - siva linija (gray line) – med dnevom in nočjo
+    - atmosferske najbolj izrazite poleti
+- **30 m (10,1 MHz – 10,15 MHz)**
+    - ponoči možne zveze po celem svetu, čez dan po Evropi (1500 km)
+    - manj industrijskega šuma
+- **20 m (14 MHz – 14,35 MHz)**
+    - pravi DX pas, praktično vedno odprt
+    - atmosferski in industrijski šum ni problem
+- **17 m (18,068 MHz – 18,168 MHz)**
+    - podobno kot 20 m pas
+
+
+
+- **15 m (21 MHz – 21,45 MHz)**
+    - potrebna velika sončna aktivnost za DX
+    - že odvisen od E sporadika
+- **12 m (24,89 MHz – 24,99 MHz)**
+    - podobno kot 15 m in 10 m pas
+- **10 m (28 MHz – 29,7 MHz)**
+    - meji na UKV področje &rarr; značilnosti UKV in KV
+    - močno odvisen od sončne aktivnosti
+    - odprt samo čez dan
+
+----
+
+### Pogoji razširjanja valov na UKV in višjih področjih
+
+**Na UKV valove** (nad 30 MHz) **ionosfera** (aktivnost sonca) **ne vpliva**
+
+Uporabljamo jih za:
+- Direktne zveze
+- Zveze preko satelitov
+- Oboj od Lune (EME)
+- &hellip;
+
+Izjema 6-metrski pas (50 MHz), ki se pri močni ionizaciji (E sporadik) obnaša kot 10-metrski pas.
+
+----
+
+### Značilnosti nekaterih UKV področij
+
+----
+
+### Vpliv višine antene na doseg valov
