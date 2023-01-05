@@ -289,10 +289,6 @@ Ima **najmanjšo pasovno širino** (100 Hz), oddajamo/sprejemamo samo eno frekve
 
 ----
 
-<div style="font-size:50px">🚧 Under construction 🚧</div>
-
-----
-
 ### Radijski oddajnik
 
 **Radijski oddajnik**: naprava, ki ustvari radiofrekvenčni signal, ga opremi z informacijo, ojača in nato pošlje v anteno, kjer se izseva v prostor
@@ -1214,6 +1210,10 @@ Signali **v fazi jakost povečajo**, signali **iz faze jakost zmanjšajo** ali v
     - meji na UKV področje &rarr; značilnosti UKV in KV
     - močno odvisen od sončne aktivnosti
     - odprt samo čez dan
+
+----
+
+<div style="font-size:50px">🚧 Under construction 🚧</div>
 
 ----
 
