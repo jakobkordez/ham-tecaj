@@ -1119,7 +1119,7 @@ Kot motnje štejemo tudi polarno svetlobo (aurora) in sporadični E sloj (Es)
 
 <div class="row-even">
 <img src="https://cdn.mos.cms.futurecdn.net/ifJPbUm9XMsQdt7AQAets-1200-80.jpg" height=350>
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/SporadicE-NPS.gif" height=250>
+<img src="http://skyandtelescope.org/wp-content/uploads/solar-wind.jpg" height=350>
 </div>
 
 ----
@@ -1213,26 +1213,125 @@ Signali **v fazi jakost povečajo**, signali **iz faze jakost zmanjšajo** ali v
 
 ----
 
-<div style="font-size:50px">🚧 Under construction 🚧</div>
-
-----
-
 ### Pogoji razširjanja valov na UKV in višjih področjih
 
 **Na UKV valove** (nad 30 MHz) **ionosfera** (aktivnost sonca) **ne vpliva**
 
 Uporabljamo jih za:
-- Direktne zveze
+- Direktne zveze (optična vidljivost)
 - Zveze preko satelitov
 - Oboj od Lune (EME)
 - &hellip;
 
-Izjema 6-metrski pas (50 MHz), ki se pri močni ionizaciji (E sporadik) obnaša kot 10-metrski pas.
+Izjema je 6-metrski pas (50 MHz), ki se pri močni ionizaciji (E sporadik) obnaša kot 10-metrski pas.
+
+
+
+#### Temperaturna inverzija
+
+<div class="hg">
+<div>
+
+UKV valovi pri prehodu skozi pas inverzije zavijejo nazaj proti Zemlji
+
+Višji kot je pas, večji je domet
+
+Možna tudi dvojna inverzija
+
+<img src="images/dvojna_inverzija.jpg" height=200>
+</div>
+
+<img src="images/temp_inv.jpg" height=500>
+</div>
+
+
+
+#### Sporadični E sloj – ES
+
+<div class="hg mb-20">
+<div>
+
+V območju E sloja nastane oblak velike koncentracije elektronov, ki odbija UKV valove
+
+Domet poveča tudi do 2000 km
+</div>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/SporadicE-NPS.gif" height=200>
+</div>
+
+#### Odboj od meteoritskih sledi – MS
+
+<div class="hg">
+<div>
+
+Meteor, ki izgoreva, pušča za sabo zelo **močno ionizirano sled**, ki odbija UKV valove
+
+Večji meteorit &rarr; daljše izgorevanje &rarr; daljše zveze
+</div>
+
+<img src="https://4.bp.blogspot.com/-nPEfdRdGrag/XX8rOJgGlqI/AAAAAAAAiU4/S-mRsd96078uOcIW2WCfVQGVu2uUsaCAACLcBGAsYHQ/s1600/meteor-burst-communication.png" height=250>
+</div>
+
+
+
+#### Odboj od polarne svetlobe – AURORA
+
+<div class="hg mb-20">
+<div>
+
+V območju Zemljinega pola zelo močno ioniziran del E sloja, ki lahko odbija UKV valove
+
+Odboj je zelo difuzen, signali so zelo šumni (predvsem samo CW)
+</div>
+
+<img src="https://cdn.mos.cms.futurecdn.net/ifJPbUm9XMsQdt7AQAets-1200-80.jpg" height=250>
+</div>
+
+#### Transalpska propagacija – TAP
+
+TODO
+
+#### Transekvatorialna propagacija – TEP
+
+TODO
+
+
+
+#### Odboj od Lune – EME
+
+<div class="hg mb-20">
+<div>
+
+TODO
+</div>
+
+<img src="https://www.electronics-notes.com/images/propagation-eme-moonbounce-basic-concept-01.svg" height=250 style="padding:20px" class="white">
+</div>
+
+#### Delo preko umetnih satelitov
+
+<div class="hg">
+<div>
+
+TODO
+</div>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/OSCAR_1_satellite-01.jpg" height=250>
+</div>
 
 ----
 
 ### Značilnosti nekaterih UKV področij
 
+- **6 m (50 MHz – 52 MHz)**
+    - TODO
+- **2 m (144 MHz – 146 MHz)**
+    - TODO
+- **70 cm (430 MHz – 440 MHz)**
+    - TODO
+
 ----
 
 ### Vpliv višine antene na doseg valov
+
+<img src="images/izracun_horizonta.jpg" width=400>
