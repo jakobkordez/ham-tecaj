@@ -57,6 +57,6 @@ Slovenija je postala članica CEPT-a 1993, prvo dovoljenje pa izdala 1998
 
 Primer: **9A**/S59VEG &rarr; Slovenska postaja (S5) je na obisku na hrvaški (9A)
 
-<br/>
+&nbsp;
 
 **CEPT T/R 61-02** – označuje se tudi kot HAREC, obravnava usklajene izpite za radioamaterje. Namenjen je radioamaterjem, ki želijo ostati v tuji državi več kot 3 mesece.

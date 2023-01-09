@@ -266,7 +266,7 @@ Spreminjamo **fazo nosilca**
 
 Ker spreminjamo fazo, spreminjamo tudi frekvenco, zato se tudi pri fazni modulaciji **pojavi frekvenčna deviacija**
 
-<br/>
+&nbsp;
 
 Ogled animacije je možen na: <a>https://en.wikipedia.org/wiki/Phase_modulation</a>
 </div>

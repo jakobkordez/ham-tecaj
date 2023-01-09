@@ -8,7 +8,7 @@
 
 **AMATERSTVO** – nepoklicna dejavnost – ljubiteljsko.
 
-<br/>
+&nbsp;
 
 **RADIOAMATERSTVO**:
 - ljubiteljsko, nepoklicno ukvarjanje z radijem oz.

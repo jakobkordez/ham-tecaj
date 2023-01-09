@@ -94,7 +94,7 @@ Zapis serije znakov: GAA-GZZ → G2BB, G3SX, G8VG
 <strong>/P</strong><div>– <strong>prenosna</strong> (portable) postaja</div>
 </div>
 
-<br>
+&nbsp;
 
 Primer: S59VEG/**MM** &rarr; Postaja S59VEG oddaja s čolna (MM)
 
@@ -129,7 +129,7 @@ Kodam dodajamo tudi argumente?
 <div>QRW S50XXX 21125</div><div>Obvesti S50XXX, da ga kličem na frekvenci 21125 kHz</div>
 </div>
 
-<br/>
+&nbsp;
 
 **Q–kod se v telefoniji** _načeloma_ **ne uporablja!**
 
@@ -494,7 +494,7 @@ Variacije:
 
 Namenjen živi tipkovnica-tipkovnica komunikaciji
 
-<br/>
+&nbsp;
 
 Uporablja PSK (Phase-Shift Keying) kodiranje in DPS (digitalno procesiranje signala)
 
@@ -534,7 +534,7 @@ Radioamatersko omrežje, ki deluje po **protokolu AX.25**
 **CSMA** (Carier Sence Multiple Access) – algoritem
 za prepoznavo **zaznave trkov**
 
-<br/>
+&nbsp;
 
 Omrežje pokriva praktično cel svet, zato je potrebna neka infrastruktura.
 
@@ -628,11 +628,11 @@ Več na [echolink.org](http://www.echolink.org/)
 
 **Coordinated Universal Time ali GMT** (Greenwich Mean Time)
 
-<br/>
+&nbsp;
 
 Imamo 24 časovnih pasov, mi se nahajamo v **CET (Central European Time)** ali MEZ
 
-<br/>
+&nbsp;
 
 V zimskem času +1h, v poletnem +2h
 
@@ -796,11 +796,11 @@ Tekmovanje ima ponavadi med 3 ali 5 lisic in svetilnik
 Lisice oddajajo enega izmed naslednjih zaporedij:  
 MOE, MOI, MOS, MOH, MO5 – enostavni zapis v morzejevi abecedi
 
-<br/>
+&nbsp;
 
 Svetilnik ves čas »sveti« MO.
 
-<br/>
+&nbsp;
 
 Lisice lahko iščejo tudi slepi in slabovidni v spremstvu dobrovidnega na enostavnem polju
 
@@ -1033,7 +1033,7 @@ Repetitor (repeater) je simpleksna ali dupleksna radijska postaja.
 
 "Vse kar sliši, ponovi"
 
-<br>
+&nbsp;
 
 **Uporabljamo jih, da povečamo domet mobilnih in prenosnih radijskih postaj.**
 </div>
@@ -1108,7 +1108,7 @@ Frekvenca se spreminja (Dopplerjev pojav)
 
 Vsak satelit vsebuje svetilnik (CW beacon)
 
-<br/>
+&nbsp;
 
 Uplink: Frekvenca na kateri satelit posluša  
 Downlink: Frekvenca na kateri oddaja
@@ -1164,7 +1164,7 @@ Danes večinoma samo digitalno
 - Usmerjene antene
 - Občutljiv sprejemnik
 
-<br/>
+&nbsp;
 
 Čas do lune: 2,5 s  
 Lahko slišimo svojo oddajo

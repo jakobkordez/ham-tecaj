@@ -12,7 +12,7 @@
     - Atomsko **jedro** je sestavljeno iz: **protonov in nevtronov**
 - Atomi se med seboj povezujejo v **molekule**
 
-<br/>
+&nbsp;
 
 - **Element**: snov, ki jo z kemijskimi reakcijami ne moremo razstaviti na enostavnejše sestavine
 - **Spojina**: snov sestavljena iz dveh ali več elementov
@@ -281,7 +281,7 @@ Dopustni tok enak dopustnemu toku ene celice.
 <img src="images/bat_zap.jpg" width=500>
 </div>
 
-<br/>
+&nbsp;
 
 #### Vzporedna vezava celic
 
@@ -783,7 +783,7 @@ $$ G(dB) = 20 \cdot \log \bigg( \frac{U_2}{U_1} \bigg) = 20 \cdot \log \bigg( \f
 
 <table class="compact center">
 <thead>
-<tr><th>Ojačanje<br>$G(dB)$</th><th>Razmerje moči<br>$(P_2 / P_1)$</th><th>Razmerje toka<br>ali napetosti<br>$(I_2 / I_1),(U_2 / U_1)$</th></tr>
+<tr><th>Ojačanje<br/>$G(dB)$</th><th>Razmerje moči<br/>$(P_2 / P_1)$</th><th>Razmerje toka<br/>ali napetosti<br/>$(I_2 / I_1),(U_2 / U_1)$</th></tr>
 </thead>
 <tbody>
 </tbody>

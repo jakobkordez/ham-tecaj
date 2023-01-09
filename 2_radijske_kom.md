@@ -91,7 +91,7 @@ zanimajo za radiotehniko, in katere je namen
 samoizobraževanje, medsebojno komuniciranje in
 tehnične raziskave.**
 
-<br/>
+&nbsp;
 
 **Amaterska satelitska služba** - radiokomunikacijska služba (dejavnost), ki uporablja **vesoljske postaje na Zemljinih satelitih za iste namene kot amaterksa služba.**
 
@@ -104,7 +104,7 @@ in tehnično raziskovanje, ki ga opravljajo
 radioamaterji izključno iz osebnih nagibov, brez
 materialnih koristi in imajo opravljen izpit.
 
-<br/>
+&nbsp;
 
 CB postaje (Citizen Band) ne spadajo v radioamatersko
 dejavnost – zakone določa država.
