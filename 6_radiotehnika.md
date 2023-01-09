@@ -93,7 +93,7 @@ Pretvorba analognega signala v digitalnega z **A/D** pretvornikom imenujemo **vz
 
 Konvolucija: $y[n] = x[n] * h[n]$
 
-Konvolucijska vrsta: $y[i] = \sum _{j=0}^{M-1} h[j] \sdot [i-j]$
+Konvolucijska vrsta: $y[i] = \sum _{j=0}^{M-1} h[j] \cdot [i-j]$
 
 
 
@@ -192,7 +192,7 @@ Zgornja meja zmogljivosti komunikacijskega sistema:
 <div class="row-even">
 <div>
 
-$ C = B \sdot \log \bigg(1 + \dfrac{S}{N} \bigg) $
+$ C = B \cdot \log \bigg(1 + \dfrac{S}{N} \bigg) $
 </div>
 
 $C$ – kapaciteta kanala  
@@ -207,7 +207,7 @@ $\frac{S}{N}$ – razmerje signal/šum
 Spreminjamo **amplitudo nosilca**
 
 Pasovna širina AM signala:  
-$ B = 2 \sdot W $  
+$ B = 2 \cdot W $  
 $W$ – pasovna širina modulacijskega signala
 
 <div class="row-even">
@@ -249,7 +249,7 @@ Spreminjamo **frekvenco nosilca**
 
 
 Pasovna širina FM signala:  
-$ B = 2 \sdot W + 2 \sdot D $  
+$ B = 2 \cdot W + 2 \cdot D $  
 $W$ – max frekvenca modulacijskega signala  
 $D$ – frekvenčna deviacija
 
@@ -426,9 +426,9 @@ Referenčna frekvenca ($f_\text{REF}$) določa najmanjši frekvenčni korak
 
 Imamo PLL sintetizator. Zanka se je že ujela. Referenčna frekvenca je 100 kHz, programirni delitelj pa je nastavljen tako, da deli s 128. Kolikšna je izhodna frekvenca?
 
-$$ f_\text{IZH} = N \sdot f_\text{REF} $$
+$$ f_\text{IZH} = N \cdot f_\text{REF} $$
 
-$$ f_\text{IZH} = 128 \sdot 100\ \mathrm{kHz} = 12800\ \mathrm{kHz} = 12.8\ \mathrm{MHz} $$
+$$ f_\text{IZH} = 128 \cdot 100\ \mathrm{kHz} = 12800\ \mathrm{kHz} = 12.8\ \mathrm{MHz} $$
 
 
 
@@ -903,7 +903,7 @@ Prenos energije v obliki valov
 V praznem prostoru se širijo s **hitrostjo svetlobe**:  
 $c = 3 \cdot 10^8 \frac{\mathrm{m}}{\mathrm{s}}$
 
-$$ c = f \sdot \lambda \qquad f = \frac{c}{\lambda} \qquad \lambda = \frac{c}{f} $$
+$$ c = f \cdot \lambda \qquad f = \frac{c}{\lambda} \qquad \lambda = \frac{c}{f} $$
 
 $f$ – frekvenca valovanja (Hz)  
 $\lambda$ – valovna dolžina (m)
@@ -1251,7 +1251,7 @@ Možna tudi dvojna inverzija
 <div class="hg mb-20">
 <div>
 
-V območju E sloja nastane oblak velike koncentracije elektronov, ki odbija UKV valove
+V območju E sloja nastane **oblak velike koncentracije elektronov**, ki odbija UKV valove
 
 Domet poveča tudi do 2000 km
 </div>
@@ -1279,7 +1279,7 @@ Večji meteorit &rarr; daljše izgorevanje &rarr; daljše zveze
 <div class="hg mb-20">
 <div>
 
-V območju Zemljinega pola zelo močno ioniziran del E sloja, ki lahko odbija UKV valove
+V območju Zemljinega pola zelo **močno ioniziran del E sloja**, ki lahko odbija UKV valove
 
 Odboj je zelo difuzen, signali so zelo šumni (predvsem samo CW)
 </div>
@@ -1287,36 +1287,52 @@ Odboj je zelo difuzen, signali so zelo šumni (predvsem samo CW)
 <img src="https://cdn.mos.cms.futurecdn.net/ifJPbUm9XMsQdt7AQAets-1200-80.jpg" height=250>
 </div>
 
-#### Transalpska propagacija – TAP
-
-TODO
-
-#### Transekvatorialna propagacija – TEP
-
-TODO
-
-
-
 #### Odboj od Lune – EME
 
-<div class="hg mb-20">
+<div class="hg">
 <div>
 
-TODO
+Signal potuje 2 sekundi
+
+Potrebne velike moči in dobre antene zaradi dolgih razdalj in slabljenja
+
+Pri odboju se lahko spremeni polarizacija
 </div>
 
 <img src="https://www.electronics-notes.com/images/propagation-eme-moonbounce-basic-concept-01.svg" height=250 style="padding:20px" class="white">
 </div>
+
+
+
+#### Transalpska propagacija – TAP
+
+FAI (Field Aligned Irregularity) – nepravilnosti v porazdelitvi polja
+
+Oddani signal spremeni smer
+
+Najpogosteje se pojavlja od sredine maja do konca julija
+
+#### Transekvatorialna propagacija – TEP
+
+Nenavadno dolge zveze (okoli 4000 km) v smeri sever - jug
+
+Iz naših krajev je možno vzpostaviti zveze z amaterji na območju južne Afrike
+
+
 
 #### Delo preko umetnih satelitov
 
 <div class="hg">
 <div>
 
-TODO
+UKV valovi nemoteno prebijejo ionosfero
+
+Lahko tudi z manjšimi močmi in enostavnimi antenami
+
+Običajno oddajamo in sprejemamo na različnih frekvenčnih pasovih ("Cross band")
 </div>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/OSCAR_1_satellite-01.jpg" height=250>
+<img src="https://space.skyrocket.de/img_sat/amsat-p3a__1.jpg" height=250>
 </div>
 
 ----
@@ -1324,14 +1340,41 @@ TODO
 ### Značilnosti nekaterih UKV področij
 
 - **6 m (50 MHz – 52 MHz)**
-    - TODO
+    - V času maksimalne aktivnosti Sonca pravi DX pas
+    - Poleti pogosti pojavi Es
 - **2 m (144 MHz – 146 MHz)**
-    - TODO
+    - Najpopularnejši UKV pas
+    - troposfersko razširjanje, inverzija, Es, FAI, aurora, EME, sateliti
+    - Lokalne zveze in FM repetitorji
 - **70 cm (430 MHz – 440 MHz)**
-    - TODO
+    - Predvsem troposfersko, posebni pojavi redki
+    - sateliti, EME, Packet Radio, DMR
+
+Višji frekvenčni pasovi predvsem na eksperimentalni ravni in redkeje uporabljeni
 
 ----
 
 ### Vpliv višine antene na doseg valov
 
+<div class="hg">
+<div>
+
+**Višje postavljneja antena je** _načeloma_ **boljša antena**
+
+Višje postavljena antena &rarr; nižji kot sevanja &rarr; daljši skok (hop) signala
+
+<div class="row-even">
+<div>
+
+$$ d = 4.13 \cdot \sqrt{h} $$
+</div>
+<div>
+
+$d$ – oddaljenost (km)  
+$h$ – nadmorska višina antene (m)
+</div>
+</div>
+</div>
+
 <img src="images/izracun_horizonta.jpg" width=400>
+</div>

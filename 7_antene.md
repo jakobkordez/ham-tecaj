@@ -49,7 +49,7 @@ Referenčna antena: z njo določamo ojačanje drugih anten (več kasneje)
 
 ### Dolžina polvalnega dipola
 
-$$l\ \text{(m)} = \frac{150}{f\ \text{(MHz)}} \sdot k$$
+$$ l\ \text{(m)} = \frac{150}{f\ \text{(MHz)}} \cdot k $$
 
 𝑙 – dolžina v metrih \
 𝑓 – frekvenca v MHz \

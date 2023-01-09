@@ -64,7 +64,7 @@ se iz prostora izven polja prenese v dano točko pozitiven naboj
 
 
 
-**Coulombov zakon**: $F = k_0\frac{Q_1 \sdot Q_2}{r^2}$
+**Coulombov zakon**: $F = k_0\frac{Q_1 \cdot Q_2}{r^2}$
 - kako sila med dvema točkastima električnima nabojema pojema z razdaljo
 
 **Pred električnim poljem se zaščitimo z oklapljanjem s kovinskimi materiali** (Faradejeva kletka).
@@ -97,11 +97,11 @@ Inštrument za merjenje napetosti je **voltmeter**
 
 **Električna moč**: intenzivnost opravljanja dela električne sile
 
-$P = U \sdot I\ [VA = W]$ _Vat_
+$P = U \cdot I\ [VA = W]$ _Vat_
 
 **Električno delo**: Delo, ki ga opravi električi naboj
 
-$A = P \sdot t\ [J = Ws]$ _Joul / Vatsekunda_
+$A = P \cdot t\ [J = Ws]$ _Joul / Vatsekunda_
 
 ----
 
@@ -299,7 +299,7 @@ Skupna napetost enaka napetosti ene celice
 
 
 - **Kapaciteta**: koliko časa je celica sposobna dajati določen tok:  
-$$ Q = I \sdot t \ [Ah] $$
+$$ Q = I \cdot t \ [Ah] $$
 
 <sub><sup>Primer: Akumulator imam kapaciteto 10 Ah. Koliko časa ga bomo lahko uporabljali, če porabnik troši 500 mA?  
 $t = \frac{Q}{I} = \frac{10 Ah}{0.5 A} = 20 h$</sup></sub>
@@ -335,7 +335,7 @@ Shema električnega kroga leve slike
 
 Število ponavljajočih se dogodkov v časovni enoti
 
-**Frekvenca**: $f\ [Hz]$ _Hertz_
+**Frekvenca**: $f\ [\mathrm{Hz}]$ _Hertz_
 
 <div class="row-even">
 
@@ -373,7 +373,7 @@ Izmenična napetost: napetost, ki se s časom spreminja
 
 ### Generator izmenične napetosti
 
-$$ U = U_{max} \sdot \sin(\alpha) $$
+$$ U = U_{max} \cdot \sin(\alpha) $$
 
 <div class="row-even">
 <img src="images/ac_generator.jpg" height=200>
@@ -406,11 +406,11 @@ $U_\text{sre}$ – srednja vrednost napetosti
 
 Za sinus velja:
 
-$ U_\text{vrh} = \sqrt{2} \sdot U_\text{ef} $
+$ U_\text{vrh} = \sqrt{2} \cdot U_\text{ef} $
 
-$ U_\text{sre} = \frac{2}{\pi} \sdot U_\text{vrh} $
+$ U_\text{sre} = \frac{2}{\pi} \cdot U_\text{vrh} $
 
-$ U_\text{vrh} = 1.57 \sdot U_\text{sre} $
+$ U_\text{vrh} = 1.57 \cdot U_\text{sre} $
 </div>
 
 <img src="images/sin_voltage.jpg" width=500>
@@ -426,7 +426,7 @@ $ U_\text{vrh} = 1.57 \sdot U_\text{sre} $
 &nbsp;
 
 **Hitrost** širjenja:  
-$v = f \sdot \lambda$  
+$v = f \cdot \lambda$  
 $v$ – hitrost \[$\frac{m}{s}$]  
 $f$ – frekvenca \[Hz]  
 $\lambda$ – valovna dolžina \[m]
@@ -472,7 +472,7 @@ Nemški znanstvenik Georg Simon Ohm ugotovi, da je **napetost v vezju enaka prod
 <div class="row-even">
 <div>
 
-$$ U = I \sdot R $$
+$$ U = I \cdot R $$
 $$ I = \frac{U}{R} $$
 $$ R = \frac{U}{I} $$
 </div>
@@ -503,7 +503,7 @@ $$ I = \frac{U}{R} = \frac{12\ V}{25\ \Omega} = 0.48\ A $$
 <div>
 
 $$ R = \frac{U}{I} $$
-$$ U = I \sdot R = 6\ \Omega \sdot 3\ A = 18\ V $$
+$$ U = I \cdot R = 6\ \Omega \cdot 3\ A = 18\ V $$
 </div>
 
 
@@ -583,7 +583,7 @@ $ R_\text{skupna} = 5\ \Omega + 10\ \Omega = 15\ \Omega $
 
 $R_g$ – upornost generatorja
 
-$ U_{AB} = U - R_g \sdot I = 6\ V - (4\ \Omega \sdot 0.5\ A) = 4V $
+$ U_{AB} = U - R_g \cdot I = 6\ V - (4\ \Omega \cdot 0.5\ A) = 4V $
 </div>
 
 <img src="images/real_gen.jpg" width=400>
@@ -610,7 +610,7 @@ $$\sum I = 0$$
 
 <div class="row-even">
 
-$$\sum U = \sum I \sdot R$$
+$$ \sum U = \sum I \cdot R $$
 
 <img src="images/kirch_2.jpg" height=300>
 </div>
@@ -640,13 +640,13 @@ $ I_1 = I_4 - I_3 - I_2 = 5A - 5A - 2A = -2A $
 <div>
 
 Zanka 1:  
-$ 10\ V = I_2 \sdot 30\ \Omega $
+$ 10\ V = I_2 \cdot 30\ \Omega $
 
 Zanka 2:  
-$ 12\ V = I_2 \sdot 30\ \Omega + I_1 \sdot 10\ \Omega $
+$ 12\ V = I_2 \cdot 30\ \Omega + I_1 \cdot 10\ \Omega $
 
 Zanka 3:  
-$ (12\ V - 10\ V) = I_1 \sdot 10\ \Omega $
+$ (12\ V - 10\ V) = I_1 \cdot 10\ \Omega $
 </div>
 
 <img src="images/kirch_ex_2.jpg" width=600>
@@ -661,11 +661,11 @@ $ (12\ V - 10\ V) = I_1 \sdot 10\ \Omega $
 
 Enosmerne napetosti in tokovi:
 
-$ P = U \sdot I $
+$ P = U \cdot I $
 
 $ P= \frac{U^2}{R} $
 
-$ P = I^2 \sdot R $
+$ P = I^2 \cdot R $
 
 </div>
 <div>
@@ -673,11 +673,11 @@ $ P = I^2 \sdot R $
 Izmenične napetosti in tokovi:  
 (Ohmska bremena)
 
-$ P_\text{sre} = U_\text{ef} \sdot I_\text{ef} $
+$ P_\text{sre} = U_\text{ef} \cdot I_\text{ef} $
 
 $ P_\text{sre} = \dfrac{U^2_\text{ef}}{R} $
 
-$ P_\text{sre} = I^2_\text{ef} \sdot R $
+$ P_\text{sre} = I^2_\text{ef} \cdot R $
 
 $ P_\text{ef} \neq P_\text{sre} $
 </div>
@@ -688,7 +688,7 @@ $ P_\text{ef} \neq P_\text{sre} $
 
 
 **Peak Envelope Power** (PEP): vrhnja (temenska) moč ovojnice, kar pomeni največjo vršno vrednost moči preko določene periode.  
-$$ P_\text{PEP} = \frac{U^2_\text{PEV}}{2 \sdot R} $$
+$$ P_\text{PEP} = \frac{U^2_\text{PEV}}{2 \cdot R} $$
 
 <img src="images/pep.jpg" width=500>
 
@@ -699,13 +699,13 @@ $$ P_\text{PEP} = \frac{U^2_\text{PEV}}{2 \sdot R} $$
 <div class="hg">
 <div>
 
-$$ P = I^2 \sdot R \quad \quad I = \frac{U}{R + R_g} $$
-$$ P = \frac{U^2 \sdot R}{(R + R_g)^2} $$
+$$ P = I^2 \cdot R \quad \quad I = \frac{U}{R + R_g} $$
+$$ P = \frac{U^2 \cdot R}{(R + R_g)^2} $$
 
 **Maksimalni prenos moči** na breme R:  
 _"breme prilagodimo generatorju"_
 
-$$ R = R_g \rarr P_{max} = \frac{U^2 \sdot R}{4 \sdot R^2} = \frac{U^2}{4 \sdot R} $$
+$$ R = R_g \rarr P_{max} = \frac{U^2 \cdot R}{4 \cdot R^2} = \frac{U^2}{4 \cdot R} $$
 </div>
 
 <img src="images/img1055.jpg" height=300>
@@ -715,9 +715,9 @@ $$ R = R_g \rarr P_{max} = \frac{U^2 \sdot R}{4 \sdot R^2} = \frac{U^2}{4 \sdot 
 
 ### Električna energija in izkoristek sistema
 
-**Električna energija**: $ W = P \sdot t\ [\text{Ws}] $ _Vatsekunda_
+**Električna energija**: $ W = P \cdot t\ [\mathrm{Ws}] $ _Vatsekunda_
 
-$ 1\ \text{kWh} = 1000\ \text{W} \sdot 3600\ \text{s} = 3600000\ \text{Ws} $
+$ 1\ \mathrm{kWh} = 1000\ \mathrm{W} \cdot 3600\ \mathrm{s} = 3600000\ \mathrm{Ws} $
 
 &nbsp;
 
@@ -727,7 +727,7 @@ $ 1\ \text{kWh} = 1000\ \text{W} \sdot 3600\ \text{s} = 3600000\ \text{Ws} $
 <div>
 
 $$ \eta = \frac{P_i}{P_v} \quad 0 \le \eta \le 1 $$
-$$ \eta = \frac{P_i}{P_v} \sdot 100 \quad 0 \\% \le \eta \le 100 \\% $$
+$$ \eta = \frac{P_i}{P_v} \cdot 100 \quad 0 \\% \le \eta \le 100 \\% $$
 </div>
 
 <div>
@@ -764,7 +764,7 @@ $$ \log_{a} x + \log_{a} y = \log_{a} (xy) $$
 
 $$ \log_{a} x - \log_{a} y = \log_{a} \bigg( \frac{x}{y} \bigg) $$
 
-$$ r \sdot \log_{a} x = \log_{a} x^r $$
+$$ r \cdot \log_{a} x = \log_{a} x^r $$
 </div>
 
 ----
@@ -776,9 +776,9 @@ Decibel je relativna enota, s katero določamo **ojačanje ali slabljenje sistem
 <div class="hg">
 <div>
 
-$$ G(dB) = 10 \sdot \log \bigg( \frac{P_2}{P_1} \bigg) $$
+$$ G(dB) = 10 \cdot \log \bigg( \frac{P_2}{P_1} \bigg) $$
 
-$$ G(dB) = 20 \sdot \log \bigg( \frac{U_2}{U_1} \bigg) = 20 \sdot \log \bigg( \frac{I_2}{I_1} \bigg) $$
+$$ G(dB) = 20 \cdot \log \bigg( \frac{U_2}{U_1} \bigg) = 20 \cdot \log \bigg( \frac{I_2}{I_1} \bigg) $$
 </div>
 
 <table class="compact center">
@@ -809,7 +809,7 @@ Izračunaj skupno ojačanje sistema:
 
 $$ G(dB) = +20\ dB - 10\ dB +3\ dB = + 13\ dB $$
 
-$$ G = 100 \sdot 0.1 \sdot 2 = 20 $$
+$$ G = 100 \cdot 0.1 \cdot 2 = 20 $$
 
 Dobimo ojačanje +13 dB oz. 20 kratno ojačanje
 
@@ -926,7 +926,7 @@ $$ \frac{1}{L_\text{skupna}} = \frac{1}{L_1}+\frac{1}{L_{2}}+... $$
 <div>
 
 **Induktivna reaktanca** ali induktivna upornost:  
-$ X_L = 2 \sdot \pi \sdot f \sdot L$
+$ X_L = 2 \cdot \pi \cdot f \cdot L$
 
 Kvaliteta tuljave: $ Q = \frac{X_L}{R_L} $
 
@@ -969,7 +969,7 @@ faktorjev so med 0 in 1.
 
 **Izkoristek** transformatorja:
 
-$$ P_s = \eta \sdot P_p $$
+$$ P_s = \eta \cdot P_p $$
 
 $P_p$ – moč na primarju (W)  
 $P_s$ – moč na sekundarju (W)  
@@ -1012,7 +1012,7 @@ $$ \frac{U_p}{U_s} = \frac{n_p}{n_s} = \frac{I_s}{I_p} = \frac{1000}{100} $$
 
 $$ U_s = \frac{U_p}{10} = \frac{220\ V}{10} = 22\ V $$
 
-$$ I_s = I_p \sdot 10 = 2\ A \sdot 10 = 20\ A $$
+$$ I_s = I_p \cdot 10 = 2\ A \cdot 10 = 20\ A $$
 </div>
 
 <img src="images/img1181.jpg" height=300>
@@ -1084,7 +1084,7 @@ Pri idealnem kondenzatorju **tok fazno prehiteva napetost za 90°**
 
 ### Realni kondenzatorji
 
-**Kapacitivna reaktanca**: $ X_C = \dfrac{1}{2 \sdot \pi \sdot f \sdot C} $
+**Kapacitivna reaktanca**: $ X_C = \dfrac{1}{2 \cdot \pi \cdot f \cdot C} $
 
 **Izgubni** (prečni) **tok** kondenzatorja: tok, ki teče skozi kondenzator
 zaradi neidealnega dielektrika.
@@ -1118,10 +1118,10 @@ $$ \frac{1}{C_\text{skupna}} = \frac{1}{C_1} + \frac{1}{C_2} + ... $$
 V praktičnih vezjih se pojavijo kombinacije obeh:
 
 Induktivna reaktanca:
-$ X_L = 2 \sdot \pi \sdot f \sdot L$
+$ X_L = 2 \cdot \pi \cdot f \cdot L$
 
 Kapacitivna reaktanca:
-$ X_C = \frac{1}{2 \sdot \pi \sdot f \sdot C} $
+$ X_C = \frac{1}{2 \cdot \pi \cdot f \cdot C} $
 
 Zato raje govorimo o **reaktanci**, ki ima lahko **induktivni** ali **kapacitivni značaj**
 
@@ -1131,7 +1131,7 @@ Vrednost reaktance se **spreminja glede na frekvenco**
 
 **Reaktančna bremena ne trošijo električne energije** (jalova moč)
 
-Velja ohmov zakon: $ U = X \sdot I $
+Velja ohmov zakon: $ U = X \cdot I $
 
 
 
@@ -1149,7 +1149,7 @@ $Z = R + jX_L$
 $Z = R - jX_C$  
 &rarr; impedanca upornosti R in reaktance kapacitivnega značaja
 
-Velja ohmov zakon: $ U = Z \sdot I $ (bolj kompleksno zaradi imaginarne komponente)
+Velja ohmov zakon: $ U = Z \cdot I $ (bolj kompleksno zaradi imaginarne komponente)
 
 
 
@@ -1159,9 +1159,9 @@ Obstaja frekvenca kjer se **vrednost kapacitivne reaktance izenači induktivni r
 
 $ X_C = X_L $
 
-$ \frac{1}{2 \sdot \pi \sdot f \sdot C} = 2 \sdot \pi \sdot f \sdot L $
+$ \frac{1}{2 \cdot \pi \cdot f \cdot C} = 2 \cdot \pi \cdot f \cdot L $
 
-$$ f = \frac{1}{2 \sdot \pi \sdot \sqrt{L \sdot C}} $$
+$$ f = \frac{1}{2 \cdot \pi \cdot \sqrt{L \cdot C}} $$
 
 Te frekvenci pravimo **resonančna frekvenca**, pojavu pa **resonanca**
 

@@ -140,7 +140,7 @@ dejavnost – zakone določa država.
 
 Razdelitev radijskih frekvenc določa IARU. Vsak region ima svojo razdelitev frekvenc.
 
-$$\text{valov. dolž.} = \frac{3 \sdot 10^8 \frac{m}{s}}{\text{frekv.}}$$
+$$ \text{valov. dolž.} = \frac{3 \cdot 10^8 \frac{m}{s}}{\text{frekv.}} $$
 
 - [S5 Band Plans](https://www.radioamater.si/dejavnosti/s5-band-plans/)
 - [IARU Region 1 Band plans](https://www.iaru-r1.org/reference/band-plans/)
