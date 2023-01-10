@@ -1706,7 +1706,7 @@ Pri analognih integriranih vezjih **izhodni signal zvezno sledi spremembi vhodne
 
 <div class="row-even">
 <div class="center-t">
-<img src="images/img1453.jpg" width=500> 
+<img src="images/img1453.jpg" width=500>
 
 Operacijski ojačevalnik
 </div>

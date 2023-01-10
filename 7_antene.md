@@ -190,7 +190,7 @@ To je 50% padec moči oz. **-3dB**.
 <img src="images/kot_sevanja_2.jpg" height=300>
 </div>
 
-----
+
 
 ### Razmerja sevanja
 
@@ -617,153 +617,286 @@ Predstavljajo popolnoma prilagojeno breme
 
 ## Napajanje anten
 
-<div style="font-size:50px">🚧 Under construction 🚧</div>
-
 ----
 
 ### Antenski / napajalni vod
 
-Poveže anteno in oddajnik  
+Poveže anteno in oddajnik
+
 Največji prenos moči: končna stopnja oddajnika in antena **impedančno prilagojena**
 
-Vod **ne sme sevati**, **energija** pri prenosu **se ne sme izgubiti**, mora imeti **konstantne električne karakteristike**, in mora biti odporen na **vreme**
+Dober vod:
+- **ne sme sevati**
+- **energija** pri prenosu **se ne sme izgubiti**
+- mora imeti **konstantne električne karakteristike**
+- mora biti odporen na **vreme**
 
 ----
 
 ### Vrste antenskih vodov
 
-Dve glavni vrsti: **dvožilni** in **koaksialni** vod  
-**Valovod** – cev ustreznega preseka (za mikrovalovno področje)
+Dve glavni vrsti: **dvožilni** in **koaksialni** vod
 
-<img src="images/">
+<div class="row-even">
+<img src="images/ladder_air.jpg" height=220>
+<img src="images/sim_ant_vod.jpg" height=220>
+<img src="images/ladder_img.jpg" height=220>
+</div>
 
-<img src="images/">
+<div class="row-even">
+<img src="images/dvozilni_oklepni_vod.jpg" height=220>
+<img src="images/zgradba_koaksa.jpg" height=220>
+<img src="images/coax_img.jpg" height=220>
+</div>
+
+
+
+**Valovod** (Waveguide) – cev ustreznega preseka (za mikrovalovno področje)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Radar_antenna_feed_waveguide.png" width=400>
 
 ----
 
 ### Karakteristična impedanca voda (Z)
 
-Razmerje napetosti U in toka I na neskončno dolgem vodniku  
-Impedanca (zrak): Z = $\sqrt{ \frac{L}{C} }$  
-L – "debelina vodnika"  
-C – "medsebojna razdalja"
+Razmerje napetosti U in toka I na neskončno dolgem vodniku
 
-<img src="images/">
+Impedanca (zračni izolator):
+<div class="row-even">
+<div>
 
-Dvožilni antenski vod:
+$$ Z = \sqrt{ \frac{L}{C} } $$
+</div>
 
-<img src="images/">
+<div>
 
-TODO FIXX
+$L$ – "debelina vodnika"  
+$C$ – "medsebojna razdalja"
+</div>
+</div>
 
-$$ Z(\Omega) = \frac{120}{ \sqrt{ξ_r} }$ \cdot \ln $\frac{2D(mm)}{d(mm)} $$
+<img src="images/dvozilni_ant_vod.jpg" width=500>
 
-Koaksialni vod:
 
-<img src="images/">
 
-$$ Z(\Omega) = \frac{60}{ \sqrt{ξ_r} }$ \cdot \ln $\frac{D(mm)}{d(mm)} $$
+<div class="row-even">
+<div class="center-t">
+
+Dvožilni antenski vod  
+<img src="images/sim_dvozilni_vod.jpg" height=200>
+
+$$ Z(\Omega) = \frac{120}{ \sqrt{\varepsilon_r} } \cdot \ln \frac{2 \cdot D(\mathrm{mm})}{d(\mathrm{mm})} $$
+</div>
+<div class="center-t">
+
+Koaksialni vod  
+<img src="images/asim_koaks.jpg" height=200>
+
+$$ Z(\Omega) = \frac{60}{ \sqrt{\varepsilon_r} } \cdot \ln \frac{D(\mathrm{mm})}{d(\mathrm{mm})} $$
+</div>
+</div>
 
 ----
 
 ### Vpliv dielektrika
 
+<div class="row-even">
+<div>
+
 Hitrost širjenja valovanja v snovi:
 
-v = $ \frac{c}{\sqrt{ξ_r}}$
+$$ v = \frac{c}{\sqrt{\varepsilon_r}} $$
 
-v – hitrost v snovi ($\frac{km}{s}$)  
-c – hitrost svetlobe (300000 $\frac{km}{s}$)  
-ξ<sub> r</sub> – relativna dielektrična konstanta
-
-<img src="images/">
+$v$ – hitrost v snovi ($\frac{\mathrm{km}}{\mathrm{s}}$)  
+$c$ – hitrost svetlobe (300000 $\frac{\mathrm{km}}{\mathrm{s}}$)  
+$\varepsilon_r$ – relativna dielektrična konstanta
+</div>
+<div>
 
 Skrajševalni faktor koaksialnega voda:
 
-V = $ \frac{v}{c}$ = $ \frac{1}{\sqrt{ξ_r}}$
+$$ V = \frac{v}{c} = \frac{1}{\sqrt{\varepsilon_r}} $$
 
-<img src="images/">
+<table class="compact">
+<thead>
+<tr><th>Snov</th><th>$\varepsilon_r$</th></tr>
+</thead>
+<tbody>
+<tr><td>Zrak</td><td>1,0</td></tr>
+<tr><td>Teflon</td><td>2,0</td></tr>
+<tr><td>Polietilen</td><td>2,3</td></tr>
+<tr><td>Pleksi steklo</td><td>3,0 &hellip; 3,6</td></tr>
+<tr><td>Polivinil (PVC)</td><td>3,1 &hellip; 3,5</td></tr>
+<tr><td>Epoksi smola</td><td>3,5</td></tr>
+<tr><td>Porcelan</td><td>6,5</td></tr>
+</tbody>
+</table>
+<table class="compact">
+<thead>
+<tr><th>Tip koaksialnega kabla</th><th>$V$</th></tr>
+</thead>
+<tbody>
+<tr><td>RG58</td><td>0,66</td></tr>
+<tr><td>RG</td><td>0,66</td></tr>
+<tr><td>RG</td><td>0,66</td></tr>
+<tr><td>RG</td><td>0,71</td></tr>
+<tr><td>RG</td><td>0,72</td></tr>
+<tr><td>H155</td><td>0,81</td></tr>
+<tr><td>H500</td><td>0,81</td></tr>
+</tbody>
+</table>
+</div>
+</div>
 
 ----
 
 ### Izgube v napajalnih vodih
 
-**Izgube** zaradi ohmske **upornosti žice** (skin efekt), **izgube v dielektriku** in **sevanja voda** <font size="1"> “Nobody’s perfect” (Hannah Montana, 2007) </font>
+**Izgube** zaradi ohmske **upornosti žice** (skin efekt), **izgube v dielektriku** in **sevanja voda**
 
-<img src="images/">
-
-----
-
-### Porazdelitev toka in napetosti vzdolž voda – Stojno valovanje
-
-<img src="images/">
-
-<img src="images/">
-
-<img src="images/">
-
-<img src="images/">
-
-<img src="images/">
+<img src="images/ant_vod_loss.jpg" height=300>
 
 ----
+
+### Porazdelitev toka in napetosti vzdolž voda <br/> Stojno valovanje
+
+<div class="row-even">
+<div class="center-t">
+
+Prilagojeno breme  
+R = Z  
+<img src="images/vod_prilagojeno.jpg" height=280>
+</div>
+<div class="center-t">
+
+Odprt vod  
+R = &infin;  
+<img src="images/vod_odprti.jpg" height=280>
+</div>
+<div class="center-t">
+
+Kratko slenjen vod  
+R = 0  
+<img src="images/vod_stik.jpg" height=280>
+</div>
+</div>
+
+
+
+Del VF energije se potroši na bremenu, preostali del se vrne
+
+<div class="row-even">
+<div class="center-t">
+
+R > Z  
+<img src="images/vod_r_gt_z.jpg" height=280>
+</div>
+<div class="center-t">
+
+R < Z  
+<img src="images/vod_r_lt_z.jpg" height=280>
+</div>
+</div>
+
+
 
 ### Razmerje stojnega valovanja (SWR)
 
 "Standing wave ratio"
 
-SWR = $\frac{U_(max)}{U_(min)}$
+$$ \text{SWR} = \frac{U_\text{max}}{U_\text{min}} $$
 
-Merimo s **SWR metrom**  
-Slab SWR:
+Merimo s **SWR metrom**
 
+Slab SWR povzroči:
 - Izgube / gretje / poškodbe na antenskem vodu
 - Manjša izsevana moč
 - **Poškodba končne stopnje** na oddajniku!
-- Dopustna meja: SWR = 3 (25% moči)
+
+Dopustna meja: SWR = 3 (25% moči)
 
 ----
 
 ### Elementi za prilagoditev in transformacijo
 
-**Gama**: s kratkostično objemalko in spremenljivim kondenzatorjem prilagajamo SWR  
-**Delta**: priključne žice na sredino dipola, sredino lahko ozemljimo  
-**"Hairpin"**: Lažje kot gama, ampak mora sevalec biti prekinjen in v primeru koaksa potreben člen za simetriranje (balun)
+**Gama**: s kratkostično objemalko in spremenljivim kondenzatorjem prilagajamo SWR
 
-<img src="images/">
+**Delta**: priključne žice na sredino dipola, sredino lahko ozemljimo
 
-<img src="images/">
+**Hairpin**: Lažje kot gama, ampak mora sevalec biti prekinjen in v primeru koaksa potreben člen za simetriranje (balun)
 
-<img src="images/">
+<div class="row-even">
+<div class="center-t">
 
-----
+Gama  
+<img src="images/vod_gama.jpg" height=250>
+</div>
+<div class="center-t">
 
-### Elementi za prilagoditev in transformacijo Transformatorji impedance
+Delta  
+<img src="images/vod_delta.jpg" height=250>
+</div>
+<div class="center-t">
 
-<img src="images/">
+Hairpin  
+<img src="images/vod_hairpin.jpg" height=250>
+</div>
+</div>
 
-Z<sub>v</sub> – vhodna impedanca  
-Z<sub>i</sub> – izhodna impedanca
 
-<img src="images/">
+
+### Transformatorji impedance
+
+<div class="row-even">
+<div>
+
+<img src="images/vod_1_4.jpg" height=200>
+
+**Četrtvalni transformator** impedance
+
+$Z_v$ – vhodna impedanca  
+$Z_i$ – izhodna impedanca
+</div>
+<div>
+
+<img src="images/polvalna_zanka.jpg" height=200>
+
+**Polvalna zanka**
 
 Transformira impedanco 4:1  
 Omogoča simetriranje
+</div>
+</div>
 
+<div class="center-t mt-20">
 Upoštevamo skrajševalni faktor voda!
+</div>
 
-----
+
 
 ### Transformatorji za simetriranje
 
-Polvalni dipol (simetrični) -?- koaksialni vod (nesimetrični)  
+Polvalni dipol (simetrični) -?- koaksialni vod (nesimetrični)
+
 Balun (**bal**anced-**un**balanced) – prehod, simetrično na nesimetrično
 
-<img src="images/">
+<div class="row-even">
+<div class="center-t">
 
-<img src="images/">
+**Polvalna zanka**  
+<img src="images/polvalna_zanka.jpg" height=200>
+</div>
+<div class="center-t">
 
-<img src="images/">
+**Bazooka** simetrirni člen  
+<img src="images/vod_bazooka.jpg" height=200>
+</div>
+<div class="center-t">
+
+Trifilarno navitje  
+<img src="images/trifilarno_navitje.jpg" height=200>
+</div>
+</div>
 
 In še mnogo več…
 
@@ -771,16 +904,25 @@ In še mnogo več…
 
 ### Antenski tunerji
 
-<img src="images/">
-
-<img src="images/">
+<div class="row-even">
+<img src="images/tuner_vezje.jpg" width=500>
+<img src="images/tuner_img.jpg" width=500>
+</div>
 
 ----
 
 ### Napajalni vod kot element za uglaševanje
 
-<img src="images/">
+<div class="row-even">
+<div class="img-stack">
+<img src="images/vod_imp_stik.jpg" width=300><br/>
+<img src="images/vod_imp_odprt.jpg" width=300>
+</div>
+<div>
+<img src="images/vod_karakteristike.jpg" width=500>
+</div>
+</div>
 
-<img src="images/">
+----
 
-<img src="images/">
+<div style="font-size:50px">🚧 Under construction 🚧</div>
