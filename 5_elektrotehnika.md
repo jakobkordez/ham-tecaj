@@ -20,8 +20,8 @@
 </div>
 
 <div>
-<img src="https://si.openprof.com/ge/images/210/Screen_Shot_2014_11_27_at_82127_PM_640.png" height=200>
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Caffeine_Molecule.png" height=200>
+<img src="images/web_15.png" height=200>
+<img src="images/molekula.png" height=200>
 </div>
 
 
@@ -37,9 +37,9 @@
 
 
 
-<img class="white mr-20" src="https://eucbeniki.sio.si/kemija1/1666/slika2.jpg" height=400>
+<img class="white mr-20" src="images/web_16.jpg" height=400>
 
-<img src="http://ekemija.osbos.si/e-gradivo/4-sklop/kovinska_kr_struktura.jpg" height=400>
+<img src="images/web_17.jpg" height=400>
 
 ----
 
@@ -49,7 +49,7 @@ Električno polje je prostor, v katerem deluje električna sila na električni n
 
 **Jakost električnega polja**: $E\ [\frac{V}{m}]$
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/EfieldTwoOppositePointCharges.svg/1024px-EfieldTwoOppositePointCharges.svg.png" width=500 style="padding:-2px" class="white">
+<img src="images/e_field.png" width=500 style="padding:-2px" class="white">
 
 
 
@@ -69,7 +69,7 @@ se iz prostora izven polja prenese v dano točko pozitiven naboj
 
 **Pred električnim poljem se zaščitimo z oklapljanjem s kovinskimi materiali** (Faradejeva kletka).
 
-<img src="https://thumbs.dreamstime.com/b/simple-faraday-cage-design-made-iron-d-illustration-suitable-themes-electricy-131324093.jpg" width=500>
+<img src="images/web_18.jpg" width=500>
 
 ----
 
@@ -182,7 +182,7 @@ Upor je najbolj osnoven primer porabnika
 Glede na izvedbo ločimo: žični, slojni, polni ali masni upor
 </div>
 
-<img src="https://cdn.britannica.com/87/124387-050-27B16727/types-resistors.jpg" width=300>
+<img src="images/web_19.jpg" width=300>
 </div>
 
 
@@ -208,7 +208,7 @@ d) potenciometer
 
 #### Označevanje vrednosti uporov
 
-<img src="https://www.diyaudioandvideo.com/Electronics/ResistorColorCodes/ResistorColorCode.gif" height=400>
+<img src="images/web_20.gif" height=400>
 
 ----
 
@@ -241,7 +241,7 @@ Enosmerna napetost: tista napetost, ki
 <div class="row-even">
 <img src="images/dc.jpg" height=290>
 <img src="images/dc_voltage.jpg" height=290>
-<img src="https://www.build-electronic-circuits.com/wp-content/uploads/2019/12/Direct-Current-DC.gif" height=290>
+<img src="images/web_21.gif" height=290>
 </div>
 
 ----
@@ -250,7 +250,7 @@ Enosmerna napetost: tista napetost, ki
 
 Najbolj osnoven izvor enosmerne napetosti
 
-<img src="https://components101.com/sites/default/files/components/Different-Types-of-Batteries.jpg" height=400>
+<img src="images/web_22.jpg" height=400>
 
 
 
@@ -350,9 +350,9 @@ $N$ – število nihajev v času opazovanja
 
 
 <div class="row-even">
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%95%E0%B8%B8%E0%B9%89%E0%B8%A1%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4.gif">
+<img src="images/nihalo.gif">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/FrequencyAnimation.gif/220px-FrequencyAnimation.gif">
+<img src="images/web_23.gif">
 </div>
 
 ----
@@ -366,7 +366,7 @@ Izmenična napetost: napetost, ki se s časom spreminja
 <div class="row-even">
 <img src="images/ac.jpg" height=380>
 <img src="images/ac_voltage.jpg" height=380>
-<img src="https://www.build-electronic-circuits.com/wp-content/uploads/2019/12/Alternate-Current-AC.gif" height=290>
+<img src="images/web_24.gif" height=290>
 </div>
 
 ----
@@ -847,15 +847,15 @@ Pravilo desnega vijaka (smer silnic)
 <a class="center-b" href="https://youtu.be/KSylo01n5FY?t=208">Animacija tuljave</a>
 
 <div class="row-even">
-<img src="https://www.allaboutcircuits.com/uploads/articles/magnetic-field-around-the-coil.png" height=300>
-<img src="https://engineeringlearn.com/wp-content/uploads/2021/12/Inductor-1024x539.jpg" height=300>
+<img src="images/web_25.png" height=300>
+<img src="images/web_26.jpg" height=300>
 </div>
 
 
 
 Pri idealni tuljavi vedno **tok zaostaja za napetostjo za 90°**
 
-<img src="https://i.stack.imgur.com/VkI8p.gif" width=600>
+<img src="images/web_27.gif" width=600>
 
 
 
@@ -1072,7 +1072,7 @@ d) elektrolitski kondenzator
 <img src="images/img1236.jpg" height=200>
 </div>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Capacitors_%287189597135%29.jpg" height=300>
+<img src="images/web_28.jpg" height=300>
 
 
 
@@ -1288,7 +1288,7 @@ Višji kot je red filtra, bolj se amplitudni odziv približuje idealnemu
 **Overtonski oscilator**: kristal lahko niha le na overtonskih frekvencah, ki so lihi mnogokratniki osnovne frekvence
 
 <div class="row-even">
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/16MHZ_Crystal.jpg" height=250>
+<img src="images/kristal.jpg" height=250>
 <img src="images/img1315.jpg" height=250>
 </div>
 
@@ -1308,7 +1308,7 @@ Silicij / germanij
 Polprevodnikom **dodajamo primesi** (Dopiranje)
 </div>
 
-<img src="https://lastminuteengineers.b-cdn.net/wp-content/uploads/basic/Silicon-Crystal.png" width=300>
+<img src="images/web_29.png" width=300>
 </div>
 
 
@@ -1319,7 +1319,7 @@ Polprevodnikom **dodajamo primesi** (Dopiranje)
 **N tip** polprevodnika:  
 Donorji: petvalentne primesi, kot so fosfor, arzen, antimon, ki povečajo v polprevodniku število prostih elektronov
 
-<img src="http://www.differencebetween.info/sites/default/files/images_articles_d7_1/n-type.jpg" height=300>
+<img src="images/web_30.jpg" height=300>
 </div>
 <div class="w-50">
 
@@ -1327,7 +1327,7 @@ Donorji: petvalentne primesi, kot so fosfor, arzen, antimon, ki povečajo v polp
 Akceptorji: trivalentne primesi, kot so, bor,
 aluminij, galij, indij, ki ustvarijo gibljive vrzeli
 
-<img src="http://www.differencebetween.info/sites/default/files/images_articles_d7_1/p-type.jpg" height=300>
+<img src="images/web_31.jpg" height=300>
 </div>
 </div>
 
@@ -1348,7 +1348,7 @@ Dioda v zaporni smeri prevaja majhen tok, ki ga imenujemo **zaporni tok ali tok 
 
 <div class="row-even">
 <img src="images/img1344.jpg" width=600>
-<img src="https://cdn1.byjus.com/wp-content/uploads/2017/10/Diodes-symbol.png" width=500>
+<img src="images/web_32.png" width=500>
 </div>
 
 
@@ -1363,12 +1363,12 @@ Dioda v zaporni smeri prevaja majhen tok, ki ga imenujemo **zaporni tok ali tok 
 
 <div class="row-even mt-20">
 <div class="center-t">
-<img src="https://cdn.sparkfun.com/assets/2/9/2/f/3/5176f4bfce395f3a61000000.png" height=200>
+<img src="images/web_33.png" height=200>
 
 Polvalni usmernik
 </div>
 <div class="center-t">
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Diodebridge-eng.gif" height=200>
+<img src="images/web_34.gif" height=200>
 
 Polnovalni usmernik
 </div>
@@ -1398,7 +1398,7 @@ Uporabljamo za ojačevalnike in oscilatorje
 #### Uporaba zener diode
 
 <div class="row-even">
-<img src="https://www.digikey.in/-/media/MakerIO/Images/blogs/zener-diode-basic-operation-fig5.JPG" height=400>
+<img src="images/web_35.JPG" height=400>
 
 <div class="center-t">
 <img src="images/img1367.jpg" height=300>
@@ -1447,7 +1447,7 @@ Dvosmerni tiristor
 <div class="row-even">
 <div class="center-t">
 <img src="images/img1361.jpg" height=400>
-<img src="https://m.media-amazon.com/images/I/61byqiTCAWL.jpg" height=300>
+<img src="images/web_36.jpg" height=300>
 
 Svetleča dioda (LED)  
 Pretvarja el. energijo v svetlobo
@@ -1527,12 +1527,12 @@ $ \beta = \dfrac{I_C}{I_B} $
 
 <div class="row-even">
 <div class="center-t">
-<img src="https://www.watelectronics.com/wp-content/uploads/Transistor-as-Amplifier.jpg" height=400>
+<img src="images/web_37.jpg" height=400>
 
 Tranzistor kot ojačevalnik
 </div>
 <div class="center-t">
-<img src="https://cdn1.byjus.com/wp-content/uploads/2021/04/Define-Transistor-As-A-Switch.png" height=400>
+<img src="images/web_38.png" height=400>
 
 Tranzistor kot stikalo
 </div>
@@ -1584,7 +1584,7 @@ Skupek elementov skrčimo na čim manjši prostor
 
 <div class="row-even">
 <img src="images/ic.jpg" height=300>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Three_IC_circuit_chips.JPG/1200px-Three_IC_circuit_chips.JPG" height=300>
+<img src="images/ic_img.JPG" height=300>
 </div>
 
 ----
@@ -1695,7 +1695,7 @@ Vrata NE-ALI (NOR)
 
 <div class="row-even">
 <img src="images/img1436.jpg" width=600>
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/c6/R-S_mk2.gif" width=500>
+<img src="images/flip_flop.gif" width=500>
 </div>
 
 ----

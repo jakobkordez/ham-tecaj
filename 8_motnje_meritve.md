@@ -159,4 +159,4 @@ Dobra ozemljitev zmanjša verjetnost nastanka motenj
 
 ----
 
-<img src="https://i.redd.it/jcsozf38lkaa1.png" width=600>
+<img src="images/web_56.png" width=600>

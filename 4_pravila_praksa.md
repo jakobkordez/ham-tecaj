@@ -641,7 +641,7 @@ V zimskem času +1h, v poletnem +2h
 
 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/88/World_Time_Zones_Map.png">
+<img src="images/web_0.png">
 
 ----
 
@@ -664,12 +664,12 @@ Vegova: **JN76GB**
 [Zemljevid UL lokatorjev](https://dxcluster.ha8tks.hu/hamgeocoding/)
 </div>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Maidenhead_grid_over_Europe.svg/1024px-Maidenhead_grid_over_Europe.svg.png" width=500>
+<img src="images/mainhead.png" width=500>
 </div>
 
 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Maidenhead_Locator_Map.png/1024px-Maidenhead_Locator_Map.png">
+<img src="images/web_1.png">
 
 ----
 
@@ -738,16 +738,16 @@ Druge informacije, primerne za na QSL kartico:
 
 
 
-<div class="hg">
-<img src="https://cdn.dribbble.com/users/102859/screenshots/1352050/qsl-shot.jpg" width=40%>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/QSL_card_UA1AHQ.jpg/2560px-QSL_card_UA1AHQ.jpg" width=40%>
+<div class="row-even">
+<img src="images/web_2.jpg" width=40%>
+<img src="images/qsl_ussr.jpg" width=40%>
 </div>
 
 
 
-<div class="hg">
-<img src="https://www.classicpublishing.co.uk/images/qsl-double-example-2-both.jpg" width=40%>
-<img src="https://wab.intermip.net/images/ramsey_island_qsl_front.jpg" width=40%>
+<div class="row-even">
+<img src="images/web_3.jpg" width=40%>
+<img src="images/web_4.jpg" width=40%>
 </div>
 
 ----
@@ -783,7 +783,7 @@ Vsak tekmovanje lahko omeji:
 Športna disciplina že od 1924, v SLO 1954  
 **KV** – 80 m – 3-5 W, **UKV** – 2 m – 0,25-1,5 W
 
-<div class="hg">
+<div class="row-even">
 <img src="images/arg1.jpg" width=40%>
 <img src="images/arg2.jpg" width=40%>
 </div>
@@ -823,7 +823,7 @@ Slovenski diplomi:
 - S5 UL Diploma
 </div>
 
-<img src="https://www.s50e.si/wp-content/gallery/diplome/img_6705.jpg" width=30%>
+<img src="images/web_5.jpg" width=30%>
 </div>
 
 
@@ -838,7 +838,7 @@ Slovenski diplomi:
 
 **IARU REGION 1 AWARD** – (zveze z radioamaterji, ki so člani prvega regiona IARU)
 
-<img src="https://cdn-bio.qrz.com/t/pt2ast/IMG_20210914_194625135.jpg?p=ea3eb5367af8da20be4de07b041f9d17" width=30%>
+<img src="images/web_6.jpg" width=30%>
 
 ----
 
@@ -876,7 +876,7 @@ Signal za nevarnost:
 - BRAKE BRAKE BRAKE (potrebujem pomoč) - telefonija
 </div>
 
-<img src="https://i.pinimg.com/474x/09/6c/df/096cdfb7b9716e6d6e60cc7244c0bf99--distress-signal-morse-code.jpg" width=250>
+<img src="images/web_7.jpg" width=250>
 </div>
 
 ----
@@ -1101,7 +1101,7 @@ Zveze so kratke
 Frekvenca se spreminja (Dopplerjev pojav)
 </div>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/OSCAR_1_satellite-01.jpg" width=30%>
+<img src="images/oscar.jpg" width=30%>
 </div>
 
 
@@ -1124,14 +1124,14 @@ Downlink: Frekvenca na kateri oddaja
 </table>
 </div>
 
-<img src="https://amsat-dl.org/wp-content/uploads/2020/02/AMSAT-QO-100-NB-Transponder-Bandplan-Graph-1140x641.png" width=600>
+<img src="images/web_8.png" width=600>
 </div>
 
 
 
-<img src="https://i.pinimg.com/736x/14/0e/e5/140ee51a2d3ee5baa206ef8ff4dd0e43--dishes.jpg" height=600 class="mr-40">
+<img src="images/web_9.jpg" height=600 class="mr-40">
 
-<img src="https://www.onallbands.com/wp-content/uploads/2019/05/DXE-OAB-Amateur-Radio-Satellite-Basics-Pt-1-Image_Post-5-29-705x1024.jpg" height=600>
+<img src="images/web_10.jpg" height=600>
 
 ----
 
@@ -1151,7 +1151,7 @@ Danes večinoma samo digitalno
 - [MSK144](https://youtu.be/i5JfpgPyDl4) in [FSK441](https://youtu.be/_kB0IDuWNDE)
 </div>
 
-<img src="https://4.bp.blogspot.com/-nPEfdRdGrag/XX8rOJgGlqI/AAAAAAAAiU4/S-mRsd96078uOcIW2WCfVQGVu2uUsaCAACLcBGAsYHQ/s1600/meteor-burst-communication.png" width=50%>
+<img src="images/web_11.png" width=50%>
 </div>
 
 ----
@@ -1173,12 +1173,12 @@ Danes večinoma samo digitalno
 Lahko slišimo svojo oddajo
 </div>
 
-<img src="https://www.electronics-notes.com/images/propagation-eme-moonbounce-basic-concept-01.svg" width=500 style="padding:20px" class="white">
+<img src="images/web_12.svg" width=500 style="padding:20px" class="white">
 </div>
 
 
 
-<img src="https://slovhf.net/ham-radio/wp-content/sp-resources/forum-image-uploads/bojan-s51qa/2022/11/1600-0781.jpg" width=700>
+<img src="images/web_13.jpg" width=700>
 
 <a class="center-b" href="https://slovhf.net/forum/moon/s57q-2m-70cm-antene-2022">S57Q, 2m & 70cm EME antene</a>
 
@@ -1204,7 +1204,7 @@ Lahko slišimo svojo oddajo
 - Islands on the air ([IOTA](https://www.iota-world.org/))
 - World Wide Flora & Fauna ([WWFF](https://wwff.co/))
 
-<img src="https://i0.wp.com/qrper.com/wp-content/uploads/2020/10/Icom-IC-705-Elecraft-T1-CW-Morse-Pocket-Paddle-1.jpeg" width=450>
+<img src="images/web_14.jpeg" width=450>
 </div>
 
 <img src="https://qrznow.com/wp-content/uploads/2016/02/CQ_SOTA_QRP_.jpg" width=600>

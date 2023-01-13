@@ -152,7 +152,7 @@ Iz prakse, najugodnejši skrajševalni faktor: 0,95
 - horizontalnim / vertikalnim sevalnim diagramom
 </div>
 
-<img src="https://www.researchgate.net/profile/Hong-Ning-Dai/publication/271847875/figure/fig1/AS:271760067133451@1441804057902/The-radiation-pattern-of-an-isotropic-antenna-an-omni-directional-antenna.png" width=400 class="white" style="padding:20px">
+<img src="images/isotrop_ant.png" width=400 class="white" style="padding:20px">
 </div>
 
 ----
@@ -548,7 +548,7 @@ Radiali – žica (KV) ali aluminjaste cevi
 
 <div class="row-even">
 <img src="images/gp_ant.jpg" height=400>
-<img src="https://m0ukd.com/static/calculators/Quarter_Wave_Ground_Plane/23cm_quarter_wave_antenna_1296MHz.jpg" height=400>
+<img src="images/web_52.jpg" height=400>
 <img src="images/gp_6_ant.jpg" height=400>
 </div>
 
@@ -592,7 +592,7 @@ Predstavljajo popolnoma prilagojeno breme
 **Uglaševanje in testiranje** oddajnikov
 </div>
 
-<img src="https://www.onallbands.com/wp-content/uploads/2020/03/DXEPartType_Dummy-Loads.jpg" width=300>
+<img src="images/web_53.jpg" width=300>
 </div>
 
 ----
@@ -649,7 +649,7 @@ Dve glavni vrsti: **dvožilni** in **koaksialni** vod
 
 **Valovod** (Waveguide) – cev ustreznega preseka (za mikrovalovno področje)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Radar_antenna_feed_waveguide.png" width=400>
+<img src="images/web_54.png" width=400>
 
 ----
 
@@ -934,7 +934,7 @@ Trifilarno navitje
 <div class="center-t">
 
 1:1 Balun  
-<img src="https://www.hfkits.com/wp-content/uploads/2018/04/BalUn_750Watt_555x555-1.jpg" height=300>
+<img src="images/web_55.jpg" height=300>
 </div>
 </div>
 

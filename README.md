@@ -95,6 +95,7 @@ npm start
 - [ ] Fix img-stack
 - [ ] Download images
 - [ ] Image sources
+- [ ] Sprektralno prekrivanje
 
 ## Q-kod
 

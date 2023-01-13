@@ -22,7 +22,7 @@ VSAK signal lahko obravnavamo kot **vsoto sinusnih signalov različnih amplitud 
 
 Frekvence sinusnih signalov, ki so večkratniki osnovne frekvence imenujemo **višje harmonske komponente** (harmoniki)
 
-<img src="https://www.nti-audio.com/portals/0/pic/news/FFT-Time-Frequency-View-540.png">
+<img src="images/web_39.png">
 
 
 
@@ -56,7 +56,7 @@ Pretvorba analognega signala v digitalnega z **A/D** pretvornikom imenujemo **vz
 - **Nyquistova frekvenca**
 </div>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Conversion_AD_DA.png/220px-Conversion_AD_DA.png" width=500>
+<img src="images/web_40.png" width=500>
 </div>
 
 
@@ -83,7 +83,7 @@ Pretvorba analognega signala v digitalnega z **A/D** pretvornikom imenujemo **vz
 
 
 
-<img src="https://www.researchgate.net/publication/351095579/figure/fig1/AS:1016682332033024@1619407365212/Downsampling-and-Anti-aliasing-a-When-downsampling-a-signal-with-an-inadequate.png" height=500>
+<img src="images/downsample.png" height=500>
 
 ----
 
@@ -103,7 +103,7 @@ Konvolucijska vrsta: $y[i] = \sum _{j=0}^{M-1} h[j] \cdot [i-j]$
 
 **Hitra Fourierova transformacija** (**FFT**) - učinkovitejša in hitrejša metoda za izračun DFT
 
-<img src="https://www.nti-audio.com/portals/0/pic/news/FFT-Time-Frequency-View-540.png">
+<img src="images/web_39.png">
 
 
 
@@ -211,8 +211,8 @@ $ B = 2 \cdot W $
 $W$ – pasovna širina modulacijskega signala
 
 <div class="row-even">
-<img src="https://electronicspost.com/wp-content/uploads/2015/11/amplitude-modulation1.png" height=300>
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Am-sidebands.png" height=300>
+<img src="images/am_signal.png" height=300>
+<img src="images/web_42.png" height=300>
 </div>
 
 ----
@@ -242,8 +242,8 @@ Da privarčujemo še na pasovni širini signala odstranimo še enega od bočnih 
 Spreminjamo **frekvenco nosilca**
 
 <div class="row-even">
-<img src="http://www.physics-and-radio-electronics.com/blog/wp-content/uploads/2018/04/frequencymodulation.png" width=450>
-<img src="https://www.elprocus.com/wp-content/uploads/Bandwidth-of-FM-Signal.jpg" width=450>
+<img src="images/fm_signal.png" width=450>
+<img src="images/web_43.jpg" width=450>
 </div>
 
 
@@ -271,7 +271,7 @@ Ker spreminjamo fazo, spreminjamo tudi frekvenco, zato se tudi pri fazni modulac
 Ogled animacije je možen na: <a>https://en.wikipedia.org/wiki/Phase_modulation</a>
 </div>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Phase-modulation.gif" width=500>
+<img src="images/pm_signal.gif" width=500>
 </div>
 
 ----
@@ -991,7 +991,7 @@ Odboji in nepravilnosti v ionosferi povzročajo spreminjanje polarizacije
 </div>
 
 <div>
-<img src="http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/imgpho/polcls.png" width=550 class="white">
+<img src="images/web_44.png" width=550 class="white">
 <br/>
 <img src="images/em_polar.jpg" width=800>
 </div>
@@ -1086,7 +1086,7 @@ Solarni maksimum – največja aktivnost sonca (11 let)
 Največ UV sevanja, ko je veliko sončnih peg (ciklus sončnih peg)
 
 <div class="row-even">
-<img src="https://www.weather.gov/images/fsd/astro/Sun_sunspot.jpg" height=300>
+<img src="images/web_45.jpg" height=300>
 <img src="images/solarni_ciklus.jpg" height=300>
 </div
 
@@ -1118,8 +1118,8 @@ Povečanje ionizacije v D sloju slabi signale
 Kot motnje štejemo tudi polarno svetlobo (aurora) in sporadični E sloj (Es)
 
 <div class="row-even">
-<img src="https://cdn.mos.cms.futurecdn.net/ifJPbUm9XMsQdt7AQAets-1200-80.jpg" height=350>
-<img src="http://skyandtelescope.org/wp-content/uploads/solar-wind.jpg" height=350>
+<img src="images/web_46.jpg" height=350>
+<img src="images/web_47.jpg" height=350>
 </div>
 
 ----
@@ -1161,7 +1161,7 @@ Signali **v fazi jakost povečajo**, signali **iz faze jakost zmanjšajo** ali v
 
 <div class="row-even">
 <img src="images/fading.jpg" width=500>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Interference_of_two_waves.svg/1024px-Interference_of_two_waves.svg.png" width=500 class="white" style="padding: 20px">
+<img src="images/interferenca.png" width=500 class="white" style="padding: 20px">
 </div>
 
 ----
@@ -1256,7 +1256,7 @@ V območju E sloja nastane **oblak velike koncentracije elektronov**, ki odbija 
 Domet poveča tudi do 2000 km
 </div>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/SporadicE-NPS.gif" height=200>
+<img src="images/e_sporadic.gif" height=200>
 </div>
 
 #### Odboj od meteoritskih sledi – MS
@@ -1269,7 +1269,7 @@ Meteor, ki izgoreva, pušča za sabo zelo **močno ionizirano sled**, ki odbija 
 Večji meteorit &rarr; daljše izgorevanje &rarr; daljše zveze
 </div>
 
-<img src="https://4.bp.blogspot.com/-nPEfdRdGrag/XX8rOJgGlqI/AAAAAAAAiU4/S-mRsd96078uOcIW2WCfVQGVu2uUsaCAACLcBGAsYHQ/s1600/meteor-burst-communication.png" height=250>
+<img src="images/web_48.png" height=250>
 </div>
 
 
@@ -1284,7 +1284,7 @@ V območju Zemljinega pola zelo **močno ioniziran del E sloja**, ki lahko odbij
 Odboj je zelo difuzen, signali so zelo šumni (predvsem samo CW)
 </div>
 
-<img src="https://cdn.mos.cms.futurecdn.net/ifJPbUm9XMsQdt7AQAets-1200-80.jpg" height=250>
+<img src="images/web_46.jpg" height=250>
 </div>
 
 #### Odboj od Lune – EME
@@ -1299,7 +1299,7 @@ Potrebne velike moči in dobre antene zaradi dolgih razdalj in slabljenja
 Pri odboju se lahko spremeni polarizacija
 </div>
 
-<img src="https://www.electronics-notes.com/images/propagation-eme-moonbounce-basic-concept-01.svg" height=250 style="padding:20px" class="white">
+<img src="images/web_50.svg" height=250 style="padding:20px" class="white">
 </div>
 
 
@@ -1332,7 +1332,7 @@ Lahko tudi z manjšimi močmi in enostavnimi antenami
 Običajno oddajamo in sprejemamo na različnih frekvenčnih pasovih ("Cross band")
 </div>
 
-<img src="https://space.skyrocket.de/img_sat/amsat-p3a__1.jpg" height=250>
+<img src="images/web_51.jpg" height=250>
 </div>
 
 ----
