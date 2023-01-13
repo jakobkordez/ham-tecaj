@@ -263,7 +263,7 @@ Najbolj osnoven izvor enosmerne napetosti
 <tr><td>Lastno praznjenje (%/mesec)</td><td>3-20</td><td>10</td><td>30</td><td>5-10</td><td>5</td><td>zelo nizka</td></tr>
 <tr><td>Temp. področje uporabe</td><td>-20 do 60</td><td>-40 do 60</td><td>-20 do 60</td><td>-20 do 60</td><td>0 do 60</td><td>0 do 65</td></tr>
 <tr><td>Energija/teža (Wh/kg)</td><td>30-50</td><td>45-80</td><td>60-120</td><td>110-160</td><td>100-200</td><td>80</td></tr>
-<tr><td>Obremenitev: max/pripročena</td><td>5C/0,2C</td><td>20C/1C</td><td>5C/0,5C</td><td>>2C/>1C</td><td>>2C/>1C</td><td>0,5C/&lt;0,2</td></tr>
+<tr><td>Obremenitev: max/pripročena</td><td>5C/0,2C</td><td>20C/1C</td><td>5C/0,5C</td><td>>2C/&gt;1C</td><td>>2C/&gt;1C</td><td>0,5C/&lt;0,2</td></tr>
 </table>
 
 

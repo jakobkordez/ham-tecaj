@@ -16,7 +16,7 @@ Lahko so:
 
 Praktično se uporabljajo valovi od 9 kHz do 300 GHz
 
-<img src="https://images.squarespace-cdn.com/content/5201d513e4b0b5e68d9c3580/1387142454281-6SCARN79ZBGIFMSCPT1G/EM_spectrum1.png?content-type=image%2Fpng" height=250/>
+<img src="images/specter.jpg" height=250>
 
 
 
@@ -25,7 +25,8 @@ Praktično se uporabljajo valovi od 9 kHz do 300 GHz
 
 **ITU** – International Telecomunications Union
 
-Ukvarja se s tehničnim napredkom in razvojem telekomunikacij, mednarodnim sodelovanjem, …
+Ukvarja se s tehničnim napredkom in razvojem telekomunikacij,  
+mednarodnim sodelovanjem, …
 
 **Deluje v okviru OZN** (Združenih Narodov)  
 **Sedež je v Ženevi**, Švica
@@ -35,7 +36,7 @@ Ukvarja se s tehničnim napredkom in razvojem telekomunikacij, mednarodnim sodel
 **Slovenija postala članica 1992**
 </div>
 
-<img src="https://www.itu.int/en/history/ImagesITUlogo/ITU%20official%20logo_blue_RGB-300px.jpg" width=200 />
+<img src="images/itu.jpg" width=200>
 </div>
 
 
@@ -54,7 +55,7 @@ Ukvarja se s tehničnim napredkom in razvojem telekomunikacij, mednarodnim sodel
 - &hellip;
 </div>
 
-<img src="https://www.itu.int/en/history/ImagesRegulations/2016-RadioRegs.jpg" width=300/>
+<img src="images/itu_pravilnik.jpg" width=300>
 <div>
 
 
@@ -118,21 +119,21 @@ dejavnost – zakone določa država.
 - 2\. region: Ameriki in Grenlandija
 - 3\. region: ostali del Azije, Avstralija, Nova Zelandija
 
-<img src="https://www.mapability.com/ei8ic/maps/IARU_Regions_02.png" height=350/>
+<img src="images/iaru_regions.jpg" height=350>
 
 
 
 #### ITU območja (cone)
 - Slovenija je v **28.**
 
-<img src="https://www.mapability.com/ei8ic/maps/ITU_Zones_ARRL_05.png" height=400/>
+<img src="images/itu_zones.jpg" height=400>
 
 
 
 #### CQ območja (cone)
 - Slovenija je v **15.**
 
-<img src="https://www.mapability.com/ei8ic/maps/CQ_Zones_06.png" height=400/>
+<img src="images/cq_zones.jpg" height=400>
 
 
 

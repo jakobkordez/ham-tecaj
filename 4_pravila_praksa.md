@@ -13,11 +13,11 @@ abeceda. Prenaša se znak po znak, uporabljajo se
 kratice. Hitrosti oddajanja med 25 do 200 znakov na
 minuto.
 
-<img src="https://www.dolstra.nl/Ham-accessoires/Morse-key-decoders/straight_key_standard.jpg" class="mr-80">
-
-<img src="https://static.dxengineering.com/global/images/prod/xlarge/bnr-by-1_xl.jpg" height=300 class="mr-80">
-
-<img src="https://cdn.shopify.com/s/files/1/2223/4507/files/morse-chart_grande.png?v=1501447409" height=300>
+<div class="row-even">
+<img src="images/key_straight.jpg">
+<img src="images/key_iambic.jpg" height=300>
+<img src="images/morse.jpg" height=300>
+</div>
 
 
 
@@ -27,9 +27,10 @@ minuto.
 govornem jeziku, ki ga poznata oba sogovornika. Za
 slabše povezave uporabljamo tablice črkovanja.
 
-<img src="https://hamradioprep.com/wp-content/uploads/2020/02/what-is-ham-944x1024.png" height=300 class="mr-80">
-
-<img src="https://cdn.britannica.com/28/124928-004-B574BEDB/Amateur-radio-transceiver.jpg" height=300>
+<div class="row-even">
+<img src="images/phone_1.jpg" height=300>
+<img src="images/phone_2.jpg" height=300>
+</div>
 
 
 
@@ -46,9 +47,9 @@ slabše povezave uporabljamo tablice črkovanja.
     - PACKET RADIO
     - &hellip;
 
-<img src="https://ukamsat.files.wordpress.com/2014/12/iss-sstv-12-martin-ehrenfried-g8jnj-using-suws-websdr-2014-12-18.png" height=250 style="position:absolute;right:40%;bottom:-70px"/>
+<img src="images/sstv_1.jpg" height=250 style="position:absolute;right:40%;bottom:-70px">
 
-<img src="https://www.fbnews.jp/201712/technical_en/images/01.jpg" height=350 style="position:absolute;right:0px;bottom:0px"/>
+<img src="images/wsjt.jpg" height=350 style="position:absolute;right:0px;bottom:0px">
 
 ----
 
@@ -180,7 +181,7 @@ Rečemo mu tudi raport (report).
 Na modernih postajah pa je vgrajen tudi S-meter.
 </div>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Pmeter-t.jpg" height=150/>
+<img src="images/s_meter.jpg" height=150>
 </div>
 
 
@@ -268,7 +269,7 @@ točno določena
 - Premor med znaki v besedi - 3e
 - Premor med besedami - 7e
 
-<img src="https://arachnoid.com/morse_code/resources/timings_diagram.png" height=200/>
+<img src="images/morse_space.jpg" height=200>
 
 ----
 
@@ -482,9 +483,9 @@ Variacije:
 </div>
 
 <div>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/HAL3100.jpg/220px-HAL3100.jpg">
+<img src="images/rtty_term.jpg">
 
-<img src="https://rttyops.com/logo/4.jpg">
+<img src="images/rtty.jpg">
 </div>
 </div>
 
@@ -518,7 +519,7 @@ Program za "šibko-signalne" radioamaterske zveze
 - &hellip;
 </div>
 
-<img src="https://qrznow.com/wp-content/uploads/2017/09/FT8-7-15-17-40m.png" width=40%>
+<img src="images/wsjt.jpg" width=40%>
 </div>
 
 ----
@@ -571,7 +572,7 @@ Osnovne funkcije:
 - &hellip;
 </div>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Byonics_AIO.jpg" width=25%>
+<img src="images/aprs.jpg" width=25%>
 </div>
 
 ----
@@ -586,9 +587,10 @@ Osnovne funkcije:
 - barvne ali črnobele
 - SSB ali FM postaja
 
-<img src="https://ukamsat.files.wordpress.com/2014/12/iss-sstv-martin-ehrenfried-g8jnj-using-suws-websdr-2014-12-18.png" height=300px class="mr-40">
-
-<img src="https://linustechtips.com/uploads/monthly_2021_05/20210516-182712-Robot-36-Color.png.5bab7ca9293d585a3ff43f7ee47409c4.png" height=300px>
+<div class="row-even">
+<img src="images/sstv_1.jpg" height=300px>
+<img src="images/sstv_2.jpg" height=300px>
+</div>
 
 ----
 
@@ -608,9 +610,10 @@ FSTV - Fast Scan Television
 
 ATV - Amateur Television
 
-<img src="https://hamtv.com/giffiles/K6CCCTV207.jpg" height=300 class="mr-40">
-
-<img src="https://hamtv.com/giffiles/balloon80mi.jpg" height=300>
+<div class="row-even">
+<img src="images/fstv_1.jpg" height=300>
+<img src="images/fstv_2.jpg" height=300>
+</div>
 
 ----
 
@@ -620,7 +623,7 @@ Omogoča licenciranim radioamaterjem komunikacijo čez internet.
 
 Več na [echolink.org](http://www.echolink.org/)
 
-<img src="https://www.echolink.org/images/LinkingExample.gif">
+<img src="images/echolink.jpg">
 
 ----
 
@@ -764,7 +767,7 @@ Vsak tekmovanje lahko omeji:
 **Po IARU so izključeni 5 MHz, 10 MHz, 18 MHz in 24 MHz** (WARC)
 </div>
 
-<img src="https://pbs.twimg.com/media/Fdc1JDKX0AAvXKY?format=jpg&name=large" width=500>
+<img src="images/contest.png" width=500>
 </div>
 
 
@@ -895,7 +898,7 @@ Radioamaterji sodelujemo z:
 - Regijskimi centri za obveščanje
 </div>
 
-<img src="https://rkkranj.ovcka.eu/slike/ZnakAron_Mali.jpg" width=250 style="border-radius:50%">
+<img src="images/aron.jpg" width=250 style="border-radius:50%">
 </div>
 
 

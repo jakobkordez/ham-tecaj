@@ -1,4 +1,4 @@
-<img src="images/RKV_logo.svg" width=150>
+<img src="images/RKV_logo.svg" height=180>
 
 ##### Radioklub Vegova
 

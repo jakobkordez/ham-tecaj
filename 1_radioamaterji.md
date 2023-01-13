@@ -68,7 +68,7 @@ Prve naloge:
 **Sedež v Združenih državah Amerike**
 </div>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/IARU_Logo_%28cleaned_up%29.png" width=250>
+<img src="images/iaru.png" width=250>
 </div>
 
 
@@ -77,7 +77,7 @@ Prve naloge:
 
 ZRS postala članica 1992 – **v 1. regionu**
 
-<img src="https://www.mapability.com/ei8ic/maps/IARU_Regions_01.png" height=400/>
+<img src="images/iaru_regions.jpg" height=400>
 
 ----
 
@@ -98,7 +98,7 @@ V Sloveniji okoli 4000 radioamaterjev
 - 79 klubov (kmalu 80 😉)
 </div>
 
-<img src="https://upload.wikimedia.org/wikipedia/sl/1/19/ZRS_znak.gif" >
+<img src="images/zrs.jpg">
 </div>
 
 
