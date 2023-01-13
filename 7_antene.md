@@ -183,7 +183,7 @@ Vertikalni sevalni diagram
 **Širina sevanja antene v glavni smeri**
 
 V diagramu na glavnem snopu pri **0,71** maksimalne vrednosti.  
-To je 50% padec moči oz. **-3dB**.
+To je 50 % padec moči oz. **-3dB**.
 
 <div class="row-even">
 <img src="images/kot_sevanja_1.jpg" height=300>
@@ -299,7 +299,7 @@ b) blizu tal
 
 Horizontalni dipol
 
-<img src="images/hor_dipole_1.jpg" width=450><br/>
+<img src="images/hor_dipole_1.jpg" width=450>
 <img src="images/hor_dipole_2.jpg" width=450>
 </div>
 </div>
@@ -354,9 +354,6 @@ Impedanca je okoli 300 &Omega;, to pomeni, da anteno napajamo z:
 
 ### Dipol antene za delo na več frekvenčnih pasovih <br/> "Multiband dipoli"
 
-<div class="hg">
-<div>
-
 **Zepp antena**: polvalna antena, napajamo z odprtim vodom dolg $\frac14 \lambda$  
 Ločimo: **Enojni** (a) in **dvojni** (b) Zepp
 
@@ -365,11 +362,10 @@ Ločimo: **Enojni** (a) in **dvojni** (b) Zepp
 **Dvojna Windom antena**: dve anteni na istem balunu, pokrijemo več pasov
 </div>
 
-<div class="img-stack">
-<img src="images/zepp.jpg" width=300>
-<img src="images/zepp_dvojni.jpg" width=300>
-<img src="images/windom.jpg" width=300>
-</div>
+<div class="row-even">
+<img src="images/zepp.jpg" height=190>
+<img src="images/zepp_dvojni.jpg" height=190>
+<img src="images/windom.jpg" height=190>
 </div>
 
 
@@ -406,7 +402,7 @@ Tipična predstavnica **usmerjenih** anten
 </div>
 
 <div class="img-stack">
-<img src="images/yagi_polarization.jpg" width=500><br/>
+<img src="images/yagi_polarization.jpg" width=500>
 <img src="images/yagi_tla.jpg" width=500>
 </div>
 </div>
@@ -806,6 +802,9 @@ R < Z
 
 $$ \text{SWR} = \frac{U_\text{max}}{U_\text{min}} $$
 
+<div class="hg">
+<div>
+
 Merimo s **SWR metrom**
 
 Slab SWR povzroči:
@@ -814,6 +813,27 @@ Slab SWR povzroči:
 - **Poškodba končne stopnje** na oddajniku!
 
 Dopustna meja: SWR = 3 (25% moči)
+</div>
+<div>
+
+<table class="compact right">
+<thead>
+<tr><th>SWR</th><th>% Izgube moči</th></tr>
+</thead>
+<tbody>
+<tr><td>1,0</td><td>0,0 %</td></tr>
+<tr><td>1,2</td><td>0,8 %</td></tr>
+<tr><td>1,4</td><td>2,7 %</td></tr>
+<tr><td>1,6</td><td>5,0 %</td></tr>
+<tr><td>1,8</td><td>8,0 %</td></tr>
+<tr><td>2,0</td><td>11,0 %</td></tr>
+<tr><td>2,2</td><td>14,0 %</td></tr>
+<tr><td>2,4</td><td>17,0 %</td></tr>
+<tr><td>3,0</td><td>25,0 %</td></tr>
+<tr><td>6,0</td><td>55,0 %</td></tr>
+<tr><td>10,0</td><td>70,0 %</td></tr>
+</tbody>
+</table>
 
 ----
 
@@ -884,29 +904,57 @@ Balun (**bal**anced-**un**balanced) – prehod, simetrično na nesimetrično
 <div class="center-t">
 
 **Polvalna zanka**  
-<img src="images/polvalna_zanka.jpg" height=200>
+<img src="images/polvalna_zanka.jpg" height=250>
 </div>
 <div class="center-t">
 
 **Bazooka** simetrirni člen  
-<img src="images/vod_bazooka.jpg" height=200>
+<img src="images/vod_bazooka.jpg" height=250>
 </div>
 <div class="center-t">
 
 Trifilarno navitje  
-<img src="images/trifilarno_navitje.jpg" height=200>
+<img src="images/trifilarno_navitje.jpg" height=250>
 </div>
 </div>
 
-In še mnogo več…
+
+
+<div class="row-even">
+<div class="center-t">
+
+1:1 Balun  
+<img src="images/balun_1_1.jpg" height=300>
+</div>
+<div class="center-t">
+
+4:1 Balun  
+<img src="images/balun_4_1.jpg" height=300>
+</div>
+<div class="center-t">
+
+1:1 Balun  
+<img src="https://www.hfkits.com/wp-content/uploads/2018/04/BalUn_750Watt_555x555-1.jpg" height=300>
+</div>
+</div>
+
+In še mnogo več &hellip;
 
 ----
 
 ### Antenski tunerji
 
-<div class="row-even">
-<img src="images/tuner_vezje.jpg" width=500>
+<div class="hg">
+<div>
+
+Anteno prilagodi na impedanco oddajnika
+
+Tuner **NE naredi antene rezonančne**
+
 <img src="images/tuner_img.jpg" width=500>
+</div>
+
+<img src="images/tuner_vezje.jpg" width=500>
 </div>
 
 ----
@@ -922,7 +970,3 @@ In še mnogo več…
 <img src="images/vod_karakteristike.jpg" width=500>
 </div>
 </div>
-
-----
-
-<div style="font-size:50px">🚧 Under construction 🚧</div>

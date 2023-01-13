@@ -89,6 +89,12 @@ npm start
 - [ ] Morzejevi znaki
 - [ ] Boljše enote (siunitx)
 - [ ] Elektotehniška vezja v latexu?
+- [ ] Jakost mag. polja
+- [ ] Bandi in kanali
+- [ ] Header margins
+- [ ] Fix img-stack
+- [ ] Download images
+- [ ] Image sources
 
 ## Q-kod
 

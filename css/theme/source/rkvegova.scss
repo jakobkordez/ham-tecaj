@@ -135,6 +135,14 @@ div.grid-4 {
     text-align: center;
 }
 
+.reveal table.right td {
+    text-align: right;
+}
+
+.reveal table.right th {
+    text-align: right;
+}
+
 .reveal table.compact {
     font-size: 0.6em;
 }
@@ -182,7 +190,8 @@ a.center-b {
 }
 
 .img-stack img {
-    margin: auto;
+    // margin: auto;
+    display: block;
 }
 
 img.mr-20 {
