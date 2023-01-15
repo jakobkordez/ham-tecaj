@@ -20,8 +20,8 @@
 </div>
 
 <div>
-<img src="images/web_15.png" height=200>
-<img src="images/molekula.png" height=200>
+<img src="images/web_15.png" height=200 class="white p-20">
+<img src="images/molekula.png" height=200 class="white p-20">
 </div>
 
 
@@ -37,9 +37,10 @@
 
 
 
-<img class="white mr-20" src="images/web_16.jpg" height=400>
-
-<img src="images/web_17.jpg" height=400>
+<div class="row-even">
+<img src="images/web_16.jpg" height=360 class="white p-20">
+<img src="images/web_17.jpg" height=360 class="white p-20">
+</div>
 
 ----
 
@@ -49,7 +50,7 @@ Električno polje je prostor, v katerem deluje električna sila na električni n
 
 **Jakost električnega polja**: $E\ [\frac{V}{m}]$
 
-<img src="images/e_field.png" width=500 style="padding:-2px" class="white">
+<img src="images/e_field.png" width=500 class="white">
 
 
 
@@ -135,7 +136,8 @@ $A = P \cdot t\ [J = Ws]$ _Joul / Vatsekunda_
 <tr><td>y</td><td>jokto</td><td>10<sup>-24</sup></td><td>0,000.000.000.000.000.000.000.001</td><td>kvadrilijonina</td></tr>
 </tbody></table>
 
-<div style="margin-left:auto;margin-right:auto">
+<div class="center-t">
+
 Primeri:
 
 $1\text{A} = 1000\text{mA} = 0,001\text{kA}$
@@ -144,7 +146,6 @@ $1\text{V} = 1000\text{mV} = 0,001\text{kV}$
 
 $1\Omega = 1000\text{m}\Omega = 0,001 \text{k}\Omega$
 </div>
-
 </div>
 
 ----
@@ -201,7 +202,7 @@ c) spremenljivi upor
 d) potenciometer
 </div>
 
-<img src="images/upori.jpg" width=400>
+<img src="images/upori.jpg" width=400 class="white p-20">
 </div>
 
 
@@ -391,7 +392,7 @@ $$ U = U_{max} \cdot \sin(\alpha) $$
 </div>
 
 **Efektivna** vrednost **izmenične napetosti** ($U_\text{ef}$)  je enaka velikosti
-enosmerne napetosti, ki povzroči **enak učinek** (efekt) **kot enosmerna napetost** (svetlobni, toplotni,…)
+enosmerne napetosti, ki povzroči **enak učinek** (efekt) **kot enosmerna napetost** (svetlobni, toplotni, &hellip;)
 
 
 
@@ -1711,7 +1712,7 @@ Pri analognih integriranih vezjih **izhodni signal zvezno sledi spremembi vhodne
 Operacijski ojačevalnik
 </div>
 <div class="center-t">
-<img src="images/img1455.jpg" style="padding:10px" class="white" width=500>
+<img src="images/img1455.jpg" class="white p-20" width=500>
 
 Stabilizirani napajalnik za simetrično napetost
 </div>

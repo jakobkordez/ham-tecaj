@@ -660,7 +660,7 @@ $$ u = \sqrt{2PR} \ [\mathrm{V}] \quad R = 50 \ \Omega$$
     - Okoli 80 dB do 120 dB
     - **Spodnja meja**: termični šum in šum okolice
     - **Zgornja meja**: obnašanje sprejemnika pri močnih signalih
-        - preobremenitev, intermodulacijsko popačenje, ...
+        - preobremenitev, intermodulacijsko popačenje, &hellip;
 
 &nbsp;
 
@@ -1161,7 +1161,7 @@ Signali **v fazi jakost povečajo**, signali **iz faze jakost zmanjšajo** ali v
 
 <div class="row-even">
 <img src="images/fading.jpg" width=500>
-<img src="images/interferenca.png" width=500 class="white" style="padding: 20px">
+<img src="images/interferenca.png" width=500 class="white p-20">
 </div>
 
 ----
@@ -1299,7 +1299,7 @@ Potrebne velike moči in dobre antene zaradi dolgih razdalj in slabljenja
 Pri odboju se lahko spremeni polarizacija
 </div>
 
-<img src="images/web_50.svg" height=250 style="padding:20px" class="white">
+<img src="images/web_50.svg" height=250 class="white p-20">
 </div>
 
 

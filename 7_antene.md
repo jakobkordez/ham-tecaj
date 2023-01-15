@@ -152,7 +152,7 @@ Iz prakse, najugodnejši skrajševalni faktor: 0,95
 - horizontalnim / vertikalnim sevalnim diagramom
 </div>
 
-<img src="images/isotrop_ant.png" width=400 class="white" style="padding:20px">
+<img src="images/isotrop_ant.png" width=400 class="white p-20">
 </div>
 
 ----

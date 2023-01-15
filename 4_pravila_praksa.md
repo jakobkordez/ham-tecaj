@@ -62,10 +62,15 @@ znaka je predpisana v ITU RR.
 <div class="hg">
 <div>
 
-<center><b>S5 9VEG</b></center>
+<div class="center-t bold-t">
 
-- S5 &rarr; **Prefiks** &rarr; "Država"  
-- 9VEG &rarr; **Sufiks** &rarr; Postaja znotraj "države"
+S5 9VEG
+</div>
+<div class="grid-2">
+
+<div>S5</div><div>– <strong>Prefiks</strong> – "Država"</div>
+<div>9VEG</div><div>– <strong>Sufiks</strong> – Postaja znotraj "države"</div>
+</div>
 </div>
 
 <div>
@@ -143,21 +148,21 @@ Vse Q–kode v priročniku na strani 247 - 248
 <tr><th>Q-koda</th><th>Vprašanje</th><th>Odgovor</th></tr>
 </thead>
 <tbody>
-<tr><td>QRK</td><td>Kakšna je razumljivost mojega signala?</td><td>Razumljivost tvojega signala je … (1-5).</td></tr>
+<tr><td>QRK</td><td>Kakšna je razumljivost mojega signala?</td><td>Razumljivost tvojega signala je &hellip; (1-5).</td></tr>
 <tr><td>QRM</td><td>Ali te motijo druge postaje?</td><td>Motijo me druge postaje.</td></tr>
 <tr><td>QRN</td><td>Te moti statika?</td><td>Moti me statika.</td></tr>
 <tr><td>QRO</td><td>Naj povečam oddajno moč?</td><td>Povečaj oddajno moč.</td></tr>
 <tr><td>QRP</td><td>Naj zmanjšam oddajno moč?</td><td>Zmanjšaj oddajno moč.</td></tr>
 <tr><td>QRS</td><td>Naj oddajam počasneje?</td><td>Oddajaj počasneje.</td></tr>
 <tr><td>QRT</td><td>Naj preneham z oddajanjem?</td><td>Prenehaj z oddajanjem.</td></tr>
-<tr><td>QRZ</td><td>Kdo me kliče?</td><td>Kliče te …</td></tr>
+<tr><td>QRZ</td><td>Kdo me kliče?</td><td>Kliče te &hellip;</td></tr>
 <tr><td>QRV</td><td>Si pripravljen?</td><td>Pripravljen sem.</td></tr>
 <tr><td>QSB</td><td>Ali moj signal niha?</td><td>Tvoj signal niha.</td></tr>
 <tr><td>QSL</td><td>Lahko potrdiš sprejem?</td><td>Potrjujem sprejem.</td></tr>
-<tr><td>QSO</td><td>Ali lahko komuniciraš z … direktno?</td><td>Z … lahko komuniciram direktno.</td></tr>
+<tr><td>QSO</td><td>Ali lahko komuniciraš z &hellip; direktno?</td><td>Z &hellip; lahko komuniciram direktno.</td></tr>
 <tr><td>QSY</td><td>Ali naj se premaknem z oddajanjem na drugo frekvenco?</td><td>Pomakni se z oddajanjem na drugo frekvenco.</td></tr>
-<tr><td>QRX</td><td>Kdaj me boš ponovno poklical?</td><td>Ponovno te bom poklical ob … uri na … kHz (MHz).</td></tr>
-<tr><td>QTH</td><td>Kje je tvoja lokacija?</td><td>Moja lokacija je …</td></tr>
+<tr><td>QRX</td><td>Kdaj me boš ponovno poklical?</td><td>Ponovno te bom poklical ob &hellip; uri na &hellip; kHz (MHz).</td></tr>
+<tr><td>QTH</td><td>Kje je tvoja lokacija?</td><td>Moja lokacija je &hellip;</td></tr>
 </tbody>
 </table>
 
@@ -544,7 +549,7 @@ Omrežje pokriva praktično cel svet, zato je potrebna neka infrastruktura.
 
 
 Storitve:
-- Dostop do podatkovnih baz (Keplerjeve elemente, …)
+- Dostop do podatkovnih baz (Keplerjeve elemente, &hellip;)
 - **BBS (Bulleting Board System)**
 - Pošiljanje elektronske pošte
 - Vzpostavljanje zvez
@@ -816,7 +821,7 @@ Lisice lahko iščejo tudi slepi in slabovidni v spremstvu dobrovidnega na enost
 
 Podeljene za dosežene uspehe na tekmovanjih ali določene dosežke
 
-Izdaja jih IARU, nacionalne radioamaterske organizacije (pri nas ZRS), klubi, skupine radioamaterjev ali posamezniki, …
+Izdaja jih IARU, nacionalne radioamaterske organizacije (pri nas ZRS), klubi, skupine radioamaterjev ali posamezniki, &hellip;
 
 Slovenski diplomi:
 - Diploma Slovenija
@@ -898,7 +903,7 @@ Radioamaterji sodelujemo z:
 - Regijskimi centri za obveščanje
 </div>
 
-<img src="images/aron.jpg" width=250 style="border-radius:50%">
+<img src="images/aron.jpg" width=250 class="round">
 </div>
 
 
@@ -1129,9 +1134,14 @@ Downlink: Frekvenca na kateri oddaja
 
 
 
-<img src="images/web_9.jpg" height=600 class="mr-40">
+<img src="images/oscar_track.jpg" height=500>
 
+
+
+<div class="row-even">
+<img src="images/web_9.jpg" height=600>
 <img src="images/web_10.jpg" height=600>
+</div>
 
 ----
 
@@ -1173,7 +1183,7 @@ Danes večinoma samo digitalno
 Lahko slišimo svojo oddajo
 </div>
 
-<img src="images/web_12.svg" width=500 style="padding:20px" class="white">
+<img src="images/web_12.svg" width=500 class="white p-20">
 </div>
 
 

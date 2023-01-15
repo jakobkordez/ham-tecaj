@@ -23,8 +23,8 @@ $backgroundColor: radial-gradient(circle, rgba(84,89,94,1) 0%, rgba(35,38,40,1) 
 
 $primaryColor: #ff5100; 
 
-$mainColor: #fff;
-$headingColor: #fff;
+$mainColor: #eee;
+$headingColor: #eee;
 // $mainColor: #222;
 // $headingColor: #fff;
 
@@ -189,6 +189,10 @@ a.center-b {
     text-align: center;
 }
 
+.bold-t {
+    font-weight: bold;
+}
+
 .img-stack img {
     // margin: auto;
     display: block;
@@ -206,6 +210,10 @@ img.mr-80 {
     margin-right: 80px !important;
 }
 
+img.round {
+    border-radius: 50%;
+}
+
 .mt-20 {
     margin-top: 20px !important;
 }
@@ -216,4 +224,8 @@ img.mr-80 {
 
 div.w-50 {
     width: 45%;
+}
+
+.p-20 {
+    padding: 20px;
 }

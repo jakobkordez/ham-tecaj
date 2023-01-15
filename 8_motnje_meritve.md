@@ -27,7 +27,7 @@ Oklapljanje in blokiranje vseh delov naprav, ki generirajo neželeno VF energijo
 
 **Radijske motnje** (RFI – Radio Frequency Interference):  
 radioamaterska postaja lahko vzrok ali žrtev  
-Radijski šum je posledica iskrenja, razelektritev, delovanja elektičnih strojev, ...
+Radijski šum je posledica iskrenja, razelektritev, delovanja elektičnih strojev, &hellip;
 
 &nbsp;
 
@@ -42,6 +42,24 @@ Motnje zaradi predolgih (audio/video) kablov (delujejo kot antene)
 ----
 
 ## Meritve
+
+----
+
+### Napake pri meritvah
+
+Merilni napaki pravimo tudi pogrešek
+
+**Netočnost inštrumenta**:  
+Zaradi težavnosti odčitavanja, občutljivosti inštrumenta, merilnij pogojev, vgrajenih elementov in ostalega &hellip;
+
+**Vpliv frekvence**:  
+Pri izmeničnih veličinah lahko frekvenca vpliva na meritev toka ali napetosti. Vsi inštrumenti so frekvenčno omejeni in lahko merijo signale do neke maksimalne frekvence.
+
+**Vpliv notranje upornosti inštrumentov**:  
+Notranja upornost voltmetra/ampermetra vpliva na meritev napetosti/toka.
+
+**Vpliv oblike merjene napetosti**:  
+Tudi oblika napetosti vpliva na meritev veličin, ponavadi imamo inštrumente, ki merijo sinusno napetost oz. tok
 
 ----
 
@@ -96,42 +114,250 @@ $R_A$ – upornost ampermetra
 
 ### Merjenje upornosti
 
+$$ R = \frac{U}{I} $$
+
 <div class="row-even">
+<div class="center-t">
+
+Posredno merjenje upornosti  
 <img src="images/meritve_ohm_1.jpg" height=250>
+</div>
+<div class="center-t">
+
+Merjenje upornosti z **ohmmetrom**  
 <img src="images/meritve_ohm_2.jpg" height=250>
 </div>
+</div>
 
-TODO: Merjenje moči, merjenje swr, merjenje oblike VF signala, merjenje frekvence
+----
+
+### Merjenje moči
+
+<div class="hg">
+<div>
+
+$$ P = U \cdot I \qquad P = U \cdot I \cdot \cos(\varphi) $$
+
+Če želimo prave podatke o moči,  
+moramo pravilno obremeniti izhod (50 &Omega;)
+
+Želimo &phi; čim bližje 0°
+</div>
+
+<div class="center-t">
+
+Posredno merjenje moči  
+<img src="images/meritve_ohm_1.jpg" height=250>
+</div>
+</div>
+
+----
+
+### Merjenje stojnega valovanja
+
+Uporabimo **reflektometer** oz. SWR meter
+
+$$ \text{SWR} = \frac{U_\text{max}}{U_\text{min}} $$
+
+<div class="row-even">
+<div class="center-t">
+
+SWR: 1,0  
+<img src="images/vod_prilagojeno.jpg" height=250>
+</div>
+<div class="center-t">
+
+SWR: > 1,0  
+<img src="images/vod_r_gt_z.jpg" height=250>
+</div>
+</div>
+
+----
+
+### Merjenje oblike VF signala
+
+Uporabimo **osciloskop**
+
+<div class="center-t">
+
+Amplitudna modulacija  
+<img src="images/am_osciloskop.jpg" height=300>
+</div>
+
+----
+
+### Merjenje frekvence
+
+Več možnosti:
+- Štejemo število impulzov v določenem času $ f = \frac{N}{T} $
+- Uporabimo VF indikator
+    - Nihajni krog, ki ga nastavimo na določeno frekvenco
+- Uporabimo Grid-Dip meter
+    - Meri frekvenco pasivnih nihajnih krogov, kondenatorjev, tuljav
 
 ----
 
 ### Merilni inštrumenti
 
+#### Inštrument z vrtljivo tuljavico  
+
+<div class="hg">
 <div>
 
-Inštrument z vrtljivo tuljavico  
+Tok skozi navitje povzroči zaskuk zaradi magnetnega polja
+
+Proti magnetni sili deluje sila vzmeti
+
+Lahko teče le majhen tok (50 &mu;A)
+</div>
+
 <img src="images/instr_vrtljivo_tuljavico.jpg" height=250>
 </div>
 
-<img src="images/meritve_soupor.jpg">
-<img src="images/meritve_predupor.jpg">
-<img src="images/meritve_ohm_3.jpg">
+
+
+Da zmanjšamo tok / napetost skozi tuljavico, vežemo dodatni soupor / predupor odvisno od maksimalne vrednosti, ki jo želimo meriti
+
+<div class="row-even">
+<div class="center-t">
+
+Soupor  
+<img src="images/meritve_soupor.jpg" height=250>
+</div>
+<div class="center-t">
+
+Predupor  
+<img src="images/meritve_predupor.jpg" height=250>
+</div>
+<div class="center-t">
+
+Merjenje upornosti  
+<img src="images/meritve_ohm_3.jpg" height=250>
+</div>
+</div>
 
 ----
 
-### Napake pri meritvah
+### Multimeter
 
-**Netočnost inštrumenta**:  
-Napake se pojavijo tako zaradi težavnosti odčitavanja, kakor tudi zaradi občutljivosti inštrumenta, merilnih pogojev, vgrajenih elementov in ostalega… Merilni napaki pravimo tudi pogrešek.
+<div class="hg">
+<div>
 
-**Vpliv frekvence**:  
-Merjenje enosmernih veličin ni problematično. Pri izmeničnih veličinah lahko frekvenca vpliva na meritev toka ali napetosti, saj vemo, da so vsi instrumenti frekvenčno omejeni in lahko merijo signale do neke maksimalne frekvence.
+Multimeter – merilnik, ki meri več različnih veličin
 
-**Vpliv notranje upornosti inštrumentov**:  
-Notranja upornost voltmetra vpliva na meritev napetosti, prav tako notranja upornost ampermetra.
+AVO meter – Amper Volt Ohm meter
+</div>
 
-**Vpliv oblike merjene napetosti**:  
-Prav tako tudi oblika napetosti vpliva na meritev veličin, ponavadi imamo inštrumente, ki merijo sinusno napetost oz. tok
+<img src="images/multimeter.jpg" height=250>
+</div>
+
+
+
+<div class="row-even">
+<div class="center-t">
+
+Analogni multimeter  
+<img src="images/multimeter_analog.jpg" height=350>
+</div>
+<div class="center-t">
+
+Digitalni multimeter  
+<img src="images/multimeter_digi.jpg" height=350>
+</div>
+</div>
+
+----
+
+### Reflektometer
+
+<div class="hg">
+<div>
+
+Merilec odbitih (reflektiranih) valov
+
+Odbojnost lažje izmerimo kot impedanco bremena
+
+Vrednosti od 0 (popolnoma prilagojeno) do 1 (popolnoma neprilagojeno)
+
+$$ \Gamma = \frac{Z - Z_0}{Z + Z_0} $$
+
+$Z$ – impedanca bremena  
+$Z_0$ – referenčna impedanca (50 &Omega;)  
+$\Gamma$ (Gama) – velikost odbojnosti
+</div>
+
+<img src="images/reflektometer.jpg" height=300>
+</div>
+
+
+
+#### SWR meter
+
+<div class="hg">
+<div>
+
+Valovitost (SWR) – razmerje stojnega vala
+
+Vrednosti od 1 (popolnoma prilagojeno) do &infin; (popolnoma neprilagojeno)
+
+$$ \text{SWR} = \frac{1 + \Gamma}{1 - \Gamma} $$
+</div>
+
+<img src="images/swr_meter.jpg" height=400>
+</div>
+
+----
+
+### Frekvenčni merilnik
+
+<div class="row-even">
+<div class="center-t">
+
+Števec frekvence  
+<img src="images/stevec_frekvence.jpg" height=300>
+</div>
+<div class="center-t">
+
+Frekvenčni indikator  
+<img src="images/frekvencni_indikator.jpg" height=200>
+</div>
+</div>
+
+
+
+#### GRID-DIP meter
+
+<div class="hg">
+<div>
+
+Merimo:
+- **Resonančno frekvenco** nihajnega kroga
+- **Kapacitivnost** kondenzatorja
+- **Induktivnost** tuljave
+</div>
+
+<img src="images/grid_dip.jpg" height=300>
+</div>
+
+----
+
+### Osciloskop
+
+<div class="row-even">
+<img src="images/osciloskop_1.jpg" height=300>
+<img src="images/osciloskop_2.jpg" height=300>
+</div>
+
+
+
+<div class="row-even">
+<img src="images/osciloskop_3.jpg" height=400>
+<div class="center-t">
+<img src="images/osciloskop_4.jpg" height=300>
+
+$$ f = \frac{1}{T} = \frac{1}{1000\ \mathrm{s}} = 1000\ \mathrm{Hz} $$
+</div>
+</div>
 
 ----
 
@@ -156,6 +382,24 @@ Dobra ozemljitev zmanjša verjetnost nastanka motenj
 <img src="images/ozemljitev_postaje.jpg" height=300>
 <img src="images/ozemljitev_zunaj.jpg" height=300>
 </div>
+
+
+
+#### Primeri vprašanj
+
+Kaj naredimo z varovalko, ki je pregorela?
+
+a) Varovalko zamenjamo z novo, ki je predvidena za večji tok  
+b) Varovalko premostimo s kosom žičke  
+c) Varovalko zamenjamo z novo, ki je predvidena za isti tok
+
+&nbsp;
+
+Pred odpiranjem usmernika, ki deluje pri napetosti 220 V, moramo:
+
+a) izključiti stikalo usmernika  
+b) iz usmernika odstraniti varovalko  
+c) dovodni 220 V omrežni kabel izključiti iz omrežja
 
 ----
 

@@ -26,7 +26,7 @@ Praktično se uporabljajo valovi od 9 kHz do 300 GHz
 **ITU** – International Telecomunications Union
 
 Ukvarja se s tehničnim napredkom in razvojem telekomunikacij,  
-mednarodnim sodelovanjem, …
+mednarodnim sodelovanjem, &hellip;
 
 **Deluje v okviru OZN** (Združenih Narodov)  
 **Sedež je v Ženevi**, Švica
@@ -66,7 +66,7 @@ enem mestu, ki so potrebne za opravljanje
 radiokomunikacijeske službe.**
 
 - Sestavljajo samo oddajniki oz. samo sprejemniki
-- Pripadajoče naprave so del postaje (antene, …)
+- Pripadajoče naprave so del postaje (antene, &hellip;)
 - Poznamo kombinacijsko postajo (transceiver)
 
 

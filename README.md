@@ -201,3 +201,4 @@ npm start
 - Poglavje Elektronske cevi narobe številčeno
 - Solarni ciklus
   - [What is the Solar Cycle?](https://spaceplace.nasa.gov/solar-cycles/en/)
+- Popravki kazala
