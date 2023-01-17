@@ -1585,7 +1585,7 @@ Skupek elementov skrčimo na čim manjši prostor
 
 <div class="row-even">
 <img src="images/ic.jpg" height=300>
-<img src="images/ic_img.JPG" height=300>
+<img src="images/ic_img.jpg" height=300>
 </div>
 
 ----
