@@ -1046,7 +1046,7 @@ Repetitor (repeater) je simpleksna ali dupleksna radijska postaja.
 **Uporabljamo jih, da povečamo domet mobilnih in prenosnih radijskih postaj.**
 </div>
 
-<img src="https://qrznow.com/wp-content/uploads/2015/11/repeater_diagram.jpg" width=60%>
+<img src="images/repeater_diagram.jpg" width=60%>
 </div>
 
 
@@ -1194,7 +1194,7 @@ Lahko slišimo svojo oddajo
 
 
 
-<img src="https://qrznow.com/wp-content/uploads/2016/06/EME-Array.jpg" width=800>
+<img src="images/EME-Array.jpg" width=800>
 
 ----
 
@@ -1217,7 +1217,7 @@ Lahko slišimo svojo oddajo
 <img src="images/web_14.jpeg" width=450>
 </div>
 
-<img src="https://qrznow.com/wp-content/uploads/2016/02/CQ_SOTA_QRP_.jpg" width=600>
+<img src="images/CQ_SOTA_QRP_.jpg" width=600>
 </div>
 
 ----
