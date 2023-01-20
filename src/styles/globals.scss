@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+$primary: #ff5100;
+$dark: #2d2d2d;
+
+$section-padding: 2rem 1.5rem;
+
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/base/_all.sass";
+@import "bulma/sass/elements/_all.sass";
+@import "bulma/sass/form/_all.sass";
+@import "bulma/sass/components/_all.sass";
+@import "bulma/sass/layout/_all.sass";
+@import "bulma/sass/grid/_all.sass";
+@import "bulma/sass/helpers/_all.sass";
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.card img {
+  object-fit: cover;
+}
+
+html, body {
+  position: relative;
+  min-height: 100vh;
+}
+
+main {
+  padding-bottom: 2rem;
+}
+
+body > footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #eee;
+  text-align: center;
+}
