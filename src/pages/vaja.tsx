@@ -14,7 +14,7 @@ export default function Vaja() {
 
         <div className="container">
           <section className="section">
-            <h1 className="title">Vaja</h1>
+            <h1 className="title">TODO</h1>
           </section>
         </div>
       </main>
