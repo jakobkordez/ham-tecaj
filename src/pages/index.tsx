@@ -1,9 +1,8 @@
-import Image from "next/image";
 import Head from "next/head";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
+import Header from "@/components/header";
 
 export default function Home() {
   return (
@@ -14,34 +13,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        <section className="hero is-dark">
-          <div className="hero-body">
-            <div className="container">
-              <div className="columns is-vcentered">
-                <div className="column is-2">
-                  <Image
-                    src="images/RKV_logo.svg"
-                    alt="RKV Logo"
-                    width={80}
-                    height={80}
-                  />
-                </div>
-                <div className="column is-8">
-                  <h1 className="title is-size-2">Radioamaterski Tečaj</h1>
-                  <h6 className="subtitle">Radioklub Vegova</h6>
-                </div>
-                <div className="column is-2 has-text-right">
-                  <a href="https://github.com/jakobkordez/ham-tecaj">
-                    <FontAwesomeIcon
-                      className="image is-32x32"
-                      icon={faGithub}
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Header />
 
         <div className="container">
           <section className="section">
@@ -121,7 +93,7 @@ export default function Home() {
 
               <Card
                 title="3. Predpisi za amaterske radijske komunikacije"
-                image="images/cept.jpg"
+                image="reveal/images/cept.jpg"
                 href="https://jakobkordez.github.io/ham-tecaj#3-predpisi-za-amaterske-radijske-komunikacije"
               >
                 <ul>
@@ -134,7 +106,7 @@ export default function Home() {
 
               <Card
                 title="4. Pravila in praksa v amaterskih radijskih komunikacijah"
-                image="images/logs.jpg"
+                image="reveal/images/logs.jpg"
                 href="https://jakobkordez.github.io/ham-tecaj#4-pravila-in-praksa-v-amaterskih-radijskih-komunikacijah"
               >
                 <ul>
@@ -149,7 +121,7 @@ export default function Home() {
 
               <Card
                 title="5. Elektrotehnika"
-                image="images/web_19.jpg"
+                image="reveal/images/web_19.jpg"
                 href="https://jakobkordez.github.io/ham-tecaj#5-elektrotehnika"
               >
                 <ul>

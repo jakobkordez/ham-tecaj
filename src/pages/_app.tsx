@@ -6,7 +6,6 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 
 import "reveal.js/dist/reveal.css";
-import "../styles/rkvegova.scss";
 
 export default function App({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;

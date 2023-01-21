@@ -24,6 +24,13 @@ $section-padding: 2rem 1.5rem;
   object-fit: cover;
 }
 
+iframe.presentation {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  border-radius: 0.25rem;  
+}
+
 html, body {
   position: relative;
   min-height: 100vh;

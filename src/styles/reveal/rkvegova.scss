@@ -6,8 +6,8 @@
 
 
 // Default mixins and settings -----------------
-// @import "../template/mixins";
-// @import "../template/settings";
+@import "mixins.scss";
+@import "settings.scss";
 // ---------------------------------------------
 
 
@@ -43,6 +43,15 @@ $heading1Size: 2.0em;
 $heading2Size: 1.6em;
 $heading3Size: 1.3em;
 $heading4Size: 1.0em;
+
+// Change text colors against light slide backgrounds
+// @include light-bg-text-color(#222);
+
+
+// Theme template ------------------------------
+@import "theme.scss";
+// ---------------------------------------------
+
 
 .reveal p {
 text-align: left;
@@ -107,15 +116,6 @@ display: block!important;
     gap: 15px 40px;
     margin-left: 40px;
 }
-
-// Change text colors against light slide backgrounds
-// @include light-bg-text-color(#222);
-
-
-// Theme template ------------------------------
-// @import "../template/theme";
-// ---------------------------------------------
-
 
 .reveal table {
     display: inline-block;

@@ -1,7 +1,7 @@
 import Header from "@/components/header";
 import Head from "next/head";
 
-export default function Present() {
+export default function Vaja() {
   return (
     <>
       <Head>
@@ -14,7 +14,7 @@ export default function Present() {
 
         <div className="container">
           <section className="section">
-            <iframe className="presentation" src="/reveal/index.html" />
+            <h1 className="title">Vaja</h1>
           </section>
         </div>
       </main>

@@ -3,19 +3,24 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 	<title>Radioamaterski tečaj</title>
-	<!-- 
-	<link rel="stylesheet" href="./dist/reveal.css">
-	<link rel="stylesheet" href="./dist/theme/rkvegova.css" id="theme"> -->
 
-	<!-- <link rel="stylesheet" href="./plugin/highlight/monokai.css"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reveal.css">
+	<link rel="stylesheet" href="rkvegova.css">
+
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/highlight/monokai.min.css">
+
+	<link rel="icon" href="https://rklub.vegova.si/wp-content/uploads/2021/10/cropped-cropped-RKV_logo-1-32x32.png"
+		sizes="32x32">
 </head>
 
 <body>
 
 	<div class="reveal">
-
 		<div class="slides">
 
 			<section data-markdown="0_ham_tecaj.md" data-separator="^\r?\n----(\r?\n){2}"
@@ -57,29 +62,23 @@
 		</div>
 	</div>
 
-	<!-- <script src="./dist/reveal.js"></script>
-	<script src="./plugin/markdown/markdown.js"></script>
-	<script src="./plugin/highlight/highlight.js"></script>
-	<script src="./plugin/notes/notes.js"></script>
-	<script src="./plugin/math/math.js"></script> -->
-
+	<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.4.0/dist/reveal.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/markdown/markdown.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/highlight/highlight.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/plugin/math/math.js"></script>
 	<script>
+		Reveal.initialize({
+			width: 1280,
+			height: 720,
+			controls: true,
+			progress: true,
+			history: false,
+			center: true,
+			navigationMode: 'linear',
 
-		// Reveal.initialize({
-		// 	width: 1280,
-		// 	height: 720,
-		// 	controls: true,
-		// 	progress: true,
-		// 	history: false,
-		// 	center: true,
-		// 	navigationMode: 'linear',
-		// 	embedded: true,
-
-		// 	plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX]
-		// });
-
+			plugins: [RevealMarkdown, RevealHighlight, RevealMath.KaTeX]
+		});
 	</script>
-
 </body>
 
 </html>
