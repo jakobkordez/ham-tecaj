@@ -22,7 +22,7 @@ export default function Header() {
             </div>
             <div className="column is-8">
               <h1 className="title is-size-2">Radioamaterski Tečaj</h1>
-              <h6 className="subtitle">Radioklub Vegova</h6>
+              <h6 className="subtitle">&ldquo;Radioklub&rdquo; Vegova</h6>
             </div>
             <div className="column is-2 has-text-right">
               <a href="https://github.com/jakobkordez/ham-tecaj">

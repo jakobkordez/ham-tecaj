@@ -1,4 +1,5 @@
 import Header from "@/components/header";
+import Quiz from "@/components/quiz";
 import Head from "next/head";
 
 export default function Vaja() {
@@ -14,7 +15,7 @@ export default function Vaja() {
 
         <div className="container">
           <section className="section">
-            <h1 className="title">TODO</h1>
+            <Quiz />
           </section>
         </div>
       </main>
