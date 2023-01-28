@@ -6,6 +6,7 @@ import styles from "@/styles/Quiz.module.scss";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Category } from "@/interfaces/category";
+import { InlineMath } from "react-katex";
 
 const qPerPage = 5;
 
@@ -153,12 +154,16 @@ export default function Quiz() {
       </div>
 
       <div className="buttons mt-5 is-justify-content-end">
-        <button className="button is-primary is-rounded" onClick={loadMore}>
-          Naloži več
-        </button>
+        {questions.length > displayed && (
+          <button className="button is-primary is-rounded" onClick={loadMore}>
+            Naloži več
+          </button>
+        )}
         <button className="button is-primary is-rounded" onClick={scrollToTop}>
-          <FontAwesomeIcon icon={faArrowUp} />
-          <span className="ml-2">Na vrh</span>
+          <span className="icon">
+            <FontAwesomeIcon icon={faArrowUp} />
+          </span>
+          <span>Na vrh</span>
         </button>
       </div>
     </>
@@ -194,7 +199,14 @@ function Answer({
       }`}
       onClick={onClick}
     >
-      {String.fromCharCode(65 + i)}. {answer}
+      {String.fromCharCode(65 + i) + ". "}
+      {answer.startsWith("$") ? (
+        <span className="ml-2">
+          <InlineMath math={answer.slice(1, answer.length - 1)} />
+        </span>
+      ) : (
+        answer
+      )}
     </button>
   );
 }

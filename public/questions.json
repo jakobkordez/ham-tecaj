@@ -5454,9 +5454,9 @@
       "question": "Katera od spodnjih enačb opisuje Ohmov zakon?",
       "image": null,
       "answers": [
-        "$R = U \\sdot I$",
-        "$I = R \\sdot U$",
-        "$U = R \\sdot I$"
+        "$R = U \\cdot I$",
+        "$I = R \\cdot U$",
+        "$U = R \\cdot I$"
       ],
       "correct": 2
     },
@@ -10053,7 +10053,7 @@
       "image": null,
       "answers": [
         "2 dB",
-        "3 Db",
+        "3 dB",
         "5 dB"
       ],
       "correct": 1

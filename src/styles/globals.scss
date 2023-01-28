@@ -14,6 +14,8 @@ $section-padding: 2rem 1.5rem;
 @import "bulma/sass/grid/_all.sass";
 @import "bulma/sass/helpers/_all.sass";
 
+@import "katex/dist/katex.min.css";
+
 .flex-wrap {
   display: flex;
   flex-wrap: wrap;
