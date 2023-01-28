@@ -3,6 +3,7 @@ import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
 import Header from "@/components/header";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -179,14 +180,14 @@ interface CardProps {
 
 function Button(props: ButtonProps) {
   return (
-    <a href={props.href} className={props.className + " button"}>
+    <Link href={props.href} className={props.className + " button"}>
       {props.icon && (
         <span className="icon">
           <FontAwesomeIcon icon={props.icon} />
         </span>
       )}
       <span>{props.text}</span>
-    </a>
+    </Link>
   );
 }
 
@@ -204,9 +205,9 @@ function Card(props: CardProps) {
           <div className="content">{props.children}</div>
         </div>
         <footer className="card-footer has-background-light">
-          <a href={props.href} className="card-footer-item button is-light">
+          <Link href={props.href} className="card-footer-item button is-light">
             Na poglavje
-          </a>
+          </Link>
         </footer>
       </div>
     </div>
