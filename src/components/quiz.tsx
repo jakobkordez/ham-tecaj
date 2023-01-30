@@ -11,6 +11,8 @@ import { InlineMath } from "react-katex";
 const qPerPage = 5;
 
 interface QuizStore {
+  isLoading: boolean;
+
   categories: Category[];
   selectedCategory: string;
 
@@ -21,6 +23,8 @@ interface QuizStore {
 }
 
 const useStore = create<QuizStore>((set) => ({
+  isLoading: false,
+
   categories: [],
   selectedCategory: "all",
 
@@ -31,6 +35,8 @@ const useStore = create<QuizStore>((set) => ({
 }));
 
 async function load(selectedCategory: string) {
+  useStore.setState({ isLoading: true });
+
   const categories = await getCategories();
   let questions = await getQuestions();
   if (selectedCategory !== "all") {
@@ -46,6 +52,7 @@ async function load(selectedCategory: string) {
   questions = questions.sort(() => Math.random() - 0.5);
 
   useStore.setState({
+    isLoading: false,
     categories,
     questions,
     answers: Array(questions.length).fill([]),
@@ -55,6 +62,7 @@ async function load(selectedCategory: string) {
 
 export default function Quiz() {
   const [
+    isLoading,
     categories,
     selectedCategory,
     questions,
@@ -62,6 +70,7 @@ export default function Quiz() {
     displayed,
     loadMore,
   ] = useStore((state) => [
+    state.isLoading,
     state.categories,
     state.selectedCategory,
     state.questions,
@@ -100,7 +109,7 @@ export default function Quiz() {
 
         <div className="control">
           <button
-            className="button is-primary"
+            className={`button is-primary ${isLoading ? "is-loading" : ""}`}
             onClick={() => load(selectedCategory)}
           >
             Naloži
@@ -117,15 +126,30 @@ export default function Quiz() {
               <h3>{question.question}</h3>
             </div>
 
-            {question.image && (
-              <figure className="image">
-                <img
-                  className={styles.quiz_image}
-                  src={`quiz/${question.image}`}
-                  alt={question.image}
-                />
-              </figure>
-            )}
+            {question.image &&
+              (question.correct == null && answers[qi].length == 0 ? (
+                <button
+                  className="button"
+                  onClick={() => {
+                    if (answers[qi].length > 0) return;
+
+                    const answersNew = Array.from(answers);
+                    answersNew[qi] = Array.from(answers[qi]);
+                    answersNew[qi].push(0);
+                    useStore.setState({ answers: answersNew });
+                  }}
+                >
+                  Razkrij odgovor
+                </button>
+              ) : (
+                <figure className="image">
+                  <img
+                    className={styles.quiz_image}
+                    src={`quiz/${question.image}`}
+                    alt={question.image}
+                  />
+                </figure>
+              ))}
 
             {question.answers && question.correct != undefined && (
               <div className="buttons mt-5">

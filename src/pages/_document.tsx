@@ -4,11 +4,7 @@ export default function Document() {
   return (
     <Html lang="sl">
       <Head>
-        <link
-          rel="icon"
-          href="https://rklub.vegova.si/wp-content/uploads/2021/10/cropped-cropped-RKV_logo-1-32x32.png"
-          sizes="32x32"
-        />
+        <link rel="icon" href="/RKV_logo_32x32.png" sizes="32x32" />
       </Head>
       <body>
         <Main />
